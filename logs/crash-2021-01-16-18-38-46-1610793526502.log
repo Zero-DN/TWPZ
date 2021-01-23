@@ -1,0 +1,67 @@
+versionName=1.0.20210111
+versionCode=1
+AUTO_TEST_ONEPLUS=false
+BOARD=kona
+BOOTLOADER=unknown
+BRAND=OnePlus
+CPU_ABI=armeabi-v7a
+CPU_ABI2=armeabi
+DEBUG_ONEPLUS=false
+DEVICE=OnePlus8Pro
+DISPLAY=IN2020_15_200907
+FINGERPRINT=OnePlus/OnePlus8Pro_CH/OnePlus8Pro:10/QKQ1.191222.002/2009071815:user/release-keys
+HARDWARE=qcom
+HOST=rd-build-72
+ID=QKQ1.191222.002
+IS_CONTAINER=false
+IS_DEBUGGABLE=false
+IS_EMULATOR=false
+IS_ENG=false
+IS_TREBLE_ENABLED=true
+IS_USER=true
+IS_USERDEBUG=false
+MANUFACTURER=OnePlus
+MODEL=IN2020
+PERMISSIONS_REVIEW_REQUIRED=true
+PRODUCT=OnePlus8Pro_CH
+RADIO=unknown
+REGION=CN
+SERIAL=unknown
+SOFT_VERSION=H.23
+SUPPORTED_32_BIT_ABIS=[armeabi-v7a, armeabi]
+SUPPORTED_64_BIT_ABIS=[arm64-v8a]
+SUPPORTED_ABIS=[arm64-v8a, armeabi-v7a, armeabi]
+TAG=Build
+TAGS=release-keys
+TIME=1599474481000
+TYPE=user
+UNKNOWN=unknown
+USER=jenkins
+ACTIVE_CODENAMES=[]
+ALL_CODENAMES=[REL]
+BASE_OS=
+CODENAME=REL
+FIRST_SDK_INT=29
+INCREMENTAL=2009071815
+IS_CTA_BUILD=true
+MIN_SUPPORTED_TARGET_SDK_INT=23
+PREVIEW_SDK_FINGERPRINT=REL
+PREVIEW_SDK_INT=0
+RELEASE=10
+RESOURCES_SDK_INT=29
+SDK=29
+SDK_INT=29
+SECURITY_PATCH=2020-08-01
+java.lang.NullPointerException
+	at android.graphics.Matrix.mapRect(Matrix.java:723)
+	at android.graphics.Matrix.mapRect(Matrix.java:737)
+	at com.osfans.trime.Trime.onUpdateCursorAnchorInfo(Unknown Source:72)
+	at android.inputmethodservice.InputMethodService$InputMethodSessionImpl.updateCursorAnchorInfo(InputMethodService.java:781)
+	at android.inputmethodservice.IInputMethodSessionWrapper.executeMessage(IInputMethodSessionWrapper.java:113)
+	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7707)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:516)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)

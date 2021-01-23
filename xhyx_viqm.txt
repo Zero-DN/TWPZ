@@ -1,0 +1,108 @@
+# Rime table
+#@/db_name	xhyx_viqm.txt
+#@/db_type	tabledb
+#@/rime_version	1.5.3
+#@/tick	29
+蔡	cdc1	2
+蔡文姬	cwj	9
+大全	daqr	3
+㐲	dard	0
+单	djb1	2
+单杀	djua	6
+㑙	dprv	0
+㑈	dsrd	0
+㑂	fgrb	0
+㐽	fgrx	0
+跪	gvz1	2
+㐼	igr/	0
+姬	jinl1	2
+㑘	jprg	0
+卡	ka1	2
+卡哇伊	kwy	3
+㐄	kxal	0
+㐭	lbw/	0
+佬	lcr1	2
+连	lm1	2
+连跪	lmgv	3
+㑍	lprl	0
+㐬	lqw/	0
+㐷	marm	0
+㑎	ncr/	0
+㐡	nojd	0
+㐻	nwrn	0
+碁	qiqu	0
+轻言	qkyj	0
+㐸	qmrr	0
+㐀	qqla	0
+㑋	qsrq	0
+㐤	quj/	0
+人	r1	2
+Root	root	0
+㑉	sur/	0
+㑀	tdrt	0
+通	tsz1	4
+杀	uax1	2
+㑗	ufr/	0
+世	uiav1	2
+实	uib1	2
+世人	uirf	6
+实训	uixy	21
+世人恐惧我贪婪	urkl	6
+㐱	vfrp	0
+㑁	vori	0
+㐺	vsr/	0
+㑏	vur/	0
+哇	wak1	2
+文	wfw1	2
+㑌	whrw	0
+㐅	wup/	0
+㐳	wur/	0
+㐰	xbr/	0
+㐂	xiqq	0
+㐩	xkjj	0
+肖黎明	xlmk	15
+秀儿	xqer	0
+㐫	xswk	0
+㑔	xurr	0
+㐨	xusp	12
+训	xyyi1	2
+㐆	ybp/	0
+㐺	ybrr	0
+㐹	yir/	0
+伊	yir2	2
+园	yr2	2
+圆	yr3	2
+圆通	yrts	3
+㑅	zor/	0
+蔡文姬	enccoj	1
+蔡文姬	enccoji	1
+蔡文姬	enccwj	1
+蔡文姬	enccwji	1
+单杀	encdju	1
+单杀	encdjua	1
+单杀	enciju	1
+单杀	encijua	1
+基佬	encjil	1
+基佬	encjilc	1
+卡哇伊	enckwe	1
+卡哇伊	enckwei	1
+卡哇伊	enckwy	1
+卡哇伊	enckwyi	1
+连跪	enclmg	1
+连跪	enclmgv	1
+世人	encoxr	1
+世人	encoxrf	1
+卡哇伊	encqwe	1
+卡哇伊	encqwei	1
+卡哇伊	encqwy	1
+卡哇伊	encqwyi	1
+世人	encuir	1
+世人	encuirf	1
+实训	encuix	1
+实训	encuixy	1
+单杀	encuju	1
+单杀	encujua	1
+园通	encyrt	1
+圆通	encyrt	1
+园通	encyrts	1
+圆通	encyrts	1

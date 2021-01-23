@@ -1,0 +1,444 @@
+TS1:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform/([ABCDEF][0-9]?)$//"
+    - "xform/([UVWXYZ][0-9]?)$//"
+    - "xform|1||"
+    - "xform|~||"
+TS2:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform|1|_|"
+    - "xform/^/〔/"
+    - "xform/$/〕/"
+    - "xform/ / /"
+TS3:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform/([ABCDEF][0-9]?)$//"
+    - "xform/([UVWXYZ][0-9]?)$//"
+    - "xform|~||"
+__build_info:
+  rime_version: 1.5.3
+  timestamps:
+    default: 1605623309
+    default.custom: 1611031630
+    xklb42.custom: 0
+    xklb42.schema: 1610988899
+emoji_cn:
+  opencc_config: emoji.json
+  option_name: emoji_cn
+  tips: all
+engine:
+  filters:
+    - simplifier
+    - "simplifier@simplification"
+    - "simplifier@emoji_cn"
+    - "reverse_lookup_filter@quanpinerfen_lookup"
+    - "reverse_lookup_filter@pinyin_simp_lookup"
+    - "lua_filter@qinghouxuan"
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - "affix_segmentor@xklb42_zc"
+    - "affix_segmentor@pinyin_simp"
+    - abc_segmentor
+    - "affix_segmentor@xklb42_ci"
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+    - "lua_translator@date_translator"
+    - "lua_translator@shijian"
+    - "lua_translator@shijian2"
+    - "lua_translator@shuzi"
+    - "lua_translator@jisuanqi"
+    - reverse_lookup_translator
+    - "table_translator@xklb42_dict"
+    - "table_translator@quanpinerfen"
+    - "table_translator@xklb42_zc"
+    - "table_translator@xklb42"
+    - "table_translator@xklb42_user"
+    - "table_translator@xklb42_ci"
+    - "history_translator@history"
+    - "script_translator@pinyin_simp"
+history:
+  initial_quality: 100
+  input: ";"
+  size: 4
+key_binder:
+  bindings:
+    - {accept: "Control+p", send: Up, when: composing}
+    - {accept: "Control+n", send: Down, when: composing}
+    - {accept: "Control+b", send: Left, when: composing}
+    - {accept: "Control+f", send: Right, when: composing}
+    - {accept: "Control+a", send: Home, when: composing}
+    - {accept: "Control+e", send: End, when: composing}
+    - {accept: "Control+d", send: Delete, when: composing}
+    - {accept: "Control+k", send: "Shift+Delete", when: composing}
+    - {accept: "Control+h", send: BackSpace, when: composing}
+    - {accept: "Control+g", send: Escape, when: composing}
+    - {accept: "Control+bracketleft", send: Escape, when: composing}
+    - {accept: "Alt+v", send: Page_Up, when: composing}
+    - {accept: "Control+v", send: Page_Down, when: composing}
+    - {accept: ISO_Left_Tab, send: "Shift+Left", when: composing}
+    - {accept: "Shift+Tab", send: "Shift+Left", when: composing}
+    - {accept: Tab, send: "Shift+Right", when: composing}
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: comma, send: Page_Up, when: paging}
+    - {accept: period, send: Page_Down, when: has_menu}
+    - {accept: "Control+Shift+1", select: .next, when: always}
+    - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}
+    - {accept: "Control+Shift+3", toggle: full_shape, when: always}
+    - {accept: "Control+Shift+4", toggle: simplification, when: always}
+    - {accept: "Control+Shift+5", toggle: extended_charset, when: always}
+    - {accept: "Control+Shift+exclam", select: .next, when: always}
+    - {accept: "Control+Shift+at", toggle: ascii_mode, when: always}
+    - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
+    - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
+    - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
+    - {accept: "Shift+space", toggle: full_shape, when: always}
+    - {accept: "Control+period", toggle: ascii_punct, when: always}
+    - {accept: "Shift+space", send: space, when: composing}
+    - {accept: space, send: 1, when: composing}
+    - {accept: ";", send: ";", when: composing}
+  import_preset: default
+menu:
+  alternative_select_keys: 123789
+  alternative_select_labels:
+    - 1
+    - 2
+    - 3
+    - 7
+    - 8
+    - 9
+    - 1
+    - 4
+    - 5
+    - 6
+    - 0
+  page_size: 6
+pinyin_simp:
+  dictionary: pinyin_simp
+  enable_completion: true
+  enable_sentence: true
+  enable_user_dict: false
+  prefix: e
+  tag: pinyin_simp
+  tips: "〔全拼〕"
+pinyin_simp_lookup:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform|1|_|"
+    - "xform/^/〔/"
+    - "xform/$/〕/"
+    - "xform/ / /"
+  dictionary: xklb42
+  overwrite_comment: true
+  tags:
+    - pinyin_simp
+punctuator:
+  full_shape:
+    " ": {commit: "　"}
+    "!": {commit: "！"}
+    "\"": {pair: ["“", "”"]}
+    "#": ["＃", "⌘"]
+    "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
+    "%": ["％", "°", "℃"]
+    "&": "＆"
+    "'": {pair: ["‘", "’"]}
+    "(": "（"
+    ")": "）"
+    "*": ["＊", "·", "・", "×", "※", "❂"]
+    "+": "＋"
+    ",": {commit: "，"}
+    "-": "－"
+    .: {commit: "。"}
+    "/": ["／", "÷"]
+    ":": {commit: "："}
+    ";": {commit: "；"}
+    "<": ["《", "〈", "«", "‹"]
+    "=": "＝"
+    ">": ["》", "〉", "»", "›"]
+    "?": {commit: "？"}
+    "@": ["＠", "☯"]
+    "[": ["「", "【", "〔", "［"]
+    "\\": ["、", "＼"]
+    "]": ["」", "】", "〕", "］"]
+    "^": {commit: "……"}
+    _: "——"
+    "`": "｀"
+    "{": ["『", "〖", "｛"]
+    "|": ["·", "｜", "§", "¦"]
+    "}": ["』", "〗", "｝"]
+    "~": "～"
+  half_shape:
+    "!": {commit: "！"}
+    "\"": {pair: ["“", "”"]}
+    "#": "#"
+    "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
+    "%": ["%", "％", "°", "℃"]
+    "&": "&"
+    "'": ["‘", "’", "\\", "﹨"]
+    "(": "（"
+    ")": "）"
+    "*": ["*", "＊", "·", "・", "×", "※", "❂"]
+    "+": "+"
+    ",": {commit: "，"}
+    "-": "-"
+    .: {commit: "。"}
+    "/": ["、", "/", "／", "÷"]
+    ":": {commit: "："}
+    ";": ""
+    "<": ["《", "〈", "«", "‹"]
+    "=": "="
+    ">": ["》", "〉", "»", "›"]
+    "?": {commit: "？"}
+    "@": "@"
+    "[": ["「", "【", "〔", "［"]
+    "\\": ["、", "\\", "＼"]
+    "]": ["」", "】", "〕", "］"]
+    "^": {commit: "……"}
+    _: "——"
+    "`": "`"
+    "{": ["『", "〖", "｛"]
+    "|": ["·", "|", "｜", "§", "¦"]
+    "}": ["』", "〗", "｝"]
+    "~": ["~", "～"]
+  import_preset: default
+quanpinerfen:
+  comment_format:
+    - "xform|~||"
+  db_class: userdb
+  dictionary: ""
+  enable_completion: true
+  enable_sentence: false
+  tag: quanpinerfen
+  user_dict: quanpinerfen
+quanpinerfen_lookup:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform|1|_|"
+    - "xform/^/〔/"
+    - "xform/$/〕/"
+    - "xform/ / /"
+  dictionary: xklb
+  overwrite_comment: true
+  tags:
+    - quanpinerfen
+recognizer:
+  import_preset: default
+  patterns:
+    aeiou: "^[oi]([a-z]+)[a-z]?$"
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    jsq: "^=[^a-z@]*?$"
+    pinyin_simp: "^e[a-z']*'?$"
+    quanpinerfen: "^u[a-z]+?$"
+    reverse_lookup: "[a-z`]*`+[a-z`]*"
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+    xklb42: "(?(DEFINE)(?'s'[qwrtypsdfghjklzxcvbnm]))(?(DEFINE)(?'x'[a-z]))(?(DEFINE)(?'b'[aeiou]))^((?P>s)(?P>x)(?P>b){1,4}|^(?P>s)(?P>x)|^(?P>s)|(?P>s)(?P>x)(?P>s)((?P>x))?)$"
+    xklb42_ci: "^[qwrtypsdfghjklzxcvbnm][a-z][qwrtypsdfghjklzxcvbnm][a-z]$"
+    xklb42_dict: "^oo[a-z]*?$"
+    xklb42_zc: "^a[a-z][a-z0-9)(,./:;?!']*'?$"
+    ybdb: "^;$"
+reverse_lookup:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform|1|_|"
+    - "xform/^/〔/"
+    - "xform/$/〕/"
+    - "xform/ / /"
+  dictionary: xklb_fc
+schema:
+  author:
+    - "发明人 大牛"
+  dependencies:
+    - xklb42_ci
+  name: "星空两笔42顶"
+  schema_id: xklb42
+  version: 6
+simplification:
+  opencc_config: s2t.json
+  option_name: simplification
+  tips: all
+speller:
+  algebra:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "derive/.....A|....B|...C|..D|.E|F//"
+    - "derive|2$|;|"
+    - "derive/[0-9;]$//"
+    - "xform/F//"
+    - "xform/E//"
+    - "xform/D//"
+    - "xform/C//"
+    - "xform/B//"
+    - "xform/A//"
+    - "xlit|１２３４５６７８９０|1234567890|"
+    - "xlit|ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
+    - "derive|^;|/|"
+  alphabet: "@/;abcdefghijklmnopqrstuvwxyz1"
+  auto_clear: max_length
+  auto_select: true
+  auto_select_unique_candidate: true
+  delimiter: " '"
+  initials: "@;abcdefghijklmnopqrstuvwxyz"
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "西文"]
+  - name: full_shape
+    reset: 0
+  - name: simplification
+    reset: 0
+  - name: extended_charset
+    reset: 0
+  - name: ascii_punct
+    reset: 0
+  - options: [_key_a]
+    states: ["造词"]
+  - options: [_key_e]
+    states: ["反查"]
+  - options: ["_key_`"]
+    states: ["万能"]
+  - options: [_key_u]
+    states: ["二分"]
+  - name: _hide_candidate
+    reset: 0
+  - name: _hide_comment
+    reset: 0
+  - name: _hide_key_hint
+    reset: 0
+  - name: emoji_cn
+    reset: 0
+    states: ["🈚️️︎", "🈶️️️"]
+translator:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform/([ABCDEF][0-9]?)$//"
+    - "xform/([UVWXYZ][0-9]?)$//"
+    - "xform|1||"
+    - "xform|~||"
+  dictionary: xklb42
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: true
+  encode_commit_history: true
+  initial_quality: 100
+xklb42:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform/([ABCDEF][0-9]?)$//"
+    - "xform/([UVWXYZ][0-9]?)$//"
+    - "xform|1||"
+    - "xform|~||"
+  db_class: tabledb
+  dictionary: xklb42
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: true
+  enable_user_dict: false
+  encode_commit_history: false
+  tag: xklb42
+  user_dict: xklb42_user
+xklb42_ci:
+  comment_format:
+    - "xform|~||"
+  db_class: tabledb
+  dictionary: xklb42_ci
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: true
+  encode_commit_history: false
+  initial_quality: "-9999"
+  user_dict: xklb42_user
+xklb42_dict:
+  comment_format:
+    - "xform|~||"
+  db_class: stabledb
+  dictionary: ""
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: "-9999"
+  user_dict: xklb42_dict
+xklb42_user:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform/([ABCDEF][0-9]?)$//"
+    - "xform/([UVWXYZ][0-9]?)$//"
+    - "xform|~||"
+  db_class: stabledb
+  dictionary: ""
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: "-999"
+  tag: xklb42_ci
+  user_dict: xklb42_user
+xklb42_zc:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform/([ABCDEF][0-9]?)$//"
+    - "xform/([UVWXYZ][0-9]?)$//"
+    - "xform|1||"
+    - "xform|~||"
+  db_class: tabledb
+  dictionary: xklb42_ci
+  enable_charset_filter: false
+  enable_completion: true
+  enable_encoder: true
+  enable_sentence: true
+  enable_user_dict: true
+  encode_commit_history: false
+  preedit_format:
+    - "xform|1|_|"
+  prefix: a
+  tag: xklb42_zc
+  tips: "〔造词〕"
+  user_dict: xklb42_user
+xmfc:
+  dictionary: xmfc
+  enable_completion: true
+  enable_sentence: true
+  enable_user_dict: false
+  prefix: "#"
+  tag: xmfc
+  tips: "〔提示〕"
+xmfc_lookup:
+  comment_format:
+    - "xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/"
+    - "xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/"
+    - "xform|1|_|"
+    - "xform/^/〔/"
+    - "xform/$/〕/"
+    - "xform/ / /"
+  dictionary: xklb42
+  overwrite_comment: true
+  tags:
+    - xmfc

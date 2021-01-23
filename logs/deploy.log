@@ -1,0 +1,938 @@
+--------- beginning of main
+[ 01-20 00:26:41.766 20345:20345 W/ActivityThread ]
+handleWindowVisibility: no activity for token android.os.BinderProxy@b4dbdcd
+
+[ 01-20 00:26:41.838 20345:20345 W/ActivityThread ]
+handleWindowVisibility: no activity for token android.os.BinderProxy@32b583
+
+[ 01-20 00:26:41.897 20345:20345 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 01-20 00:26:41.898 20345:20345 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 01-20 00:26:41.899 20345:20345 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 01-20 00:26:41.908 20345:20345 I/chatty   ]
+uid=10546(com.osfans.trime.accessibility) identical 8 lines
+
+[ 01-20 00:26:41.909 20345:20345 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 01-20 00:26:41.910 20345:20345 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 01-20 00:26:41.911 20345:20345 I/chatty   ]
+uid=10546(com.osfans.trime.accessibility) identical 1 line
+
+[ 01-20 00:26:41.912 20345:20345 E/Parcel   ]
+Reading a NULL string not supported here.
+
+[ 01-20 00:26:41.928 20345:20345 I/OPFD_Manager ]
+Follow AOSP false
+
+[ 01-20 00:26:41.929 20345:20345 I/OPFD_Manager ]
+Follow AOSP false
+
+[ 01-20 00:26:41.929 20345:20345 V/ViewRootImpl ]
+The specified message queue synchronization  barrier token has not been posted or has already been removed
+
+--------- beginning of system
+[ 01-20 00:26:41.931 20345:20345 D/OPDFontHInj ]
+ViewRoot performTraversals. in com.osfans.trime.accessibility/com.osfans.trime.Pref
+
+[ 01-20 00:26:41.939 20345:29285 D/DecorView ]
+onWindowFocusChangedFromViewRoot hasFocus: true, DecorView@5a1a41c[Pref]
+
+[ 01-20 00:26:41.943 20345:29285 D/ViewRootImpl[Pref] ]
+windowFocusChanged hasFocus=true inTouchMode=true
+
+[ 01-20 00:26:41.990 20345:29285 D/ViewRootImpl[Pref] ]
+windowFocusChanged hasFocus=false inTouchMode=true
+
+[ 01-20 00:26:42.018 20345:29285 D/DecorView ]
+onWindowFocusChangedFromViewRoot hasFocus: true, DecorView@5a1a41c[Pref]
+
+[ 01-20 00:26:42.018 20345:29285 D/ViewRootImpl[Pref] ]
+windowFocusChanged hasFocus=true inTouchMode=true
+
+[ 01-20 00:26:42.814 20345:20345 I/OPFD_Manager ]
+Follow AOSP false
+
+[ 01-20 00:26:42.816 20345:20345 I/OPFD_Manager ]
+Follow AOSP false
+
+[ 01-20 00:26:42.816 20345:20345 V/ViewRootImpl ]
+The specified message queue synchronization  barrier token has not been posted or has already been removed
+
+[ 01-20 00:26:42.817 20345:20345 D/OPDFontHInj ]
+ViewRoot performTraversals. in 其他
+
+[ 01-20 00:26:42.824 20345:20345 I/OPFD_Manager ]
+Follow AOSP false
+
+[ 01-20 00:26:42.824 20345:29242 D/DecorView ]
+onWindowFocusChangedFromViewRoot hasFocus: true, DecorView@12bf89d[其他]
+
+[ 01-20 00:26:42.825 20345:29242 D/ViewRootImpl[其他] ]
+windowFocusChanged hasFocus=true inTouchMode=true
+
+[ 01-20 00:26:42.852 20345:20345 W/Choreographer ]
+Already have a pending vsync event.  There should only be one at a time.
+
+[ 01-20 00:26:42.856 20345:29242 D/ViewRootImpl[Pref] ]
+windowFocusChanged hasFocus=false inTouchMode=true
+
+[ 01-20 00:26:43.423 20345:20345 I/OPFD_Manager ]
+Follow AOSP false
+
+[ 01-20 00:26:43.423 20345:20345 I/OPFD_Manager ]
+Follow AOSP false
+
+[ 01-20 00:26:43.423 20345:20345 V/ViewRootImpl ]
+The specified message queue synchronization  barrier token has not been posted or has already been removed
+
+[ 01-20 00:26:43.431 20345:20345 I/OPFD_Manager ]
+Follow AOSP false
+
+[ 01-20 00:26:43.431 20345:20345 I/OPFD_Manager ]
+Follow AOSP false
+
+[ 01-20 00:26:43.431 20345:20345 V/ViewRootImpl ]
+The specified message queue synchronization  barrier token has not been posted or has already been removed
+
+[ 01-20 00:26:43.433 20345:20345 D/OPDFontHInj ]
+ViewRoot performTraversals. in com.osfans.trime.accessibility/com.osfans.trime.Pref
+
+[ 01-20 00:26:43.434 20345:29248 I/native   ]
+I/engine.cc:92 engine disposed.
+
+
+[ 01-20 00:26:43.434 20345:29248 I/native   ]
+I/config_data.cc:85 saving config file '/storage/emulated/0/Android/rime/user.yaml'.
+
+
+[ 01-20 00:26:43.438 20345:20345 I/com.osfans.trime.accessibility ]
+type=1400 audit(0.0:39820): avc: denied { write } for comm=70726F6365737320726561706572 path="/dev/stune/foreground/tasks" dev="cgroup" ino=15 scontext=u:r:untrusted_app_27:s0:c34,c258,c512,c768 tcontext=u:object_r:cgroup:s0 tclass=file permissive=1
+
+[ 01-20 00:26:43.445 20345:20345 I/OPFD_Manager ]
+Follow AOSP false
+
+[ 01-20 00:26:43.445 20345:29285 D/DecorView ]
+onWindowFocusChangedFromViewRoot hasFocus: true, DecorView@3032eda[Pref]
+
+[ 01-20 00:26:43.446 20345:29285 D/ViewRootImpl[Pref] ]
+windowFocusChanged hasFocus=true inTouchMode=true
+
+[ 01-20 00:26:43.448 20345:20345 W/Choreographer ]
+Already have a pending vsync event.  There should only be one at a time.
+
+[ 01-20 00:26:43.455 20345:29248 I/Rime-JNI ]
+finalize...
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+java.lang.RuntimeException: full_check true
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+	at com.osfans.trime.Rime.get(Unknown Source:24)
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+	at com.osfans.trime.Function.deploy(Unknown Source:4)
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+	at com.osfans.trime.Pref$TrimePreferenceFragment$9.a(Unknown Source:14)
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+	at com.osfans.trime.Pref$TrimePreferenceFragment$9.doInBackground(Unknown Source:2)
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+	at android.os.AsyncTask$3.call(AsyncTask.java:378)
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:289)
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+
+[ 01-20 00:26:43.455 20345:29248 W/System.err ]
+	at java.lang.Thread.run(Thread.java:919)
+
+[ 01-20 00:26:43.456 20345:29285 D/ViewRootImpl[其他] ]
+windowFocusChanged hasFocus=false inTouchMode=true
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/core_module.cc:20 registering core components.
+
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/registry.cc:14 registering component: config_builder
+
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/registry.cc:14 registering component: config
+
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/registry.cc:14 registering component: schema
+
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/registry.cc:14 registering component: user_config
+
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/dict_module.cc:25 registering components from module 'dict'.
+
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/registry.cc:14 registering component: tabledb
+
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/registry.cc:14 registering component: stabledb
+
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/registry.cc:14 registering component: plain_userdb
+
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/registry.cc:14 registering component: userdb
+
+
+[ 01-20 00:26:43.593 20345:29248 I/native   ]
+I/registry.cc:14 registering component: corrector
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: dictionary
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_dictionary
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: user_dictionary
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: userdb_recovery_task
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/gears_module.cc:43 registering components from module 'gears'.
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: ascii_composer
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: chord_composer
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: express_editor
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: fluid_editor
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: fluency_editor
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: key_binder
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: navigator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: punctuator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: recognizer
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: selector
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: speller
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: shape_processor
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: abc_segmentor
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: affix_segmentor
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: ascii_segmentor
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: matcher
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: punct_segmentor
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: fallback_segmentor
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: echo_translator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: punct_translator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: table_translator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: script_translator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: r10n_translator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_translator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: schema_list_translator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: switch_translator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: codepoint_translator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: history_translator
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: simplifier
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: uniquifier
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: charset_filter
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: cjk_minifier
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_filter
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: single_char_filter
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/registry.cc:14 registering component: shape_formatter
+
+
+[ 01-20 00:26:43.594 20345:29248 I/native   ]
+I/modules.cc:39 registering components from module 'lua'.
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/modules.cc:29 rime.lua error: /storage/emulated/0/Android/rime/rime.lua:1098: '=' expected near ')'
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/grammar_module.cc:14 registering components from module 'grammar'.
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: grammar
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/levers_module.cc:23 registering components from module 'levers'.
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: detect_modifications
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: installation_update
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: workspace_update
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: schema_update
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: config_file_update
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: prebuild_all_schemas
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: user_dict_upgrade
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: cleanup_trash
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: user_dict_sync
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: backup_config_files
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/registry.cc:14 registering component: clean_old_log_files
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/deployment_tasks.cc:80 updating rime installation info.
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/installation.yaml'.
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/deployment_tasks.cc:98 installation info exists. installation id: DAWN
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/deployment_tasks.cc:106 sync dir: /storage/emulated/0/Rimesync
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/deployment_tasks.cc:114 previous Rime version: 1.5.3
+
+
+[ 01-20 00:26:43.597 20345:29248 I/native   ]
+I/deployer.cc:114 starting work thread for 3 tasks.
+
+
+[ 01-20 00:26:43.597 20345:29747 I/native   ]
+I/deployer.cc:83 running deployment tasks:
+
+
+[ 01-20 00:26:43.597 20345:29747 I/native   ]
+I/deployment_tasks.cc:160 updating workspace.
+
+
+[ 01-20 00:26:43.597 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/default.yaml'.
+
+
+[ 01-20 00:26:43.605 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/default.yaml'.
+
+
+[ 01-20 00:26:43.612 20345:29747 I/native   ]
+I/deployment_tasks.cc:183 updating schemas.
+
+
+[ 01-20 00:26:43.612 20345:29747 I/native   ]
+I/deployment_tasks.cc:193 schema: xhyx
+
+
+[ 01-20 00:26:43.612 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/xhyx.schema.yaml'.
+
+
+[ 01-20 00:26:43.625 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xhyx.schema.yaml'.
+
+
+[ 01-20 00:26:43.671 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xhyx.schema.yaml'.
+
+
+[ 01-20 00:26:43.716 20345:29747 I/native   ]
+I/deployment_tasks.cc:358 preparing dictionary 'xhyx'.
+
+
+[ 01-20 00:26:43.716 20345:29747 I/native   ]
+I/dict_compiler.cc:41 compiling dictionary for /storage/emulated/0/Android/rime/build/xhyx.schema.yaml
+
+
+[ 01-20 00:26:43.716 20345:29747 I/native   ]
+I/dict_compiler.cc:56 dict name: xhyx
+
+
+[ 01-20 00:26:43.716 20345:29747 I/native   ]
+I/dict_compiler.cc:57 dict version: 2020.05.29
+
+
+[ 01-20 00:26:43.759 20345:29747 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/xhyx.table.bin
+
+
+[ 01-20 00:26:43.759 20345:29747 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/xhyx.prism.bin
+
+
+[ 01-20 00:26:43.759 20345:29747 I/native   ]
+I/prism.cc:107 found double array image of size 267520.
+
+
+[ 01-20 00:26:43.759 20345:29747 I/native   ]
+I/dict_compiler.cc:109 /storage/emulated/0/Android/rime/xhyx.dict.yaml[2 file(s)] (1371663449)
+
+
+[ 01-20 00:26:43.759 20345:29747 I/native   ]
+I/dict_compiler.cc:111 /storage/emulated/0/Android/rime/build/xhyx.schema.yaml (107644453)
+
+
+[ 01-20 00:26:43.759 20345:29747 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /storage/emulated/0/Android/rime/build/xhyx.reverse.bin
+
+
+[ 01-20 00:26:43.759 20345:29747 I/native   ]
+I/deployment_tasks.cc:376 dictionary 'xhyx' is ready.
+
+
+[ 01-20 00:26:43.760 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xhyx.schema.yaml'.
+
+
+[ 01-20 00:26:43.806 20345:29747 I/native   ]
+I/deployment_tasks.cc:193 schema: xklb42
+
+
+[ 01-20 00:26:43.806 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/xklb42.schema.yaml'.
+
+
+[ 01-20 00:26:43.814 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xklb42.schema.yaml'.
+
+
+[ 01-20 00:26:43.826 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xklb42.schema.yaml'.
+
+
+[ 01-20 00:26:43.839 20345:29747 I/native   ]
+I/deployment_tasks.cc:358 preparing dictionary 'xklb42'.
+
+
+[ 01-20 00:26:43.839 20345:29747 I/native   ]
+I/dict_compiler.cc:41 compiling dictionary for /storage/emulated/0/Android/rime/build/xklb42.schema.yaml
+
+
+[ 01-20 00:26:43.839 20345:29747 I/native   ]
+I/dict_compiler.cc:56 dict name: xklb42
+
+
+[ 01-20 00:26:43.839 20345:29747 I/native   ]
+I/dict_compiler.cc:57 dict version: Q1
+
+
+[ 01-20 00:26:43.842 20345:29747 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/xklb42.table.bin
+
+
+[ 01-20 00:26:43.842 20345:29747 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/xklb42.prism.bin
+
+
+[ 01-20 00:26:43.842 20345:29747 I/native   ]
+I/prism.cc:107 found double array image of size 47104.
+
+
+[ 01-20 00:26:43.842 20345:29747 I/native   ]
+I/dict_compiler.cc:109 /storage/emulated/0/Android/rime/xklb42.dict.yaml[2 file(s)] (3555678188)
+
+
+[ 01-20 00:26:43.842 20345:29747 I/native   ]
+I/dict_compiler.cc:111 /storage/emulated/0/Android/rime/build/xklb42.schema.yaml (3232115871)
+
+
+[ 01-20 00:26:43.842 20345:29747 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /storage/emulated/0/Android/rime/build/xklb42.reverse.bin
+
+
+[ 01-20 00:26:43.843 20345:29747 I/native   ]
+I/deployment_tasks.cc:376 dictionary 'xklb42' is ready.
+
+
+[ 01-20 00:26:43.843 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xklb42.schema.yaml'.
+
+
+[ 01-20 00:26:43.855 20345:29747 I/native   ]
+I/deployment_tasks.cc:193 schema: xklb42_ci
+
+
+[ 01-20 00:26:43.855 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/xklb42_ci.schema.yaml'.
+
+
+[ 01-20 00:26:43.857 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xklb42_ci.schema.yaml'.
+
+
+[ 01-20 00:26:43.863 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xklb42_ci.schema.yaml'.
+
+
+[ 01-20 00:26:43.869 20345:29747 I/native   ]
+I/deployment_tasks.cc:358 preparing dictionary 'xklb42_ci'.
+
+
+[ 01-20 00:26:43.869 20345:29747 I/native   ]
+I/dict_compiler.cc:41 compiling dictionary for /storage/emulated/0/Android/rime/build/xklb42_ci.schema.yaml
+
+
+[ 01-20 00:26:43.869 20345:29747 I/native   ]
+I/dict_compiler.cc:56 dict name: xklb42_ci
+
+
+[ 01-20 00:26:43.869 20345:29747 I/native   ]
+I/dict_compiler.cc:57 dict version: Q1
+
+
+[ 01-20 00:26:43.898 20345:29747 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/xklb42_ci.table.bin
+
+
+[ 01-20 00:26:43.899 20345:29747 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/xklb42_ci.prism.bin
+
+
+[ 01-20 00:26:43.899 20345:29747 I/native   ]
+I/prism.cc:107 found double array image of size 204800.
+
+
+[ 01-20 00:26:43.899 20345:29747 I/native   ]
+I/dict_compiler.cc:109 /storage/emulated/0/Android/rime/xklb42_ci.dict.yaml[3 file(s)] (575087105)
+
+
+[ 01-20 00:26:43.899 20345:29747 I/native   ]
+I/dict_compiler.cc:111 /storage/emulated/0/Android/rime/build/xklb42_ci.schema.yaml (3163805685)
+
+
+[ 01-20 00:26:43.899 20345:29747 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /storage/emulated/0/Android/rime/build/xklb42_ci.reverse.bin
+
+
+[ 01-20 00:26:43.900 20345:29747 I/native   ]
+I/deployment_tasks.cc:376 dictionary 'xklb42_ci' is ready.
+
+
+[ 01-20 00:26:43.900 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xklb42_ci.schema.yaml'.
+
+
+[ 01-20 00:26:43.906 20345:29747 I/native   ]
+I/deployment_tasks.cc:241 finished updating schemas: 3 success, 0 failure.
+
+
+[ 01-20 00:26:43.906 20345:29747 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/user.yaml'.
+
+
+[ 01-20 00:26:43.907 20345:29747 I/native   ]
+I/config_data.cc:199 write: var/last_build_time
+
+
+[ 01-20 00:26:43.907 20345:29747 I/native   ]
+I/config_data.cc:85 saving config file '/storage/emulated/0/Android/rime/user.yaml'.
+
+
+[ 01-20 00:26:43.908 20345:29747 I/native   ]
+I/deployment_tasks.cc:591 clean up trash.
+
+
+[ 01-20 00:26:43.908 20345:29747 I/native   ]
+I/deployer.cc:95 3 tasks ran: 3 success, 0 failure.
+
+
+[ 01-20 00:26:43.908 20345:29248 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/default.yaml'.
+
+
+[ 01-20 00:26:43.929 20345:29248 I/native   ]
+I/engine.cc:71 starting engine.
+
+
+[ 01-20 00:26:43.929 20345:29248 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/user.yaml'.
+
+
+[ 01-20 00:26:43.932 20345:29248 I/native   ]
+I/engine.cc:126 updated option: ascii_punct
+
+
+[ 01-20 00:26:43.932 20345:29248 I/native   ]
+I/engine.cc:126 updated option: full_shape
+
+
+[ 01-20 00:26:43.932 20345:29248 I/native   ]
+I/engine.cc:126 updated option: simplification
+
+
+[ 01-20 00:26:43.933 20345:29248 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xhyx.schema.yaml'.
+
+
+[ 01-20 00:26:43.989 20345:29248 I/native   ]
+I/engine.cc:126 updated option: _auto_commit
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/dictionary.cc:261 loading dictionary 'xhyx'.
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/xhyx.table.bin
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/xhyx.prism.bin
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/prism.cc:107 found double array image of size 267520.
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/dictionary.cc:261 loading dictionary 'easy_en'.
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/easy_en.table.bin
+
+
+[ 01-20 00:26:43.990 20345:29248 E/native   ]
+E/mapped_file.cc:112 attempt to open non-existent file '/storage/emulated/0/Android/rime/build/easy_en.table.bin'.
+
+
+[ 01-20 00:26:43.990 20345:29248 E/native   ]
+E/table.cc:305 Error opening table file '/storage/emulated/0/Android/rime/build/easy_en.table.bin'.
+
+
+[ 01-20 00:26:43.990 20345:29248 E/native   ]
+E/dictionary.cc:263 Error loading table for dictionary 'easy_en'.
+
+
+[ 01-20 00:26:43.990 20345:29248 E/native   ]
+E/engine.cc:349 error creating translator: 'lua_translator'
+
+
+[ 01-20 00:26:43.990 20345:29248 I/chatty   ]
+uid=10546(com.osfans.trime.accessibility) AsyncTask #1 identical 2 lines
+
+[ 01-20 00:26:43.990 20345:29248 E/native   ]
+E/engine.cc:349 error creating translator: 'lua_translator'
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/dictionary.cc:261 loading dictionary 'xhyx_4'.
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/xhyx_4.table.bin
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/xhyx_4.prism.bin
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/prism.cc:107 found double array image of size 569344.
+
+
+[ 01-20 00:26:43.990 20345:29248 I/native   ]
+I/tsv.cc:17 reading tsv file: /storage/emulated/0/Android/rime/xhyx_viqm.txt
+
+
+[ 01-20 00:26:43.991 20345:29248 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /storage/emulated/0/Android/rime/build/xhyx_4.reverse.bin
+
+
+[ 01-20 00:26:43.992 20345:29248 I/native   ]
+I/dictionary.cc:261 loading dictionary 'xhyx_3'.
+
+
+[ 01-20 00:26:43.992 20345:29248 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/xhyx_3.table.bin
+
+
+[ 01-20 00:26:43.992 20345:29248 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/xhyx_3.prism.bin
+
+
+[ 01-20 00:26:43.992 20345:29248 I/native   ]
+I/prism.cc:107 found double array image of size 569344.
+
+
+[ 01-20 00:26:43.992 20345:29248 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /storage/emulated/0/Android/rime/build/xhyx_3.reverse.bin
+
+
+[ 01-20 00:26:43.993 20345:29248 I/native   ]
+I/dictionary.cc:261 loading dictionary 'xhyx_4'.
+
+
+[ 01-20 00:26:43.993 20345:29248 I/native   ]
+I/tsv.cc:17 reading tsv file: /storage/emulated/0/Android/rime/xhyx_vihz.txt
+
+
+[ 01-20 00:26:43.993 20345:29248 I/native   ]
+I/dictionary.cc:261 loading dictionary 'xhyx_3'.
+
+
+[ 01-20 00:26:43.994 20345:29248 I/native   ]
+I/table_db.cc:80 stabledb 'user_dict.txt' does not exist.
+
+
+[ 01-20 00:26:43.994 20345:29248 I/native   ]
+I/dictionary.cc:261 loading dictionary 'hx630_630'.
+
+
+[ 01-20 00:26:43.994 20345:29248 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/hx630_630.table.bin
+
+
+[ 01-20 00:26:43.994 20345:29248 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/hx630_630.prism.bin
+
+
+[ 01-20 00:26:43.994 20345:29248 I/native   ]
+I/prism.cc:107 found double array image of size 1280.
+
+
+[ 01-20 00:26:43.994 20345:29248 I/native   ]
+I/dictionary.cc:261 loading dictionary 'heulerff'.
+
+
+[ 01-20 00:26:43.994 20345:29248 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/heulerff.table.bin
+
+
+[ 01-20 00:26:43.994 20345:29248 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/heulerff.prism.bin
+
+
+[ 01-20 00:26:43.994 20345:29248 I/native   ]
+I/prism.cc:107 found double array image of size 117504.
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/table_db.cc:80 stabledb 'tssbs.txt' does not exist.
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/dictionary.cc:261 loading dictionary 'xhup'.
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/xhup.table.bin
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/xhup.prism.bin
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/prism.cc:107 found double array image of size 189184.
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/tsv.cc:17 reading tsv file: /storage/emulated/0/Android/rime/xhup.txt
+
+
+[ 01-20 00:26:43.995 20345:29248 E/native   ]
+E/engine.cc:366 error creating filter: 'lua_filter'
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/engine.cc:126 updated option: ascii_mode
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/engine.cc:126 updated option: full_shape
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/engine.cc:126 updated option: jffh
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/engine.cc:126 updated option: ascii_punct
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/engine.cc:126 updated option: _hide_candidate
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/engine.cc:126 updated option: _hide_comment
+
+
+[ 01-20 00:26:43.995 20345:29248 I/native   ]
+I/engine.cc:126 updated option: long_tangshi300
+
+
+[ 01-20 00:26:43.996 20345:29248 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xklb42.schema.yaml'.
+
+
+[ 01-20 00:26:44.008 20345:29248 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/xklb42_ci.schema.yaml'.
+
+
+[ 01-20 00:26:44.015 20345:29248 W/rime     ]
+full_check: 
+
+[ 01-20 00:26:44.015 20345:29248 I/Pref     ]
+Deploy: end
+

@@ -1,0 +1,21 @@
+# Rime table
+#@/db_name	xhyx_vihz.txt
+#@/db_type	tabledb
+#@/rime_version	1.5.3
+#@/tick	4
+祭	jipx1	2
+祭天	jitm	6
+局	juu1	2
+天	tm1	2
+一	y1	2
+一局	yiju	6
+祭天	encjio	1
+祭天	encjiox	1
+祭天	encjit	1
+祭天	encjitm	1
+祭天	encvdo	1
+祭天	encvdox	1
+祭天	encvdt	1
+祭天	encvdtm	1
+一局	encyij	1
+一局	encyiju	1

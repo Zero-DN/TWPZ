@@ -1,0 +1,11505 @@
+---
+name: xklb42
+version: "Q1"
+sort: by_weight
+import_tables:
+  - xklb42_user
+
+encoder:
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBbAc"
+    - length_equal: 3
+      formula: "AaBaCaCbAc"
+    - length_in_range: [4, 99]
+      formula: "AaBaCaZaAc"
+...
+并不	bb;
+变成	bc;
+不断	bd;
+不过	bg;
+变化	bh;
+比较	bj;
+包括	bk;
+本来	bl;
+避免	bm;
+不能	bn;
+办法	bf;
+标配	bp;
+抱歉	bq1
+并且	bq;
+比如	br;
+表示	bs;
+不同	bt;
+不饿	bv1
+保安	bv;
+把握	bw;
+必须	bx1
+不行	bx;
+不要	by;
+不再	bz;
+成本	cb;
+常常	cc;
+程度	cd;
+除非	cf;
+充满	cm;
+成功	cg;
+才会	ch;
+从前	cq;
+曾经	cj;
+此刻	ck;
+出来	cl;
+才能	cn;
+产品	cp;
+采取	cq1
+承认	cr;
+才是	cs;
+传统	ct;
+超额	cv1
+从而	cv;
+错误	cw;
+重新	cx1
+出现	cx;
+参与	cy;
+操作	cz;
+代表	db;
+对此	dc;
+得到	dd;
+地方	df;
+大概	dg;
+电话	dh;
+大家	dj;
+打开	dk;
+到了	dl;
+多么	dm;
+电脑	dn;
+地址	dz1
+当前	dq1
+的确	dq;
+当然	dr;
+多少	ds;
+代替	dt;
+搭配	dp;
+大爱	dv1
+答案	dv;
+单位	dw;
+东西	dx;
+对于	dy;
+导致	dz;
+方便	fb;
+非常	fc;
+否定	fd;
+方法	ff;
+风格	fg;
+发挥	fh1
+符合	fh;
+附近	fj;
+分钟	fz;
+分开	fk;
+废了	fl;
+方面	fm;
+反映	fy1
+烦恼	fn;
+分配	fp;
+发起	fq1
+放弃	fq;
+否认	fr;
+发生	fs;
+繁体	ft;
+方案	fv1
+反而	fv;
+服务	fw;
+分享	fx1
+发现	fx;
+反应	fy;
+反正	fz1
+改变	gb;
+过程	gc;
+更多	gd;
+广泛	gf;
+刚刚	gg;
+更好	gh;
+感觉	gj;
+赶快	gk;
+过来	gl;
+干嘛	gm;
+功能	gn;
+公平	gp;
+感受	gs;
+感情	gq1
+过去	gq;
+果然	gr;
+沟通	gt;
+感恩	gv1
+关爱	gv;
+购物	gw;
+光明	gm1
+感谢	gx1
+关系	gx;
+关于	gy;
+关注	gz1
+工作	gz;
+何必	hb;
+好处	hc;
+很多	hd;
+黑暗	hv1
+回复	hf;
+合格	hg;
+哈哈	hh;
+好久	hj;
+何况	hk;
+后来	hl;
+后面	hm;
+还能	hn;
+害怕	hp;
+获取	hq1
+回去	hq;
+忽然	hr;
+还是	hs;
+后退	ht;
+好啊	hv;
+毫无	hw;
+好想	hx1
+好像	hx;
+还有	hy;
+孩子	hz1
+或者	hz;
+基本	jb;
+经常	jc;
+觉得	jd;
+解放	jf;
+结果	jg;
+几乎	jh;
+解决	jj;
+尽快	jk;
+尽量	jl;
+节目	jm;
+技能	jn;
+键盘	jp;
+进去	jq;
+居然	jr;
+结束	js;
+今天	jt;
+金额	jv1
+骄傲	jv;
+结尾	jw;
+继续	jx;
+建议	jy;
+简直	jz;
+恐怖	kb;
+看错	kc;
+肯定	kd;
+看法	kf;
+客观	kg;
+客户	kh;
+看见	kj;
+可靠	kk;
+考虑	kl;
+开幕	km1
+开门	km;
+可能	kn;
+可怕	kp;
+客气	kq1
+况且	kq;
+宽容	kr;
+开始	ks;
+开头	kt;
+快啊	kv1
+可爱	kv;
+渴望	kw;
+科学	kx1
+可惜	kx;
+可以	ky;
+控制	kz;
+老板	lb;
+流程	lc;
+来到	ld;
+浪费	lf;
+灵感	lg;
+厉害	lh;
+了解	lj;
+立刻	lk;
+理论	ll;
+里面	lm;
+理念	ln;
+离谱	lp;
+领取	lq1
+录取	lq;
+例如	lr;
+历史	ls;
+聊天	lt;
+浪漫	lm1
+两岸	lv1
+恋爱	lv;
+另外	lw;
+理想	lx1
+联系	lx;
+利用	ly;
+来自	lz;
+明白	mb;
+每次	mc;
+面对	md;
+麻烦	mf;
+每个	mg;
+美好	mh;
+面积	mj;
+每刻	mk;
+命令	ml;
+命名	mm1
+妈妈	mm;
+模拟	mn;
+冒泡	mp;
+目前	mq1
+面前	mq;
+默认	mr;
+貌似	ms;
+明天	mt;
+默哀	mv1
+名额	mv;
+忙完	mw;
+梦想	mx1
+明显	mx;
+没有	my;
+明知	mz;
+牛逼	nb;
+昵称	nc;
+难道	nd;
+内外	nw1
+能否	nf;
+难怪	ng1
+那个	ng;
+你好	nh;
+那就	nj;
+宁可	nk;
+努力	nl;
+你们	nm1
+那么	nm;
+你呢	nn;
+哪怕	np;
+拿去	nq1
+年轻	nq;
+内容	nr;
+那时	ns;
+那天	nt;
+你爱	nv1
+女儿	nv;
+难忘	nw;
+那些	nx;
+那样	ny;
+脑中	nz1
+脑子	nz;
+普遍	pb;
+平常	pc;
+判断	pd;
+评分	pf;
+评估	pg;
+配合	ph;
+平均	pj;
+片刻	pk;
+漂亮	pl;
+排名	pm;
+泡妞	pn;
+匹配	pp;
+迫切	pq1
+脾气	pq;
+骗人	pr;
+配送	ps;
+普通	pt;
+普洱	pv1
+平安	pv;
+平稳	pw;
+培训	px1
+平行	px;
+朋友	py;
+配置	pz;
+全部	qb;
+确定	qd;
+缺乏	qf;
+情感	qg1
+奇怪	qg;
+切换	qh;
+前进	qj;
+情况	qk;
+起来	ql;
+全面	qm1
+前面	qm;
+去哪	qn;
+期盼	qp;
+恰恰	qq;
+确认	qr;
+其实	qs;
+其它	qt;
+清楚	qc;
+全额	qv1
+亲爱	qv;
+千万	qw;
+情绪	qx1
+取消	qx;
+其余	qy;
+亲自	qz1
+其中	qz;
+如此	rc;
+认定	rd;
+热饭	rf1
+若非	rf;
+如果	rg;
+如何	rh1
+然后	rh;
+任性	rx;
+日报	rb;
+软件	rj;
+认可	rk;
+人类	rl;
+人民	rm;
+人们	rm1
+热闹	rn;
+人品	rp;
+热情	rq1
+日期	rq;
+仍然	rr;
+人生	rs1
+认识	rs;
+认同	rt;
+热爱	rv1
+然而	rv;
+认为	rw;
+容易	ry;
+日子	rz1
+认真	rz;
+失败	sb;
+上次	sc;
+速度	sd;
+是否	sf;
+说过	sg;
+时候	sh;
+时间	sj;
+思考	sk;
+胜利	sl;
+什么	sm;
+思念	sn;
+视频	sp;
+事情	sq1
+失去	sq;
+虽然	sr;
+搜索	ss;
+身体	st;
+谁啊	sv1
+啥啊	sv;
+所谓	sw;
+思想	sx1
+首先	sx;
+所以	sy;
+甚至	sz;
+特别	tb;
+通常	tc;
+态度	td;
+头发	tf;
+通过	tg;
+体会	th;
+推荐	tj;
+调侃	tk;
+讨论	tl;
+他们	tm1
+她们	tm;
+头脑	tn;
+天啊	tv1
+图片	tp;
+天气	tq1
+提前	tq;
+突然	tr;
+同时	ts;
+天天	tt;
+图案	tv;
+同文	tw;
+同学	tx;
+同意	ty1
+同样	ty;
+通知	tz;
+二逼	vb1
+二笔	vb;
+按错	vc;
+安定	vd;
+而非	vf;
+恶搞	vg1
+爱国	vg;
+安静	vj;
+爱好	vh;
+儿科	vk;
+按理	vl;
+按摩	vm1
+暧昧	vm;
+爱你	vn1
+安宁	vn;
+安排	vp;
+安全	vq1
+而且	vq;
+爱人	vr1
+偶然	vr;
+按时	vs;
+凹凸	vt1
+儿童	vt;
+恩爱	vv1
+偶尔	vv;
+额外	vw;
+儿戏	vx1
+安心	vx;
+而已	vy;
+儿子	vz;
+文本	wb;
+卧槽	wc1
+完成	wc;
+文档	wd;
+无法	wf;
+围观	wg;
+文化	wh;
+文件	wj;
+唯恐	wk;
+我们	wm1
+外面	wm;
+无奈	wn;
+无论	wl;
+网盘	wp;
+委屈	wq1
+完全	wq;
+微软	wr1
+温柔	wr;
+完善	ws;
+问题	wt;
+我爱	wv1
+文案	wv;
+往往	ww;
+微信	wx1
+危险	wx;
+唯一	wy;
+为止	wz;
+相比	xb;
+想念	xn;
+相信	xx;
+下次	xc;
+相当	xd;
+想法	xf;
+习惯	xg;
+喜欢	xh;
+星期	xq;
+现金	xj;
+辛苦	xk;
+心里	xl;
+下面	xm;
+相片	xp;
+心情	xq1
+显然	xr;
+相同	xt;
+小时	xs;
+险恶	xv;
+喜爱	xv1
+希望	xw;
+需要	xy;
+现在	xz;
+一般	yb;
+因此	yc;
+月份	yf;
+一定	yd;
+应该	yg;
+以后	yh;
+已经	yj;
+一块	yk;
+原来	yl;
+郁闷	ym;
+也能	yn;
+一片	yp;
+一起	yq1
+依然	yr;
+意思	ys;
+用途	yt;
+有爱	yv1
+余额	yv;
+因为	yw;
+游戏	yx;
+以前	yq;
+原因	yy;
+一直	yz;
+准备	zb;
+这次	zc;
+知道	zd;
+主观	zg;
+最后	zh;
+做法	zf;
+照片	zp;
+自己	zj;
+状况	zk;
+资料	zl;
+怎么	zm;
+只能	zn;
+之前	zq1
+正确	zq;
+自然	zr;
+只是	zs;
+状态	zt;
+阻碍	zv1
+真爱	zv;
+作为	zw;
+在线	zx1
+这些	zx;
+这样	zy;
+真正	zz;
+売	mnuaaaD	mn0
+糬	sgiaeiE	sg0
+䌷	cciaeeD	cc0
+躰	theieeD	th0
+凪	zkieeeE	zk0
+嶋	deuaeeE	de0
+桜	ybooauD	yb0
+嚱	xjieeeE	xj0
+喰	cjuooaE	cj0
+喰	sjuooaD	sj0
+骑	jceueiE	jc0
+鿍	gnuaeaE	gn0
+鿎	dpeuoaD	dp0
+鿏	mreeuaD	mr0
+𪟝	joauuuE	jo0
+𪣻	lnouauD	ln0
+𪤗	lnaouoD	ln0
+𪨰	qeiaeeF	qe0
+𪨶	seeueaE	se0
+𪩘	yeeieuE	ye0
+𪾢	xeiauaF2	xe0
+𫄧	xcuiaoE	xc0
+𫄧	ycuiaoE	yc0
+𫄧	ccuiaoE	cc0
+𫄨	ccoueuE	cc0
+𫄷	ycoeoaE	yc0
+𫄸	xcueooE	xc0
+𫇭	wwoaooD	ww0
+𫌀	jdeeiaF	jd0
+𫍣	tdiaeiF	td0
+𫍯	xdeuiaD	xd0
+𫍲	xduiaoE	xd0
+𫍽	xdiaeiE	xd0
+𫐄	yieuaaE	yi0
+𫐐	niuiuaC	ni0
+ 	niu0
+𫐓	biaoeiD	bi0
+𫑡	mjaiiiD	mj0
+𫓧	freeooD	fr0
+𫓯	jreieiD	jr0
+𫓶	xriaiaE	xr0
+𫓶	jriaiaE	jr0
+𫓹	jreiuoE	jr0
+𫔍	fruoiaD	fr0
+𫔎	jraoiaE	jr0
+𫔶	nauieiC	na0
+ 	nau0
+𫖮	yeeuiaF5	ye0
+𫖯	fjeuiaD	fj0
+𫖳	ybeuiaE	yb0
+𫗧	skeiooF	sk0
+𫗴	zkoeiaF	zk0
+𫘜	wcoeooE	wc0
+𫘝	jcaeooE	jc0
+𫘦	tcuaueE	tc0
+𫘧	lcaeioD	lc0
+𫘨	tciaeiF	tc0
+𫘪	yceuuiE	yc0
+𫘬	xcuoaaE	xc0
+𫚕	skiueiE	sk0
+𫚖	jruaiaE	jr0
+𫚖	cruaiaE	cr0
+𫚭	lkaaiaD	lk0
+𫛭	kkuaeeD	kk0
+𫞩	moeieiC	mo0
+ 	moe0
+𫟅	lcoeiuE	lc0
+𫟦	siouoaD	si0
+𫟹	hreiuoE	hr0
+𫟼	dreuoaD	dr0
+𫠆	kyeuiaE	ky0
+𫠊	xcoeaaE	xc0
+𫠜	nruiuaD	nr0
+𫢸	dhouiaE	dh0
+𫫇	vjeioaE	vj0
+𫭟	vneauoD	vn0
+𫭢	lnuouaE	ln0
+𫭼	lneiauE	ln0
+𫮃	snouiaD	sn0
+𫰛	xnaoeiD	xn0
+𫵷	leeuauE	le0
+𫶇	deeiiaF2	de0
+𫷷	xfueuaF	xf0
+𫸩	kbeauoF	kb0
+𬀩	wieeiiE	wi0
+𬀪	xiiauaE	xi0
+𬂩	jbeoooD	jb0
+𬃊	zbuueiE	zb0
+𬇕	wteauuD	wt0
+𬇕	mteauuD	mt0
+𬇙	ptiauoE	pt0
+𬇹	gtiaeeE	gt0
+𬉼	vgeauoC	vg0
+ 	vge0
+𬊈	xgaeeiD	xg0
+𬊤	dgouiaD	dg0
+𬌗	hiuoiaF	hi0
+𬍛	louaooE	lo0
+𬍡	dteeooD	dt0
+𬍤	xoaeeuE	xo0
+𬒈	qseuiaD	qs0
+𬒔	gpieiaD	gp0
+𬒗	lpiiiaD	lp0
+𬕂	lleiiaE	ll0
+𬕂	gleiiaF2	gl0
+𬘓	xcuiiiF	xc0
+𬘘	dcoaaaD	dc0
+𬘡	yciaeuF	yc0
+𬘩	tcueaoD	tc0
+𬘫	hcooeeE	hc0
+𬘬	qceeiaD	qc0
+𬘭	ceieioD	ce0
+𬘯	zcoeaiE	zc0
+𬙂	ycooeiE	yc0
+𬙊	mciaeiE	mc0
+𬙋	xcoeiaE	xc0
+𬙋	scoeiaE	sc0
+𬙋	rcoeiaC	rc0
+ 	rco0
+𬜬	mwoiiaD	mw0
+𬜯	lweiooE	lw0
+𬞟	pwieeuC	pw0
+ 	pwi0
+𬟁	yweuaeD	yw0
+𬟽	deeaooF	de0
+𬣙	xdeeiiE	xd0
+𬣞	zdooeeD	zd0
+𬣡	jdeeooE	jd0
+𬣳	hdaeooC	hd0
+ 	hda0
+𬤇	ydeieiF	yd0
+𬤊	sdiaeiE	sd0
+𬤝	hdeioaE	hd0
+𬨂	qiuaaaD	qi0
+𬨎	yioueeD	yi0
+𬩽	xbaiiiD	xb0
+𬪩	nyoaooE	ny0
+𬬩	yreaooE	yr0
+𬬭	lruouaE	lr0
+𬬮	crueooE	cr0
+𬬱	jruueiD	jr0
+𬬸	sreiooD	sr0
+𬬹	sriaiiD	sr0
+𬬻	lrieaeD	lr0
+𬬿	zrauiaD	zr0
+𬭁	mraaooD	mr0
+𬭊	dreieiE	dr0
+𬭎	hrooeuD	hr0
+𬭚	croeaiE	cr0
+𬭛	brooauE	br0
+𬭤	hruiaeE	hr0
+𬭩	wruoaoD	wr0
+𬭬	wreeaeD	wr0
+𬭯	prouueE	pr0
+𬭳	xreiiaE	xr0
+𬭶	hriaooD	hr0
+𬭸	lrouuaE	lr0
+𬭼	srouoaD	sr0
+𬮱	yaeieiD	ya0
+𬮿	qziaaeC	qz0
+ 	qzi0
+𬯀	jzoeuiD	jz0
+𬯎	tziaiaC	tz0
+ 	tzi0
+𬱟	wkeuiaE	wk0
+𬳵	pceueeE	pc0
+𬳶	jciaiaF2	jc0
+𬳽	scueuaD	sc0
+𬳿	tcuoeeE	tc0
+𬴂	fcieieE	fc0
+𬴃	hceeeuD	hc0
+𬴊	lcouuaF	lc0
+𬶋	jkuaiaE	jk0
+𬶍	tkoouaD	tk0
+𬶏	wkuuaaD	wk0
+𬶐	zkuoauD	zk0
+𬶟	lkeiiiE	lk0
+𬶠	lkeiooE	lk0
+𬶨	jbuaiaF	jb0
+𬶭	jkuaeeF	jk0
+𬶮	xkeoiaE	xk0
+𬷕	byuaeeE	by0
+𬸘	yeuaeeF2	ye0
+𬸚	ykuaeeE	yk0
+𬸣	xsuaeeE	xs0
+𬸦	zfuaeeF2	zf0
+𬸪	fjuaeeD	fj0
+𬹼	xruouiE	xr0
+𬺈	yreueiE	yr0
+𬺓	creiaiE	cr0
+啲	djuiuaD	dj0
+𬱖	deeuiaE	de0
+嫑	bpeiauE	bp0
+瑠	louaiaE	lo0
+菓	gwiaooD	gw0
+咲	xjoueeD	xj0
+巭	pyeeooD	py0
+巭	gyeeooE	gy0
+巭	byeeooD	by0
+戉	yiaaaaF	yi0
+栞	koeiooD	ko0
+琁	xoueaiE	xo0
+龘	dfoeoeD	df0
+騨	tyooiaE	ty0
+曱	yeiiiiD	ye0
+甴	yeeeeeE	ye0
+𫏋	jjueuiE	jj0
+屮	cziiiiD	cz0
+艸	czaiiiD	cz0
+芔	hzaiaiD	hz0
+茻	mzaiaiE	mz0
+萞	bweauaE	bw0
+蔴	mwoeeiF	mw0
+	wjiaiaD	wj0
+慓	pseieeD	ps0
+○	laaaaaC	la0
+ 	laa0
+氹	daiaooC	da0
+ 	dai0
+不	bpooooA1	bp0
+吧	bjaiaaA2	bj0
+闭	baeiuuB1	ba0
+标	bbeeiuB1	bb0
+嬖	bbaueeC	bb0
+ 	bba0
+壁	bbeieeC	bb0
+ 	bbe0
+棒	bbeeeeD	bb0
+梆	bbeeaiE	bb0
+璧	bbeeooE	bb0
+柄	bbeiooD	bb0
+桲	bbeiaiE	bb0
+檗	bbeiooE	bb0
+欂	bbeiooF	bb0
+彬	bbeiuuE	bb0
+杯	bbeuooD	bb0
+弼	bbeuaeE	bb0
+臂	bbiaeeC	bb0
+ 	bbi0
+岊	bziaiiC	bz0
+ 	bzi0
+剥	bbiiiiD	bb0
+榜	bboeoeC	bb0
+ 	bbo0
+避	bboaooD	bb0
+辟	bboeeiD	bb0
+棓	bboeiaE	bb0
+襞	bboeooE	bb0
+槟	bboouiD	bb0
+屄	bboouoE	bb0
+栟	bboueeD	bb0
+屏	bboueeE	bb0
+板	bbuuaoC	bb0
+ 	bbu0
+杓	bbuaooD	bb0
+枹	bbuaaeE	bb0
+擘	bbueiiD	bb0
+柏	bbuieeD	bb0
+椑	bbuieiE	bb0
+鐾	bbuoeeD	bb0
+朳	bbuoooE	bb0
+编	bcoaiaB1	bc0
+骉	bcaaaaC	bc0
+ 	bca0
+脖	bceiaiC	bc0
+ 	bce0
+纰	bceauaD	bc0
+绑	bceeaiD	bc0
+脿	bceeuaE	bc0
+膊	bceieiD	bc0
+膘	bceieeE	bc0
+骠	bceieeF	bc0
+胈	bceuaoD	bc0
+绊	bcouiiC	bc0
+ 	bco0
+膀	bcoeoeD	bc0
+缤	bcoouiD	bc0
+膑	bcoouiE	bc0
+胞	bcuaaeC	bc0
+ 	bcu0
+绷	bcuauaD	bc0
+缏	bcuieiD	bc0
+驳	bcuouoD	bc0
+被	bdauaoB1	bd0
+诐	bdauaoC	bd0
+ 	bda0
+邲	bdaiiiD	bd0
+袯	bdauaoD	bd0
+裱	bdeeuaC	bd0
+ 	bde0
+补	bdioooC	bd0
+ 	bdi0
+扁	bdiaiiD	bd0
+褙	bdieiaD	bd0
+必	bdooooC	bd0
+ 	bdo0
+遍	bdoaooD	bd0
+褊	bdoaiaE	bd0
+谤	bdoeoeD	bd0
+祊	bdoeuuE	bd0
+裨	bduieiC	bd0
+ 	bdu0
+褓	bduiiaD	bd0
+逼	beoaooB1	be0
+岜	beaiaaC	be0
+ 	bea0
+蚆	beaiaaD	be0
+罢	beeiaoC	be0
+ 	bee0
+蚌	beeeiiD	be0
+幖	beeieeD	be0
+蛃	beeiooE	be0
+畀	beeuiiD	be0
+豳	beeueuE	be0
+赑	beiaiaC	be0
+ 	bei0
+蝙	beoaiaC	be0
+ 	beo0
+髌	beoouiD	be0
+败	beueooC	be0
+ 	beu0
+崩	beuauaD	be0
+髀	beuieiD	be0
+睥	beuieiE	be0
+蝂	beuiuuE	be0
+贝	beuoooD	be0
+嶓	beuoiaE	be0
+贬	beuoooE	be0
+变	bfaoooB1	bf0
+部	bfaiiiC	bf0
+ 	bfa0
+辫	bfaaoeD	bf0
+疤	bfaiaaD	bf0
+病	bfeiooC	bf0
+ 	bfe0
+庇	bfeauaD	bf0
+瓿	bfeaooE	bf0
+斌	bfeeieD	bf0
+禀	bfeeiuE	bf0
+癍	bfeeoeE	bf0
+瘭	bfeieeD	bf0
+冰	bfiaooC	bf0
+ 	bfi0
+痹	bfiaeuD	bf0
+辩	bfoaoeC	bf0
+ 	bfo0
+卞	bfooooD	bf0
+辨	bfouoeD	bf0
+瓣	bfuuoeC	bf0
+ 	bfu0
+亳	bfueaaD	bf0
+褒	bfuiuaD	bf0
+庳	bfuieiE	bf0
+瘪	bfuiuoE	bf0
+𨭉	bfuoeiD	bf0
+瘢	bfuuuaD	bf0
+并	bgeeiiB1	bg0
+粑	bgaiaaC	bg0
+ 	bga0
+羓	bgaiaaD	bg0
+弊	bgeuiiC	bg0
+ 	bge0
+炳	bgeiooD	bg0
+糒	bgeieuE	bg0
+熛	bgeieeF	bg0
+半	bgiiiiC	bg0
+ 	bgi0
+爆	bgiaeiD	bg0
+蹩	bgiaieE	bg0
+迸	bgoaooC	bg0
+ 	bgo0
+憋	bgoaooD	bg0
+煸	bgoaiaE	bg0
+焙	bgoeiaD	bg0
+敝	bgueooC	bg0
+ 	bgu0
+鳖	bguaiaD	bg0
+炮	bguaaeE	bg0
+便	bheiooB1	bh0
+白	bheeeeC	bh0
+ 	bhe0
+俵	bheeuaD	bh0
+卑	bheiiiD	bh0
+堡	bheieeE	bh0
+佰	bheuiaD	bh0
+魃	bheuaoE	bh0
+倴	bheueiE	bh0
+保	bhiaeiC	bh0
+ 	bhi0
+鼻	bhiaeuD	bh0
+帛	bhiaiiE	bh0
+币	bhiiiiD	bh0
+倍	bhoeiaC	bh0
+ 	bho0
+佖	bhoaooD	bh0
+傍	bhoeoeD	bh0
+儦	bhoeooE	bh0
+傧	bhoouiD	bh0
+伴	bhouiiD	bh0
+煲	bhouooE	bh0
+版	bhuuaoC	bh0
+ 	bhu0
+鹎	bhuaeeD	bh0
+伯	bhuieeD	bh0
+魄	bhuiaoE	bh0
+俾	bhuieiE	bh0
+兵	bhuoooD	bh0
+比	biuaaaB1	bi0
+昪	biaoeuC	bi0
+ 	bia0
+毕	bieiiiC	bi0
+ 	bie0
+暴	bieiioD	bi0
+坒	bieieeE	bi0
+晡	bieiooE	bi0
+昺	bieiooF	bi0
+毙	bieuuaD	bi0
+曝	biiaeiC	bi0
+ 	bii0
+匾	bioaiaC	bi0
+ 	bio0
+毖	bioaooD	bi0
+昄	biuuaoC	bi0
+ 	biu0
+八	bjooooB1	bj0
+爸	bjaiaaC	bj0
+ 	bja0
+鄙	bjaiiiD	bj0
+邠	bjaiiiE	bj0
+跛	bjauaoD	bj0
+颁	bjeuiaC	bj0
+ 	bje0
+哔	bjeaeiD	bj0
+跸	bjeaeiE	bj0
+吡	bjeauaE	bj0
+𠳐	bjeeaiD	bj0
+哺	bjeiooD	bj0
+坌	bjeieeE	bj0
+跋	bjeuaoD	bj0
+别	bjiiiiC	bj0
+ 	bji0
+呗	bjiauoD	bj0
+蹦	bjiauaE	bj0
+嘣	bjiauaF	bj0
+卟	bjioooD	bj0
+啵	bjooauC	bj0
+ 	bjo0
+咇	bjoaooD	bj0
+踣	bjoeiaD	bj0
+豹	bjuaooC	bj0
+ 	bju0
+趵	bjuaooD	bj0
+攽	bjueooD	bj0
+叭	bjuoooD	bj0
+包	bkaeaaB1	bk0
+匕	bkaaaaC	bk0
+ 	bka0
+勹	bkaaaaD	bk0
+鲃	bkaiaaD	bk0
+饽	bkeiaiC	bk0
+ 	bke0
+狴	bkeaeiD	bk0
+鳔	bkeieeD	bk0
+鲾	bkeiaiE	bk0
+鲅	bkeuaoD	bk0
+备	bkiaeeC	bk0
+ 	bki0
+狈	bkiauoD	bk0
+刨	bkiiiiD	bk0
+饼	bkoueeC	bk0
+ 	bko0
+惫	bkoaooD	bk0
+鳊	bkoaiaE	bk0
+飚	bkououD	bk0
+饱	bkuaaeC	bk0
+ 	bku0
+鲍	bkuaaeD	bk0
+飑	bkuaaeE	bk0
+鸨	bkuaeeE	bk0
+鲌	bkuieeD	bk0
+笔	blueaaB1	bl0
+笆	blaiaaC	bl0
+ 	bla0
+笾	blauoaD	bl0
+笨	bleieeC	bl0
+ 	ble0
+秕	bleauaD	bl0
+筚	bleaeiE	bl0
+簸	bleiauD	bl0
+馞	bleiaiE	bl0
+馛	bleuaoD	bl0
+箅	bliaeuC	bl0
+ 	bli0
+簿	blooeiC	bl0
+ 	blo0
+馝	bloaooD	bl0
+秘	bloaooE	bl0
+秉	blooooD	bl0
+箔	bloouiE	bl0
+稗	bluieiC	bl0
+ 	blu0
+幷	blueiiD	bl0
+犇	blueueE	bl0
+篦	bluieaD	bl0
+般	bmuaaoB1	bm0
+彼	bmauaoC	bm0
+ 	bma0
+舭	bmeauaC	bm0
+ 	bme0
+舶	bmuieeC	bm0
+ 	bmu0
+舨	bmuuaoD	bm0
+边	bnoaooB1	bn0
+婊	bneeuaC	bn0
+ 	bne0
+妣	bneauaD	bn0
+甏	bneaooE	bn0
+埔	bneiooD	bn0
+妭	bneuaoD	bn0
+坝	bniauoC	bn0
+ 	bni0
+埗	bnieiuD	bn0
+办	bnooooC	bn0
+ 	bno0
+塝	bnoeoeD	bn0
+婢	bnuieiC	bn0
+ 	bnu0
+堋	bnuauaD	bn0
+埠	bnuieiD	bn0
+坋	bnuoauD	bn0
+坂	bnuuaoD	bn0
+彭	bnuuuuE	bn0
+表	bouaooB1	bo0
+邦	boaiiiC	bo0
+ 	boa0
+耙	boaiaaD	bo0
+玻	boauaoD	bo0
+碧	boeuiaC	bo0
+ 	boe0
+玤	boeeiiD	bo0
+琫	boeeeeE	bo0
+帮	boiaiiC	bo0
+ 	boi0
+邫	boiaaiD	bo0
+琲	boieeeD	bo0
+班	booueeC	bo0
+ 	boo0
+珌	booaooD	bo0
+斑	booeeeD	bo0
+玢	bouoauC	bo0
+ 	bou0
+百	bpiaeeB1	bp0
+奔	bpeieuC	bp0
+ 	bpe0
+礴	bpeiooD	bp0
+砵	bpeieeE	bp0
+皕	bpeuiaD	bp0
+布	bpiaiiC	bp0
+ 	bpi0
+泵	bpiaooD	bp0
+磅	bpoeoeC	bp0
+ 	bpo0
+碥	bpoaiaD	bp0
+碚	bpoeiaD	bp0
+殡	bpoouiD	bp0
+碑	bpuieiC	bp0
+ 	bpu0
+甭	bpuaiiD	bp0
+飙	bpuauoE	bp0
+觱	bpuauaF	bp0
+砭	bpuoooD	bp0
+磻	bpuoiaE	bp0
+步	briuuuB1	br0
+钯	braiaaC	br0
+ 	bra0
+邶	braiiiD	br0
+辈	breaiiC	br0
+ 	bre0
+镖	breieeD	br0
+钵	breieeE	br0
+镈	breieiF	br0
+钹	breuaoD	br0
+锛	breueiE	br0
+钸	breuiaE	br0
+钚	breuooE	br0
+背	briaeeC	br0
+ 	bri0
+钡	briauoD	br0
+镚	briauaE	br0
+悲	broaooC	br0
+ 	bro0
+铋	broaooD	br0
+镑	broeoeD	br0
+镳	broeooE	br0
+镔	broouiD	br0
+北	bruaaaC	br0
+ 	bru0
+龅	bruaaeD	br0
+铇	bruaaeE	br0
+铂	bruieeD	br0
+彪	bruuuuD	br0
+钣	bruuaoE	br0
+宝	bseeooB1	bs0
+怖	bseuiaC	bs0
+ 	bse0
+悖	bseiaiD	bs0
+忭	bsoeooC	bs0
+ 	bso0
+宾	bsuiuoC	bs0
+ 	bsu0
+愎	bsueiaD	bs0
+窆	bsuoooD	bs0
+波	btauaoB1	bt0
+渤	bteiauC	bt0
+ 	bte0
+沘	bteauaD	bt0
+浡	bteiaiD	bt0
+灞	bteoeiD	bt0
+瀑	btiaeiC	bt0
+ 	bti0
+濒	btieeuD	bt0
+滨	btoouiC	bt0
+ 	bto0
+泌	btoaooD	bt0
+汴	btoeooD	bt0
+瀌	btoeooE	bt0
+湴	btoueiD	bt0
+泊	btuieeC	bt0
+ 	btu0
+滗	btueueD	bt0
+浜	btuiuoD	bt0
+濞	btuiiaE	bt0
+把	buaiaaB1	bu0
+报	buaiaoC	bu0
+ 	bua0
+摒	buaeouD	bu0
+拨	buauaoD	bu0
+捕	bueiooC	bu0
+ 	bue0
+拜	bueeiiD	bu0
+霸	bueiuaD	bu0
+搏	bueieiE	bu0
+摽	bueieeF	bu0
+拔	bueuaoD	bu0
+摆	buiaeiC	bu0
+ 	bui0
+捌	buiaiiD	bu0
+拌	buouiiC	bu0
+ 	buo0
+抃	buoeooD	bu0
+搒	buoeoeE	bu0
+摈	buoouiD	bu0
+抱	buuaaeD	bu0
+雹	buuaaeE	bu0
+捭	buuieiD	bu0
+播	buuoiaD	bu0
+扮	buuoauE	bu0
+扒	buuoooE	bu0
+掰	buuoueE	bu0
+搬	buuuuaC	bu0
+ 	buu0
+扳	buuuaoD	bu0
+薄	bwooeiB1	bw0
+芭	bwaiaaC	bw0
+ 	bwa0
+薜	bwaeoeD	bw0
+苯	bweieeC	bw0
+ 	bwe0
+荜	bweaeiD	bw0
+荸	bweiaiD	bw0
+菝	bweieuE	bw0
+蔈	bweieeF	bw0
+茇	bweuaoD	bw0
+卜	bwooooC	bw0
+ 	bwo0
+苾	bwoaooD	bw0
+萹	bwoaiaE	bw0
+苄	bwoeooD	bw0
+蔀	bwoeaiE	bw0
+蒡	bwoeoeE	bw0
+藨	bwoeooF	bw0
+菠	bwooauD	bw0
+蔽	bwouueD	bw0
+蓓	bwuioeC	bw0
+ 	bwu0
+苞	bwuaaeD	bw0
+葆	bwuiiaD	bw0
+蓖	bwuieaE	bw0
+萆	bwuieiF	bw0
+蕃	bwuoiaD	bw0
+𨚕	bxaiiiC	bx0
+ 	bxa0
+畚	bxeuiaC	bx0
+ 	bxe0
+弁	bxeuiiD	bx0
+本	byeeeeB1	by0
+靶	byaiaaC	by0
+ 	bya0
+孛	byaieeD	by0
+邴	byaiiiE	by0
+勃	byauuuD	by0
+鞁	byauaoE	by0
+博	byeieiC	by0
+ 	bye0
+鞴	byeiuiD	by0
+贲	byiauoC	by0
+ 	byi0
+醭	byiiouD	by0
+丙	byooooC	by0
+ 	byo0
+逋	byoaooD	by0
+鬓	byoouiD	by0
+靽	byouiiD	by0
+鞭	byuieiC	by0
+ 	byu0
+鹁	byuaeeD	by0
+僰	byuoooD	by0
+髟	byuuuuD	by0
+巴	bzaaaaB1	bz0
+陂	bzauaoC	bz0
+ 	bza0
+陛	bzeaeiC	bz0
+ 	bze0
+孢	bzuaaeC	bz0
+ 	bzu0
+阪	bzuuaoD	bz0
+出	cziiiiA1	cz0
+此	cruaaaA2	cr0
+闯	caaaeeB1	ca0
+阊	caiaiaC	ca0
+ 	cai0
+阐	caouiaC	ca0
+ 	cao0
+层	cbeeaoB1	cb0
+楚	cbaiooC	cb0
+ 	cba0
+椽	cbaaeuD	cb0
+弛	cbaiaaD	cb0
+孱	cbaiaiE	cb0
+郴	cbaiiiE	cb0
+橙	cbaoeiD	cb0
+柽	cbaoeiE	cb0
+杈	cbaoooE	cb0
+弨	cbauiaD	cb0
+村	cbeiooC	cb0
+ 	cbe0
+椿	cbeeiaD	cb0
+楱	cbeeeeE	cb0
+梼	cbeeeiF	cb0
+材	cbeiuuD	cb0
+槽	cbeiiaE	cb0
+楮	cbeiiaF	cb0
+楂	cbeiiaF2	cb0
+樗	cbeoeeD	cb0
+橱	cbeueiD	cb0
+查	cbiaeeC	cb0
+ 	cbi0
+梣	cbiauoD	cb0
+尺	cbooooC	cb0
+ 	cbo0
+迟	cboaooD	cb0
+榇	cboeeiD	cb0
+榱	cboeiaE	cb0
+檫	cboouaD	cb0
+槎	cboueiD	cb0
+羼	cbououE	cb0
+椎	cbuioeC	cb0
+ 	cbu0
+柢	cbuaooD	cb0
+椆	cbuaeiE	cb0
+栅	cbuaeeF	cb0
+杵	cbueiiD	cb0
+棰	cbueeeE	cb0
+枨	cbueooE	cb0
+槌	cbuioaD	cb0
+梴	cbuiaoE	cb0
+枞	cbuouoD	cb0
+棽	cbuooaE	cb0
+纯	cceaaaB1	cc0
+驰	ccaiaaC	cc0
+ 	cca0
+巛	ccaaaaD	cc0
+骣	ccaeaiD	cc0
+绌	ccaiiiD	cc0
+骖	ccaoeuD	cc0
+肠	ccauuuD	cc0
+腠	cceeeeC	cc0
+ 	cce0
+肫	cceaaaD	cc0
+䏝	cceeooD	cc0
+綝	cceieiD	cc0
+巢	cciaooC	cc0
+ 	cci0
+骋	cciaeaE	cc0
+绰	ccieiaD	cc0
+剿	cciiiiD	cc0
+缠	ccoeiaC	cc0
+ 	cco0
+膪	ccoeiaD	cc0
+缞	ccoeiaE	cc0
+塍	ccoueiD	cc0
+脆	ccuaaaC	cc0
+ 	ccu0
+绸	ccuaeiD	cc0
+朐	ccuaiaE	cc0
+胣	ccueaiD	cc0
+骢	ccuioaD	cc0
+脞	ccuoeiD	cc0
+肜	ccuuuuD	cc0
+词	cdaeiaB1	cd0
+初	cdauuuC	cd0
+ 	cda0
+祠	cdaeiaD	cd0
+衩	cdaoooD	cd0
+诚	cdeuooC	cd0
+ 	cde0
+衬	cdeiooD	cd0
+褚	cdeiiaE	cd0
+谌	cdeiuoE	cd0
+昶	cdiaeeC	cd0
+ 	cdi0
+裎	cdiaeeD	cd0
+禅	cdouiaC	cd0
+ 	cdo0
+诧	cdooueD	cd0
+谗	cduaooC	cd0
+ 	cdu0
+谄	cduauiD	cd0
+襜	cduaoeE	cd0
+谶	cduoieD	cd0
+褫	cduuieD	cd0
+财	ceeiuuB1	ce0
+畅	ceauuuC	ce0
+ 	cea0
+黜	ceaiiiD	ce0
+眙	ceaoiaD	ce0
+蛏	ceaoeiE	ce0
+黪	ceaoeuF	ce0
+畴	ceeeeiC	ce0
+ 	cee0
+帱	ceeeeiD	ce0
+蝽	ceeeiaE	ce0
+畤	ceeieiD	ce0
+豉	ceeiaoE	ce0
+螬	ceeiiaE	ce0
+嵖	ceeiiaF	ce0
+瞋	ceeiuoE	ce0
+赐	ceiauaC	ce0
+ 	cei0
+圌	ceiaeuD	ce0
+串	ceiiiiD	ce0
+瞠	ceioeiD	ce0
+虫	ceooooC	ce0
+ 	ceo0
+遄	ceoaooD	ce0
+辿	ceoaooE	ce0
+螭	ceoeiaD	ce0
+幢	ceoeiaE	ce0
+崇	ceooeeD	ce0
+蝉	ceouiaD	ce0
+嵯	ceoueiE	ce0
+嶒	ceouiaE	ce0
+睬	ceuoeiC	ce0
+ 	ceu0
+蟾	ceuaoeD	ce0
+眵	ceuauaE	ce0
+巉	ceuauaF	ce0
+瞅	ceueouD	ce0
+崔	ceuioeD	ce0
+岑	ceuooaD	ce0
+蜍	ceuoeeE	ce0
+次	cfuauoB1	cf0
+瘳	cfaouoC	cf0
+ 	cfa0
+床	cfeiooC	cf0
+ 	cfe0
+瓷	cfeaooD	cf0
+凑	cfeeeeD	cf0
+瘛	cfeeoaE	cf0
+庱	cfeiuoD	cf0
+颤	cfeuiaD	cf0
+冲	cfiaiiC	cf0
+ 	cfi0
+畜	cfiaeeD	cf0
+啻	cfiaeeE	cf0
+廛	cfiauoE	cf0
+衰	cfiauaF	cf0
+疵	cfieuaD	cf0
+瘁	cfoeuoC	cf0
+ 	cfo0
+麤	cfoeoeD	cf0
+瘥	cfoueiD	cf0
+粢	cfouooE	cf0
+疢	cfouooF	cf0
+产	cfuuuuC	cf0
+ 	cfu0
+充	cfuaaaD	cf0
+鹑	cfuaeeE	cf0
+痴	cfueiaD	cf0
+犨	cfueiiE	cf0
+疮	cfuoaaD	cf0
+痤	cfuoeiE	cf0
+卒	cfuoeiF	cf0
+曾	cgiaeeB1	cg0
+冁	cgaeeiC	cg0
+ 	cga0
+兹	cgaaaaD	cg0
+差	cgeieeC	cg0
+ 	cge0
+𥻗	cgeiiaD	cg0
+煁	cgeiuoE	cg0
+粗	cgiaeeC	cg0
+ 	cgi0
+灿	cgiaiiD	cg0
+单	cgiaiiE	cg0
+炽	cgiauoE	cg0
+焯	cgieiaD	cg0
+炒	cgiuuuD	cg0
+慈	cgoaooC	cg0
+ 	cgo0
+粹	cgoeuoD	cg0
+糍	cgouaaD	cg0
+炊	cguauoC	cg0
+ 	cgu0
+鹚	cguaeeD	cg0
+歘	cguauoE	cg0
+糙	cgueoaD	cg0
+熜	cguioaD	cg0
+从	chuoooB1	ch0
+仓	chaaaaC	ch0
+ 	cha0
+伺	chaeiaD	ch0
+传	cheeooC	ch0
+ 	che0
+丛	cheeeeD	ch0
+俦	cheeeiE	ch0
+爨	cheieuD	ch0
+臭	cheuooD	ch0
+侧	chiaiiC	ch0
+ 	chi0
+催	chiauiD	ch0
+俶	chiaaoE	ch0
+促	chiaieE	ch0
+倡	chiaiaF	ch0
+偲	chiaoaE	ch0
+创	chiiiiD	ch0
+川	chiiiiE	ch0
+偿	chioeeD	ch0
+储	choaeiC	ch0
+ 	cho0
+雠	choauiD	ch0
+侪	choeuiD	ch0
+隹	choeeeE	ch0
+魑	choeiaE	ch0
+佽	choeuaE	ch0
+侘	chooueD	ch0
+仇	chuaaaC	ch0
+ 	chu0
+侈	chuauaD	ch0
+傺	chuaeeE	ch0
+鸧	chuaeeF	ch0
+囱	chuaooE	ch0
+儳	chuauaE	ch0
+伥	chueooD	ch0
+倕	chueeeE	ch0
+伧	chuoaaD	ch0
+偁	chuoiaE	ch0
+车	ciiiiiB1	ci0
+辍	ciaoaoC	ci0
+ 	cia0
+邨	ciaiiiD	ci0
+晨	cieueeC	ci0
+ 	cie0
+辏	cieeeeD	ci0
+晟	cieuooD	ci0
+臣	ciiaiiC	ci0
+ 	cii0
+昌	ciiaeeD	ci0
+旵	ciiaiiE	ci0
+虿	ciiaooE	ci0
+㬚	cioeuaC	ci0
+ 	cio0
+晁	ciuoauC	ci0
+ 	ciu0
+匙	ciuaaaD	ci0
+吃	cjueaaB1	cj0
+嗤	cjaiiaC	cj0
+ 	cja0
+呎	cjaeooD	cj0
+啜	cjaoaoD	cj0
+采	cjeiooC	cj0
+ 	cje0
+䝙	cjeauoD	cj0
+呈	cjeeeeD	cj0
+踌	cjeeeiE	cj0
+嘲	cjeiuaD	cj0
+躇	cjeieiE	cj0
+嘈	cjeiiaE	cj0
+喳	cjeiiaF	cj0
+蹅	cjeiiaF2	cj0
+吋	cjeiooE	cj0
+瓻	cjeiooF	cj0
+嗔	cjeiuoE	cj0
+哧	cjeiuiF	cj0
+豺	cjeiuuF	cj0
+蹰	cjeueiD	cj0
+唱	cjiaiaC	cj0
+ 	cji0
+喘	cjiaeuD	cj0
+踹	cjiaeuE	cj0
+嘬	cjiaeiF	cj0
+岔	cjiaiiE	cj0
+汆	cjiaooE	cj0
+肏	cjiauoE	cj0
+呲	cjieuaD	cj0
+踔	cjieiaE	cj0
+跐	cjieuaE	cj0
+刹	cjiiiiD	cj0
+吵	cjiuuuD	cj0
+逞	cjoaooD	cj0
+啐	cjoeuoD	cj0
+蹴	cjoeeuE	cj0
+躔	cjoeiaE	cj0
+噇	cjoeiaF	cj0
+蹿	cjooiaD	cj0
+嚓	cjoouaE	cj0
+蹭	cjouiaC	cj0
+ 	cjo0
+蹉	cjoueiD	cj0
+蹲	cjoueiE	cj0
+噌	cjouiaE	cj0
+吹	cjuauoC	cj0
+ 	cju0
+叱	cjuaaaD	cj0
+鬯	cjuaaaE	cj0
+踟	cjueiaD	cj0
+踩	cjuoeiD	cj0
+趻	cjuooaF	cj0
+彩	cjuuuuD	cj0
+处	ckioooB1	ck0
+刍	ckaeeeC	ck0
+ 	cka0
+册	ckeeeeC	ck0
+ 	cke0
+舛	ckeaiiD	ck0
+猜	ckeeiaD	ck0
+䲠	ckeeiaE	ck0
+猹	ckeiiaD	ck0
+馇	ckeiiaE	ck0
+触	ckiaooC	ck0
+ 	cki0
+猖	ckiaiaD	ck0
+鲳	ckiaiaE	ck0
+鲿	ckioeeD	ck0
+匆	ckooooC	ck0
+ 	cko0
+猝	ckoeuoD	ck0
+雏	ckuioeC	ck0
+ 	cku0
+馋	ckuaooD	ck0
+鸱	ckuaeeE	ck0
+饬	ckueauD	ck0
+长	clooooB1	cl0
+笞	claoiaC	cl0
+ 	cla0
+酂	claiiiD	cl0
+䅟	claouuD	cl0
+重	cleeeeC	cl0
+ 	cle0
+垂	cleeeeD	cl0
+筹	cleeeiE	cl0
+策	cleiooD	cl0
+秤	cleoiiD	cl0
+程	cliaeeC	cl0
+ 	cli0
+篡	cliaeuD	cl0
+种	cliaiiE	cl0
+乘	clieuaD	cl0
+辞	cloeeiC	cl0
+ 	clo0
+愁	cloaooD	cl0
+簇	cloeueD	cl0
+称	cluaiuC	cl0
+ 	clu0
+稠	cluaeiD	cl0
+掣	clueiiD	cl0
+毳	clueueE	cl0
+氚	cluiiiD	cl0
+矬	cluoeiD	cl0
+篪	cluuieD	cl0
+船	cmuaiaB1	cm0
+彻	cmeaauC	cm0
+ 	cme0
+艚	cmeiiaD	cm0
+舡	cmeieeE	cm0
+徂	cmiaeeC	cm0
+ 	cmi0
+斶	cmiauaD	cm0
+彳	cmiiiiD	cm0
+徜	cmioiaD	cm0
+斥	cmooooC	cm0
+ 	cmo0
+惩	cmoaooD	cm0
+艟	cmoeiaD	cm0
+舱	cmuoaaC	cm0
+ 	cmu0
+场	cnauuuB1	cn0
+超	cnauiaC	cn0
+ 	cna0
+墀	cnaeioD	cn0
+媸	cnaiiaD	cn0
+城	cneuooC	cn0
+ 	cne0
+堾	cneeiaD	cn0
+娼	cniaiaC	cn0
+ 	cni0
+埕	cniaeeD	cn0
+赪	cnieiaD	cn0
+嫦	cnioiaD	cn0
+埫	cnioiaE	cn0
+婵	cnouiaC	cn0
+ 	cno0
+姹	cnooueD	cn0
+垞	cnooueE	cn0
+赤	cnuiooC	cn0
+ 	cnu0
+坻	cnuaooD	cn0
+趁	cnuouuD	cn0
+坼	cnuuooD	cn0
+春	coiaeeB1	co0
+玚	coauuuC	co0
+ 	coa0
+珹	coeuooC	co0
+ 	coe0
+瑃	coeeiaD	co0
+漦	coeuiaD	co0
+蠢	coiaiaC	co0
+ 	coi0
+蚕	coiaooD	co0
+珵	coiaeeE	co0
+璀	coiauiE	co0
+璨	coieouD	co0
+玼	coieuaE	co0
+刬	coiiiiD	co0
+亍	coiiiiE	co0
+耖	coiuuuD	co0
+琛	cooaeiC	co0
+ 	coo0
+珫	cooeuaD	co0
+琮	coooeeD	co0
+瑳	cooueiD	co0
+舂	couieeC	co0
+ 	cou0
+琤	couaaeD	co0
+璁	couioaD	co0
+成	cpooooB1	cp0
+存	cpaieeC	cp0
+ 	cpa0
+础	cpaiiiD	cp0
+碜	cpaouuD	cp0
+残	cpeeooC	cp0
+ 	cpe0
+砗	cpeaiiD	cp0
+臧	cpeaiaE	cp0
+辰	cpeeooD	cp0
+厨	cpeeioE	cp0
+碴	cpeiiaD	cp0
+厝	cpeiiaE	cp0
+𥕢	cpeiiaF	cp0
+礤	cpeiuaE	cp0
+唇	cpiaeeC	cp0
+ 	cpi0
+厕	cpiaiiD	cp0
+殂	cpiaeeE	cp0
+盛	cpiaeeF	cp0
+蹙	cpiaieE	cp0
+磁	cpouaaC	cp0
+ 	cpo0
+磋	cpoueiD	cp0
+厂	cpuuuuC	cp0
+ 	cpu0
+错	creiiaB1	cr0
+钗	craoooC	cr0
+ 	cra0
+柴	creiooC	cr0
+ 	cre0
+镡	creiiaD	cr0
+铖	creuooD	cr0
+锄	criaauC	cr0
+ 	cri0
+龊	criaieD	cr0
+锠	criaiaE	cr0
+觇	criauaE	cr0
+铛	crioaeD	cr0
+钞	criuuuD	cr0
+铲	croeuuC	cr0
+ 	cro0
+逴	croaooD	cr0
+铳	croeuaD	cr0
+镩	crooiaD	cr0
+镲	croouaE	cr0
+粲	crouooD	cr0
+鹾	croueiE	cr0
+餐	cruooaC	cr0
+ 	cru0
+镵	cruauaD	cr0
+龀	cruaaaE	cr0
+锤	crueeeD	cr0
+锸	crueeeE	cr0
+雌	cruioeD	cr0
+钏	cruiiiE	cr0
+齿	cruoaiD	cr0
+锉	cruoeiE	cr0
+穿	cseauuB1	cs0
+惨	csaoeuC	cs0
+ 	csa0
+憕	csaoeiD	cs0
+惙	csaoaoE	cs0
+怊	csauiaD	cs0
+宠	cseuooC	cs0
+ 	cse0
+惭	cseauuD	cs0
+忖	cseiooD	cs0
+憷	cseiaiE	cs0
+怵	cseiooE	cs0
+宸	cseueeD	cs0
+宬	cseuooE	cs0
+窜	csiaiiC	cs0
+ 	csi0
+恻	csiaiiD	cs0
+忡	csiaiiE	cs0
+惝	csioiaD	cs0
+悴	csoeuoC	cs0
+ 	cso0
+忱	csoaaaD	cs0
+憧	csoeiaD	cs0
+悰	csooeeD	cs0
+窗	csuiuaC	cs0
+ 	csu0
+察	csuaeeD	cs0
+㤘	csuaaeE	cs0
+惆	csuaeiE	cs0
+怅	csueooD	cs0
+忏	csueiiE	cs0
+怆	csuoaaD	cs0
+沉	ctoauaB1	ct0
+池	ctaiaaC	ct0
+ 	cta0
+潺	ctaeaiD	ct0
+滁	ctaiuoD	ct0
+澄	ctaoeiD	ct0
+汊	ctaoooE	ct0
+尘	cteieeC	ct0
+ 	cte0
+潮	cteiuaD	ct0
+濋	cteiaiE	ct0
+漕	cteiiaE	ct0
+测	ctiaiiC	ct0
+ 	cti0
+涔	ctiauoD	ct0
+漴	ctiaooE	ct0
+澂	ctiaueE	ct0
+漼	ctiauiF	ct0
+泚	ctieuaD	ct0
+淖	ctieiaE	ct0
+淌	ctioiaD	ct0
+淳	ctoeaiC	ct0
+ 	cto0
+澈	ctoeueD	ct0
+澶	ctoeiaE	ct0
+瀍	ctoeiaF	ct0
+淬	ctoeuoE	ct0
+㳘	ctoeuaF	ct0
+浐	ctoeuuF	ct0
+淙	ctooeeD	ct0
+沧	ctuoaaC	ct0
+ 	ctu0
+抽	cuiaeeB1	cu0
+掺	cuaoeuC	cu0
+ 	cua0
+持	cueieiC	cu0
+ 	cue0
+摏	cueeuiD	cu0
+搽	cueiuoD	cu0
+措	cueiiaE	cu0
+摴	cueoeeD	cu0
+操	cuiaeiC	cu0
+ 	cui0
+揣	cuiaeuD	cu0
+撮	cuiaeiE	cu0
+抻	cuiaiiE	cu0
+摧	cuiauiE	cu0
+扯	cuieeeD	cu0
+撑	cuioueD	cu0
+抄	cuiuuuD	cu0
+擦	cuoouaC	cu0
+ 	cuo0
+撤	cuoeueD	cu0
+搐	cuoeiaE	cu0
+摛	cuoeiaF	cu0
+撺	cuooiaD	cu0
+搓	cuoueiD	cu0
+插	cuueeeC	cu0
+ 	cuu0
+搀	cuuaooD	cu0
+捶	cuueeeD	cu0
+攒	cuueiaE	cu0
+挫	cuuoeiD	cu0
+抢	cuuoaaE	cu0
+拆	cuuuooD	cu0
+搋	cuuuieE	cu0
+常	cwiaiiB1	cw0
+莼	cwaaeaC	cw0
+ 	cwa0
+藏	cweueiC	cw0
+ 	cwe0
+茝	cweaiiD	cw0
+尝	cweeaoD	cw0
+莿	cweiiiD	cw0
+茬	cweueiD	cw0
+蒇	cweuiaE	cw0
+草	cwiaeiC	cw0
+ 	cwi0
+苴	cwiaeeD	cw0
+牚	cwiaeaE	cw0
+菖	cwiaiaE	cw0
+茈	cwieuaD	cw0
+艹	cwiiiiD	cw0
+茨	cwoeuaC	cw0
+ 	cwo0
+萃	cwoeuoD	cw0
+裳	cwoeooE	cw0
+茺	cwoeuaE	cw0
+蔟	cwoeueF	cw0
+菜	cwuoeiC	cw0
+ 	cwu0
+蔡	cwuaeeD	cw0
+葱	cwuaoaE	cw0
+敞	cwueooD	cw0
+氅	cwueaaE	cw0
+苌	cwueooE	cw0
+茌	cwuieiD	cw0
+茶	cwuoeiD	cw0
+苍	cwuoaaE	cw0
+莝	cwuoeiE	cw0
+苁	cwuouoE	cw0
+皴	cxauaoC	cx0
+ 	cxa0
+戳	cxeaooC	cx0
+ 	cxe0
+翀	cxiaiiC	cx0
+ 	cxi0
+叉	cxooooC	cx0
+ 	cxo0
+翠	cxoeuoD	cx0
+参	cxuuuuC	cx0
+ 	cxu0
+才	cyuuuuB1	cy0
+翅	cyaoaoC	cy0
+ 	cya0
+醋	cyeiiaC	cy0
+ 	cye0
+矗	cyeieiD	cy0
+刺	cyiiiiC	cy0
+ 	cyi0
+曹	cyiaeeD	cy0
+酲	cyiaeeE	cy0
+耻	cyieeeD	cy0
+聪	cyouoaC	cy0
+ 	cyo0
+裁	cyoeooD	cy0
+醇	cyoeaiE	cy0
+寸	cyooooD	cy0
+酬	cyouiiD	cy0
+朝	cyuaeeC	cy0
+ 	cyu0
+韂	cyuaoeD	cy0
+敕	cyueooD	cy0
+酢	cyueeeE	cy0
+除	czuoeeB1	cz0
+䢺	czaiiiC	cz0
+ 	cza0
+陈	czeaooC	cz0
+ 	cze0
+丑	czeeeeD	cz0
+丞	czeeeeE	cz0
+蚩	cziaooC	cz0
+ 	czi0
+承	czooooC	cz0
+ 	czo0
+陲	czueeeC	cz0
+ 	czu0
+的	dhuaooA1	dh0
+但	dhiaeeC	dh0
+ 	dhi0
+阇	daeiiaB1	da0
+厾	daeiaoC	da0
+ 	dae0
+导	dbeiooB1	db0
+棣	dbaeooC	db0
+ 	dba0
+杜	dbeieeC	db0
+ 	dbe0
+栋	dbeaooD	db0
+刁	dbeeeeD	db0
+椟	dbeiaoD	db0
+杕	dbeuooD	db0
+档	dbioaeC	db0
+ 	dbi0
+屌	dbiaiaD	db0
+𣗋	dbioiaD	db0
+弹	dbouiaC	db0
+ 	dbo0
+逮	dboaooD	db0
+柁	dboouaD	db0
+殿	dbuaaoC	db0
+ 	dbu0
+柢	dbuaooD	db0
+椴	dbuiuaD	db0
+胆	dciaeeB1	dc0
+绐	dcaoiaC	dc0
+ 	dca0
+肚	dceieeC	dc0
+ 	dce0
+绖	dceaeiD	dc0
+胨	dceaooE	dc0
+驮	dceuooD	dc0
+胴	dciaeiC	dc0
+ 	dci0
+缔	dcoeiaC	dc0
+ 	dco0
+膻	dcoeiaD	dc0
+腚	dcooeiD	dc0
+䏲	dcouaeD	dc0
+缎	dcuiuaC	dc0
+ 	dcu0
+缍	dcueeeD	dc0
+读	ddeiaoB1	dd0
+诒	ddaoiaC	dd0
+ 	dda0
+裰	ddaoaoD	dd0
+订	ddeiiiC	dd0
+ 	dde0
+楪	ddeaeiD	dd0
+祷	ddeeeiD	dd0
+谍	ddeieiD	dd0
+褡	ddeiuoE	dd0
+裆	ddioaeC	dd0
+ 	ddi0
+扂	ddieiaD	dd0
+谠	ddiouaD	dd0
+谛	ddoeiaC	dd0
+ 	ddo0
+禘	ddoeiaD	dd0
+调	dduaeiC	dd0
+ 	ddu0
+诋	dduaooD	dd0
+祋	dduaaoE	dd0
+诞	dduiaoD	dd0
+电	deaaaaB1	de0
+瞪	deaoeiC	de0
+ 	dea0
+鼎	deaeieD	de0
+嶝	deaoeiD	de0
+盯	deeiiiC	de0
+ 	dee0
+盹	deeaaaD	de0
+囤	deeaaaE	de0
+岽	deeaooE	de0
+帱	deeeeiD	de0
+赌	deeiiaD	de0
+黩	deeiaoE	de0
+巅	deeieuE	de0
+蝶	deeieiF	de0
+睹	deeiiaE	de0
+䗖	deeiiaF	de0
+町	deeiiiF	de0
+耑	deeuiiD	de0
+豆	deiaouC	de0
+ 	dei0
+峒	deiaeiD	de0
+髑	deiauaE	de0
+逗	deoaooC	de0
+ 	deo0
+迪	deoaooD	de0
+眈	deoaaaE	de0
+蚪	deooeiD	de0
+睇	deouaeD	de0
+赕	deououE	de0
+典	deuoooC	de0
+ 	deu0
+骶	deuaooD	de0
+度	dfaoooB1	df0
+癜	dfaeuaC	df0
+ 	dfa0
+冻	dfeaooC	df0
+ 	dfe0
+癫	dfeieuD	df0
+痘	dfeiaeE	df0
+疔	dfeiiiE	df0
+瘩	dfeiuoE	df0
+端	dfiaeuC	df0
+ 	dfi0
+帝	dfiaiiD	df0
+盗	dfiaeeE	df0
+疸	dfiaeeF	df0
+亶	dfiaeeF2	df0
+店	dfieiaD	df0
+憝	dfoaooC	df0
+ 	dfo0
+遆	dfoaooD	df0
+瘅	dfouiaD	df0
+亸	dfouiaE	df0
+底	dfuaooC	df0
+ 	dfu0
+凋	dfuaeiD	df0
+敦	dfueooD	df0
+道	dgoaooB1	dg0
+弟	dgaeuuC	dg0
+ 	dga0
+郸	dgaiiiD	dg0
+灯	dgeiiiC	dg0
+ 	dge0
+炖	dgeaaaD	dg0
+奠	dgeuooD	dg0
+单	dgiaiiC	dg0
+ 	dgi0
+兑	dgiauaD	dg0
+炟	dgiaeeE	dg0
+递	dgoaooC	dg0
+ 	dgo0
+断	dguuiiC	dg0
+ 	dgu0
+羝	dguaooD	dg0
+煅	dguiuaD	dg0
+低	dhuaooB1	dh0
+髢	dhaiaaC	dh0
+ 	dha0
+倒	dheaiiC	dh0
+ 	dhe0
+代	dheaooD	dh0
+傣	dheeioD	dh0
+牒	dheieiD	dh0
+牍	dheiaoE	dh0
+垈	dheieeE	dh0
+仃	dheiiiE	dh0
+贷	dhiauoD	dh0
+佃	dhiaeeE	dh0
+侗	dhiaeiF	dh0
+岱	dhiaiiE	dh0
+黛	dhiaooE	dh0
+袋	dhoeooC	dh0
+ 	dho0
+追	dhoaooD	dh0
+俤	dhouaeD	dh0
+段	dhuaaoC	dh0
+ 	dhu0
+躲	dhuaeiD	dh0
+兜	dhuaaaE	dh0
+儋	dhuaoeE	dh0
+佚	dhueooD	dh0
+到	diiiiiB1	di0
+顿	dieuiaC	di0
+ 	die0
+戥	dieaooD	di0
+旦	dieeeeD	di0
+甙	dieieeD	di0
+轪	dieuooD	di0
+趸	diiaieC	di0
+ 	dii0
+东	diooooC	di0
+ 	dio0
+鸫	diuaeeC	di0
+ 	diu0
+昳	diueooD	di0
+呆	djeiooB1	dj0
+叨	djauuuC	dj0
+ 	dja0
+叼	djaeeeD	dj0
+咄	djaiiiD	dj0
+蹬	djaoeiD	dj0
+噔	djaoeiE	dj0
+貂	djauiaD	dj0
+吨	djeaaaC	dj0
+ 	dje0
+咥	djeaeiD	dj0
+叮	djeiiiD	dj0
+嘟	djeiaiE	dj0
+喋	djeieiE	dj0
+蹀	djeieiF	dj0
+嗒	djeiuoE	dj0
+哒	djeuoaD	dj0
+呔	djeuooE	dj0
+跶	djeuoaF	dj0
+吊	djiaiiC	dj0
+ 	dji0
+踶	djiaeiD	dj0
+噹	djioiaD	dj0
+蹲	djoueiC	dj0
+ 	djo0
+踱	djoeaoD	dj0
+踮	djoeiaE	dj0
+嘀	djoeiaF	dj0
+蹢	djoeiaF2	dj0
+蹾	djoeuaE	dj0
+啶	djooeiD	dj0
+啖	djououD	dj0
+籴	djouooE	dj0
+爹	djuauaC	dj0
+ 	dju0
+咚	djuaooD	dj0
+跺	djuaeiE	dj0
+哚	djuaeiF	dj0
+哆	djuauaE	dj0
+跌	djueooD	dj0
+蹈	djuouiD	dj0
+嗲	djuouaE	dj0
+嘚	djuuiaD	dj0
+多	dkuaooB1	dk0
+邸	dkaiiiC	dk0
+ 	dka0
+饳	dkaiiiD	dk0
+鱽	dkauuuD	dk0
+丹	dkeeeeC	dk0
+ 	dke0
+鸟	dkeeeeD	dk0
+朵	dkeiooD	dk0
+饾	dkeiaeE	dk0
+鲽	dkeieiE	dk0
+饤	dkeiiiE	dk0
+独	dkiaooC	dk0
+ 	dki0
+岛	dkiaiiD	dk0
+甸	dkiaeeE	dk0
+剁	dkiiiiD	dk0
+冬	dkooooC	dk0
+ 	dko0
+氐	dkooooD	dk0
+狄	dkouooD	dk0
+雕	dkuioeC	dk0
+ 	dku0
+鲷	dkuaeiD	dk0
+等	dleieiB1	dl0
+第	dlaeuuC	dl0
+ 	dla0
+笃	dlaaeeD	dl0
+丢	dlaoooD	dl0
+簦	dlaoeiE	dl0
+短	dleiaeC	dl0
+ 	dle0
+犊	dleiaoD	dl0
+簟	dleiiaE	dl0
+笛	dliaeeC	dl0
+ 	dli0
+笪	dliaeeD	dl0
+筜	dlioaeD	dl0
+氮	dlououC	dl0
+ 	dlo0
+迭	dloaooD	dl0
+箪	dlouiaD	dl0
+簖	dlouuuE	dl0
+答	dluoiaC	dl0
+ 	dlu0
+氡	dluaooD	dl0
+敌	dlueooD	dl0
+氘	dluiiiD	dl0
+篼	dluiuaE	dl0
+稻	dluouiD	dl0
+得	dmiaeeC	dm0
+ 	dmi0
+舠	dmauuuC	dm0
+ 	dma0
+德	dmeioaB1	dm0
+待	dmeieiC	dm0
+ 	dme0
+盾	dmeiiaD	dm0
+遁	dmoaooC	dm0
+ 	dmo0
+舵	dmoouaD	dm0
+瓞	dmueooC	dm0
+ 	dmu0
+地	dnaiaaB1	dn0
+埭	dnaeooC	dn0
+ 	dna0
+㙍	dnaoaoD	dn0
+堵	dneiiaC	dn0
+ 	dne0
+垤	dneaeiD	dn0
+堞	dneieiD	dn0
+垯	dneuoaD	dn0
+堤	dniaeiC	dn0
+ 	dni0
+妲	dniaeeD	dn0
+垌	dniaeiE	dn0
+坫	dnieiaD	dn0
+垱	dnioaeD	dn0
+妒	dnoauuC	dn0
+ 	dno0
+逵	dnoaooD	dn0
+嫡	dnoeiaD	dn0
+媂	dnoeiaE	dn0
+墩	dnoeueE	dn0
+娣	dnouaeD	dn0
+刀	dnuuuuC	dn0
+ 	dnu0
+垛	dnuaeiD	dn0
+坻	dnuaooE	dn0
+埵	dnueeeD	dn0
+堆	dnuioeD	dn0
+塅	dnuiuaE	dn0
+动	doauuuB1	do0
+毒	doaaooC	do0
+ 	doa0
+叇	doaeoaD	do0
+璒	doaoeiD	do0
+玎	doeiiiC	do0
+ 	doe0
+玷	doieiaC	do0
+ 	doi0
+纛	doiauaD	do0
+珰	doioaeD	do0
+靛	doooeiC	do0
+ 	doo0
+𤧛	dooeiaD	do0
+焘	doooooD	do0
+琔	doooeiE	do0
+玳	douieaC	do0
+ 	dou0
+玓	douaooD	do0
+瑖	douiuaD	do0
+大	dpooooA2	dp0
+殆	dpaoiaC	dp0
+ 	dpa0
+磴	dpaoeiD	dp0
+砀	dpauuuD	dp0
+夺	dpeiooC	dp0
+ 	dpe0
+砘	dpeaaaD	dp0
+碟	dpeieiD	dp0
+耷	dpeieeE	dp0
+磹	dpeiiaE	dp0
+碘	dpiauoC	dp0
+ 	dpi0
+硐	dpiaeiD	dp0
+石	dpiaeeE	dp0
+达	dpoaooB1	dp0
+礅	dpoeueD	dp0
+碲	dpoeiaE	dp0
+歹	dpooooC	dp0
+ 	dpo0
+碇	dpooeiD	dp0
+殚	dpouiaD	dp0
+䃅	dpouiaE	dp0
+砥	dpuaooC	dp0
+ 	dpu0
+碉	dpuaeiD	dp0
+碓	dpuioeD	dp0
+点	drooooB1	dr0
+铎	draoeeC	dr0
+ 	dra0
+镫	draoeiD	dr0
+钉	dreiiiC	dr0
+ 	dre0
+钝	dreaaaD	dr0
+𨱏	dreiuoD	dr0
+督	driaeeC	dr0
+ 	dri0
+钿	driaeeD	dr0
+锝	driaeeE	dr0
+铞	driaiaE	dr0
+铛	drioaeD	dr0
+镀	droeaoC	dr0
+ 	dro0
+镝	droeiaD	dr0
+镦	droeueE	dr0
+锭	drooeiD	dr0
+钭	drooeiE	dr0
+钓	druaooC	dr0
+ 	dru0
+铤	drueaoD	dr0
+铥	drueaoE	dr0
+锻	druiuaD	dr0
+铫	druoauD	dr0
+定	dseiooB1	ds0
+忉	dsauuuC	ds0
+ 	dsa0
+懂	dseiueC	ds0
+ 	dse0
+斗	dseiiiD	ds0
+窦	dseiaoE	ds0
+惰	dseuiaD	ds0
+宕	dseuiaE	ds0
+悼	dsieiaC	ds0
+ 	dsi0
+恫	dsiaeiD	ds0
+怛	dsiaeeE	ds0
+惦	dsoeieC	ds0
+ 	dso0
+惇	dsoeaiD	ds0
+惮	dsouiaD	ds0
+憺	dsuaoeC	ds0
+ 	dsu0
+窎	dsuaeeD	ds0
+滴	dtoeiaB1	dt0
+凼	dtaiiiC	dt0
+ 	dta0
+汈	dtaeeeD	dt0
+澄	dtaoeiD	dt0
+渎	dteiaoC	dt0
+ 	dte0
+沌	dteaaaD	dt0
+滇	dteiuoD	dt0
+溚	dteiuoE	dt0
+洞	dtiaeiC	dt0
+ 	dti0
+沓	dtiaeeD	dt0
+淡	dtououC	dt0
+ 	dto0
+渡	dtoeaoD	dt0
+淀	dtooeiD	dt0
+涤	dtuaeiC	dt0
+ 	dtu0
+澹	dtuaoeD	dt0
+沲	dtueaiD	dt0
+打	dueiiiB1	du0
+掇	duaoaoC	du0
+ 	dua0
+搭	dueiuoC	du0
+ 	due0
+捯	dueaiiD	du0
+扽	dueaaaE	du0
+垫	dueieeD	du0
+揲	dueieiE	du0
+掉	duieiaC	du0
+ 	dui0
+担	duiaeeD	du0
+提	duiaeiE	du0
+挡	duioaeD	du0
+抖	duooeiC	du0
+ 	duo0
+掂	duoeieD	du0
+掸	duouiaD	du0
+抵	duuaooC	du0
+ 	duu0
+捣	duuaiaD	du0
+当	dwaeeeB1	dw0
+芏	dweieeC	dw0
+ 	dwe0
+荙	dweuoaD	dw0
+荡	dwooauC	dw0
+ 	dwo0
+蒂	dwoeiaD	dw0
+菪	dwooeuD	dw0
+萣	dwooeiE	dw0
+党	dwuaaaC	dw0
+ 	dwu0
+荻	dwuaouD	dw0
+萏	dwuauiE	dw0
+董	dwueeeD	dw0
+蔸	dwuiuaD	dw0
+菂	dwuiuaE	dw0
+对	dxeiooB1	dx0
+邓	dxaiiiC	dx0
+ 	dxa0
+登	dxeiaeC	dx0
+ 	dxe0
+叠	dxiaeeC	dx0
+ 	dxi0
+剟	dxiiiiD	dx0
+怠	dxoaooC	dx0
+ 	dxo0
+怼	dxoaooD	dx0
+迨	dxoaooE	dx0
+凳	dxuaaaC	dx0
+ 	dxu0
+翟	dxuioeD	dx0
+都	dyaiiiB1	dy0
+顶	dyeuiaC	dy0
+ 	dye0
+耋	dyeaeiD	dy0
+酊	dyeiiiD	dy0
+耵	dyeiiiE	dy0
+颠	dyeuiaD	dy0
+鞑	dyeuoaE	dy0
+带	dyiaiiC	dy0
+ 	dyi0
+戴	dyiaeiD	dy0
+聃	dyiaeeE	dy0
+靼	dyiaeeF	dy0
+鞮	dyiaeiF	dy0
+蠹	dyiaiaE	dy0
+觌	dyiauaE	dy0
+丁	dyiiiiD	dy0
+耽	dyoaaaC	dy0
+ 	dyo0
+队	dzuoooC	dz0
+ 	dzu0
+陡	dzeiieC	dz0
+ 	dze0
+堕	dzeieeD	dz0
+隋	dzeuiaD	dz0
+蛋	dziaooC	dz0
+ 	dzi0
+疍	dziaeeD	dz0
+阽	dzieiaD	dz0
+隳	dzuoioD	dz0
+发	fnaoooA1	fn0
+放	ffueooA2	ff0
+阀	fauieaB1	fa0
+费	fbiauoB1	fb0
+樊	fbeuooC	fb0
+ 	fbe0
+榧	fbeaieD	fb0
+榑	fbeieiD	fb0
+弗	fbiiiiC	fb0
+ 	fbi0
+焚	fbouooC	fb0
+ 	fbo0
+枋	fboeuuD	fb0
+枫	fbuauoC	fb0
+ 	fbu0
+梵	fbuaooD	fb0
+艴	fbuaaiE	fb0
+桴	fbuoaiD	fb0
+棼	fbuoauE	fb0
+服	fcaiaoB1	fc0
+肥	fcaiaaC	fc0
+ 	fca0
+绋	fcaeiiD	fc0
+朏	fcaiiiD	fc0
+肺	fceiiiC	fc0
+ 	fce0
+肤	fceeooD	fc0
+缚	fceieiD	fc0
+脯	fceiooE	fc0
+绂	fceuaoD	fc0
+绯	fcieieC	fc0
+ 	fci0
+腓	fcieieD	fc0
+纺	fcoeuuC	fc0
+ 	fco0
+腑	fcoeuiD	fc0
+肪	fcoeuuE	fc0
+缝	fcuaoaC	fc0
+ 	fcu0
+腹	fcueiaD	fc0
+驸	fcuieiD	fc0
+纷	fcuoauD	fc0
+房	fdoeuuB1	fd0
+福	fdeiaiC	fd0
+ 	fde0
+祓	fdeuaoD	fd0
+扉	fdieieC	fd0
+ 	fdi0
+诽	fdieieD	fd0
+讣	fdioooD	fd0
+访	fdoeuuC	fd0
+ 	fdo0
+讽	fduauoC	fd0
+ 	fdu0
+袱	fduieuD	fd0
+副	feiiiiB1	fe0
+幅	feeiaiC	fe0
+ 	fee0
+赋	feeeieD	fe0
+蚨	feeeooE	fe0
+蝠	feeiaiD	fe0
+赙	feeieiE	fe0
+崶	feeieiF	fe0
+罘	feeuooD	fe0
+幞	feiiouC	fe0
+ 	fei0
+赗	feiaiaD	fe0
+罚	feoaiiC	fe0
+ 	feo0
+蚄	feoeuuD	fe0
+峰	feuaeeC	fe0
+ 	feu0
+蜂	feuaeeD	fe0
+帆	feuaooE	fe0
+蝮	feueiaD	fe0
+幡	feuoiaD	fe0
+蜉	feuoaiE	fe0
+贩	feuuaoD	fe0
+畈	feuuaoE	fe0
+方	ffuuuuB1	ff0
+废	ffauaoC	ff0
+ 	ffa0
+冯	ffaaeeD	ff0
+邡	ffaiiiD	ff0
+鄜	ffaiiiE	ff0
+腐	ffiauoC	ff0
+ 	ffi0
+痱	ffieieD	ff0
+疯	ffuauoC	ff0
+ 	ffu0
+府	ffuieiD	ff0
+烦	fgeuiaB1	fg0
+粪	fgeiuoC	fg0
+ 	fge0
+粉	fguoauC	fg0
+ 	fgu0
+烽	fguaeeD	fg0
+燔	fguoiaD	fg0
+佛	fhaeiiC	fh0
+ 	fha0
+付	fheiooC	fh0
+ 	fhe0
+伐	fheaooD	fh0
+俸	fheeeeD	fh0
+傅	fheieiD	fh0
+垡	fheieeE	fh0
+阜	fheiiiE	fh0
+偾	fheiiaF	fh0
+伏	fheuooD	fh0
+仿	fhoeuuC	fh0
+ 	fho0
+俯	fhoeuiD	fh0
+份	fhuoauC	fh0
+ 	fhu0
+俘	fhuoaiD	fh0
+鼢	fhuoauE	fh0
+辅	fieiooB1	fi0
+匚	fiaaaaC	fi0
+ 	fia0
+辐	fieiaiC	fi0
+ 	fie0
+匪	fiieieC	fi0
+ 	fii0
+昉	fioeuuC	fi0
+ 	fio0
+分	fjauuuB1	fj0
+翻	fjaoaoC	fj0
+ 	fja0
+孚	fjaieeD	fj0
+郛	fjaiiiE	fj0
+吠	fjeuooC	fj0
+ 	fje0
+釜	fjeeeeD	fj0
+呒	fjeeaaE	fj0
+唪	fjeeeeE	fj0
+趺	fjeeooE	fj0
+呋	fjeeooF	fj0
+番	fjiaeeC	fj0
+ 	fji0
+啡	fjieieD	fj0
+乏	fjooooC	fj0
+ 	fjo0
+忿	fjoaooD	fj0
+趽	fjoeuuD	fj0
+父	fjuoooC	fj0
+ 	fju0
+咐	fjuieiD	fj0
+跗	fjuieiE	fj0
+吩	fjuoauD	fj0
+蹯	fjuoiaE	fj0
+㕮	fjuouoE	fj0
+斧	fjuuiiD	fj0
+风	fkuoooB1	fk0
+犯	fkaaaaC	fk0
+ 	fka0
+狒	fkaeiiD	fk0
+凤	fkaoooD	fk0
+匐	fkeiaiC	fk0
+ 	fke0
+鲼	fkeiiaD	fk0
+负	fkiauoC	fk0
+ 	fki0
+鲱	fkieieD	fk0
+凡	fkooooC	fk0
+ 	fko0
+逢	fkoaooD	fk0
+鲂	fkoeuuD	fk0
+饭	fkuuaoC	fk0
+ 	fku0
+凫	fkuaaaD	fk0
+鳆	fkueiaD	fk0
+鲋	fkuieiD	fk0
+孵	fkuoaiD	fk0
+复	fliauaB1	fl0
+繁	flaaiuC	fl0
+ 	fla0
+氟	flaeiiD	fl0
+篚	fleaieC	fl0
+ 	fle0
+簠	fleiiaD	fl0
+缶	fliiiiC	fl0
+ 	fli0
+馡	flieieD	fl0
+牥	floeuuC	fl0
+ 	flo0
+符	fluieiC	fl0
+ 	flu0
+馥	flueiaD	fl0
+筏	fluieaD	fl0
+氛	fluoauD	fl0
+稃	fluoaiE	fl0
+馚	fluoauF	fl0
+反	fmaoooC	fm0
+ 	fma0
+返	fmoaooB1	fm0
+舫	fmoeuuC	fm0
+ 	fmo0
+彷	fmoeuuD	fm0
+飞	fnooooB1	fn0
+妇	fnaeeeC	fn0
+ 	fna0
+妃	fnaeaaD	fn0
+封	fneiooC	fn0
+ 	fne0
+堼	fneieeD	fn0
+赴	fnioooC	fn0
+ 	fni0
+妨	fnoeuuC	fn0
+ 	fno0
+坟	fnoeooD	fn0
+坊	fnoeuuE	fn0
+墦	fnuoiaC	fn0
+ 	fnu0
+夫	foooooB1	fo0
+酆	foaiiiC	fo0
+ 	foa0
+邞	foaiiiD	fo0
+奉	foeeiiC	fo0
+ 	foe0
+麸	foeeooD	fo0
+玞	foeeooE	fo0
+珐	foeiaoD	fo0
+韨	foeuaoD	fo0
+丰	foiiiiC	fo0
+ 	foi0
+玢	fouoauC	fo0
+ 	fou0
+璠	fouoiaD	fo0
+琈	fouoaiE	fo0
+否	fpiaeeB1	fp0
+砩	fpaeiiC	fp0
+ 	fpa0
+砝	fpeiaoC	fp0
+ 	fpe0
+砆	fpeeooD	fp0
+豮	fpeiiaD	fp0
+奋	fpiaeeC	fp0
+ 	fpi0
+不	fpooooC	fp0
+ 	fpo0
+矾	fpuaooC	fp0
+ 	fpu0
+砜	fpuauoD	fp0
+黻	fqeuaoC	fq0
+ 	fqe0
+黼	fqeiooD	fq0
+非	frieeeB1	fr0
+翡	fraoaoC	fr0
+ 	fra0
+镄	fraeiaD	fr0
+棐	freiooC	fr0
+ 	fre0
+蜚	friaooC	fr0
+ 	fri0
+剕	friiiiD	fr0
+斐	froeooC	fr0
+ 	fro0
+钫	froeuuD	fr0
+锋	fruaeeC	fr0
+ 	fru0
+钒	fruaooD	fr0
+富	fseiaiB1	fs0
+怫	fsaeiiC	fs0
+ 	fsa0
+愤	fseiiaC	fs0
+ 	fse0
+悱	fsieieC	fs0
+ 	fsi0
+宓	fsoaooC	fs0
+ 	fso0
+法	fteiaoB1	ft0
+沸	ftaeiiC	ft0
+ 	fta0
+氾	ftaaaaD	ft0
+沣	fteeiiC	ft0
+ 	fte0
+𣸣	fteiiaD	ft0
+涪	ftoeiaC	ft0
+ 	fto0
+瀵	ftouiaD	ft0
+浮	ftuoaiC	ft0
+ 	ftu0
+淝	ftuaaiD	ft0
+浲	ftuaeeE	ft0
+沨	ftuauoE	ft0
+洑	ftuieuD	ft0
+泛	ftuoooD	ft0
+汾	ftuoauE	ft0
+滏	ftuoeeE	ft0
+㳇	ftuouoE	ft0
+扶	fueeooB1	fu0
+拂	fuaeiiC	fu0
+ 	fua0
+抚	fueeaaC	fu0
+ 	fue0
+霏	fuieieC	fu0
+ 	fui0
+拊	fuuieiC	fu0
+ 	fuu0
+范	fwooaaB1	fw0
+茀	fwaeiiC	fw0
+ 	fwa0
+䓛	fwaeaiD	fw0
+芙	fweeooC	fw0
+ 	fwe0
+棻	fweiooD	fw0
+葑	fweieiE	fw0
+芾	fweiiiE	fw0
+莆	fweiooE	fw0
+芣	fweuooD	fw0
+菲	fwieieC	fw0
+ 	fwi0
+芳	fwoeuuC	fw0
+ 	fwo0
+藩	fwoouoD	fw0
+芬	fwuoauC	fw0
+ 	fwu0
+菔	fwuaaiD	fw0
+蘩	fwueaaD	fw0
+苻	fwuieiD	fw0
+茯	fwuieuE	fw0
+蕃	fwuoiaD	fw0
+莩	fwuoaiE	fw0
+翂	fxuoauC	fx0
+ 	fxu0
+甫	fyooooC	fy0
+ 	fyo0
+覆	fyuuueC	fy0
+ 	fyu0
+覅	fyuauuD	fy0
+敷	fyueooD	fy0
+酚	fyuoauD	fy0
+防	fzoeuuC	fz0
+ 	fzo0
+附	fzuieiC	fz0
+ 	fzu0
+个	ghiiiiA1	gh0
+给	gcuoiaA2	gc0
+阁	gauaiaB1	ga0
+闺	gaeieiC	ga0
+ 	gae0
+改	gbueooB1	gb0
+根	gbaeooC	gb0
+ 	gba0
+弓	gbaaaaD	gb0
+概	gbaeeaD	gb0
+橄	gbaeueE	gb0
+桂	gbeieiC	gb0
+ 	gbe0
+柜	gbeaaeD	gb0
+杆	gbeeiiD	gb0
+杠	gbeieeD	gb0
+柑	gbeieeE	gb0
+梗	gbeiooE	gb0
+㭎	gbeiuoE	gb0
+棍	gbiaeaC	gb0
+ 	gbi0
+桄	gbiouaD	gb0
+棺	gbooiaC	gb0
+ 	gbo0
+槁	gboeiaD	gb0
+椁	gboeaiE	gb0
+艮	gbooooD	gb0
+夬	gbooooE	gb0
+格	gbuaiaC	gb0
+ 	gbu0
+构	gbuaaoD	gb0
+枸	gbuaiaE	gb0
+敢	gbueooD	gb0
+梏	gbueiaE	gb0
+栝	gbueiaF	gb0
+槔	gbuieuD	gb0
+桧	gbuoeeD	gb0
+肝	gceeiiB1	gc0
+肛	gceieeC	gc0
+ 	gce0
+膈	gceiaeD	gc0
+绀	gceieeE	gc0
+臌	gceieiF	gc0
+𦙶	gceiiaE	gc0
+绠	gceiooE	gc0
+肱	gceuaoD	gc0
+纲	gciauoC	gc0
+ 	gci0
+贯	gciauoD	gc0
+绲	gciaeaE	gc0
+腘	gciaeeF	gc0
+胱	gciouaD	gc0
+缟	gcoeiaC	gc0
+ 	gco0
+股	gcuaaoC	gc0
+ 	gcu0
+胳	gcuaiaD	gc0
+纥	gcueaaD	gc0
+缑	gcuiaeD	gc0
+纶	gcuouaD	gc0
+胍	gcuuooD	gc0
+该	gdoeooB1	gd0
+褂	gdeiioC	gd0
+ 	gde0
+冠	gdeeeiD	gd0
+诂	gdeiiaD	gd0
+诖	gdeieiE	gd0
+祼	gdiaooC	gd0
+ 	gdi0
+雇	gduioeC	gd0
+ 	gdu0
+诡	gduaaaD	gd0
+袼	gduaiaE	gd0
+诰	gdueiaD	gd0
+诟	gduuiaD	gd0
+刚	geiiiiB1	ge0
+乢	geaaaaC	ge0
+ 	gea0
+国	geeeooC	ge0
+ 	gee0
+固	geeiiaD	ge0
+罡	geeieeE	ge0
+眭	geeieiF	ge0
+罟	geeiiaE	ge0
+蛄	geeiiaF	ge0
+骨	geiaeeC	ge0
+ 	gei0
+贵	geiauoD	ge0
+亘	geiaeeE	ge0
+帼	geiaeeF	ge0
+蛊	geiaeeF2	ge0
+蝈	geiaeeF3	ge0
+崮	geiaeiF	ge0
+崓	geiaeiF2	ge0
+鬲	geiaiaE	ge0
+蜾	geiaooE	ge0
+岗	geiauoE	ge0
+刿	geiiiiD	ge0
+果	geooooC	ge0
+ 	geo0
+赅	geoeooD	ge0
+崞	geoeaiE	ge0
+购	geuaaoC	ge0
+ 	geu0
+骼	geuaiaD	ge0
+鹘	geuaeeE	ge0
+岣	geuaiaE	ge0
+虼	geueaaD	ge0
+嶲	geuiiaD	ge0
+冈	geuoooD	ge0
+蚣	geuoaoE	ge0
+蛤	geuoiaE	ge0
+高	gfiaiaB1	gf0
+郭	gfaiiiC	gf0
+ 	gfa0
+庚	gfaeooD	gf0
+庋	gfeiaoC	gf0
+ 	gfe0
+疳	gfeieeD	gf0
+冮	gfeieeE	gf0
+裹	gfiauaC	gf0
+ 	gfi0
+膏	gfiaeeD	gf0
+痼	gfiaeiE	gf0
+赓	gfiauoE	gf0
+戆	gfoaooC	gf0
+ 	gfo0
+广	gfuuuuC	gf0
+ 	gfu0
+赣	gfuaeiD	gf0
+鹒	gfuaeeE	gf0
+疙	gfueaaD	gf0
+廆	gfuiaoD	gf0
+衮	gfuouaD	gf0
+关	ggeeooB1	gg0
+馘	ggeaiaC	gg0
+ 	gge0
+爟	ggeiuiD	gg0
+盖	ggiaeeC	gg0
+ 	ggi0
+粿	ggiaooD	gg0
+糕	ggouooC	gg0
+ 	ggo0
+羔	ggooooD	gg0
+羹	ggoueuD	gg0
+羖	gguaaoC	gg0
+ 	ggu0
+供	gheiuoB1	gh0
+鬼	ghaoooC	gh0
+ 	gha0
+躬	ghaeaaD	gh0
+郐	ghaiiiD	gh0
+伽	ghauiaD	gh0
+估	gheiiaC	gh0
+ 	ghe0
+睾	gheiouD	gh0
+皋	gheueiD	gh0
+颌	gheuiaE	gh0
+刽	ghiiiiC	gh0
+ 	ghi0
+盥	ghiaeeD	gh0
+合	ghiaeeE	gh0
+倌	ghooiaC	gh0
+ 	gho0
+鸽	ghuaeeC	gh0
+ 	ghu0
+佝	ghuaiaD	gh0
+仡	ghueaaD	gh0
+傀	ghuiaoD	gh0
+皈	ghuuaoD	gh0
+轨	giuaaaB1	gi0
+轧	giaaaaC	gi0
+ 	gia0
+杲	gieiooC	gi0
+ 	gie0
+匦	gieauaD	gi0
+旰	gieeiiD	gi0
+轱	gieiiaD	gi0
+匮	giiaiaC	gi0
+ 	gii0
+辊	giiaeaD	gi0
+𨐈	giiouoD	gi0
+戈	giooooC	gi0
+ 	gio0
+晐	gioeooD	gi0
+炅	giouooD	gi0
+晷	giuaiaC	gi0
+ 	giu0
+跟	gjaeooB1	gj0
+公	gjaoooC	gj0
+ 	gja0
+哏	gjaeooD	gj0
+趹	gjaeooE	gj0
+咖	gjauiaD	gj0
+咕	gjeiiaC	gj0
+ 	gje0
+哽	gjeiooD	gj0
+嗝	gjeiaeE	gj0
+咁	gjeieeE	gj0
+噶	gjeiiaE	gj0
+唝	gjeiiaF	gj0
+嘎	gjeueaD	gj0
+谷	gjiaeeC	gj0
+ 	gji0
+呙	gjiaooD	gj0
+虢	gjieuaD	gj0
+剐	gjiiiiD	gj0
+咣	gjiouaD	gj0
+跪	gjuaaaC	gj0
+ 	gju0
+咯	gjuaiaD	gj0
+呱	gjuuooD	gj0
+各	gkiaeeB1	gk0
+勾	gkaoooC	gk0
+ 	gka0
+鲑	gkeieiC	gk0
+ 	gke0
+鲠	gkeiooD	gk0
+鲄	gkeiiaE	gk0
+鳜	gkeuouD	gk0
+鳡	gkeuoaE	gk0
+龟	gkiaaaC	gk0
+ 	gki0
+旮	gkiaeeD	gk0
+鲴	gkiaeiE	gk0
+句	gkiaeeF	gk0
+鳏	gkiaiuE	gk0
+馉	gkiaiaF	gk0
+猓	gkiaooE	gk0
+馃	gkiaooF	gk0
+觥	gkiouaD	gk0
+馆	gkooiaC	gk0
+ 	gko0
+逛	gkoaooD	gk0
+犷	gkoeuuD	gk0
+够	gkuauaC	gk0
+ 	gku0
+狗	gkuaiaD	gk0
+鲧	gkuaiuE	gk0
+鳤	gkueooD	gk0
+雊	gkuiooD	gk0
+觚	gkuuooD	gk0
+管	glooiaB1	gl0
+郜	glaiiiC	gl0
+ 	gla0
+簋	glaeiaD	gl0
+竿	gleeiiC	gl0
+ 	gle0
+秆	gleeiiD	gl0
+篝	gleeiaE	gl0
+缸	gleieeD	gl0
+箍	gleieiE	gl0
+筀	gleieiF	gl0
+罐	gleiiaE	gl0
+牯	gleiiaF	gl0
+筻	gleiooE	gl0
+告	gliaeeC	gl0
+ 	gli0
+乖	glieuaD	gl0
+刮	gliiiiD	gl0
+稿	gloeiaC	gl0
+ 	glo0
+篙	gloeiaD	gl0
+筦	glooeeD	gl0
+牿	glueiaC	gl0
+ 	glu0
+笱	gluaiaD	gl0
+鸹	gluaeeE	gl0
+筶	glueiaD	gl0
+瓜	gmooooC	gm0
+ 	gmo0
+舸	gmeiiaC	gm0
+ 	gme0
+毌	gceeeeD	gc0
+姑	gneiiaB1	gn0
+邽	gnaiiiC	gn0
+ 	gna0
+赶	gneeiiC	gn0
+ 	gne0
+戤	gneaooD	gn0
+媾	gneeiaD	gn0
+鼓	gneiaoD	gn0
+塥	gneiaeE	gn0
+圭	gneieeE	gn0
+坩	gneieeF	gn0
+堌	gneieiF	gn0
+哿	gneiiaE	gn0
+埂	gneiooE	gn0
+卦	gnioooC	gn0
+ 	gni0
+瞽	gniaeeD	gn0
+堽	gniaeiE	gn0
+埚	gniaiaE	gn0
+垙	gniouoD	gn0
+尕	gniuooD	gn0
+垓	gnoeooC	gn0
+ 	gno0
+妫	gnouooD	gn0
+垢	gnuuiaC	gn0
+ 	gnu0
+彀	gnuaaoD	gn0
+毂	gnuaaoE	gn0
+姽	gnuaaaF	gn0
+榖	gnuaaoF	gn0
+圪	gnueaaD	gn0
+姤	gnuuiaD	gn0
+坬	gnuuooE	gn0
+干	goiiiiB1	go0
+耕	goeeiiC	go0
+ 	goe0
+玕	goeeiiD	go0
+珪	goeieiD	go0
+鬶	goeiaiE	go0
+瓘	goeiiaE	go0
+珙	goeiuoE	go0
+规	goiauaC	go0
+ 	goi0
+觏	goiauaD	go0
+珖	goiouoD	go0
+遘	gooaooC	go0
+ 	goo0
+琯	goooaeD	go0
+瑰	gouiaoC	go0
+ 	gou0
+感	gpoaooB1	gp0
+龚	gpeiuoC	gp0
+ 	gpe0
+戛	gpeaooD	gp0
+矸	gpeeiiD	gp0
+硅	gpeieiD	gp0
+矼	gpeieeE	gp0
+顾	gpeuiaD	gp0
+尴	gpiiiaC	gp0
+ 	gpi0
+廾	gpiiiiD	gp0
+磙	gpoeuoC	gp0
+ 	gpo0
+尬	gpuouiC	gp0
+ 	gpu0
+硌	gpuaiaD	gp0
+钢	griauoB1	gr0
+钆	graaaaC	gr0
+ 	gra0
+钙	greiaaC	gr0
+ 	gre0
+钴	greiiaD	gr0
+镉	greiaeE	gr0
+锅	griaiaC	gr0
+ 	gri0
+锢	griaeiD	gr0
+镐	groeiaC	gr0
+ 	gro0
+钩	gruaaoC	gr0
+ 	gru0
+铬	gruaiaD	gr0
+铦	grueiaD	gr0
+锆	grueiaE	gr0
+怪	gsaoeiB1	gs0
+惯	gsaaiaC	gs0
+ 	gsa0
+寡	gseuauC	gs0
+ 	gse0
+官	gsiaeeC	gs0
+ 	gsi0
+宫	gsiaiaD	gs0
+割	gsiiiiD	gs0
+宄	gsuaaaC	gs0
+ 	gsu0
+归	gtaeeeB1	gt0
+溉	gtaeeaC	gt0
+ 	gta0
+澉	gtaeueD	gt0
+港	gteiaeC	gt0
+ 	gte0
+灌	gteiiaD	gt0
+滆	gteiaeE	gt0
+泔	gteieeE	gt0
+㽏	gteieeF	gt0
+沽	gteiiaE	gt0
+潢	gteiiaF	gt0
+浭	gteiooE	gt0
+瀔	gteiuaE	gt0
+尜	gteuiuD	gt0
+汩	gtiaeeC	gt0
+ 	gti0
+涡	gtiaiaD	gt0
+洸	gtiouoD	gt0
+滚	gtoeuoC	gt0
+ 	gto0
+涫	gtooiaD	gt0
+沟	gtuaaoC	gt0
+ 	gtu0
+氿	gtuaaaD	gt0
+淦	gtuoeeD	gt0
+挂	gueieiB1	gu0
+掼	guaaiaC	gu0
+ 	gua0
+拱	gueiuoC	gu0
+ 	gue0
+扛	gueieeD	gu0
+擀	gueiuoE	gu0
+拐	guiaauC	gu0
+ 	gui0
+掴	guiaeeD	gu0
+搞	guoeiaC	gu0
+ 	guo0
+搁	guoiuaD	gu0
+夹	guooooD	gu0
+搿	guuoueC	gu0
+ 	guu0
+拘	guuaiaD	gu0
+括	guueiaD	gu0
+光	gwuaaaB1	gw0
+菇	gwaueiC	gw0
+ 	gwa0
+茛	gwaeooD	gw0
+䓛	gwaeaiE	gw0
+菰	gwaiuuD	gw0
+苷	gweieeC	gw0
+ 	gwe0
+葛	gwiauaC	gw0
+ 	gwi0
+蓇	gwiaiaE	gw0
+莞	gwooeeC	gw0
+ 	gwo0
+蒄	gwoaeeD	gw0
+藁	gwoeeiD	gw0
+荄	gwoeooE	gw0
+苟	gwuaiaC	gw0
+ 	gwu0
+鹳	gwuaeeD	gw0
+芥	gwuouiD	gw0
+癸	gxeeooC	gx0
+ 	gxe0
+颈	gxeuiaD	gx0
+观	gxiauaC	gx0
+ 	gxi0
+矜	gxuooaC	gx0
+ 	gxu0
+过	gyoaooB1	gy0
+功	gyauuuC	gy0
+ 	gya0
+丐	gyaaaaD	gy0
+嘏	gyaeaeD	gy0
+䢼	gyaiiiD	gy0
+工	gyeeeeC	gy0
+ 	gye0
+甘	gyeeeeD	gy0
+酐	gyeeiiE	gy0
+鞲	gyeeiaF	gy0
+哥	gyeiiaD	gy0
+酤	gyeiiaE	gy0
+古	gyiaeeC	gy0
+ 	gyi0
+革	gyiaiiD	gy0
+汞	gyiaooE	gy0
+贡	gyiauoE	gy0
+贾	gyiauoF	gy0
+恭	gyioooD	gy0
+更	gyooooC	gy0
+ 	gyo0
+辜	gyoeeiD	gy0
+耿	gyouooD	gy0
+故	gyueooD	gy0
+歌	gyuauoD	gy0
+鸪	gyuaeeE	gy0
+耇	gyuaiaE	gy0
+巩	gyuaooE	gy0
+攻	gyueooC	gy0
+ 	gyu0
+乾	gyueaaE	gy0
+聒	gyueiaE	gy0
+共	gyuoooD	gy0
+隔	gzeiaeC	gz0
+ 	gze0
+陔	gzoeooC	gz0
+ 	gzo0
+孤	gzuuooC	gz0
+ 	gzu0
+和	hliaeeA1	hl0
+会	hheeaoA2	hh0
+阖	haeiiaB1	ha0
+阚	haaeueC	ha0
+ 	haa0
+闳	haeuaoC	ha0
+ 	hae0
+阂	haoeooC	ha0
+ 	hao0
+阍	hauaiaC	ha0
+ 	hau0
+横	hbeiiaB1	hb0
+弘	hbaoooC	hb0
+ 	hba0
+桓	hbeiaeC	hb0
+ 	hbe0
+橞	hbeioaD	hb0
+彟	hbeiuiE	hb0
+核	hboeooC	hb0
+ 	hbo0
+憨	hboaooD	hb0
+杭	hboeuaD	hb0
+槐	hbuiaoC	hb0
+ 	hbu0
+槲	hbuaooD	hb0
+桦	hbuieiD	hb0
+桧	hbuoeeD	hb0
+弧	hbuuooD	hb0
+桁	hbuueeE	hb0
+红	hceieeB1	hc0
+幻	hcaaaaC	hc0
+ 	hca0
+纮	hceuaoC	hc0
+ 	hce0
+缋	hciaiaC	hc0
+ 	hci0
+缳	hciaeiD	hc0
+骇	hcoeooC	hc0
+ 	hco0
+胲	hcoeooD	hc0
+綄	hcooiiD	hc0
+缓	hcuoeeC	hc0
+ 	hcu0
+纥	hcueaaD	hc0
+骅	hcuieiD	hc0
+绘	hcuoeeD	hc0
+绗	hcuueeD	hc0
+话	hdueiaB1	hd0
+谎	hdeioeC	hd0
+ 	hde0
+罕	hdeeiiD	hd0
+讳	hdeeiiE	hd0
+袆	hdeeiiF	hd0
+讧	hdeieeD	hd0
+祜	hdeiiaE	hd0
+诃	hdeiiaF	hd0
+诙	hdeuouD	hd0
+祸	hdiaiaC	hd0
+ 	hdi0
+褐	hdiauaD	hd0
+扈	hdiaaiE	hd0
+诨	hdoaeaC	hd0
+ 	hdo0
+戽	hdooeiD	hd0
+隺	hdeeeeE	hd0
+户	hduuuuC	hd0
+ 	hdu0
+鹤	hduaeeD	hd0
+诲	hdueaaD	hd0
+许	hdueiiE	hd0
+回	heiaeeB1	he0
+翮	heaoaoC	he0
+ 	hea0
+崡	heaiaiD	he0
+翙	heaoaoD	he0
+虹	heeieeC	he0
+ 	hee0
+虷	heeeiiD	he0
+蝴	heeiuaD	he0
+峘	heeiaeE	he0
+蚶	heeieeE	he0
+岵	heeiiaE	he0
+蟥	heeiiaF	he0
+蟪	heeioaE	he0
+虾	heeiooF	he0
+蠖	heeiuiE	he0
+贿	heeuiaD	he0
+嵅	heeuiaE	he0
+画	heiaaiC	he0
+ 	hei0
+幌	heiaioD	he0
+圜	heiaeiE	he0
+蛔	heiaiaE	he0
+黑	heooooC	he0
+ 	heo0
+患	heoaooD	he0
+骸	heoeooD	he0
+蛤	heuoiaC	he0
+ 	heu0
+夥	heuauaD	he0
+鹮	heuaeeE	he0
+鹘	heuaeeF	he0
+囫	heuauuE	he0
+蚝	heueaaD	he0
+蝗	heuieeD	he0
+骺	heuuiaD	he0
+毫	hfueaaB1	hf0
+痕	hfaeooC	hf0
+ 	hfa0
+亨	hfaiiiD	hf0
+鄗	hfaiiiE	hf0
+劾	hfauuuD	hf0
+豪	hfeuooC	hf0
+ 	hfe0
+冱	hfeaeeD	hf0
+癀	hfeiiaD	hf0
+颃	hfeuiaD	hf0
+竑	hfeuaoE	hf0
+肓	hfiaeeC	hf0
+ 	hfi0
+亥	hfooooC	hf0
+ 	hfo0
+麾	hfueaaC	hf0
+ 	hfu0
+痪	hfuaiaD	hf0
+瘊	hfuiaeD	hf0
+火	hgooooB1	hg0
+邩	hgaiiiC	hg0
+ 	hga0
+糊	hgeiuaC	hg0
+ 	hge0
+烘	hgeiuoD	hg0
+煳	hgeiuaE	hg0
+豢	hgeuooD	hg0
+烠	hgeuiaE	hg0
+焊	hgiaeeC	hg0
+ 	hgi0
+熇	hgoeiaC	hg0
+ 	hgo0
+煌	hguieeC	hg0
+ 	hgu0
+焕	hguaiaD	hg0
+糇	hguiaeD	hg0
+烩	hguoeeD	hg0
+烀	hguoiiE	hg0
+焓	hguoiaF	hg0
+㸌	hguouiE	hg0
+合	hhiaeeB1	hh0
+候	hhaeueC	hh0
+ 	hha0
+侯	hhaeueD	hh0
+侴	hhaiiiD	hh0
+郃	hhaiiiE	hh0
+何	hheiiaC	hh0
+ 	hhe0
+皇	hheeeeD	hh0
+鼾	hheeiiE	hh0
+华	hheiiiD	hh0
+颌	hheuiaD	hh0
+颔	hheuiaE	hh0
+含	hhiaeeC	hh0
+ 	hhi0
+盒	hhiaeeD	hh0
+货	hhiauoE	hh0
+㿠	hhiouoD	hh0
+伙	hhouooC	hh0
+ 	hho0
+遑	hhoaooD	hh0
+化	hhuaaaC	hh0
+ 	hhu0
+毁	hhuaaoD	hh0
+齁	hhuaiaE	hh0
+皓	hhueiaD	hh0
+佸	hhueiaE	hh0
+龢	hhueooE	hh0
+皞	hhuieuD	hh0
+或	hiiaeeB1	hi0
+轰	hiaoaoC	hi0
+ 	hia0
+互	hieeeeC	hi0
+ 	hie0
+旱	hieeiiD	hi0
+旰	hieeiiE	hi0
+昊	hieeooE	hi0
+暵	hieiiaD	hi0
+颢	hieuiaD	hi0
+划	hiiiiiC	hi0
+ 	hii0
+晃	hiiouaD	hi0
+惑	hioaooC	hi0
+ 	hio0
+晖	hioaeaD	hi0
+昈	hioauuE	hi0
+晦	hiueaaC	hi0
+ 	hiu0
+曷	hiuauoD	hi0
+鹖	hiuaeeE	hi0
+昒	hiuauuE	hi0
+晗	hiuoiaD	hi0
+㬊	hiuoeeE	hi0
+轷	hiuoiiE	hi0
+号	hjeaaaB1	hj0
+吼	hjaiaaC	hj0
+ 	hja0
+喙	hjaaeuD	hj0
+哏	hjaeooD	hj0
+咍	hjaoiaD	hj0
+呵	hjeiiaC	hj0
+ 	hje0
+哄	hjeiuoD	hj0
+貆	hjeiaeE	hj0
+嚆	hjeioeE	hj0
+吓	hjeiooF	hj0
+嗬	hjeiuiE	hj0
+嚄	hjeiuiF	hj0
+谼	hjeiuoF	hj0
+嚯	hjeouiD	hj0
+喊	hjeuiaD	hj0
+咴	hjeuouE	hj0
+喝	hjiauaC	hj0
+ 	hji0
+嘿	hjiaooD	hj0
+踝	hjiaooE	hj0
+哕	hjiauaE	hj0
+唬	hjieuaD	hj0
+乎	hjiiiiD	hj0
+哼	hjoeaiC	hj0
+ 	hjo0
+吭	hjoeuaD	hj0
+嚎	hjoeeuE	hj0
+咳	hjoeooE	hj0
+㘎	hjoiaeD	hj0
+嗨	hjooueD	hj0
+嗐	hjooeeE	hj0
+哈	hjuoiaC	hj0
+ 	hju0
+唤	hjuaiaD	hj0
+貉	hjuaiaE	hj0
+唿	hjuaoaE	hj0
+吽	hjueiiD	hj0
+喉	hjuiaeD	hj0
+哗	hjuieiE	hj0
+喤	hjuieeF	hj0
+嗥	hjuieuF	hj0
+呼	hjuoiiD	hj0
+忽	hkoaooB1	hk0
+狠	hkaeooC	hk0
+ 	hka0
+郇	hkaiiiD	hk0
+猢	hkeiuaC	hk0
+ 	hke0
+犴	hkeeiiD	hk0
+獾	hkeiiaD	hk0
+觟	hkeieiE	hk0
+鲄	hkeiiaE	hk0
+鹱	hkeiuiE	hk0
+鳠	hkeiuiF	hk0
+昏	hkiaeeC	hk0
+ 	hki0
+猾	hkiaiaD	hk0
+馄	hkiaeaE	hk0
+奂	hkiaooE	hk0
+斛	hkooeiC	hk0
+ 	hko0
+訇	hkoeeeD	hk0
+鲩	hkooeeD	hk0
+猴	hkuiaeC	hk0
+ 	hku0
+凰	hkuieeD	hk0
+鳇	hkuieeE	hk0
+饸	hkuoiaD	hk0
+狐	hkuuooD	hk0
+鲘	hkuuiaE	hk0
+禾	hlooooB1	hl0
+簧	hleiiaC	hl0
+ 	hle0
+秽	hliauaC	hl0
+ 	hli0
+盉	hliaeeD	hl0
+氦	hloeooC	hl0
+ 	hlo0
+篁	hluieeC	hl0
+ 	hlu0
+鹄	hluaeeD	hl0
+笏	hluauuE	hl0
+篌	hluiaeD	hl0
+馠	hluoiaD	hl0
+后	hmiaeeC	hm0
+ 	hmi0
+很	hmaeooB1	hm0
+後	hmaauaC	hm0
+ 	hma0
+郈	hmaiiiD	hm0
+行	hmeeiiC	hm0
+ 	hme0
+徽	hmiaueD	hm0
+垕	hmeieeD	hm0
+徊	hmieaiD	hm0
+航	hmoeuaC	hm0
+ 	hmo0
+逅	hmoaooD	hm0
+衡	hmuaeeC	hm0
+ 	hmu0
+鸻	hmuaeeD	hm0
+徨	hmuieeD	hm0
+艎	hmuieeE	hm0
+好	hnaieeB1	hn0
+郝	hnaiiiC	hn0
+ 	hna0
+坏	hneuooC	hn0
+ 	hne0
+赫	hneiuiD	hn0
+姮	hneiaeE	hn0
+婳	hneiaeF	hn0
+嬅	hneieeE	hn0
+贺	hniauoC	hn0
+ 	hni0
+嬛	hniaeiD	hn0
+盍	hniaeeE	hn0
+婫	hniaeaF	hn0
+垾	hniaeeF	hn0
+嫭	hnieuoD	hn0
+壶	hniieeD	hn0
+壕	hnoeeuC	hn0
+ 	hno0
+恚	hnoaooD	hn0
+垸	hnooeeD	hn0
+婚	hnuaiaC	hn0
+ 	hnu0
+觳	hnuaaoD	hn0
+縠	hnuaaoE	hn0
+垎	hnuaiaE	hn0
+堠	hnuiaeD	hn0
+媓	hnuieeE	hn0
+环	hoeuooB1	ho0
+彗	hoaeeeC	ho0
+ 	hoa0
+邗	hoaiiiD	ho0
+瑚	hoeiuaC	ho0
+ 	hoe0
+璜	hoeiiaD	ho0
+玒	hoeieeE	ho0
+𤩽	hoeieuF	ho0
+砉	hoeuiaD	ho0
+顸	hoeuiaE	ho0
+琥	hoieuaC	ho0
+ 	hoi0
+慧	hooaooC	ho0
+ 	hoo0
+珲	hooaeaD	ho0
+魂	houiaoC	ho0
+ 	hou0
+耗	houeaaD	ho0
+瑝	houieeD	ho0
+耠	houoiaD	ho0
+琀	houoiaE	ho0
+珩	houueeD	ho0
+还	hpoaooB1	hp0
+夯	hpauuuC	hp0
+ 	hpa0
+翃	hpaoaoD	hp0
+磺	hpeiiaC	hp0
+ 	hpe0
+硔	hpeiuoD	hp0
+厚	hpiaaiC	hp0
+ 	hpi0
+虺	hpiaooD	hp0
+灰	hpouooC	hp0
+ 	hpo0
+瓠	hpuuooC	hp0
+ 	hpu0
+虎	hruaaaB1	hr0
+壑	hreieeC	hr0
+ 	hre0
+虍	hreaaaD	hr0
+镬	hreiuiD	hr0
+𨱑	hreiiaE	hr0
+镮	hriaeiC	hr0
+ 	hri0
+钬	hrouooC	hr0
+ 	hro0
+镐	hroeiaD	hr0
+铧	hruieiC	hr0
+ 	hru0
+锪	hruaoaD	hr0
+龁	hrueaaD	hr0
+锽	hruieeD	hr0
+铪	hruoiaD	hr0
+锾	hruoeeE	hr0
+害	hseeiaB1	hs0
+恨	hsaeooC	hs0
+ 	hsa0
+怀	hseuooC	hs0
+ 	hse0
+宦	hseaiaD	hs0
+慌	hseioeD	hs0
+恒	hseiaeE	hs0
+怙	hseiiaE	hs0
+黉	hseiiaF	hs0
+憾	hseuoaD	hs0
+宏	hseuaoE	hs0
+恢	hseuouE	hs0
+悍	hsiaeeC	hs0
+ 	hsi0
+寰	hsiaeiD	hs0
+恍	hsiouaD	hs0
+寒	hsooooC	hs0
+ 	hso0
+逭	hsoaooD	hs0
+悔	hsueaaC	hs0
+ 	hsu0
+惚	hsuaoaD	hs0
+鲎	hsuaiaE	hs0
+惛	hsuaiaF	hs0
+惶	hsuieeD	hs0
+豁	hsuoiaD	hs0
+河	hteiiaB1	ht0
+汉	htaoooC	ht0
+ 	hta0
+泓	htaeaoD	ht0
+涵	htaiaiD	ht0
+湖	hteiuaC	ht0
+ 	hte0
+汇	hteaaaD	ht0
+汗	hteeiiD	ht0
+洪	hteiuoD	ht0
+洹	hteiaeE	ht0
+潢	hteiiaE	ht0
+瀚	hteiuoF	ht0
+濩	hteiuiF	ht0
+混	htiaeaC	ht0
+ 	hti0
+滑	htiaiaD	ht0
+涸	htiaeiE	ht0
+淏	htiaeeF	ht0
+灏	htiaeuF	ht0
+溷	htiaeuF2	ht0
+滉	htiaioE	ht0
+洄	htiaiaF	ht0
+澴	htiaiaF2	ht0
+漶	htiaoaE	ht0
+滹	htieuoD	ht0
+沪	htoauuC	ht0
+ 	hto0
+浒	htoaueD	ht0
+浑	htoaeaE	ht0
+濠	htoeeuD	ht0
+漷	htoeaiE	ht0
+沆	htoeuaE	ht0
+浣	htooeeD	ht0
+活	htueiaC	ht0
+ 	htu0
+鸿	hteiuaE	ht0
+涣	htuaiaD	ht0
+淴	htuaoaE	ht0
+海	htueaaD	ht0
+浩	htueiaE	ht0
+淮	htuioeD	ht0
+湟	htuieeE	ht0
+澔	htuiueE	ht0
+浍	htuoeeD	ht0
+浛	htuoiaE	ht0
+换	huuaiaB1	hu0
+撖	huaeueC	hu0
+ 	hua0
+鄠	huaiiiD	hu0
+撼	hueuoaC	hu0
+ 	hue0
+扞	hueeiiD	hu0
+攉	hueouiD	hu0
+捍	huiaeeC	hu0
+ 	hui0
+擐	huiaeiD	hu0
+护	huoauuC	hu0
+ 	huo0
+挥	huoaeaD	hu0
+霍	huuioeC	hu0
+ 	huu0
+花	hwuiuaB1	hw0
+菡	hwaiaiC	hw0
+ 	hwa0
+荭	hwaaeiD	hw0
+薅	hwaueuD	hw0
+蕙	hweioaC	hw0
+ 	hwe0
+葫	hweiuaD	hw0
+荁	hweiaeE	hw0
+蕻	hweieiE	hw0
+藿	hweouiD	hw0
+薨	hweuuaD	hw0
+茴	hwiaiaC	hw0
+ 	hwi0
+劐	hwiiiiD	hw0
+荤	hwoaeaC	hw0
+ 	hwo0
+辉	hwoaeaD	hw0
+荒	hwoeuiD	hw0
+蒿	hwoeiaE	hw0
+菏	hwooeiD	hw0
+蔊	hwouiaD	hw0
+获	hwuaeuC	hw0
+ 	hwu0
+芴	hwuauuD	hw0
+荷	hwuieiD	hw0
+萑	hwuioeE	hw0
+荟	hwuoeeD	hw0
+蘅	hwuuuaD	hw0
+翚	hxoaeaC	hx0
+ 	hxo0
+翯	hxoeiaD	hx0
+欢	hxuauoC	hx0
+ 	hxu0
+黄	hyiauoB1	hy0
+邯	hyaiiiC	hy0
+ 	hya0
+乤	hyaaaaD	hy0
+巷	hyaeaaD	hy0
+韩	hyeeiiC	hy0
+ 	hye0
+酣	hyeieeD	hy0
+醐	hyeiuaE	hy0
+卉	hyeuiiD	hy0
+醢	hyeuiaE	hy0
+鬟	hyiaeiC	hy0
+ 	hyi0
+鞨	hyiauaD	hy0
+惠	hyoaooC	hy0
+ 	hyo0
+胡	hyuaeeC	hy0
+ 	hyu0
+鹕	hyuaeeD	hy0
+翰	hyuoaoD	hy0
+函	hzaiiiC	hz0
+ 	hza0
+堕	hzeieeC	hz0
+ 	hze0
+孩	hzoeooC	hz0
+ 	hzo0
+隍	hzuieeC	hz0
+ 	hzu0
+隳	hzuoioD	hz0
+就	jfeuooA1	jf0
+几	jkaaaaA2	jk0
+间	jaiaeeB1	ja0
+阄	jauaiaC	ja0
+ 	jau0
+即	jbaiiiB1	jb0
+局	jbaiaeC	jb0
+ 	jba0
+己	jbaaaaD	jb0
+楗	jbaeaoD	jb0
+叚	jbaeaoE	jb0
+椐	jbaeeiE	jb0
+郡	jbaiiiD	jb0
+建	jbaoooD	jb0
+弪	jbaoeiE	jb0
+橘	jbaoiaE	jb0
+枷	jbauiaD	jb0
+既	jbeaaaC	jb0
+ 	jbe0
+柩	jbeauaD	jb0
+柜	jbeaaeE	jb0
+楷	jbeauiE	jb0
+禁	jbeeiuD	jb0
+彐	jbeeeeE	jb0
+枅	jbeeiiE	jb0
+居	jbeiiaD	jb0
+疆	jbeiaeE	jb0
+堲	jbeieeE	jb0
+桔	jbeiiaE	jb0
+槿	jbeiiaF	jb0
+槚	jbeiiaF2	jb0
+橛	jbeuouD	jb0
+届	jbiaeeC	jb0
+ 	jbi0
+君	jbiaeeD	jb0
+暨	jbiaeeE	jb0
+楫	jbiaeiF	jb0
+岊	jbiaiiE	jb0
+强	jbiaiaF	jb0
+枧	jbiauaE	jb0
+椒	jbieaoD	jb0
+剧	jbiiiiD	jb0
+槛	jbiiiaE	jb0
+尽	jbooooC	jb0
+ 	jbo0
+忌	jboaooD	jb0
+弶	jboeiaD	jb0
+校	jboeuoE	jb0
+杰	jbooooD	jb0
+榉	jbooeeE	jb0
+极	jbuaooC	jb0
+ 	jbu0
+机	jbuaaaD	jb0
+檞	jbuaauE	jb0
+枸	jbuaiaE	jb0
+桷	jbuauaE	jb0
+犟	jbueiiD	jb0
+桕	jbuieeD	jb0
+检	jbuoooD	jb0
+屐	jbuueiD	jb0
+屦	jbuuouE	jb0
+经	jcaoeiB1	jc0
+纪	jcaeaaC	jc0
+ 	jca0
+乣	jcaaaaD	jc0
+腱	jcaeaoD	jc0
+腒	jcaeeiE	jc0
+膙	jcaeiaE	jc0
+纠	jcaiiiD	jc0
+骏	jcaouoD	jc0
+胫	jcaoeiE	jc0
+脚	jceiaiC	jc0
+ 	jce0
+绩	jceeiaD	jc0
+肼	jceeiiE	jc0
+腈	jceeiaF	jc0
+结	jceiiaD	jc0
+缰	jceiaeE	jc0
+缙	jceiiaE	jc0
+缄	jceuiaD	jc0
+绢	jciaiaC	jc0
+ 	jci0
+缉	jciaeiD	jc0
+畿	jciaeeE	jc0
+胛	jciaiiE	jc0
+䌹	jciaiaF	jc0
+䐃	jciaueE	jc0
+骥	jcieiaD	jc0
+剿	jciiiiD	jc0
+糸	sciuooE	sc0
+胶	jcoeuoC	jc0
+ 	jco0
+绞	jcoeuoD	jc0
+继	jcouaaD	jc0
+缣	jcouooE	jc0
+级	jcuaooC	jc0
+ 	jcu0
+绝	jcuaaiD	jc0
+肌	jcuaaaE	jc0
+绛	jcuaeaE	jc0
+驹	jcuaiaE	jc0
+骄	jcueuiD	jc0
+缴	jcuiueD	jc0
+给	jcuoiaD	jc0
+计	jdeiiiB1	jd0
+记	jdaeaaC	jd0
+ 	jda0
+诀	jdaeooD	jd0
+祲	jdaeaoE	jd0
+裾	jdaeeiE	jd0
+谲	jdaoiaD	jd0
+皲	jdauaoD	jd0
+军	jdeaiiC	jd0
+ 	jde0
+诫	jdeaeuD	jd0
+讵	jdeaaeE	jd0
+讲	jdeeiiD	jd0
+讦	jdeeiiE	jd0
+谨	jdeiiaD	jd0
+襟	jdeieeE	jd0
+诘	jdeiiaE	jd0
+谏	jdeiooE	jd0
+肩	jdiaeeC	jd0
+ 	jdi0
+扃	jdiaiaD	jd0
+谫	jdouauC	jd0
+ 	jdo0
+褯	jdoeiaD	jd0
+裥	jdoiiaD	jd0
+讥	jduaaaC	jd0
+ 	jdu0
+衿	jduooaD	jd0
+袷	jduoiaE	jd0
+见	jeuaaaB1	je0
+崛	jeaeaiC	je0
+ 	jea0
+赆	jeaeooD	je0
+崌	jeaeeiE	je0
+囝	jeaieeD	je0
+𨟠	jeaiiiE	je0
+峻	jeaouoD	je0
+畯	jeaouoE	je0
+睛	jeeeiaC	je0
+ 	jee0
+睫	jeeaooD	je0
+岠	jeeaaeE	je0
+贱	jeeeooD	je0
+且	jeeeeeE	je0
+羁	jeeiaaD	je0
+蜐	jeeiauE	je0
+豇	jeeieeE	je0
+蛱	jeeoooD	je0
+畸	jeeueiD	je0
+罽	jeeuouE	je0
+甲	jeiiiiC	je0
+ 	jei0
+觊	jeiauaD	je0
+岨	jeiaeeE	je0
+岬	jeiaiiE	je0
+巾	jeiiiiD	je0
+蛟	jeoeuoC	je0
+ 	jeo0
+迥	jeoaooD	je0
+嵴	jeoeiaD	je0
+㠇	jeoeeuE	je0
+峧	jeoeuoE	je0
+圈	jeouaaD	je0
+界	jeuouiC	je0
+ 	jeu0
+虮	jeuaaaD	je0
+䴗	jeuaeeE	je0
+岌	jeuaooE	je0
+峤	jeueuiD	je0
+矍	jeuiaoD	je0
+雎	jeuioeE	je0
+瞿	jeuioeF	je0
+具	jeuoooD	je0
+囧	jeuoiaE	je0
+冏	jeuoiaF	je0
+睑	jeuoooE	je0
+蚧	jeuouiE	je0
+骱	jeuouiF	je0
+将	jfuaeiB1	jf0
+决	jfaeooC	jf0
+ 	jfa0
+瘕	jfaeaeD	jf0
+郊	jfaiiiD	jf0
+疖	jfaiiiE	jf0
+竣	jfaouoD	jf0
+痉	jfaoeiE	jf0
+痂	jfauiaD	jf0
+减	jfeuiaC	jf0
+ 	jfe0
+靖	jfeeiaD	jf0
+酱	jfeieeD	jf0
+廑	jfeiiaE	jf0
+桨	jfeiooE	jf0
+奖	jfeuooD	jf0
+京	jfiuooC	jf0
+ 	jfi0
+竞	jfiauaD	jf0
+脊	jfiaeeE	jf0
+疽	jfiaeeF	jf0
+浆	jfiaooE	jf0
+竭	jfiauaE	jf0
+齑	jfieeeD	jf0
+剂	jfiiiiD	jf0
+迹	jfoaooC	jf0
+ 	jfo0
+瘠	jfoeiaD	jf0
+麖	jfoeiaE	jf0
+竟	jfuaaaC	jf0
+ 	jfu0
+净	jfuaaeD	jf0
+麂	jfuaaaE	jf0
+竫	jfuaaeF	jf0
+鹫	jfuaeeE	jf0
+䴔	jfuaeeF2	jf0
+疚	jfuaooE	jf0
+疾	jfueooD	jf0
+麇	jfueooE	jf0
+旌	jfueueE	jf0
+交	jfuouoD	jf0
+疥	jfuouiE	jf0
+卷	jgaaaaB1	jg0
+剪	jgauuuC	jg0
+ 	jga0
+烬	jgaeooD	jg0
+焗	jgaeaiE	jg0
+糨	jgaeiaE	jg0
+翦	jgaoaoD	jg0
+焌	jgaouoE	jg0
+姜	jgaueeD	jg0
+券	jgauuuE	jg0
+精	jgeeiaC	jg0
+ 	jge0
+炬	jgeaaeD	jg0
+粳	jgeiooD	jg0
+桊	jgeiooE	jg0
+眷	jgiaeeC	jg0
+ 	jgi0
+炯	jgiaiaD	jg0
+焆	jgiaiaE	jg0
+羯	jgiauaE	jg0
+蠲	jgiauaF	jg0
+兼	jgooooC	jg0
+ 	jgo0
+煎	jgooooD	jg0
+爝	jguoaeC	jg0
+ 	jgu0
+鹣	jguaeeD	jg0
+鹡	jfuaeeF	jf0
+燋	jguiooD	jg0
+借	jheiiaB1	jh0
+假	jhaeaeC	jh0
+ 	jha0
+健	jhaeaoD	jh0
+倔	jhaeaiE	jh0
+倨	jhaeeiE	jh0
+仅	jhaoooD	jh0
+俊	jhaouoE	jh0
+隽	jhauuuD	jh0
+伽	jhauiaE	jh0
+集	jheiooC	jh0
+ 	jhe0
+侥	jheaeuD	jh0
+僭	jheaiaE	jh0
+臼	jheeeeD	jh0
+鼱	jheeiaE	jh0
+佳	jheieiD	jh0
+僵	jheiaeE	jh0
+伎	jheiaoF	jh0
+佶	jheiiaE	jh0
+儆	jheiueE	jh0
+俱	jhiauoC	jh0
+ 	jhi0
+舅	jhiaauD	jh0
+偈	jhiauaE	jh0
+剑	jhiiiiD	jh0
+今	jhoaaaC	jh0
+ 	jho0
+傕	jhoaoeD	jh0
+佼	jhoeuoD	jh0
+僦	jhoeeuE	jh0
+皎	jhoeuoE	jh0
+焦	jhooooD	jh0
+倦	jhouaaD	jh0
+件	jhueiiC	jh0
+ 	jhu0
+鹪	jhuaeeD	jh0
+伋	jhuaooE	jh0
+牮	jhueiiD	jh0
+敫	jhueooE	jh0
+介	jhuiiiD	jh0
+僬	jhuiooE	jh0
+皦	jhuiueE	jh0
+价	jhuouiD	jh0
+皭	jhuoaeE	jh0
+俭	jhuoooE	jh0
+较	jioeuoB1	ji0
+巨	jiaeeeC	ji0
+ 	jia0
+晙	jiaouoD	ji0
+戒	jieuiiC	ji0
+ 	jie0
+暕	jieiooD	ji0
+旧	jiiaeeC	ji0
+ 	jii0
+晶	jiiaiaD	ji0
+辑	jiiaeiE	ji0
+车	jiiiiiD	ji0
+景	jioeiuC	ji0
+ 	jio0
+炅	jiouooD	ji0
+皆	jiuieeC	ji0
+ 	jiu0
+轿	jiueuiD	ji0
+匠	jiuuiiD	ji0
+叫	jjaiiiB1	jj0
+爵	jjaeeiC	jj0
+ 	jja0
+唧	jjaeaiD	jj0
+踺	jjaeaoE	jj0
+踞	jjaeeiE	jj0
+跽	jjaeoaE	jj0
+趹	jjaeooF	jj0
+跏	jjauiaD	jj0
+咖	jjauiaE	jj0
+距	jjeaaeC	jj0
+ 	jje0
+喈	jjeauiD	jj0
+践	jjeeooD	jj0
+趼	jjeeiiE	jj0
+噤	jjeieeD	jj0
+咭	jjeiiaE	jj0
+戢	jjeiooE	jj0
+噘	jjeuouD	jj0
+蹶	jjeuouE	jj0
+咀	jjiaeeC	jj0
+ 	jji0
+噱	jjieeuD	jj0
+跤	jjoeuoC	jj0
+ 	jjo0
+跻	jjoeuiD	jj0
+哜	jjoeuiE	jj0
+斝	jjooeiD	jj0
+嗟	jjoueiD	jj0
+蹐	jjouiaE	jj0
+鹃	jjuaeeC	jj0
+ 	jju0
+叽	jjuaaaD	jj0
+啾	jjueouD	jj0
+踽	jjuiooD	jj0
+噍	jjuiooE	jj0
+嚼	jjuoiaD	jj0
+九	jkaaaaB1	jk0
+解	jkauueC	jk0
+ 	jka0
+鲫	jkaeaiD	jk0
+鱾	jkaeaaE	jk0
+鲪	jkaeiaE	jk0
+觖	jkaeooE	jk0
+邭	jkaiiiD	jk0
+馂	jkaouoD	jk0
+祭	jkeeiuC	jk0
+ 	jke0
+饯	jkeeooD	jk0
+桀	jkeiooD	jk0
+馑	jkeiiaE	jk0
+鲒	jkeiiaF	jk0
+獗	jkeuouD	jk0
+觭	jkeueiE	jk0
+颎	jkeuiaE	jk0
+鳜	jkeuouE	jk0
+句	jkiaeeC	jk0
+ 	jki0
+咎	jkiaeeD	jk0
+龟	jkiaaaE	jk0
+狙	jkiaeeE	jk0
+狷	jkiaiaE	jk0
+飓	jkiauoE	jk0
+玃	jkiauiF	jk0
+鲣	jkiieiD	jk0
+系	jkiuooD	jk0
+及	jkooooC	jk0
+ 	jko0
+急	jkoaooD	jk0
+狡	jkoeuoD	jk0
+鲸	jkoeiaE	jk0
+猄	jkoeiaF	jk0
+饺	jkoeuoE	jk0
+獍	jkoeuaF	jk0
+鳉	jkoeuaF2	jk0
+鲚	jkoeuiF	jk0
+鲛	jkoeuoF	jk0
+久	jkooooD	jk0
+灸	jkouooD	jk0
+鳒	jkouooE	jk0
+角	jkuaiiC	jk0
+ 	jku0
+饥	jkuaaaD	jk0
+鸠	jkuaeeE	jk0
+简	jloiiaB1	jl0
+季	jlaieeC	jl0
+ 	jla0
+毽	jlaeaoD	jl0
+犍	jlaeaoE	jl0
+笳	jlauiaD	jl0
+籍	jleeeiC	jl0
+ 	jle0
+矩	jleaaeD	jl0
+秬	jleaaeE	jl0
+笺	jleeooD	jl0
+笄	jleeiiE	jl0
+箐	jleeiaF	jl0
+筠	jleiuaD	jl0
+秸	jleiiaE	jl0
+榘	jleiooE	jl0
+箕	jleiuoE	jl0
+稽	jleuuaD	jl0
+犄	jleueiE	jl0
+嵇	jleuiaE	jl0
+积	jliauoC	jl0
+ 	jli0
+稷	jliauoD	jl0
+筥	jliaiaE	jl0
+犋	jliauoE	jl0
+笕	jliauaF	jl0
+箭	jlouiaC	jl0
+ 	jlo0
+稼	jlooeuD	jl0
+筋	jluaauC	jl0
+ 	jlu0
+笈	jluaooD	jl0
+穄	jluaeeE	jl0
+矫	jlueuiD	jl0
+篯	jlueeeE	jl0
+近	jmoaooB1	jm0
+径	jmaoeiC	jm0
+ 	jma0
+街	jmeieeC	jm0
+ 	jme0
+徛	jmeueiD	jm0
+斤	jmiiiiC	jm0
+ 	jmi0
+舰	jmiauaD	jm0
+徼	jmuiueC	jm0
+ 	jmu0
+加	jniaeeB1	jn0
+嘉	jnauiaC	jn0
+ 	jna0
+驾	jnaaeeD	jn0
+赳	jnaiiiD	jn0
+弆	jnaoeuD	jn0
+劫	jnauuuD	jn0
+劼	jnauuuE	jn0
+架	jneiooC	jn0
+ 	jne0
+姬	jneaiiD	jn0
+婕	jneaooE	jn0
+奸	jneeiiD	jn0
+婧	jneeiaE	jn0
+妓	jneiaoD	jn0
+娵	jneiaoE	jn0
+姞	jneiiaE	jn0
+墐	jneiiaF	jn0
+颉	jneuiaD	jn0
+姐	jniaeeC	jn0
+ 	jni0
+吉	jniaeeD	jn0
+趄	jniaeeE	jn0
+娟	jniaiaE	jn0
+坰	jniaiaF	jn0
+境	jnoeuaC	jn0
+ 	jno0
+迦	jnoaooD	jn0
+嫉	jnoeueD	jn0
+袈	jnoeooE	jn0
+姣	jnoeuoE	jn0
+嫁	jnooeuD	jn0
+均	jnuaoeC	jn0
+ 	jnu0
+圾	jnuaooD	jn0
+娇	jnueuiD	jn0
+垍	jnuieeD	jn0
+妗	jnuooaD	jn0
+进	jooaooB1	jo0
+珈	joauiaC	jo0
+ 	joa0
+琚	joaeeiD	jo0
+珺	joaeiaE	jo0
+珒	joaeiiF	jo0
+玦	joaeooE	jo0
+勣	joauuuD	jo0
+㛃	joaueeE	jo0
+瑾	joeiiaC	jo0
+ 	joe0
+珏	joeeooD	jo0
+耩	joeeiaE	jo0
+琎	joeeoaE	jo0
+耤	joeiiaD	jo0
+瑨	joeiiaE	jo0
+璥	joeiueE	jo0
+击	joiiiiC	jo0
+ 	joi0
+璟	joiaoeD	jo0
+靓	joiauaE	jo0
+井	joiiiiD	jo0
+恝	jooaooC	jo0
+ 	joo0
+戋	joooooD	jo0
+斠	joooeiE	jo0
+静	jouaaeC	jo0
+ 	jou0
+玖	jouaooD	jo0
+玑	jouaaaE	jo0
+䴖	jouaeeE	jo0
+璬	jouiueD	jo0
+玠	jououiD	jo0
+碱	jpeuiaB1	jp0
+厩	jpaeeaC	jp0
+ 	jpa0
+砄	jpaeooD	jp0
+殛	jpaieeD	jp0
+戛	jpeaooD	jp0
+礓	jpeiaeD	jp0
+殣	jpeiiaE	jp0
+奇	jpeiiaC	jp0
+ 	jpe0
+碣	jpiauaC	jp0
+ 	jpi0
+砠	jpiaeeD	jp0
+剞	jpiiiiD	jp0
+劂	jpiiiiE	jp0
+丌	jpiiiiF	jp0
+厥	jpouuaC	jp0
+ 	jpo0
+礁	jpuiooC	jp0
+ 	jpu0
+矶	jpuaaaD	jp0
+歼	jpueiiD	jp0
+硷	jpuoooD	jp0
+紧	jqaaiuB1	jq0
+坚	jqeieeC	jq0
+ 	jqe0
+监	jqiaeeC	jq0
+ 	jqi0
+鉴	jquoeeC	jq0
+ 	jqu0
+金	jreeeeB1	jr0
+键	jraeaoC	jr0
+ 	jra0
+乩	jraaaaD	jr0
+锯	jraeeiD	jr0
+锔	jraeaiE	jr0
+鐍	jraoiaD	jr0
+韭	jreeeeC	jr0
+ 	jre0
+钜	jreaaeD	jr0
+铗	jreoooD	jr0
+镢	jreuouD	jr0
+冀	jriaeiC	jr0
+ 	jri0
+钾	jriaiiD	jr0
+龃	jriaeeE	jr0
+镜	jroeuaC	jr0
+ 	jro0
+遽	jroaooD	jr0
+铰	jroeuoD	jr0
+锏	jroiiaD	jr0
+镓	jrooeuD	jr0
+锩	jrouaaD	jr0
+锦	jruiiaC	jr0
+ 	jru0
+钧	jruaoeD	jr0
+镌	jruiauD	jr0
+家	jseuooB1	js0
+窘	jsaeiaC	js0
+ 	jsa0
+举	jseeiiC	js0
+ 	jse0
+悈	jseaeuD	js0
+寄	jseueiD	js0
+觉	jsiauaC	js0
+ 	jsi0
+惧	jsiauoD	js0
+蹇	jsiaieE	js0
+憬	jsiaoeE	js0
+寂	jsieaoD	js0
+惊	jsoeiuC	js0
+ 	jso0
+謇	jsoeeeD	js0
+窭	jsouauD	js0
+究	jsuaaaC	js0
+ 	jsu0
+悸	jsueaiD	js0
+窖	jsueiaE	js0
+江	jteieeB1	jt0
+津	jtaeiiC	jt0
+ 	jta0
+浸	jtaeaoD	jt0
+浕	jtaeooE	jt0
+浚	jtaouoD	jt0
+泾	jtaoeiE	jt0
+泇	jtauiaD	jt0
+酒	jteieeC	jt0
+ 	jte0
+渐	jteauuD	jt0
+浇	jteaeuE	jt0
+湝	jteaiaE	jt0
+汫	jteeiiD	jt0
+洁	jteiiaD	jt0
+瀱	jteieuE	jt0
+溍	jteiiaE	jt0
+漖	jteiueE	jt0
+浃	jteoooD	jt0
+尖	jteuooD	jt0
+㵐	jteuouE	jt0
+溅	jtiaeeC	jt0
+ 	jti0
+涓	jtiaiaD	jt0
+沮	jtiaeeE	jt0
+泂	jtiaiaE	jt0
+澽	jtieeuD	jt0
+济	jtoeuiC	jt0
+ 	jto0
+滘	jtoaeiD	jt0
+涧	jtoiiaD	jt0
+湔	jtouiaD	jt0
+激	jtuiueC	jt0
+ 	jtu0
+汲	jtuaooD	jt0
+洚	jtuaeaE	jt0
+漈	jtuaeeF	jt0
+泃	jtuaiaE	jt0
+湫	jtueouD	jt0
+洎	jtuieeD	jt0
+接	juoeauB1	ju0
+据	juaeeiC	ju0
+ 	jua0
+掘	juaeaiD	ju0
+捃	juaeiaE	ju0
+抉	juaeooE	ju0
+郏	juaiiiD	ju0
+拒	jueaaeC	ju0
+ 	jue0
+捷	jueaooD	ju0
+拣	jueaooE	ju0
+技	jueiaoD	ju0
+拮	jueiiaE	ju0
+挟	jueoooD	ju0
+颊	jueuiaD	ju0
+掎	jueueiE	ju0
+撅	jueuouE	ju0
+揭	juiauaC	ju0
+ 	jui0
+捐	juiaiaD	ju0
+攫	juiauiE	ju0
+夹	juooooC	ju0
+ 	juo0
+挤	juoeuiD	ju0
+霁	juoeuiE	ju0
+搅	juooiaD	ju0
+搛	juouooD	ju0
+拘	juuaiaC	ju0
+ 	juu0
+掬	juuaouD	ju0
+揪	juueouD	ju0
+挢	juueuiE	ju0
+捡	juuoooD	ju0
+节	jwaiiiB1	jw0
+茄	jwauiaC	jw0
+ 	jwa0
+荩	jwaeooD	jw0
+葭	jwaeaeE	jw0
+莙	jwaeiaE	jw0
+茎	jwaoeiD	jw0
+荐	jweuaiC	jw0
+ 	jwe0
+苣	jweaaeD	jw0
+藉	jweeeiD	jw0
+菁	jweeiaE	jw0
+芰	jweiaoD	jw0
+荚	jweoooD	jw0
+蕨	jweuouD	jw0
+䓫	jweueiE	jw0
+菌	jwiaueC	jw0
+ 	jwi0
+茧	jwiaooD	jw0
+苴	jwiaeeE	jw0
+蕺	jwiaeiF	jw0
+莒	jwiaiaE	jw0
+藠	jwiaiaF	jw0
+荆	jwiiiiD	jw0
+蒋	jwoeuaC	jw0
+ 	jwo0
+警	jwoeeeD	jw0
+茭	jwoeuoE	jw0
+蒟	jwoeuaF	jw0
+蒺	jwoeueF	jw0
+荠	jwoeuiF	jw0
+菅	jwooiaD	jw0
+茳	jwooeiE	jw0
+蒹	jwouooD	jw0
+敬	jwueooC	jw0
+ 	jwu0
+菊	jwuaouD	jw0
+艽	jwuaaaE	jw0
+蓟	jwuaiiE	jw0
+芨	jwuaooE	jw0
+蕉	jwuiooD	jw0
+葰	jwuiaoE	jw0
+芥	jwuouiD	jw0
+劲	jxauuuB1	jx0
+艰	jxaeooC	jx0
+ 	jxa0
+颈	jxeuiaC	jx0
+ 	jxe0
+矞	jxiauoC	jx0
+ 	jxi0
+刭	jxiiiiD	jx0
+迳	jxoaooC	jx0
+ 	jxo0
+鸡	jxuaeeC	jx0
+ 	jxu0
+矜	jxuooaD	jx0
+教	jyueooB1	jy0
+鄄	jyaiiiC	jy0
+ 	jya0
+鞬	jyaeaoD	jy0
+基	jyeieeC	jy0
+ 	jye0
+戟	jyeaooD	jy0
+戬	jyeaooE	jy0
+靬	jyeeiiD	jy0
+髻	jyeiiaD	jy0
+酵	jyeiaiE	jy0
+墼	jyeieeE	jy0
+鞯	jyeieuF	jy0
+兢	jyeiiaE	jy0
+棘	jyeiooE	jy0
+贾	jyiauoC	jy0
+ 	jyi0
+晋	jyiaeeD	jy0
+堇	jyiaeeE	jy0
+赍	jyiauoE	jy0
+觐	jyiauaF	jy0
+醵	jyieeuD	jy0
+柬	jyooooC	jy0
+ 	jyo0
+惎	jyoaooD	jy0
+聚	jyuiooC	jy0
+ 	jyu0
+鞠	jyuaouD	jy0
+期	jyuaeeE	jy0
+鞫	jyuaoeE	jy0
+救	jyueooD	jy0
+鬏	jyueouE	jy0
+截	jyuioeD	jy0
+醮	jyuiooE	jy0
+其	jyuoooD	jy0
+靳	jyuuiiD	jy0
+际	jzeeiuB1	jz0
+卺	jzaaaaC	jz0
+ 	jza0
+孑	jzeeeeC	jz0
+ 	jze0
+亟	jzeeeeD	jz0
+阱	jzeeiiE	jz0
+孓	jzooooC	jz0
+ 	jzo0
+阶	jzuouiC	jz0
+ 	jzu0
+降	jzuaeaD	jz0
+可	kyiaeeA1	ky0
+看	kuiaeeA2	ku0
+阔	kaooueB1	ka0
+阚	kaaeueC	ka0
+ 	kaa0
+阃	kaiaeiC	ka0
+ 	kai0
+闿	kaiaaeD	ka0
+闶	kaoeuaC	ka0
+ 	kao0
+枯	kbeiiaB1	kb0
+柯	kbeiiaC	kb0
+ 	kbe0
+框	kbeaeeD	kb0
+楷	kbeauiE	kb0
+垦	kbeieeD	kb0
+栲	kbeieaE	kb0
+棵	kbiaooC	kb0
+ 	kbi0
+槛	kbiiiaD	kb0
+恳	kboaooC	kb0
+ 	kbo0
+尻	kbuaaaC	kb0
+ 	kbu0
+櫆	kbuiooD	kb0
+胯	kceueeB1	kc0
+骙	kcaoeeC	kc0
+ 	kca0
+绔	kceueeC	kc0
+ 	kce0
+缂	kceiiaD	kc0
+骒	kciaooC	kc0
+ 	kci0
+胩	kcieooD	kc0
+纩	kcoeuuC	kc0
+ 	kco0
+脍	kcuoeeC	kc0
+ 	kcu0
+课	kdiaooB1	kd0
+裉	kdaeooC	kd0
+ 	kda0
+诃	kdeiiaC	kd0
+ 	kde0
+诓	kdeaeeD	kd0
+裤	kdoeeaC	kd0
+ 	kdo0
+裈	kdoaeaD	kd0
+诳	kduaeeC	kd0
+ 	kdu0
+困	keeiooB1	ke0
+睽	keaoeeC	ke0
+ 	kea0
+瞰	keaeueD	ke0
+颗	keeuiaC	ke0
+ 	kee0
+眶	keeaeeD	ke0
+眍	keeauoE	ke0
+囗	keeeeeD	ke0
+瞌	keeiiaD	ke0
+骷	keeiiaE	ke0
+岢	keeiiaF	ke0
+蚵	keeiiaF2	ke0
+嵁	keeiuoE	ke0
+崁	keeiuaF	ke0
+蝰	keeueiD	ke0
+岿	keiuaeC	ke0
+ 	kei0
+髁	keiaooD	ke0
+圐	keiaoeE	ke0
+贶	keiauaE	ke0
+剀	keiiiiD	ke0
+崆	keooeiC	ke0
+ 	keo0
+髋	keooeiD	ke0
+凯	keuaaaC	ke0
+ 	keu0
+蝌	keueooD	ke0
+蛞	keueiaE	ke0
+刻	kfiiiiB1	kf0
+康	kfaeooC	kf0
+ 	kfa0
+邝	kfaiiiD	kf0
+邟	kfaiiiE	kf0
+库	kfeaiiC	kf0
+ 	kfe0
+堃	kfeieeD	kf0
+疴	kfeiiaE	kf0
+颏	kfeuiaD	kf0
+况	kfiauaC	kf0
+ 	kfi0
+廓	kfoeaiC	kf0
+ 	kfo0
+亢	kfuaaaC	kf0
+ 	kfu0
+烤	kgeieaB1	kg0
+炣	kgeiiaC	kg0
+ 	kge0
+煃	kgeueiD	kg0
+焜	kgiaeaC	kg0
+ 	kgi0
+炕	kgoeuaC	kg0
+ 	kgo0
+糠	kgoeaeD	kg0
+夔	kguiuoC	kg0
+ 	kgu0
+㸆	kgueiaD	kg0
+炌	kguouiD	kg0
+魁	khooeiB1	kh0
+郐	khaiiiC	kh0
+ 	kha0
+龛	kheuooC	kh0
+ 	khe0
+会	kheeaoD	kh0
+侉	kheueeD	kh0
+侃	khiauiC	kh0
+ 	khi0
+佧	khieooD	kh0
+伉	khoeuaC	kh0
+ 	kho0
+倥	khooeiD	kh0
+傀	khuiaoC	kh0
+ 	khu0
+侩	khuoeeD	kh0
+昆	kieauaB1	ki0
+暌	kiaoeeC	ki0
+ 	kia0
+匡	kieeeeC	ki0
+ 	kie0
+轲	kieiiaD	ki0
+匮	kiiaiaC	ki0
+ 	kii0
+旷	kioeuuC	ki0
+ 	kio0
+鹍	kiuaeeC	ki0
+ 	kiu0
+匼	kiuoiaD	ki0
+口	kjeeeeB1	kj0
+咖	kjauiaC	kj0
+ 	kja0
+叩	kjaiiiD	kj0
+哭	kjeuooC	kj0
+ 	kje0
+哐	kjeaeeD	kj0
+趶	kjeeiiD	kj0
+嗑	kjeiiaD	kj0
+跬	kjeieiE	kj0
+呵	kjeiiaE	kj0
+跨	kjeueeD	kj0
+喹	kjeueiE	kj0
+啃	kjieiaC	kj0
+ 	kji0
+喟	kjiaiaD	kj0
+咔	kjieooD	kj0
+咳	kjoeooC	kj0
+ 	kjo0
+吭	kjoeuaD	kj0
+喀	kjoouaD	kj0
+哙	kjuoeeC	kj0
+ 	kju0
+咯	kjuaiaD	kj0
+趷	kjueaaD	kj0
+狂	kkeeeeB1	kk0
+鲓	kkeieaC	kk0
+ 	kke0
+馈	kkiaiaC	kk0
+ 	kki0
+鲲	kkiaeaD	kk0
+馗	kkouuiC	kk0
+ 	kko0
+𩾌	kkoeaeD	kk0
+狯	kkuoeeC	kk0
+ 	kku0
+鲙	kkuoeeD	kk0
+科	klooiiB1	kl0
+筐	kleaeeC	kl0
+ 	kle0
+氪	kleiiaD	kl0
+筘	kleiiaE	kl0
+靠	klieieC	kl0
+ 	kli0
+稞	kliaooD	kl0
+篑	kliaiaE	kl0
+筷	klooaeC	kl0
+ 	klo0
+犒	kloeiaD	kl0
+箜	klooeiD	kl0
+衎	kmeeeeC	km0
+ 	kme0
+块	knaeooB1	kn0
+堀	knaeaiC	kn0
+ 	kna0
+堪	kneiuoC	kn0
+ 	kne0
+坷	kneiiaD	kn0
+墈	kneiauE	kn0
+壸	kneieeE	kn0
+垮	kneueeD	kn0
+姱	kneueeE	kn0
+坤	kniaiiC	kn0
+ 	kni0
+垲	kniaaeD	kn0
+婫	kniaeaE	kn0
+坑	knoeuaC	kn0
+ 	kno0
+逵	knoaooD	kn0
+圹	knoeuuD	kn0
+𡐓	knoeaeE	kn0
+埪	knooeiD	kn0
+款	knuauoC	kn0
+ 	knu0
+壳	knuaaaD	kn0
+坎	knuauoE	kn0
+开	koiiiiB1	ko0
+亏	koaaaaC	ko0
+ 	koa0
+邼	koaiiiD	ko0
+珂	koeiiaC	ko0
+ 	koe0
+刊	koiiiiC	ko0
+ 	koi0
+琨	koiaeaD	ko0
+夸	kpeeaaB1	kp0
+郀	kpaiiiC	kp0
+ 	kpa0
+硍	kpaeooD	kp0
+硁	kpaoeiD	kp0
+磕	kpeiiaC	kp0
+ 	kpe0
+奎	kpeieiD	kp0
+磡	kpeiauE	kp0
+盔	kpiaeeC	kp0
+ 	kpi0
+刳	kpiiiiD	kp0
+矿	kpoeuuC	kp0
+ 	kpo0
+硿	kpooeiD	kp0
+砍	kpuauoC	kp0
+ 	kpu0
+矻	kpueaaD	kp0
+夼	kpuiiiD	kp0
+肯	kriaeeB1	kr0
+龈	kraeooC	kr0
+ 	kra0
+铐	kreieaC	kr0
+ 	kre0
+锴	kreauiD	kr0
+钶	kreiiaD	kr0
+铠	kriaaeC	kr0
+ 	kri0
+锟	kriaeaD	kr0
+锞	kriaooE	kr0
+铿	kriieiD	kr0
+卡	krooooC	kr0
+ 	kro0
+钪	kroeuaD	kr0
+锎	kroieeD	kr0
+铦	krueiaC	kr0
+ 	kru0
+铪	kruoiaD	kr0
+快	ksaeooB1	ks0
+慨	ksaeeaC	ks0
+ 	ksa0
+窟	ksaeaiD	ks0
+空	kseieeC	ks0
+ 	kse0
+寇	kseeieD	ks0
+窥	kseeiaE	ks0
+宽	kseiiaD	ks0
+恺	ksiaaeC	ks0
+ 	ksi0
+窠	ksiaooD	ks0
+悝	ksiaeeE	ks0
+悃	ksiaeiF	ks0
+愦	ksiaiaE	ks0
+慷	ksoeaeC	ks0
+ 	kso0
+客	ksuaiaC	ks0
+ 	ksu0
+恪	ksuaiaD	ks0
+忾	ksueaaD	ks0
+喾	ksueiaE	ks0
+愧	ksuiaoD	ks0
+渴	ktiauaB1	kt0
+溘	kteiiaC	kt0
+ 	kte0
+洭	kteaeeD	kt0
+洘	kteieaD	kt0
+溃	ktiaiaC	kt0
+ 	kti0
+浍	ktuoeeC	kt0
+ 	ktu0
+抗	kuoeuaC	ku0
+ 	kuo0
+揆	kuaoeeC	ku0
+ 	kua0
+揩	kueauiC	ku0
+ 	kue0
+抠	kueauoD	ku0
+拷	kueieaD	ku0
+扛	kueieeE	ku0
+挎	kueueeD	ku0
+扣	kuiaeeC	ku0
+ 	kui0
+捆	kuiaeiD	ku0
+控	kuooeiB1	ku0
+扩	kuoeuuD	ku0
+㧟	kuooeaD	ku0
+括	kuueiaC	ku0
+ 	kuu0
+苦	kweiiaB1	kw0
+葵	kwaoeeC	kw0
+ 	kwa0
+芤	kwaiaaD	kw0
+苛	kweiiaC	kw0
+ 	kwe0
+蒈	kweauiD	kw0
+莰	kweiuaD	kw0
+蒯	kwiiiiC	kw0
+ 	kwi0
+蒉	kwiaiaD	kw0
+蔻	kwooeeC	kw0
+ 	kwo0
+戣	kxeaooC	kx0
+ 	kxe0
+克	kyiauaB1	ky0
+勘	kyauuuC	ky0
+ 	kya0
+考	kyeaaaC	ky0
+ 	kye0
+戡	kyeaooD	ky0
+尅	kyeiooD	ky0
+髡	kyeuaaD	ky0
+聩	kyiaiaC	ky0
+ 	kyi0
+醌	kyiaeaD	ky0
+剋	kyiiiiD	ky0
+恐	kyoaooC	ky0
+ 	kyo0
+酷	kyueiaC	ky0
+ 	kyu0
+孔	kzaaaaB1	kz0
+牁	kzeiiaC	kz0
+ 	kze0
+隗	kzuiaoC	kz0
+ 	kzu0
+了	lziiiiA1	lz0
+两	lyooooA2	ly0
+〇	laaaaaB1	la0
+阑	laeiooC	la0
+ 	lae0
+闾	laiaiaC	la0
+ 	lai0
+阆	laoaooC	la0
+ 	lao0
+林	lbeiooB1	lb0
+李	lbaieeC	lb0
+ 	lba0
+棂	lbaeouD	lb0
+婪	lbaueeD	lb0
+棱	lbeiuoC	lb0
+ 	lbe0
+梿	lbeaoaD	lb0
+楝	lbeiooD	lb0
+栳	lbeiuaE	lb0
+檑	lbeoiaD	lb0
+梾	lbeoooE	lb0
+枥	lbeuauD	lb0
+橑	lbeuiaE	lb0
+栊	lbeuooE	lb0
+录	lbioooC	lb0
+ 	lbi0
+楞	lbiaoeD	lb0
+梠	lbiaiaE	lb0
+椤	lbiauaE	lb0
+栌	lbieaeD	lb0
+榄	lbiiiaD	lb0
+楼	lbouauC	lb0
+ 	lbo0
+榔	lboaaiD	lb0
+逯	lboaooE	lb0
+桹	lboaooF	lb0
+麓	lboeeaD	lb0
+檩	lboeeeE	lb0
+椋	lboeiuE	lb0
+榈	lboiiaD	lb0
+隶	lbooooD	lb0
+灵	lbouooD	lb0
+屡	lbouauE	lb0
+栏	lboueeE	lb0
+柳	lbuaaiC	lb0
+ 	lbu0
+榴	lbuaiaD	lb0
+朸	lbuaaaE	lb0
+橹	lbuaiaE	lb0
+栎	lbuaooE	lb0
+㰀	lbueuoD	lb0
+柃	lbuooaD	lb0
+履	lbuuueD	lb0
+脸	lcuoooB1	lc0
+绿	lcaeioC	lc0
+ 	lca0
+肋	lcauuuD	lc0
+练	lceaooC	lc0
+ 	lce0
+腊	lceiiaD	lc0
+骊	lceiaoE	lc0
+綝	lceieiE	lc0
+绫	lceiuoE	lc0
+缭	lceuiaD	lc0
+胧	lceuooE	lc0
+缆	lciiiaC	lc0
+ 	lci0
+骡	lciaaaD	lc0
+缧	lciaaaE	lc0
+蠡	lciaiaE	lc0
+脶	lciaiaF	lc0
+胪	lcieaeD	lc0
+驴	lcoauuC	lc0
+ 	lco0
+邋	lcoaooD	lc0
+缡	lcoeiaD	lc0
+臁	lcoeouE	lc0
+缕	lcouauD	lc0
+𦝼	lcouauE	lc0
+膦	lcouuaE	lc0
+骆	lcuaiaC	lc0
+ 	lcu0
+绺	lcuaiaD	lc0
+络	lcuaiaE	lc0
+骝	lcuaiaF	lc0
+纶	lcuouaD	lc0
+脟	lcuoeiE	lc0
+论	lduouaB1	ld0
+礼	ldaaaaC	ld0
+ 	lda0
+禄	ldaeioD	ld0
+郎	ldaiiiD	ld0
+戾	ldeuooC	ld0
+ 	lde0
+裢	ldeaoaD	ld0
+诔	ldeeooD	ld0
+塱	ldeieeD	ld0
+㮾	ldeiooE	ld0
+祾	ldeiuoE	ld0
+裸	ldiaooC	ld0
+ 	ldi0
+褴	ldiiiaD	ld0
+良	ldooooC	ld0
+ 	ldo0
+谅	ldoeiaD	ld0
+谰	ldoieiD	ld0
+襕	ldoieiE	ld0
+褛	ldouauD	ld0
+朗	lduaeeC	ld0
+ 	ldu0
+袊	lduooaD	ld0
+裣	lduoooE	ld0
+里	leeeeeB1	le0
+累	leaaiuC	le0
+ 	lea0
+睩	leaeioD	le0
+郦	leaiiiD	le0
+髎	leaouoD	le0
+疁	leaouoE	le0
+蜡	leeiiaC	le0
+ 	lee0
+崂	leeiauD	le0
+罱	leeiiaE	le0
+蝲	leeiiiF	le0
+崚	leeiuoE	le0
+睐	leeoooD	le0
+崃	leeoooE	le0
+瞭	leeuiaD	le0
+蛎	leeueaE	le0
+峛	leeuiiE	le0
+眬	leeuooE	le0
+丽	leiaiaC	le0
+ 	lei0
+螺	leiaaaD	le0
+鬲	leiaiaE	le0
+剅	leiiiiD	le0
+逻	leoaooC	le0
+ 	leo0
+螂	leoaaiD	le0
+逦	leoaooE	le0
+崀	leoaooF	le0
+詈	leoeeeD	le0
+蠊	leoeouE	le0
+罹	leoouiD	le0
+髅	leouauD	le0
+蝼	leouauE	le0
+嵝	leouauF	le0
+䁖	leouauF2	le0
+嶙	leouuaE	le0
+瞵	leouuaF	le0
+罗	leuaooC	le0
+ 	leu0
+略	leuaiaD	le0
+鹂	leuaeeE	le0
+赂	leuaiaE	le0
+罶	leuaiaF	le0
+岚	leuauoE	le0
+蜊	leueiiD	le0
+罍	leueiiE	le0
+岭	leuooaD	le0
+圙	leuoeuE	le0
+囹	leuooaE	le0
+蛉	leuooaF	le0
+囵	leuouaE	le0
+六	lfuoooB1	lf0
+率	lfaaeiC	lf0
+ 	lfa0
+疗	lfaiiiD	lf0
+孪	lfaieeE	lf0
+癃	lfaiuaE	lf0
+廖	lfaouoD	lf0
+娈	lfaueeD	lf0
+凌	lfeiuoC	lf0
+ 	lfe0
+鹿	lfeauaD	lf0
+疠	lfeauuE	lf0
+立	lfeeeeD	lf0
+辣	lfeiooD	lf0
+痨	lfeiauE	lf0
+凓	lfeieiE	lf0
+瘌	lfeiiiE	lf0
+栾	lfeiooE	lf0
+癞	lfeiuaE	lf0
+癗	lfeoiaD	lf0
+冽	lfeuiiD	lf0
+疬	lfeuauE	lf0
+离	lfiaooC	lf0
+ 	lfi0
+吝	lfiaeeD	lf0
+瘰	lfiaaaE	lf0
+膂	lfiaeeE	lf0
+峦	lfiaiiE	lf0
+羸	lfiauaE	lf0
+蠃	lfiauaF	lf0
+脔	lfiauoF	lf0
+刘	lfiiiiD	lf0
+凉	lfoeiaC	lf0
+ 	lfo0
+恋	lfoaooD	lf0
+廊	lfoaaiE	lf0
+庐	lfoauuE	lf0
+凛	lfoeeeD	lf0
+廪	lfoeeeE	lf0
+斓	lfoieiD	lf0
+廉	lfouooD	lf0
+瘘	lfouauE	lf0
+麟	lfouuaE	lf0
+亮	lfuaaaC	lf0
+ 	lfu0
+瘤	lfuaiaD	lf0
+鸾	lfuaeeE	lf0
+旅	lfueuaD	lf0
+痢	lfueiiE	lf0
+挛	lfueiiF	lf0
+旒	lfueoeE	lf0
+冷	lfuooaD	lf0
+銮	lfuoeeE	lf0
+类	lgeuooB1	lg0
+娄	lgaueeC	lg0
+ 	lga0
+粼	lgaaaaD	lg0
+翷	lgaoaoD	lg0
+兰	lgeeeeC	lg0
+ 	lge0
+炼	lgeaooD	lg0
+燎	lgeuiaD	lg0
+粝	lgeueaE	lg0
+粮	lgoaooC	lg0
+ 	lgo0
+炉	lgoauuD	lg0
+遴	lgoaooE	lg0
+烺	lgoaooF	lg0
+粒	lgoeeeD	lg0
+料	lgooiiD	lg0
+烂	lgoueeD	lg0
+烙	lguaiaC	lg0
+ 	lgu0
+熘	lguaiaD	lg0
+羚	lguooaD	lg0
+令	lhoaooB1	lh0
+邻	lhaiiiC	lh0
+ 	lha0
+翎	lhaoaoD	lh0
+僇	lhaouoE	lh0
+仂	lhauuuD	lh0
+领	lheuiaC	lh0
+ 	lhe0
+瓴	lheaooD	lh0
+佬	lheiuaD	lh0
+俪	lheiaoE	lh0
+傈	lheieiE	lh0
+俩	lheiooE	lh0
+魉	lheiooF	lh0
+俫	lheoooD	lh0
+例	lheuiiD	lh0
+僚	lheuiaE	lh0
+侣	lhiaiaC	lh0
+ 	lhi0
+赁	lhiauoD	lh0
+俚	lhiaeeE	lh0
+儡	lhiaiaE	lh0
+倮	lhiaooE	lh0
+偻	lhouauC	lh0
+ 	lho0
+俍	lhoaooD	lh0
+倞	lhoeiaD	lh0
+伦	lhuouaC	lh0
+ 	lhu0
+仑	lhuaaaD	lh0
+鸰	lhuaeeE	lh0
+敛	lhueooD	lh0
+俐	lhueiiE	lh0
+伶	lhuooaD	lh0
+连	lioaooB1	li0
+辆	lieiooC	li0
+ 	lie0
+昽	lieuooD	li0
+量	liiaeeC	li0
+ 	lii0
+轳	liieaeD	li0
+晾	lioeiaC	li0
+ 	lio0
+㫰	lioaooD	li0
+辘	lioeeaD	li0
+辌	lioeiaE	li0
+辚	liouuaD	li0
+轮	liuouaC	li0
+ 	liu0
+旯	liuaaaD	li0
+辂	liuaiaE	li0
+轹	liuaooE	li0
+昤	liuooaD	li0
+路	ljuaiaB1	lj0
+另	ljauuuC	lj0
+ 	lja0
+躐	ljaaiaD	lj0
+叻	ljauuuD	lj0
+啦	ljeioeC	lj0
+ 	lje0
+哢	ljeeeuD	lj0
+唠	ljeiauD	lj0
+嘞	ljeiauE	lj0
+啉	ljeieiE	lj0
+喇	ljeiiiE	lj0
+躏	ljeioiE	lj0
+咧	ljeuiiD	lj0
+呖	ljeuauE	lj0
+嘹	ljeuiaE	lj0
+喱	ljeuiaF	lj0
+蹽	ljeuiaF2	lj0
+咙	ljeuooE	lj0
+哩	ljiaeeC	lj0
+ 	lji0
+吕	ljiaeeD	lj0
+啰	ljiauaE	lj0
+喽	ljouauC	lj0
+ 	ljo0
+唳	ljoaeuD	lj0
+啷	ljoaaiE	lj0
+踉	ljoaooE	lj0
+蹓	ljuaiaC	lj0
+ 	lju0
+噜	ljuaiaD	lj0
+鹭	ljuaeeE	lj0
+咯	ljuaiaE	lj0
+跞	ljuaooE	lj0
+呤	ljuooaD	lj0
+留	lkiaeeB1	lk0
+卵	lkaiooC	lk0
+ 	lka0
+猎	lkeiiaC	lk0
+ 	lke0
+鲢	lkeaoaD	lk0
+鲡	lkeiaoD	lk0
+鳓	lkeiauE	lk0
+鲮	lkeiuoE	lk0
+獠	lkeuiaD	lk0
+鲁	lkiaeeC	lk0
+ 	lki0
+鲤	lkiaeeD	lk0
+狸	lkiaeeE	lk0
+鳢	lkiaeiF	lk0
+猡	lkiauaE	lk0
+鲈	lkieaeD	lk0
+乐	lkooooC	lk0
+ 	lko0
+狼	lkoaooD	lk0
+遛	lkoaooE	lk0
+鳞	lkouuaD	lk0
+雒	lkuioeC	lk0
+ 	lku0
+馏	lkuaiaD	lk0
+鹠	lkuaeeE	lk0
+饹	lkuaiaE	lk0
+飗	lkuaiaF	lk0
+猁	lkueiiD	lk0
+利	lliiiiB1	ll0
+乱	llaaaaC	ll0
+ 	lla0
+氯	llaeioD	ll0
+箓	llaeioE	ll0
+梨	lleiooC	ll0
+ 	lle0
+籁	lleiuaD	ll0
+簕	lleiauE	ll0
+篥	lleieiE	ll0
+箖	lleieiF	ll0
+稑	lleiuoE	ll0
+笼	lleuooD	ll0
+簝	lleuiaE	ll0
+篮	lliiiaC	ll0
+ 	lli0
+箩	lliauaD	ll0
+稆	lliaiaE	ll0
+黧	lliaooE	ll0
+篱	lloeiaC	ll0
+ 	llo0
+稂	lloaooD	ll0
+筤	lloaooE	ll0
+笠	lloeeeD	ll0
+簏	lloeeaE	ll0
+篓	llouauD	ll0
+黎	lluoioC	ll0
+ 	llu0
+氇	lluaiaD	ll0
+犁	llueiiD	ll0
+律	lmaeiiC	lm0
+ 	lma0
+徕	lmeoooC	lm0
+ 	lme0
+舻	lmieaeC	lm0
+ 	lmi0
+甪	lmiiiiD	lm0
+舲	lmuooaC	lm0
+ 	lmu0
+力	lnuuuuB1	ln0
+嫪	lnaouoC	ln0
+ 	lna0
+垏	lnaeiiD	ln0
+姥	lneiuaC	ln0
+ 	lne0
+堎	lneiuoD	ln0
+趔	lneuiiD	ln0
+坜	lneuauE	ln0
+嫽	lneuiaE	ln0
+垅	lneuooE	ln0
+垆	lnieaeC	ln0
+ 	lni0
+娌	lniaeeD	ln0
+嫘	lniaaaE	ln0
+塄	lniaoeE	ln0
+垃	lnoeeeC	ln0
+ 	lno0
+埌	lnoaooD	ln0
+墚	lnooeiD	ln0
+埒	lnuoeiC	ln0
+ 	lnu0
+坽	lnuooaD	ln0
+姈	lnuooaE	ln0
+理	loiaeeB1	lo0
+珕	loauauC	lo0
+ 	loa0
+琭	loaeioD	lo0
+珋	loauaiD	lo0
+琳	loeieiC	lo0
+ 	loe0
+琏	loeaoaD	lo0
+耢	loeiauD	lo0
+瑓	loeiooE	lo0
+珑	loeuooD	lo0
+嫠	loeuauE	lo0
+釐	loeuiaE	lo0
+䂮	loeuiaF	lo0
+弄	loeuiiF	lo0
+靓	loiauaC	lo0
+ 	loi0
+璐	loiauaD	lo0
+璃	looeiaC	lo0
+ 	loo0
+琅	looaooD	lo0
+琉	looeuiD	lo0
+耒	loooooD	lo0
+耧	loouauD	lo0
+璘	loouuaE	lo0
+玲	louooaC	lo0
+ 	lou0
+珞	louaiaD	lo0
+龙	lpooooB1	lp0
+历	lpauuuC	lp0
+ 	lpa0
+碌	lpaeioD	lp0
+励	lpauuuD	lp0
+聋	lpeieeC	lp0
+ 	lpe0
+厉	lpeauuD	lp0
+奁	lpeauoE	lp0
+䶮	lpeeooD	lp0
+垄	lpeieeD	lp0
+礌	lpeoiaD	lp0
+磊	lpeueuD	lp0
+砺	lpeueaE	lp0
+砻	lpeuiaE	lp0
+砳	lpeuiaF	lp0
+列	lpiiiiC	lp0
+ 	lpi0
+厘	lpiaeeD	lp0
+裂	lpoeooC	lp0
+ 	lpo0
+硫	lpoeuiD	lp0
+砬	lpoeeeE	lp0
+烈	lpooooD	lp0
+尨	lpooooE	lp0
+磷	lpouuaD	lp0
+磏	lpouooE	lp0
+殓	lpuoooC	lp0
+ 	lpu0
+砾	lpuaooD	lp0
+鹩	lpuaeeE	lp0
+䴕	lpuaeeF	lp0
+硌	lpuaiaE	lp0
+尥	lpuaooE	lp0
+览	lqiauaC	lq0
+ 	lqi0
+临	lqueiaC	lq0
+ 	lqu0
+虑	lroaooB1	lr0
+卢	lraeuuC	lr0
+ 	lra0
+镴	lraaiaD	lr0
+钌	lraiiiD	lr0
+镠	lraouoD	lr0
+虏	lrauuuD	lr0
+链	lreaoaC	lr0
+ 	lre0
+铑	lreiuaD	lr0
+铹	lreiauE	lr0
+镉	lreiaeF	lr0
+镭	lreoiaD	lr0
+铼	lreoooE	lr0
+颅	lreuiaD	lr0
+镣	lreuiaE	lr0
+锣	lriauaC	lr0
+ 	lri0
+铝	lriaiaD	lr0
+镙	lriaaaE	lr0
+锂	lriaeeE	lr0
+卤	lriauoE	lr0
+镰	lroeouC	lr0
+ 	lro0
+锒	lroaooD	lr0
+锍	lroeuiD	lr0
+镧	lroieiD	lr0
+镂	lrouauD	lr0
+铃	lruooaC	lr0
+ 	lru0
+镏	lruaiaD	lr0
+鸬	lruaeeE	lr0
+镥	lruaiaE	lr0
+龄	lruooaD	lr0
+锊	lruoeiE	lr0
+怜	lsuooaB1	ls0
+寥	lsaouoC	ls0
+ 	lsa0
+窿	lsaiuaD	ls0
+懒	lseiuaC	ls0
+ 	lse0
+㥄	lseiuoD	ls0
+寮	lseuiaD	ls0
+憭	lseuiaE	ls0
+帘	lsiaiiC	ls0
+ 	lsi0
+愣	lsiaoeD	ls0
+悝	lsiaeeE	ls0
+懔	lsoeeeC	ls0
+ 	lso0
+悢	lsoaooD	ls0
+牢	lsueiiC	ls0
+ 	lsu0
+流	ltoeuiB1	lt0
+漏	ltaeeiC	lt0
+ 	lta0
+渌	ltaeioD	lt0
+泐	ltaiauD	lt0
+漋	ltaiuaE	lt0
+漻	ltaouoD	lt0
+劣	ltauuuD	lt0
+梁	lteiooC	lt0
+ 	lte0
+涟	lteaoaD	lt0
+瑬	lteeooD	lt0
+淋	lteieiD	lt0
+涝	lteiauE	lt0
+漤	lteiauF	lt0
+溧	lteieiE	lt0
+濑	lteiuaE	lt0
+涞	lteoooD	lt0
+澪	lteouoE	lt0
+潦	lteuiaD	lt0
+沥	lteuauE	lt0
+洌	lteuiiE	lt0
+泷	lteuooE	lt0
+泪	ltiaeeC	lt0
+ 	lti0
+潞	ltiauaD	lt0
+漯	ltiaaaE	lt0
+澧	ltiaeiE	lt0
+浬	ltiaeeF	lt0
+滤	ltieoaD	lt0
+泸	ltieaeE	lt0
+滥	ltiiiaD	lt0
+浪	ltoaooC	lt0
+ 	lto0
+浏	ltoeiiD	lt0
+漉	ltoeeaE	lt0
+滦	ltoeeiF	lt0
+漓	ltoeiaE	lt0
+濂	ltoeouE	lt0
+澜	ltoieiD	lt0
+粱	ltouooD	lt0
+溇	ltouauE	lt0
+潾	ltouuaE	lt0
+溜	ltuaiaC	lt0
+ 	ltu0
+洛	ltuaiaD	lt0
+澛	ltuaiaE	lt0
+泺	ltuaooE	lt0
+浰	ltueiiD	lt0
+沦	ltuouaD	lt0
+鎏	ltuoeeE	lt0
+泠	ltuooaE	lt0
+潋	ltuoueE	lt0
+来	luooooB1	lu0
+酃	luaiiiC	lu0
+ 	lua0
+拢	lueuooC	lu0
+ 	lue0
+捞	lueiauD	lu0
+霖	lueieiE	lu0
+擂	lueoiaD	lu0
+撩	lueuiaD	lu0
+雳	lueuauE	lu0
+露	luiauaC	lu0
+ 	lui0
+雷	luiaeeD	lu0
+摞	luiaaaE	lu0
+撂	luiauaE	lu0
+赉	luiauoF	lu0
+掳	luieauD	lu0
+揽	luiiiaD	lu0
+拉	luoeeeC	lu0
+ 	luo0
+捩	luoaeuD	lu0
+掠	luoeiaD	lu0
+拦	luoueeD	lu0
+搂	luouauE	lu0
+零	luuooaC	lu0
+ 	luu0
+撸	luuaiaD	lu0
+拎	luuooaD	lu0
+捋	luuoeiE	lu0
+抡	luuouaE	lu0
+落	lwoouaB1	lw0
+劳	lwauuuC	lw0
+ 	lwa0
+菉	lwaeioD	lw0
+蓼	lwaouoD	lw0
+荔	lwauauD	lw0
+莲	lweaoaC	lw0
+ 	lwe0
+菱	lweiuoD	lw0
+菻	lweieiE	lw0
+荖	lweiuaE	lw0
+莱	lweoooD	lw0
+蕾	lweoiaE	lw0
+茏	lweuooD	lw0
+苈	lweuauE	lw0
+蓝	lwiiiaC	lw0
+ 	lwi0
+萝	lwiauaD	lw0
+藟	lwiaiaE	lw0
+蕗	lwiauaE	lw0
+芦	lwoauuC	lw0
+ 	lwo0
+莨	lwoaooD	lw0
+蓢	lwoauaE	lw0
+蓠	lwoeiaD	lw0
+蔺	lwoiuiD	lw0
+蒗	lwoooaD	lw0
+蒌	lwouauD	lw0
+莉	lwueiiC	lw0
+ 	lwu0
+藜	lwueuoD	lw0
+荦	lwueiiE	lw0
+莅	lwuioeD	lw0
+苓	lwuooaD	lw0
+莶	lwuoooE	lw0
+蔹	lwuoueE	lw0
+蓏	lwuuuuD	lw0
+葎	lwuuaeE	lw0
+勠	lxauuuC	lx0
+ 	lxa0
+垒	lxeieeC	lx0
+ 	lxe0
+戮	lxeaooD	lx0
+鹨	lxuaeeC	lx0
+ 	lxu0
+老	lyuaaaB1	ly0
+勒	lyauuuC	ly0
+ 	lya0
+鬣	lyaaiaD	ly0
+醪	lyaouoD	ly0
+栗	lyeiooC	ly0
+ 	lye0
+鞡	lyeioeD	ly0
+剌	lyiiiiC	ly0
+ 	lyi0
+醴	lyiaeiD	ly0
+联	lyoueeC	ly0
+ 	lyo0
+醨	lyoeiaD	ly0
+吏	lyooooD	ly0
+赖	lyuaiaC	ly0
+ 	lyu0
+聊	lyuaaiD	ly0
+酪	lyuaiaE	ly0
+聆	lyuooaD	ly0
+酹	lyuoeiE	ly0
+陆	lzeeiiB1	lz0
+陵	lzeiuoC	lz0
+ 	lze0
+陋	lzeiaaD	lz0
+陇	lzeuooD	lz0
+辽	lzoaooC	lz0
+ 	lzo0
+隆	lzuaueC	lz0
+ 	lzu0
+没	mtuaaoA1	mt0
+吗	mjaaeeA2	mj0
+门	maaaaaB1	ma0
+闽	maiaooC	ma0
+ 	mai0
+买	maooeuC	ma0
+ 	mao0
+闷	maoaooD	ma0
+闵	maoeooD	ma0
+木	mbooooB1	mb0
+民	mbaaaaC	mb0
+ 	mba0
+杩	mbaaeeD	mb0
+楣	mbaiiaD	mb0
+楙	mbaoeiD	mb0
+模	mbeiiaC	mb0
+ 	mbe0
+弭	mbeieeD	mb0
+檬	mbeieeE	mb0
+杪	mbiuuuC	mb0
+ 	mbi0
+懋	mboaooC	mb0
+ 	mbo0
+愍	mboaooD	mb0
+杧	mboeaaD	mb0
+梦	mbuaooC	mb0
+ 	mbu0
+弥	mbuaiuD	mb0
+梅	mbueaaD	mb0
+枚	mbueooE	mb0
+棉	mbuiiaD	mb0
+马	mceeeeB1	mc0
+缪	mcaouoC	mc0
+ 	mca0
+乜	mcaaaaD	mc0
+缗	mcaeiaD	mc0
+膜	mceiiaC	mc0
+ 	mce0
+朦	mceieeD	mc0
+缅	mceueeD	mc0
+腼	mceueeE	mc0
+缈	mciaiuC	mc0
+ 	mci0
+缦	mciaiaD	mc0
+糸	mciuooD	mc0
+母	mcooooC	mc0
+ 	mco0
+脉	mcoaooD	mc0
+脒	mcouooD	mc0
+绵	mcuiiaC	mc0
+ 	mcu0
+谋	mdeieiB1	md0
+谬	mdaouoC	md0
+ 	mda0
+祃	mdaaeeD	md0
+袂	mdaeooD	md0
+谟	mdeiiaC	md0
+ 	mde0
+冥	mdiaoeC	md0
+ 	mdi0
+幂	mdiaeuD	md0
+谩	mdiaiaE	md0
+谜	mdouoaC	md0
+ 	mdo0
+谧	mdoaiaD	md0
+祕	mdoaooE	md0
+祢	mduaiuC	md0
+ 	mdu0
+目	meeeeeB1	me0
+眠	meaeaaC	me0
+ 	mea0
+蚂	meaaeeD	me0
+岷	meaeaaD	me0
+嵋	meaiiaD	me0
+蜢	meaiiaE	me0
+眸	meaoueD	me0
+蛑	meaoueE	me0
+瞒	meeieiC	me0
+ 	mee0
+皿	meeeeeD	me0
+墨	meeieeD	me0
+眄	meeiaaE	me0
+蟒	meeieuE	me0
+蠓	meeieeF	me0
+幪	meeieeF2	me0
+㠓	meeieeF3	me0
+螨	meeieiF	me0
+瞄	meeiiaE	me0
+蟆	meeiiaF	me0
+蠛	meeiiaF2	me0
+睦	meeiuoE	me0
+默	meeuooD	me0
+冒	meiaeeC	me0
+ 	mei0
+帽	meiaiaD	me0
+幔	meiaiaE	me0
+眇	meiuuuD	me0
+灭	meouooC	me0
+ 	meo0
+瞑	meoaiaD	me0
+螟	meoaiaE	me0
+虻	meoeaaD	me0
+眯	meouooD	me0
+瞇	meouoaE	me0
+冕	meuaiaC	me0
+ 	meu0
+峁	meuaaiD	me0
+朙	meuaeeE	me0
+眊	meueaaD	me0
+庙	mfiaeeB1	mf0
+氓	mfaeaaC	mf0
+ 	mfa0
+縻	mfaaiuD	mf0
+邙	mfaiiiD	mf0
+袤	mfaouaD	mf0
+磨	mfeuiaC	mf0
+ 	mfe0
+麻	mfeieiD	mf0
+瘼	mfeiiaE	mf0
+亩	mfiaeeC	mf0
+ 	mfi0
+蛮	mfiaooD	mf0
+盲	mfiaeeE	mf0
+靡	mfieieD	mf0
+糜	mfouooC	mf0
+ 	mfo0
+忞	mfoaooD	mf0
+麋	mfouooD	mf0
+魔	mfuiaoC	mf0
+ 	mfu0
+麽	mfuaooD	mf0
+摩	mfueiiD	mf0
+旄	mfueueE	mf0
+美	mgeuooB1	mg0
+煤	mgeieiC	mg0
+ 	mge0
+熳	mgiaiaC	mg0
+ 	mgi0
+米	mgooooC	mg0
+ 	mgo0
+迷	mgoaooD	mg0
+焖	mgoioaD	mg0
+敉	mgueooC	mg0
+ 	mgu0
+们	mhoiaaB1	mh0
+侔	mhaoueC	mh0
+ 	mha0
+魅	mheeooC	mh0
+ 	mhe0
+偭	mheuiaD	mh0
+命	mhiaaiC	mh0
+ 	mhi0
+仫	mhuaooC	mh0
+ 	mhu0
+明	miuaeeB1	mi0
+劢	miauuuC	mi0
+ 	mia0
+昧	mieeooC	mi0
+ 	mie0
+曼	miiaaoC	mi0
+ 	mii0
+盟	miiaeeD	mi0
+迈	mioaooC	mi0
+ 	mio0
+暝	mioaiaD	mi0
+旻	mioeooD	mi0
+昴	miuaaiC	mi0
+ 	miu0
+万	miuuuuD	mi0
+嘛	mjoeeiB1	mj0
+骂	mjaaeeC	mj0
+ 	mja0
+呣	mjaaooD	mj0
+𧿹	mjaaooE	mj0
+哞	mjaoueD	mj0
+喵	mjeiiaC	mj0
+ 	mje0
+呒	mjeeaaD	mj0
+唛	mjeeuaE	mj0
+貘	mjeiiaD	mj0
+唔	mjeiiaE	mj0
+貊	mjeuiaD	mj0
+觅	mjiauaC	mj0
+ 	mji0
+黾	mjiaaaD	mj0
+咪	mjouooC	mj0
+ 	mjo0
+邈	mjoaooD	mj0
+嘧	mjooiaD	mj0
+咩	mjoueeD	mj0
+鸣	mjuaeeC	mj0
+ 	mju0
+貉	mjuaiaD	mj0
+貌	mjuiuaD	mj0
+名	mkiaeeB1	mk0
+猛	mkaiiaC	mk0
+ 	mka0
+犸	mkaaeeD	mk0
+猕	mkaeuaD	mk0
+卯	mkaiiiD	mk0
+猸	mkaiiaE	mk0
+勉	mkauuuD	mk0
+猫	mkeiiaC	mk0
+ 	mke0
+馍	mkeiiaD	mk0
+獴	mkeieeE	mk0
+獏	mkeiiaE	mk0
+免	mkiaaaC	mk0
+ 	mki0
+贸	mkiauoD	mk0
+馒	mkiaiaE	mk0
+鳗	mkiaiaF	mk0
+么	mkooooC	mk0
+ 	mko0
+𩾃	mkuaiaC	mk0
+ 	mku0
+每	mlaaooB1	ml0
+毛	mlaaaaC	ml0
+ 	mla0
+毪	mlaoueD	ml0
+牡	mleieeC	ml0
+ 	mle0
+秣	mleeooD	ml0
+牻	mleuooD	ml0
+秒	mliuuuC	ml0
+ 	mli0
+篾	mliaeuD	ml0
+秘	mloaooC	ml0
+ 	mlo0
+牤	mloeaaD	ml0
+敏	mlueooC	ml0
+ 	mlu0
+鳘	mluaiaD	ml0
+牧	mlueooD	ml0
+牦	mlueaaE	ml0
+穆	mluiiuD	ml0
+艋	mmaiiaC	mm0
+ 	mma0
+艨	mmeieeC	mm0
+ 	mme0
+妈	mnaaeeB1	mn0
+姆	mnaaooC	mn0
+ 	mna0
+坶	mnaaooD	mn0
+媚	mnaiiaD	mn0
+妹	mneeooC	mn0
+ 	mne0
+媒	mneieiD	mn0
+嫫	mneiiaE	mn0
+姥	mneiuaE	mn0
+妙	mniuuuC	mn0
+ 	mni0
+埋	mniaeeD	mn0
+嫚	mniaiaE	mn0
+墁	mniaiaF	mn0
+嬷	mnoeuaC	mn0
+ 	mno0
+媄	mnoueuD	mn0
+娩	mnuaiaC	mn0
+ 	mnu0
+末	moooooB1	mo0
+玛	moaaeeC	mo0
+ 	moa0
+无	moaaaaD	mo0
+珉	moaeaaD	mo0
+瑂	moaiiaD	mo0
+瑁	moiaiaC	mo0
+ 	moi0
+玟	mooeooC	mo0
+ 	moo0
+耱	mooeeuD	mo0
+麦	mouaooC	mo0
+ 	mou0
+玫	moueooD	mo0
+面	mpeeeeB1	mp0
+码	mpaaeeC	mp0
+ 	mpa0
+勔	mpauuuD	mp0
+硭	mpeioeC	mp0
+ 	mpe0
+礞	mpeieeD	mp0
+厖	mpeuooD	mp0
+冇	mpiaaaC	mp0
+ 	mpi0
+殁	mpuaaoC	mp0
+ 	mpu0
+碈	mpuaiaD	mp0
+铭	mruaiaB1	mr0
+锰	mraiiaC	mr0
+ 	mra0
+镅	mraiiaD	mr0
+锚	mreiiaC	mr0
+ 	mre0
+芈	mriiiiD	mr0
+铓	mreioeD	mr0
+镆	mreiiaE	mr0
+钼	mriaeeC	mr0
+ 	mri0
+镘	mriaiaD	mr0
+镁	mroueuC	mr0
+ 	mro0
+钔	mroiaaD	mr0
+铆	mruaaiC	mr0
+ 	mru0
+慢	msiaiaB1	ms0
+寐	msaieeC	ms0
+ 	msa0
+寞	mseiiaC	ms0
+ 	mse0
+懵	mseiiaD	ms0
+愐	mseuiaD	ms0
+密	msiaiiC	ms0
+ 	msi0
+蜜	msiaooD	ms0
+忙	msoeaaC	ms0
+ 	mso0
+宓	msoaooD	ms0
+悯	msoioeD	ms0
+满	mteieiB1	mt0
+湄	mtaiiaC	mt0
+ 	mta0
+泯	mtaeaaD	mt0
+湣	mtaeiaE	mt0
+漠	mteiiaC	mt0
+ 	mte0
+沫	mteeooD	mt0
+濛	mteieeD	mt0
+沔	mteiaaE	mt0
+漭	mteieuE	mt0
+沐	mteiooE	mt0
+湎	mteueeD	mt0
+漫	mtiaiaC	mt0
+ 	mti0
+渺	mtiaiuD	mt0
+汨	mtiaeeE	mt0
+淼	mtiaiaE	mt0
+渑	mtiaiaF	mt0
+泌	mtoaooC	mt0
+ 	mto0
+溟	mtoaiaD	mt0
+懑	mtoaooE	mt0
+汶	mtoeooD	mt0
+渼	mtoueuD	mt0
+洣	mtouooE	mt0
+浼	mtuaiaC	mt0
+ 	mtu0
+泖	mtuaaiD	mt0
+洺	mtuaiaE	mt0
+摸	mueiiaB1	mu0
+抿	muaeaaC	mu0
+ 	mua0
+拇	muaaooD	mu0
+抹	mueeooC	mu0
+ 	mue0
+描	mueiiaD	mu0
+扪	muoiaaC	mu0
+ 	muo0
+霉	muueaaC	mu0
+ 	muu0
+霾	muuoiaD	mu0
+莫	mwiaeuB1	mw0
+茅	mwaouuC	mw0
+ 	mwa0
+蓦	mwaaeeD	mw0
+苠	mwaeaaD	mw0
+鄚	mwaiiiD	mw0
+荬	mwaooeD	mw0
+募	mwauuuD	mw0
+茂	mweuooC	mw0
+ 	mwe0
+甍	mweaaoD	mw0
+蒙	mweeooD	mw0
+茉	mweeooE	mw0
+墓	mweieeD	mw0
+莽	mweueuD	mw0
+颟	mweuiaE	mw0
+萌	mwiauaC	mw0
+ 	mwi0
+幕	mwiaiiD	mw0
+苗	mwiaeeE	mw0
+暮	mwiaeeF	mw0
+瞢	mwiaeeF2	mw0
+苜	mwiaeeF3	mw0
+蔑	mwiaeuF	mw0
+蔓	mwiaiaE	mw0
+蓂	mwiaoeE	mw0
+慕	mwioooD	mw0
+茫	mwoooeC	mw0
+ 	mwo0
+芒	mwoeaaD	mw0
+蘑	mwoeeuE	mw0
+蘼	mwoeieE	mw0
+藦	mwoeueE	mw0
+摹	mwueiiC	mw0
+ 	mwu0
+茗	mwuaiaD	mw0
+茆	mwuaaiE	mw0
+鹋	mwuaeeE	mw0
+鹲	mwuaeeF	mw0
+莓	mwueaaD	mw0
+芼	mwueaaE	mw0
+藐	mwuouiD	mw0
+瞀	mxiaeeC	mx0
+ 	mxi0
+蝥	mxiaooD	mx0
+蟊	mxiaiaE	mx0
+矛	mxuuuuC	mx0
+ 	mxu0
+牟	mxueiiD	mx0
+鍪	mxuoeeD	mx0
+某	myeiooB1	my0
+卖	myaoooC	my0
+ 	mya0
+丏	myaaaaD	my0
+靺	myeeooC	my0
+ 	mye0
+鬘	myiaiaC	my0
+ 	myi0
+醚	myouoaC	my0
+ 	myo0
+醾	myoeouD	my0
+髦	myueaaC	my0
+ 	myu0
+酩	myuaiaD	my0
+鞔	myuaiaE	my0
+酶	myueaaD	my0
+耄	myueaaE	my0
+眉	mziaeeB1	mz0
+勐	mzauuuC	mz0
+ 	mza0
+郿	mzaiiiD	mz0
+陌	mzeuiaC	mz0
+ 	mze0
+孟	mziaeeC	mz0
+ 	mzi0
+鹛	mzuaeeC	mz0
+ 	mzu0
+你	nhuaiuA1	nh0
+您	nhoaooA2	nh0
+闹	naoeiaB1	na0
+那	nbaiiiB1	nb0
+杻	nbaieeC	nb0
+ 	nba0
+楠	nbeiiaC	nb0
+ 	nbe0
+桡	nbeaeuD	nb0
+柰	nbeeiuD	nb0
+尿	nbiaooC	nb0
+ 	nbi0
+柟	nbiaeeD	nb0
+柠	nbooeiC	nb0
+ 	nbo0
+尼	nbuaaaC	nb0
+ 	nbu0
+脑	ncoeuoB1	nc0
+纽	ncaieeC	nc0
+ 	nca0
+乜	ncaaaaD	nc0
+脲	ncaeiaD	nc0
+腻	nceaeeC	nc0
+ 	nce0
+腩	nceiiaD	nc0
+臑	nceoeuD	nc0
+纳	nciaooC	nc0
+ 	nci0
+肭	nciaooD	nc0
+脓	ncoaooC	nc0
+ 	nco0
+农	ndooooB1	nd0
+诺	ndeieuC	nd0
+ 	nde0
+讷	ndiaooC	nd0
+ 	ndi0
+衲	ndiaooD	nd0
+内	neooooB1	ne0
+男	neauuuC	ne0
+ 	nea0
+囡	neaueeD	ne0
+嬲	neauiaE	ne0
+蛲	neeaeuC	ne0
+ 	nee0
+蝻	neeiiaD	ne0
+睨	neuiuaC	ne0
+ 	neu0
+嵲	neuieiD	ne0
+凝	nfuaaoB1	nf0
+疟	nfeaeeC	nf0
+ 	nfe0
+旎	nfueaeC	nf0
+ 	nfu0
+麑	nfuiuoD	nf0
+糯	ngeoeuC	ng0
+ 	nge0
+粘	ngieiaC	ng0
+ 	ngi0
+逆	ngoaooC	ng0
+ 	ngo0
+拿	nhueiiB1	nh0
+伲	nhaeuaC	nh0
+ 	nha0
+衄	nhaieeD	nh0
+傩	nhaouiD	nh0
+佞	nheeauC	nh0
+ 	nhe0
+臬	nheiooD	nh0
+佴	nheieeE	nh0
+齉	nheiiaE	nh0
+傉	nheueiD	nh0
+念	nhoaooC	nh0
+ 	nho0
+恁	nhoaooD	nh0
+侬	nhoaooE	nh0
+倪	nhuiuaC	nh0
+ 	nhu0
+暖	niuoeeB1	ni0
+昵	niaeuaC	ni0
+ 	nia0
+辗	niaeeiD	ni0
+匿	nieieuC	ni0
+ 	nie0
+曩	nioeiaC	ni0
+ 	nio0
+呢	njaeuaB1	nj0
+哪	njaeaiC	nj0
+ 	nja0
+呶	njauaoD	nj0
+喃	njeiiaC	nj0
+ 	nje0
+喏	njeieuD	nj0
+蹑	njeiaoE	nj0
+嗫	njeiaoF	nj0
+囔	njeiiaE	nj0
+呐	njiaooC	nj0
+ 	nji0
+啮	njieuoD	nj0
+哝	njoaooC	nj0
+ 	njo0
+咛	njooeiD	nj0
+鸟	nkeeeeB1	nk0
+猱	nkaoeiC	nk0
+ 	nka0
+狃	nkaieeD	nk0
+峱	nkaiiaE	nk0
+疑	nkaoaiD	nk0
+馕	nkeiiaC	nk0
+ 	nke0
+鲇	nkieiaC	nk0
+ 	nki0
+袅	nkoeooC	nk0
+ 	nko0
+狞	nkooeiD	nk0
+馁	nkuoauC	nk0
+ 	nku0
+猊	nkuiuaD	nk0
+鲵	nkuiuaE	nk0
+鲶	nkuooaD	nk0
+年	nliiiiB1	nl0
+氖	nlauuuC	nl0
+ 	nla0
+馜	nlaeuaD	nl0
+笯	nlauaoD	nl0
+牛	nliiiiC	nl0
+ 	nli0
+黏	nlieiaD	nl0
+秾	nloaooC	nl0
+ 	nlo0
+奶	nnauuuB1	nn0
+娜	nnaeaiC	nn0
+ 	nna0
+驽	nnaaeeD	nn0
+妮	nnaeuaD	nn0
+弩	nnaeaaE	nn0
+坭	nnaeuaE	nn0
+妞	nnaieeD	nn0
+赧	nnaiaoE	nn0
+孥	nnaieeE	nn0
+奴	nnaoooD	nn0
+努	nnauuuD	nn0
+女	nneeeeC	nn0
+ 	nne0
+嫩	nneiueD	nn0
+婻	nneiouE	nn0
+砮	nneuiaD	nn0
+鼐	nniaaeC	nn0
+ 	nni0
+帑	nniaiiD	nn0
+嫐	nniaauE	nn0
+胬	nniauoE	nn0
+娘	nnoaooC	nn0
+ 	nno0
+怒	nnoaooD	nn0
+垴	nnoeuoD	nn0
+乃	nnuuuuC	nn0
+ 	nnu0
+妳	nnuaiuD	nn0
+埝	nnuooaD	nn0
+弄	noeuiiB1	no0
+瑙	noaauiC	no0
+ 	noa0
+辇	noeaiiC	no0
+ 	noe0
+耨	noeueiD	no0
+耐	npeiooB1	np0
+碾	npaeeiC	np0
+ 	npa0
+孬	npauaiD	np0
+奈	npeeiuC	np0
+ 	npe0
+恧	npoaooC	np0
+ 	npo0
+硇	npuiuoC	np0
+ 	npu0
+虐	nreaeeB1	nr0
+钮	nraieeC	nr0
+ 	nra0
+铌	nraeuaD	nr0
+钕	nraueeD	nr0
+铙	nreaeuC	nr0
+ 	nre0
+镊	nreiaoD	nr0
+锘	nreieuE	nr0
+钠	nriaooC	nr0
+ 	nri0
+镍	nruieiC	nr0
+ 	nru0
+镎	nruoueD	nr0
+宁	nseiiiB1	ns0
+忸	nsaieeC	ns0
+ 	nsa0
+怩	nsaeuaD	ns0
+懦	nseoeuC	ns0
+ 	nse0
+恼	nsoeuoC	ns0
+ 	nso0
+甯	nsoaiaD	ns0
+浓	ntoaooB1	nt0
+泥	ntaeuaC	nt0
+ 	nta0
+溺	ntaeaeD	nt0
+涅	ntiaeiC	nt0
+ 	nti0
+淖	ntieiaD	nt0
+泞	ntooeiC	nt0
+ 	nto0
+拟	nuaouoB1	nu0
+扭	nuaieeC	nu0
+ 	nua0
+拗	nuaaauD	nu0
+挪	nuaeaiD	nu0
+搦	nuaeaeE	nu0
+挠	nueaeuC	nu0
+ 	nue0
+撵	nueeeaD	nu0
+攮	nueiiaD	nu0
+摄	nueiaoE	nu0
+捺	nueueeD	nu0
+捏	nuiaeiC	nu0
+ 	nui0
+拈	nuieiaD	nu0
+拧	nuooeiC	nu0
+ 	nuo0
+霓	nuuiuaC	nu0
+ 	nuu0
+捻	nuuooaD	nu0
+孽	nwaieeC	nw0
+ 	nwa0
+艿	nwauuuD	nw0
+𦰡	nwaeaiD	nw0
+蔫	nweieaC	nw0
+ 	nwe0
+萳	nweiouD	nw0
+萘	nweueeD	nw0
+茑	nwuaeeC	nw0
+ 	nwu0
+薿	nwuaaoD	nw0
+蘖	nweiooE	nw0
+糵	nwouooC	nw0
+ 	nwo0
+菍	nwuooaD	nw0
+能	nxuauaB1	nx0
+难	nxuioeC	nx0
+ 	nxu0
+南	nyiaouB1	ny0
+聂	nyaoaoC	ny0
+ 	nya0
+廿	nyeeeeC	ny0
+ 	nye0
+颞	nyeuiaD	ny0
+囊	nyiaeeC	ny0
+ 	nyi0
+酿	nyoaooC	ny0
+ 	nyo0
+迺	nyoaooD	ny0
+聍	nyooeiD	ny0
+乸	nzaaooC	nz0
+ 	nza0
+陧	nziaeiC	nz0
+ 	nzi0
+𨺙	nzuiuoC	nz0
+ 	nzu0
+平	puiiiiA1	pu0
+凭	phuaaaA2	ph0
+屏	pboueeB1	pb0
+劈	pbauuuC	pb0
+ 	pba0
+杷	pbaiaaD	pb0
+屁	pbeauaC	pb0
+ 	pbe0
+枇	pbeauaD	pb0
+甓	pbeaooE	pb0
+枰	pbeoiiD	pb0
+攀	pbeuueD	pb0
+朴	pbioooC	pb0
+ 	pbi0
+榀	pbiaiaD	pb0
+辟	pboeeiC	pb0
+ 	pbo0
+譬	pboeeeD	pb0
+䴙	pboeuaE	pb0
+柈	pbouiiD	pb0
+椪	pboueiE	pb0
+棚	pbuauaC	pb0
+ 	pbu0
+弸	pbuauaD	pb0
+椑	pbuieiD	pb0
+楩	pbuieiE	pb0
+骗	pcoaiaB1	pc0
+膨	pceiuuC	pc0
+ 	pce0
+纰	pceauaD	pc0
+骠	pceieeD	pc0
+缥	pceieeE	pc0
+膘	pceieeF	pc0
+脯	pceiooE	pc0
+胚	pceueeD	pc0
+辔	pciaeeC	pc0
+ 	pci0
+胖	pcouiiC	pc0
+ 	pco0
+膀	pcoeoeD	pc0
+骈	pcoueeD	pc0
+胼	pcoueeE	pc0
+朋	pcuaeeC	pc0
+ 	pcu0
+鹏	pcuaeeD	pc0
+脾	pcuieiD	pc0
+缏	pcuieiE	pc0
+脬	pcuoaiD	pc0
+评	pdeoiiB1	pd0
+翩	pdaoaoC	pd0
+ 	pda0
+被	pdauaoD	pd0
+襻	pdeieuC	pd0
+ 	pde0
+扁	pdiaiiC	pd0
+ 	pdi0
+谱	pdouiaC	pd0
+ 	pdo0
+谝	pdoaiaD	pd0
+袢	pdouiiD	pd0
+袍	pduaaeC	pd0
+ 	pdu0
+裨	pduieiD	pd0
+帕	peuieeB1	pe0
+帔	peauaoC	pe0
+ 	pea0
+瞟	peeieeC	pe0
+ 	pee0
+毗	peeauaD	pe0
+蚍	peeauaE	pe0
+圃	peeiooD	pe0
+罢	peeiaoE	pe0
+螵	peeieeE	pe0
+罴	peeiooE	pe0
+蟛	peeiuuE	pe0
+蚲	peeoiiD	pe0
+赔	peoeiaC	pe0
+ 	peo0
+螃	peoeoeD	pe0
+畔	peouiiD	pe0
+帡	peoueeE	pe0
+盼	peuoauC	pe0
+ 	peu0
+睥	peuieiD	pe0
+蜱	peuieiE	pe0
+蟠	peuoiaD	pe0
+旁	pfoeuuB1	pf0
+疲	pfauaoC	pf0
+ 	pfa0
+冯	pfaaeeD	pf0
+癖	pfaeoeD	pf0
+庞	pfeuooC	pf0
+ 	pfe0
+痞	pfeuiaD	pf0
+剖	pfiiiiC	pf0
+ 	pfi0
+烹	pfooooC	pf0
+ 	pfo0
+庖	pfuaaeC	pf0
+ 	pfu0
+疱	pfuaaeD	pf0
+庀	pfuaaaE	pf0
+旆	pfueeiD	pf0
+裒	pfuiuaD	pf0
+普	pgiaeeB1	pg0
+瓶	pgeaooC	pg0
+ 	pge0
+判	pgiiiiC	pg0
+ 	pgi0
+瞥	pgiaeeD	pg0
+炮	pguaaeC	pg0
+ 	pgu0
+粕	pguieeD	pg0
+叛	pguuaoD	pg0
+片	phaaaaB1	ph0
+僻	phaeoeC	ph0
+ 	pha0
+郫	phaiiiD	ph0
+仳	pheauaC	ph0
+ 	phe0
+便	pheiooD	ph0
+堡	pheieeE	ph0
+伾	pheueeD	ph0
+衃	pheuooE	ph0
+仆	phioooC	ph0
+ 	phi0
+俜	phiaeaD	ph0
+俳	phieieD	ph0
+偏	phoaiaC	ph0
+ 	pho0
+迫	phoaooD	ph0
+乓	phooooD	ph0
+牌	phuieiC	ph0
+ 	phu0
+佩	phuaeiD	ph0
+魄	phuiaoD	ph0
+皤	phuoiaD	ph0
+乒	phuuuuD	ph0
+匹	piuaaaB1	pi0
+暴	pieiioC	pi0
+ 	pie0
+叵	piiaeeC	pi0
+ 	pii0
+曝	piiaeiD	pi0
+品	pjiaiaB1	pj0
+鄱	pjaiiiC	pj0
+ 	pja0
+噼	pjaeoeD	pj0
+跛	pjauaoD	pj0
+喷	pjeiiaC	pj0
+ 	pje0
+吡	pjeauaD	pj0
+啪	pjeiuiD	pj0
+哱	pjeiaiE	pj0
+蹒	pjeieiE	pj0
+嘌	pjeieeF	pj0
+嘭	pjeiuuE	pj0
+呸	pjeueeD	pj0
+贫	pjiauoC	pj0
+ 	pji0
+盆	pjiaeeD	pj0
+番	pjiaeeE	pj0
+噗	pjiiouD	pj0
+蹼	pjiiouE	pj0
+蹁	pjoaiaC	pj0
+ 	pjo0
+跑	pjuaaeC	pj0
+ 	pju0
+咆	pjuaaeD	pj0
+啤	pjuieiD	pj0
+貔	pjuieaE	pj0
+趴	pjuoooD	pj0
+叭	pjuoooE	pj0
+哌	pjuuuaD	pj0
+刨	pkiiiiB1	pk0
+鲏	pkauaoC	pk0
+ 	pka0
+匍	pkeiooC	pk0
+ 	pke0
+鲆	pkeoiiD	pk0
+狉	pkeueeD	pk0
+逄	pkoaooC	pk0
+ 	pko0
+鳑	pkoeoeD	pk0
+狍	pkuaaeC	pk0
+ 	pku0
+鲍	pkuaaeD	pk0
+篇	ploaiaB1	pl0
+繁	plaaiuC	pl0
+ 	pla0
+笸	pleaiaC	pl0
+ 	ple0
+筢	pleiaiD	pl0
+穙	pliiouC	pl0
+ 	pli0
+犏	ploaiaC	pl0
+ 	plo0
+氆	plouiaD	pl0
+篷	pluaoaC	pl0
+ 	plu0
+牝	pluaaaD	pl0
+簰	pluiuiD	pl0
+氕	pluuuuD	pl0
+盘	pmiaeeB1	pm0
+爬	pmaiaaC	pm0
+ 	pma0
+舥	pmaiaaD	pm0
+磐	pmeuiaC	pm0
+ 	pme0
+槃	pmeiooD	pm0
+徘	pmieieC	pm0
+ 	pmi0
+彷	pmoeuuC	pm0
+ 	pmo0
+皮	pnaoooB1	pn0
+坡	pnauaoC	pn0
+ 	pna0
+圮	pnaeaaD	pn0
+颇	pneuiaC	pn0
+ 	pne0
+嫖	pneieeD	pn0
+埔	pneiooE	pn0
+坪	pneoiiD	pn0
+坯	pneueeD	pn0
+嚭	pneuiaE	pn0
+坏	pneuooE	pn0
+娉	pniaeaC	pn0
+ 	pni0
+墣	pniiouD	pn0
+培	pnoeiaC	pn0
+ 	pno0
+𡎚	pnoaiaD	pn0
+嫔	pnoouiD	pn0
+姘	pnoueeD	pn0
+彭	pnuuuuC	pn0
+ 	pnu0
+堋	pnuauaD	pn0
+媲	pnuieaD	pn0
+埤	pnuieiE	pn0
+㛹	pnuieiF	pn0
+鼙	pnuieiF2	pn0
+垺	pnuoaiD	pn0
+耙	poaiaaB1	po0
+琶	poaiaaC	po0
+ 	poa0
+琵	poeauaC	po0
+ 	poe0
+玭	poeauaD	po0
+玶	poeoiiD	po0
+璞	poiiouC	po0
+ 	poi0
+耪	pooeoeC	po0
+ 	poo0
+珮	pouaeiC	po0
+ 	pou0
+珀	pouieeD	po0
+碰	ppoueiB1	pp0
+破	ppauaoC	pp0
+ 	ppa0
+邳	ppaiiiD	pp0
+砰	ppeoiiC	pp0
+ 	ppe0
+砒	ppeauaD	pp0
+丕	ppeeeeD	pp0
+否	ppiaeeC	pp0
+ 	ppi0
+磅	ppoeoeC	pp0
+ 	ppo0
+硼	ppuauaC	pp0
+ 	ppu0
+匏	ppuaaeD	pp0
+殍	ppuoaiD	pp0
+磻	ppuoiaE	pp0
+频	preuiaB1	pr0
+铍	prauaoC	pr0
+ 	pra0
+钯	praiaaD	pr0
+攴	praoooD	pr0
+䥽	prauooD	pr0
+铺	preiooC	pr0
+ 	pre0
+钷	preaiaD	pr0
+钋	prioooC	pr0
+ 	pri0
+镤	priiouD	pr0
+裴	proeooC	pr0
+ 	pro0
+锫	proeiaD	pr0
+镨	prouiaD	pr0
+颦	pruieiC	pr0
+ 	pru0
+怕	psuieeB1	ps0
+怦	pseoiiC	ps0
+ 	pse0
+派	ptuuuaB1	pt0
+婆	ptaueeC	pt0
+ 	pta0
+澼	ptaeoeD	pt0
+泼	ptauaoD	pt0
+漂	pteieeC	pt0
+ 	pte0
+潖	pteeaiD	pt0
+沛	pteiiiD	pt0
+溥	pteieiE	pt0
+浦	pteiooE	pt0
+澎	pteiuuE	pt0
+泙	pteoiiD	pt0
+瀑	ptiaeiC	pt0
+ 	pti0
+淠	ptiaeuD	pt0
+涄	ptiaeaE	pt0
+滂	ptoeoeC	pt0
+ 	pto0
+泮	ptouiiD	pt0
+洴	ptoueeE	pt0
+潽	ptouiaE	pt0
+潘	ptuoiaC	pt0
+ 	ptu0
+泡	ptuaaeD	pt0
+泺	ptuaooE	pt0
+淜	ptuauaE	pt0
+湃	ptueeeD	pt0
+濮	ptuiiiD	pt0
+泊	ptuieeE	pt0
+濞	ptuiiaE	pt0
+湓	ptuoiaD	pt0
+排	puieieB1	pu0
+披	puauaoC	pu0
+ 	pua0
+霹	puaeoeD	pu0
+擗	puaeoeE	pu0
+拚	puaoeuD	pu0
+批	pueauaC	pu0
+ 	pue0
+雱	pueauuD	pu0
+捧	pueeeeD	pu0
+抨	pueoiiD	pu0
+拋	pueuauD	pu0
+抔	pueuooE	pu0
+扑	puioooC	pu0
+ 	pui0
+拼	puoueeC	pu0
+ 	puo0
+掊	puoeiaD	pu0
+霈	puooeiD	pu0
+撇	puouueD	pu0
+拌	puouiiE	pu0
+拍	puuieeC	pu0
+ 	puu0
+抛	puuaauD	pu0
+扒	puuoooD	pu0
+蓬	pwuaoaB1	pw0
+芭	pwaiaaC	pw0
+ 	pwa0
+苹	pweoiiC	pw0
+ 	pwe0
+芘	pweauaD	pw0
+苉	pweauoE	pw0
+莆	pweiooD	pw0
+蒱	pweieiE	pw0
+苤	pweueeD	pw0
+萍	pwooeoC	pw0
+ 	pwo0
+菩	pwoeiaD	pw0
+蒲	pwooeiD	pw0
+薸	pwooeiE	pw0
+蓱	pwooouE	pw0
+蒎	pwoouuE	pw0
+荓	pwoueeD	pw0
+葡	pwuaeiC	pw0
+ 	pwu0
+芃	pwuaooD	pw0
+葩	pwuiaiD	pw0
+莩	pwuoaiD	pw0
+配	pyaeaaB1	py0
+酦	pyauooC	py0
+ 	pya0
+票	pyeeiuC	py0
+ 	pye0
+酺	pyeiooD	py0
+聘	pyiaeaC	py0
+ 	pyi0
+剽	pyiiiiD	py0
+醅	pyoeiaC	py0
+ 	pyo0
+飘	pyuauoC	py0
+ 	pyu0
+瓢	pyuuooD	py0
+陪	pzoeiaB1	pz0
+陂	pzauaoC	pz0
+ 	pza0
+疋	pzooooC	pz0
+ 	pzo0
+爿	pzuuuuC	pz0
+ 	pzu0
+陴	pzuieiD	pz0
+去	qnaoooA1	qn0
+其	qyuoooA2	qy0
+阙	qaouuaB1	qa0
+阕	qaaoeeC	qa0
+ 	qaa0
+阒	qaiaeuC	qa0
+ 	qai0
+强	qbiaiaB1	qb0
+权	qbaoooC	qb0
+ 	qba0
+杞	qbaeaaD	qb0
+屈	qbaiiiD	qb0
+邔	qbaiiiE	qb0
+棋	qbeiuoC	qb0
+ 	qbe0
+樯	qbeiiaD	qb0
+㭕	qbeiaoE	qb0
+栖	qbeieeE	qb0
+棤	qbeiiaE	qb0
+槭	qbeuieD	qb0
+桤	qbiaaeC	qb0
+ 	qbi0
+群	qboueeC	qb0
+ 	qbo0
+榷	qboaoeD	qb0
+棬	qbouaaD	qb0
+桥	qbueuiC	qb0
+ 	qbu0
+楸	qbueouD	qb0
+杄	qbueiiE	qb0
+橇	qbueueE	qb0
+樵	qbuiooD	qb0
+枪	qbuoaaD	qb0
+檎	qbuooeE	qb0
+骑	qceueiB1	qc0
+骎	qcaeaoC	qc0
+ 	qca0
+驱	qceauoC	qc0
+ 	qce0
+骐	qceiuoD	qc0
+胠	qceiaoE	qc0
+绮	qceueiD	qc0
+缱	qciaoaC	qc0
+ 	qci0
+缲	qciaeiD	qc0
+腔	qcooeiC	qc0
+ 	qco0
+脐	qcoeuiD	qc0
+绻	qcouaaD	qc0
+肷	qcuauoC	qc0
+ 	qcu0
+朐	qcuaiaD	qc0
+纤	qcueiiD	qc0
+请	qdeeiaB1	qd0
+裙	qdaeiaC	qd0
+ 	qda0
+綮	qdaaiuD	qd0
+襁	qdaeiaD	qd0
+祁	qdaiiiD	qd0
+诎	qdaiiiE	qd0
+祛	qdeiaoC	qd0
+ 	qde0
+祺	qdeiuoD	qd0
+袪	qdeiaoE	qd0
+棨	qdeiooE	qd0
+启	qdiaeeC	qd0
+ 	qdi0
+谴	qdiaoaD	qd0
+诮	qdioiaD	qd0
+谦	qdouooC	qd0
+ 	qdo0
+祈	qduuiiC	qd0
+ 	qdu0
+讫	qdueaaD	qd0
+谯	qduiooD	qd0
+诠	qduoeeD	qd0
+袷	qduoiaE	qd0
+且	qeeeeeB1	qe0
+岂	qeaeaaC	qe0
+ 	qea0
+虬	qeaaaaD	qe0
+屺	qeaeaaD	qe0
+𨟠	qeaiiiD	qe0
+黢	qeaouoD	qe0
+曲	qeeeeeC	qe0
+ 	qee0
+岖	qeeauoD	qe0
+蜻	qeeeiaD	qe0
+圊	qeeeiaE	qe0
+岍	qeeeiiF	qe0
+螓	qeeeueE	qe0
+嵌	qeeiuaD	qe0
+岐	qeeiaoE	qe0
+畦	qeeieiE	qe0
+赇	qeeiooE	qe0
+蜞	qeeiuoE	qe0
+崎	qeeueiD	qe0
+畎	qeeuooE	qe0
+峭	qeioiaC	qe0
+ 	qei0
+蛆	qeiaeeD	qe0
+蛐	qeiaeeE	qe0
+蠼	qeiauiE	qe0
+睄	qeioiaD	qe0
+圈	qeouaaC	qe0
+ 	qeo0
+遣	qeoaooD	qe0
+黥	qeoeiaD	qe0
+蛴	qeoeuiE	qe0
+髂	qeoouaD	qe0
+蜷	qeouaaD	qe0
+蜣	qeoueeE	qe0
+蝤	qeoueiF	qe0
+瞧	qeuiooC	qe0
+ 	qeu0
+峤	qeueuiD	qe0
+氍	qeueaaE	qe0
+囷	qeueooE	qe0
+嵚	qeueuaE	qe0
+瞿	qeuioeD	qe0
+蚯	qeuieeE	qe0
+囚	qeuoooD	qe0
+黔	qeuooaE	qe0
+亲	qfeiooB1	qf0
+妾	qfaueeC	qf0
+ 	qfa0
+癖	qfaeoeD	qf0
+瘸	qfauiaD	qf0
+勍	qfauuuE	qf0
+庆	qfeuooC	qf0
+ 	qfe0
+凄	qfeaauD	qf0
+庼	qfeaeuE	qf0
+麒	qfeiuoD	qf0
+廑	qfeiiaE	qf0
+弃	qfeuiiD	qf0
+敲	qfieaoC	qf0
+ 	qfi0
+癯	qfiauiD	qf0
+齐	qfuiiiC	qf0
+ 	qfu0
+竘	qfuaiaD	qf0
+旗	qfueeiD	qf0
+麇	qfueooE	qf0
+痊	qfuoeeD	qf0
+前	qgiaiiC	qg0
+ 	qgi0
+券	qgauuuC	qg0
+ 	qga0
+羌	qgaaaaD	qg0
+炔	qgaeooD	qg0
+羟	qgaoeiD	qg0
+焌	qgaouoE	qg0
+酋	qgeieeC	qg0
+ 	qge0
+遒	qgoaooC	qg0
+ 	qgo0
+拳	qgueiiC	qg0
+ 	qgu0
+歉	qguauoD	qg0
+糗	qguieuD	qg0
+炝	qguoaaD	qg0
+全	qheeeeB1	qh0
+侵	qhaeaoC	qh0
+ 	qha0
+癿	qhaaaaD	qh0
+邱	qhaiiiD	qh0
+俟	qhaoueD	qh0
+伽	qhauiaD	qh0
+倾	qheaeuC	qh0
+ 	qhe0
+躯	qheauoD	qh0
+戗	qheaooE	qh0
+丘	qheeeeD	qh0
+倩	qheeiaE	qh0
+俅	qheiooD	qh0
+伎	qheiaoE	qh0
+企	qhieeeC	qh0
+ 	qhi0
+泉	qhiaooD	qh0
+伣	qhiauaE	qh0
+劁	qhiiiiD	qh0
+俏	qhioiaD	qh0
+禽	qhoeiaC	qh0
+ 	qho0
+傕	qhoaoeD	qh0
+衾	qhoeooD	qh0
+佥	qhooeeD	qh0
+侨	qhueuiC	qh0
+ 	qhu0
+鼽	qhuaaaD	qh0
+仇	qhuaaaE	qh0
+鼩	qhuaiaE	qh0
+仟	qhueiiD	qh0
+佺	qhuoeeD	qh0
+七	qiaaaaB1	qi0
+轻	qiaoeiC	qi0
+ 	qia0
+屯	qiaaaaD	qi0
+翘	qiaoaoD	qi0
+切	qiauuuD	qi0
+妻	qiaueeE	qi0
+顷	qieuiaC	qi0
+ 	qie0
+晴	qieeiaD	qi0
+堑	qieieeD	qi0
+椠	qieiooE	qi0
+曝	qiiaeiC	qi0
+ 	qii0
+炁	qiooooC	qi0
+ 	qio0
+区	qiuoooC	qi0
+ 	qiu0
+辁	qiuoeeD	qi0
+器	qjeuiaB1	qj0
+郄	qjaiiiC	qj0
+ 	qja0
+跷	qjeaeuC	qj0
+ 	qje0
+嗪	qjeeueD	qj0
+跂	qjeiaoD	qj0
+嘁	qjeuieD	qj0
+踦	qjeueiE	qj0
+吣	qjoaooC	qj0
+ 	qjo0
+呛	qjuoaaC	qj0
+ 	qju0
+噙	qjuooeD	qj0
+蹊	qjuoaaE	qj0
+跄	qjuoaaF	qj0
+欠	qkuoooB1	qk0
+卿	qkaeaiC	qk0
+ 	qka0
+劬	qkauuuD	qk0
+鳍	qkeiiaC	qk0
+ 	qke0
+鲭	qkeeiaD	qk0
+鲯	qkeiuoD	qk0
+龟	qkiaaaC	qk0
+ 	qki0
+訄	qkoeiaC	qk0
+ 	qko0
+鳅	qkueouC	qk0
+ 	qku0
+鸲	qkuaeeD	qk0
+犰	qkuaaaE	qk0
+鹐	qkuaeeE	qk0
+鳤	qkueooD	qk0
+鳈	qkuiiaD	qk0
+气	qlaaaaB1	ql0
+缺	qlaeooC	ql0
+ 	qla0
+乞	qlaaaaD	ql0
+犍	qlaeaoD	ql0
+氢	qlaoeiD	ql0
+氰	qleeiaC	ql0
+ 	qle0
+箧	qleaeoD	ql0
+箐	qleeiaD	ql0
+箝	qleieiD	ql0
+筇	qleiaiE	ql0
+千	qliiiiC	ql0
+ 	qli0
+迁	qloaooC	ql0
+ 	qlo0
+迄	qloaooD	ql0
+憩	qloaooE	ql0
+秋	qlouooD	ql0
+签	qluoooC	ql0
+ 	qlu0
+毳	qlueueD	ql0
+乔	qluiiiD	ql0
+筌	qluoeeD	ql0
+颀	qmeuiaC	qm0
+ 	qme0
+衢	qmiaeeC	qm0
+ 	qmi0
+愆	qmoaooC	qm0
+ 	qmo0
+却	qnaiiiB1	qn0
+起	qnaeaaC	qn0
+ 	qna0
+趣	qneiaoC	qn0
+ 	qne0
+墙	qneiiaD	qn0
+嫱	qneiiaE	qn0
+墘	qneiueE	qn0
+磬	qneuiaD	qn0
+埼	qneueiE	qn0
+婍	qneueiF	qn0
+趄	qniaeeC	qn0
+ 	qni0
+坥	qniaeeD	qn0
+嬛	qniaeiE	qn0
+悫	qnoaooC	qn0
+ 	qno0
+婘	qnouaaD	qn0
+趋	qnuaaeC	qn0
+ 	qnu0
+埆	qnuauaD	qn0
+壳	qnuaaaE	qn0
+罄	qnueiiD	qn0
+圲	qnueiiE	qn0
+鼙	qnuieiD	qn0
+圻	qnuuiiD	qn0
+青	qoiaeeB1	qo0
+玘	qoaeaaC	qo0
+ 	qoa0
+璆	qoaouoD	qo0
+球	qoeiooC	qo0
+ 	qoe0
+琪	qoeiuoD	qo0
+契	qoeuooD	qo0
+琦	qoeueiE	qo0
+璩	qoieeuC	qo0
+ 	qoi0
+琼	qooeiaC	qo0
+ 	qoo0
+秦	qoueooC	qo0
+ 	qou0
+麹	qouaouD	qo0
+挈	qoueiiD	qo0
+亓	qouiiiD	qo0
+瑔	qouiiaE	qo0
+琴	qouooaD	qo0
+玱	qouoaaE	qo0
+奇	qpeiiaB1	qp0
+砌	qpeaauC	qp0
+ 	qpe0
+硗	qpeaeuD	qp0
+碛	qpeeiaD	qp0
+碶	qpeeeuE	qp0
+碃	qpeeiaE	qp0
+碏	qpeiiaD	qp0
+戚	qpieiuC	qp0
+ 	qpi0
+丌	qpiiiiD	qp0
+犬	qpooooC	qp0
+ 	qpo0
+磲	qpooeiD	qp0
+确	qpuauaC	qp0
+ 	qpu0
+欹	qpuauoD	qp0
+磜	qpuaeeE	qp0
+牵	qpueiiD	qp0
+硚	qpueuoE	qp0
+钱	qreeooB1	qr0
+锓	qraeaoC	qr0
+ 	qra0
+镪	qraeiaD	qr0
+歧	qreiaoC	qr0
+ 	qre0
+锲	qreeeuD	qr0
+锖	qreeiaE	qr0
+钳	qreieeD	qr0
+𨱇	qreiooE	qr0
+锜	qreueiD	qr0
+觑	qriauaC	qr0
+ 	qri0
+卡	qrooooC	qr0
+ 	qro0
+虔	qroeooD	qr0
+锵	qroeuaE	qr0
+钦	qruauoC	qr0
+ 	qru0
+铅	qruaiaD	qr0
+锹	qrueouD	qr0
+钎	qrueiiE	qr0
+龋	qruiooD	qr0
+铨	qruoeeD	qr0
+钤	qruooaE	qr0
+情	qseeiaB1	qs0
+穷	qsauuuC	qs0
+ 	qsa0
+骞	qsaaeeD	qs0
+穹	qsaeaaD	qs0
+悛	qsaouoD	qs0
+怯	qseiaoC	qs0
+ 	qse0
+窃	qseaauD	qs0
+惬	qseaeoE	qs0
+窍	qseieaD	qs0
+慬	qseiiaE	qs0
+愭	qseiiaF	qs0
+悄	qsioiaC	qs0
+ 	qsi0
+悭	qsiieiD	qs0
+寝	qsoeaeC	qs0
+ 	qso0
+褰	qsoeooD	qs0
+慊	qsouooD	qs0
+恰	qsuoiaC	qs0
+ 	qsu0
+愀	qsueouD	qs0
+搴	qsueiiE	qs0
+憔	qsuiooD	qs0
+清	qteeiaB1	qt0
+浅	qteeooC	qt0
+ 	qte0
+沏	qteaauD	qt0
+潜	qteeiaD	qt0
+汧	qteeiiE	qt0
+溱	qteeueE	qt0
+漆	qteiuoE	qt0
+渠	qteiooD	qt0
+柒	qteiooE	qt0
+淇	qteiuoF	qt0
+泅	qtiauoC	qt0
+ 	qti0
+呇	qtiaeeD	qt0
+灈	qtiauiE	qt0
+泣	qtoeeeC	qt0
+ 	qto0
+沁	qtoaooD	qt0
+淳	qtoeaiD	qt0
+汽	qtueaaC	qt0
+ 	qtu0
+湫	qtueouD	qt0
+汔	qtueaaE	qt0
+雀	qtuioeD	qt0
+洽	qtuoiaD	qt0
+抢	quuoaaB1	qu0
+拤	quieooC	qu0
+ 	qui0
+揭	quiauaD	qu0
+掮	quoaiaC	qu0
+ 	quo0
+擒	quuooeC	qu0
+ 	quu0
+掐	quuauiD	qu0
+揿	quueuaD	qu0
+扦	quueiiE	qu0
+撬	quueueE	qu0
+茄	qwauiaB1	qw0
+茕	qwaeiiC	qw0
+ 	qwa0
+芑	qwaeaaD	qw0
+䓛	qwaeaiE	qw0
+荨	qwaeeiE	qw0
+蔃	qwaeiaE	qw0
+茜	qweieeC	qw0
+ 	qwe0
+萋	qweaauD	qw0
+苣	qweaaeE	qw0
+葜	qweeeuD	qw0
+萁	qweiuoD	qw0
+蔷	qweiiaE	qw0
+檠	qweiooE	qw0
+颧	qweuiaD	qw0
+䓫	qweueiE	qw0
+葺	qwiaeiC	qw0
+ 	qwi0
+苘	qwiaiaD	qw0
+蘧	qwieoaD	qw0
+荠	qwoeuiC	qw0
+ 	qwo0
+蕖	qwooeiD	qw0
+䓖	qwooauE	qw0
+蕲	qwouuuD	qw0
+擎	qwueiiC	qw0
+ 	qwu0
+芡	qwuauoD	qw0
+芪	qwuaaaE	qw0
+艽	qwuaaaF	qw0
+鹙	qwuaeeE	qw0
+荞	qwueuiD	qw0
+芊	qwueiiE	qw0
+萩	qwueouE	qw0
+蒨	qwuieeD	qw0
+荃	qwuoeeD	qw0
+芩	qwuooaE	qw0
+芹	qwuuiiD	qw0
+劝	qxauuuC	qx0
+ 	qxa0
+逡	qxoaooC	qx0
+ 	qxo0
+巯	qxoeuiD	qx0
+矜	qxuooaC	qx0
+ 	qxu0
+取	qyaoooB1	qy0
+勤	qyauuuC	qy0
+ 	qya0
+綦	qyaaiuD	qy0
+邛	qyaiiiD	qy0
+郪	qyaiiiE	qy0
+𨙸	qyaiiiF	qy0
+娶	qyaueeD	qy0
+巧	qyeaaaC	qy0
+ 	qye0
+醛	qyeiuoD	qy0
+碁	qyeuiaD	qy0
+覃	qyiaeiC	qy0
+ 	qyi0
+耆	qyiaeeD	qy0
+跫	qyiaieE	qy0
+蛩	qyiaooE	qy0
+鞘	qyioiaD	qy0
+求	qyooooC	qy0
+ 	qyo0
+逑	qyoaooD	qy0
+裘	qyoeooD	qy0
+謦	qyoeeeE	qy0
+鬈	qyouaaD	qy0
+鞧	qyoueiE	qy0
+期	qyuaeeC	qy0
+ 	qyu0
+欺	qyuauoD	qy0
+鹊	qyuaeeE	qy0
+麴	qyuaouE	qy0
+乾	qyueaaD	qy0
+鞒	qyueuiE	qy0
+銎	qyuoeeD	qy0
+亟	qzeeeeC	qz0
+ 	qze0
+戕	qzeaooD	qz0
+阡	qzueiiC	qz0
+ 	qzu0
+人	rhooooA1	rh0
+让	rdieeeA2	rd0
+闰	raeeeeB1	ra0
+弱	rbaeoeB1	rb0
+桡	rbeaeuC	rb0
+ 	rbe0
+枘	rbiaooC	rb0
+ 	rbi0
+榕	rboouoC	rb0
+ 	rbo0
+绕	rceaeuB1	rc0
+纫	rcauooC	rc0
+ 	rca0
+绒	rceaeuC	rc0
+ 	rce0
+朊	rceeuaD	rc0
+𦈡	rceoeuD	rc0
+缛	rceueiD	rc0
+驲	rciaeeC	rc0
+ 	rci0
+肜	rcuuuuC	rc0
+ 	rcu0
+纴	rcueeeD	rc0
+认	rduoooB1	rd0
+讱	rdauooC	rd0
+ 	rda0
+褥	rdeueiC	rd0
+ 	rde0
+襦	rdeoeuD	rd0
+禳	rdoeiaC	rd0
+ 	rdo0
+冗	rduaaaC	rd0
+ 	rdu0
+衽	rdueeeD	rd0
+肉	reuoooB1	re0
+䎃	reaoaoC	re0
+ 	rea0
+冉	reeeeeC	re0
+ 	ree0
+嵘	reeieiD	re0
+蝾	reeieiE	re0
+蠕	reeoeuD	re0
+融	reiaooC	re0
+ 	rei0
+蚋	reiaooD	re0
+蚺	reiaeeE	re0
+瓤	rfuuooC	rf0
+ 	rfu0
+燃	rguaooB1	rg0
+糅	rgaoeiC	rg0
+ 	rga0
+熔	rgoouoC	rg0
+ 	rgo0
+仍	rhauuuC	rh0
+ 	rha0
+仞	rhauooD	rh0
+仁	rheeeeC	rh0
+ 	rhe0
+偌	rheieuD	rh0
+儒	rheoeuD	rh0
+儴	rhoeiaC	rh0
+ 	rho0
+任	rhueeeC	rh0
+ 	rhu0
+日	rieeeeB1	ri0
+轫	riauooC	ri0
+ 	ria0
+戎	rieuuuC	ri0
+ 	rie0
+软	riuauoC	ri0
+ 	riu0
+入	rjooooB1	rj0
+乳	rjaaaaC	rj0
+ 	rja0
+蹂	rjaoeiD	rj0
+喏	rjeieuC	rj0
+ 	rje0
+嚅	rjeoeuD	rj0
+嚷	rjoeiaC	rj0
+ 	rjo0
+然	rkooooB1	rk0
+饶	rkeaeuC	rk0
+ 	rke0
+狨	rkeaeuD	rk0
+饪	rkueeeC	rk0
+ 	rku0
+壬	rleeeeB1	rl0
+箬	rleieuC	rl0
+ 	rle0
+穰	rloeiaC	rl0
+ 	rlo0
+稔	rluooaC	rl0
+ 	rlu0
+如	rniaeeB1	rn0
+邚	rnaiiiC	rn0
+ 	rna0
+娆	rneaeuC	rn0
+ 	rne0
+婼	rneieuD	rn0
+嬬	rneoeuD	rn0
+堧	rneueuD	rn0
+媆	rneueuE	rn0
+忍	rnoaooC	rn0
+ 	rno0
+壤	rnoeiaD	rn0
+刃	rnooooD	rn0
+妊	rnueeeC	rn0
+ 	rnu0
+瑞	roiaeuB1	ro0
+韧	roauooC	ro0
+ 	roa0
+瓀	roeoeuC	ro0
+ 	roe0
+瑢	rooouoC	ro0
+ 	roo0
+辱	rpeiooB1	rp0
+锐	rrouiaB1	rr0
+铷	rrauiaC	rr0
+ 	rra0
+睿	rriaeeC	rr0
+ 	rri0
+镕	rroouoC	rr0
+ 	rro0
+容	rsuoiaC	rs0
+ 	rsu0
+染	rteiooB1	rt0
+汝	rtaueeC	rt0
+ 	rta0
+洳	rtauiaD	rt0
+濡	rteoeuC	rt0
+ 	rte0
+溽	rteueiD	rt0
+汭	rtiaooC	rt0
+ 	rti0
+润	rtoieeC	rt0
+ 	rto0
+瀼	rtoeiaD	rt0
+溶	rtoouoD	rt0
+热	ruooooB1	ru0
+扔	ruauuuC	ru0
+ 	rua0
+揉	ruaoeiD	ru0
+扰	rueuooC	ru0
+ 	rue0
+颥	rueuiaD	ru0
+攘	ruoeiaC	ru0
+ 	ruo0
+挼	ruuoauC	ru0
+ 	ruu0
+若	rweuiaB1	rw0
+茹	rwauiaC	rw0
+ 	rwa0
+蒻	rwaeaeD	rw0
+鄀	rwaiiiD	rw0
+荣	rweiooC	rw0
+ 	rwe0
+荛	rweaeuD	rw0
+茸	rweieeD	rw0
+爇	rweiooE	rw0
+葚	rweiuoE	rw0
+薷	rweoeuD	rw0
+蕤	rweuueD	rw0
+蓐	rweueiE	rw0
+芮	rwiaooC	rw0
+ 	rwi0
+苒	rwiaeeD	rw0
+䒤	rwiaeeE	rw0
+惹	rwoaooC	rw0
+ 	rwo0
+蕊	rwoaoaD	rw0
+蘘	rwoeiaD	rw0
+蓉	rwoouoD	rw0
+荏	rwuiueC	rw0
+ 	rwu0
+柔	rxeiooB1	rx0
+叒	rxaoaoC	rx0
+ 	rxa0
+髯	ryiaeeB1	ry0
+鞣	ryaoeiC	ry0
+ 	rya0
+孺	rzeoeuC	rz0
+ 	rze0
+阮	rzeeuaD	rz0
+是	sieiooA1	si0
+说	sdouiaB1	sd0
+闪	sauoooB1	sa0
+闩	saeeeeC	sa0
+ 	sae0
+虱	sauiooC	sa0
+ 	sau0
+树	sbaoeiB1	sb0
+巳	sbaaaaC	sb0
+ 	sba0
+梭	sbaouoD	sb0
+柖	sbauiaD	sb0
+森	sbeieiC	sb0
+ 	sbe0
+枢	sbeauoD	sb0
+栻	sbeaeiE	sb0
+椹	sbeiuoD	sb0
+槭	sbeuieD	sb0
+司	sbiaeeC	sb0
+ 	sbi0
+楒	sbiaoaD	sb0
+尿	sbiaooE	sb0
+刷	sbiiiiD	sb0
+梢	sbioiaD	sb0
+术	sbooooC	sb0
+ 	sbo0
+述	sboaooD	sb0
+梳	sboeuiD	sb0
+柿	sboeiaE	sb0
+肃	sbooooD	sb0
+桫	sbooiuE	sb0
+屎	sbouooD	sb0
+属	sbuiooC	sb0
+ 	sbu0
+栅	sbuaeeD	sb0
+鸤	sbuaeeE	sb0
+鹔	sbuaeeF	sb0
+杓	sbuaooE	sb0
+榫	sbuieiD	sb0
+松	sbuoaoD	sb0
+栓	sbuoeeE	sb0
+尸	sbuuuuD	sb0
+楯	sbuueiE	sb0
+杉	sbuuuuE	sb0
+书	scooooB1	sc0
+绍	scauiaC	sc0
+ 	sca0
+缫	scaaiaD	sc0
+骕	scaeooD	sc0
+骚	scaoiaD	sc0
+纾	scaoiiE	sc0
+丝	sceeeeC	sc0
+ 	sce0
+䏡	sceeiuD	sc0
+骦	sceoeiD	sc0
+绳	sciaiaC	sc0
+ 	sci0
+驶	sciaooD	sc0
+臊	sciaeiE	sc0
+驷	sciaeeF	sc0
+缲	sciaeiF	sc0
+腨	sciaeuF	sc0
+绅	sciaiiE	sc0
+胂	sciaiiF	sc0
+腮	sciaoaE	sc0
+缌	sciaoaF	sc0
+绱	scioiaD	sc0
+纱	sciuuuD	sc0
+缩	scoouiC	sc0
+ 	sco0
+骟	scoaaoD	sc0
+膻	scoeiaD	sc0
+膳	scouiaD	sc0
+缮	scouiaE	sc0
+胜	scueeeC	sc0
+ 	scu0
+鸶	scuaeeD	sc0
+绶	scuoaoD	sc0
+绥	scuoauE	sc0
+脎	scuoeiE	sc0
+腧	scuoiaE	sc0
+试	sdeaeiD	sd0
+诵	sdaoiaC	sd0
+ 	sda0
+祀	sdaeaaD	sd0
+祠	sdaeiaE	sd0
+邥	sdaiiiD	sd0
+扇	sdaoaoD	sd0
+诗	sdeieiC	sd0
+ 	sde0
+社	sdeieeD	sd0
+谌	sdeiuoE	sd0
+祏	sdeuiaD	sd0
+襫	sdeueuE	sd0
+神	sdiaiiC	sd0
+ 	sdi0
+视	sdiauaD	sd0
+讪	sdiaiiE	sd0
+识	sdiauoE	sd0
+谡	sdiauoF	sd0
+谥	sdouiaC	sd0
+ 	sdo0
+谇	sdoeuoD	sd0
+谉	sdooiaD	sd0
+禅	sdouiaD	sd0
+襚	sdouoaE	sd0
+谁	sduioeC	sd0
+ 	sdu0
+设	sduaaoD	sd0
+诜	sdueuaD	sd0
+讼	sduoaoD	sd0
+谂	sduooaE	sd0
+诉	sduuooD	sd0
+衫	sduuuuE	sd0
+四	seeeeeB1	se0
+睃	seaouoC	se0
+ 	sea0
+㟃	seaeiaD	se0
+邖	seaiiiD	se0
+署	seeiiaC	se0
+ 	see0
+赎	seeiaoD	se0
+墅	seeieeE	se0
+峙	seeieiF	se0
+畤	seeieiF2	se0
+眭	seeieiF3	se0
+瞫	seeiiaE	se0
+崧	seeiuoE	se0
+髓	seeuoaD	se0
+山	seiiiiC	se0
+ 	sei0
+屾	seiaiiD	se0
+申	seiiiiD	se0
+蛸	seioiaD	se0
+蛳	seiueiD	se0
+史	seooooC	se0
+ 	seo0
+思	seoaooD	se0
+嵩	seoeiaD	se0
+蟀	seoeaaE	se0
+蛇	seoouaD	se0
+蟮	seouiaD	se0
+帨	seouiaE	se0
+岁	seuaooC	se0
+ 	seu0
+蜀	seuaiaD	se0
+骰	seuaaoE	se0
+兕	seuaaaF	se0
+赡	seuaoeE	se0
+睡	seueeeD	se0
+嵊	seueieE	se0
+睢	seuioeD	se0
+瞍	seuiaoE	se0
+螋	seuiaoF	se0
+瞬	seuouaD	se0
+赊	seuoeeE	se0
+市	sfiaiiB1	sf0
+率	sfaaeiC	sf0
+ 	sfa0
+瘙	sfaoiaD	sf0
+瘆	sfaouuE	sf0
+韶	sfauiaD	sf0
+塾	sfeieeC	sf0
+ 	sfe0
+竦	sfeiooD	sf0
+凇	sfeiuoE	sf0
+凘	sfeiuuF	sf0
+颤	sfeuiaD	sf0
+商	sfiauoC	sf0
+ 	sfi0
+衰	sfiauaD	sf0
+疝	sfiaiiE	sf0
+熟	sfooooC	sf0
+ 	sfo0
+庶	sfooooD	sf0
+痧	sfooiuE	sf0
+瘦	sfuiaoC	sf0
+ 	sfu0
+孰	sfuaooE	sf0
+飒	sfuauoD	sf0
+施	sfueaiD	sf0
+旞	sfueoaE	sf0
+麝	sfuieiD	sf0
+廋	sfuiaoE	sf0
+数	sgueooB1	sg0
+糁	sgaoeuC	sg0
+ 	sga0
+鄯	sgaiiiD	sg0
+羧	sgaouoD	sg0
+烧	sgeaeuC	sg0
+ 	sge0
+兽	sgeiaeD	sg0
+塑	sgeieeE	sg0
+槊	sgeiooE	sg0
+燊	sgeiooF	sg0
+炻	sgeuiaD	sg0
+善	sgiaeeC	sg0
+ 	sgi0
+燥	sgiaeiD	sg0
+单	sgiaiiE	sg0
+剡	sgiiiiD	sg0
+送	sgoaooC	sg0
+ 	sgo0
+遂	sgoaooD	sg0
+煽	sgoaaoE	sg0
+熵	sgoeiaD	sg0
+燧	sgouoaD	sg0
+墡	sgouiaE	sg0
+首	sguieeC	sg0
+ 	sgu0
+朔	sguaeeD	sg0
+烁	sguaooE	sg0
+使	sheiooB1	sh0
+似	shaouoC	sh0
+ 	sha0
+伺	shaeiaD	sh0
+鄃	shaiiiD	sh0
+舒	shaoiiD	sh0
+鼠	shaoaoE	sh0
+叟	shaoooE	sh0
+俟	shaoueE	sh0
+射	sheiooC	sh0
+ 	she0
+舍	sheeiaD	sh0
+傃	sheeaaE	sh0
+仨	sheeeeE	sh0
+佘	sheeiuE	sh0
+什	sheiiiD	sh0
+耸	sheieeE	sh0
+仕	sheieeF	sh0
+侍	sheieiF	sh0
+隼	sheiiiE	sh0
+僳	sheiouE	sh0
+顺	sheuiaD	sh0
+鼫	sheuiaE	sh0
+伸	shiaiiC	sh0
+ 	shi0
+售	shiaeeD	sh0
+畲	shiaeeE	sh0
+畬	shiaeeF	sh0
+偲	shiaoaE	sh0
+伞	shouiiC	sh0
+ 	sho0
+食	shoaooD	sh0
+怂	shoaooE	sh0
+僧	shouiaD	sh0
+身	shuuuuC	sh0
+ 	shu0
+倏	shuaeuD	sh0
+歙	shuauoE	sh0
+伤	shueauD	sh0
+毹	shueaaE	sh0
+侁	shueuoE	sh0
+傻	shuiuoD	sh0
+俗	shuoiaD	sh0
+时	sieiooB1	si0
+式	sieieeC	si0
+ 	sie0
+轼	sieaeiD	si0
+晒	sieieeD	si0
+暑	sieiiaE	si0
+晟	sieuooD	si0
+曙	siiaeiC	si0
+ 	sii0
+晱	siououC	si0
+ 	sio0
+输	siuoiaC	si0
+ 	siu0
+匙	siuaaaD	si0
+昇	siueiiD	si0
+晌	siuiiaD	si0
+受	sjaoooB1	sj0
+释	sjaoeeC	sj0
+ 	sja0
+咝	sjaaeeD	sj0
+嗣	sjaeiaD	sj0
+唰	sjaeiiE	sj0
+吲	sjaeiiF	sj0
+嗓	sjaoeiD	sj0
+吮	sjaouaE	sj0
+唆	sjaouoF	sj0
+杀	sjeiooC	sj0
+ 	sje0
+弑	sjeaeiD	sj0
+嗉	sjeeaaD	sj0
+嗜	sjeiiaD	sj0
+嗦	sjeiaaE	sj0
+哂	sjeieeE	sj0
+嘶	sjeiuuE	sj0
+嗽	sjeiuaF	sj0
+颂	sjeuiaD	sj0
+嗄	sjeuuaE	sj0
+虽	sjiaooC	sj0
+ 	sji0
+呻	sjiaiiD	sj0
+嘘	sjieiiD	sj0
+刹	sjiiiiD	sj0
+哨	sjioiaD	sj0
+唢	sjioiaE	sj0
+唼	sjoeauC	sj0
+ 	sjo0
+嗾	sjoeueD	sj0
+噻	sjooeiD	sj0
+蹜	sjoouiE	sj0
+嗍	sjouuaD	sj0
+啥	sjuoeeC	sj0
+ 	sju0
+舜	sjuaeaD	sj0
+跚	sjuaeeE	sj0
+噬	sjueeiD	sj0
+嗖	sjuiaoD	sj0
+色	skaiaaB1	sk0
+氏	skaaaaC	sk0
+ 	ska0
+甩	skaaaaD	sk0
+饲	skaeiaD	sk0
+狲	skaiiuD	sk0
+狻	skaouoD	sk0
+鲹	skaoeuE	sk0
+鳋	skaoiaE	sk0
+殳	skaoooE	sk0
+鲺	skauiaD	sk0
+夙	skeuooC	sk0
+ 	ske0
+馓	skeiueD	sk0
+觫	skeiooE	sk0
+删	skiiiiC	sk0
+ 	ski0
+蚀	skiaooD	sk0
+鲥	skiaeiE	sk0
+鳃	skiaoaE	sk0
+飔	skiaoaF	sk0
+狮	skiueiD	sk0
+煞	skooooC	sk0
+ 	sko0
+鳣	skoeiaD	sk0
+勺	skooooD	sk0
+狩	skooeiE	sk0
+鳝	skouiaD	sk0
+馊	skuiaoC	sk0
+ 	sku0
+饰	skueiaD	sk0
+觞	skueauE	sk0
+稣	skueooE	sk0
+飕	skuiaoD	sk0
+飧	skuooaD	sk0
+猞	skuoeeE	sk0
+生	sleeeeB1	sl0
+私	slaoooC	sl0
+ 	sla0
+笋	slaeuuD	sl0
+笥	slaeiaE	sl0
+矧	slaeiiF	sl0
+穗	sleioaC	sl0
+ 	sle0
+筮	sleiuoD	sl0
+穑	sleiiaE	sl0
+秫	sleiooE	sl0
+簌	sleiuaE	sl0
+算	sliaeuC	sl0
+ 	sli0
+舌	sliaeeD	sl0
+甥	sliaauE	sl0
+眚	sliaeeE	sl0
+乘	slieuaD	sl0
+升	sliiiiD	sl0
+剩	sliiiiE	sl0
+稍	slioiaD	sl0
+筲	slioiaE	sl0
+筛	sliueiD	sl0
+失	slooooC	sl0
+ 	slo0
+适	sloaooD	sl0
+矢	slooooD	sl0
+税	slouiaD	sl0
+穟	slouoaE	sl0
+牲	slueeeC	sl0
+ 	slu0
+舐	sluaaaD	sl0
+歃	sluauoE	sl0
+笙	slueeeD	sl0
+甡	slueeeE	sl0
+黍	sluoioD	sl0
+所	smuuiiB1	sm0
+艄	smioiaC	sm0
+ 	smi0
+舢	smiaiiD	sm0
+虒	smieuaD	sm0
+艏	smouuiC	sm0
+ 	smo0
+艘	smuiaoC	sm0
+ 	smu0
+声	snaiuuB1	sn0
+始	snaoiaC	sn0
+ 	sna0
+埽	snaeiaD	sn0
+邵	snaiiiD	sn0
+邿	snaiiiE	sn0
+姒	snaouoD	sn0
+劭	snauuuD	sn0
+士	sneeeeC	sn0
+ 	sne0
+娀	sneaeuD	sn0
+寺	sneiooD	sn0
+孀	sneoeiD	sn0
+娠	sneueeD	sn0
+螫	sniaooC	sn0
+ 	sni0
+埘	sniaeiD	sn0
+召	sniaeeE	sn0
+婌	snieaoD	sn0
+埫	snioiaD	sn0
+婶	snooiaC	sn0
+ 	sno0
+恕	snoaooD	sn0
+墒	snoeiaD	sn0
+嬗	snoeiaE	sn0
+姝	snueooC	sn0
+ 	snu0
+姗	snuaeeD	sn0
+埶	snuaooE	sn0
+妁	snuaooF	sn0
+赦	snueooD	sn0
+嫂	snuiaoD	sn0
+埏	snuiaoE	sn0
+垧	snuiiaE	sn0
+三	soeeeeB1	so0
+素	soaaiuC	so0
+ 	soa0
+玿	soauiaD	so0
+寿	soeiooC	so0
+ 	soe0
+璱	soeeoaD	so0
+示	soiuooC	so0
+ 	soi0
+耜	soiaeeD	so0
+琡	soiaaoE	so0
+珅	soiaiiE	so0
+琐	soioiaD	so0
+瑟	sooaooC	so0
+ 	soo0
+璲	soouoaD	so0
+珊	souaeeC	so0
+ 	sou0
+死	spuaaaB1	sp0
+耍	spaueeC	sp0
+ 	spa0
+磉	spaoeiD	sp0
+厮	speiuuC	sp0
+ 	spe0
+厍	speaiiD	sp0
+奢	speiiaD	sp0
+殖	speiiaE	sp0
+礵	speoeiD	sp0
+硕	speuiaD	sp0
+奭	speueuE	sp0
+厦	speuuaE	sp0
+石	spiaeeC	sp0
+ 	spi0
+盛	spiaeeD	sp0
+砷	spiaiiE	sp0
+厕	spiaiiF	sp0
+蜃	spiaooE	sp0
+卅	spiiiiD	sp0
+砂	spiuuuD	sp0
+碎	spoeuoC	sp0
+ 	spo0
+戍	spooooD	sp0
+豕	spooooE	sp0
+殊	spueooC	sp0
+ 	spu0
+奓	spuauaD	sp0
+殇	spueauD	sp0
+爽	spuouoD	sp0
+肾	sqiaeeC	sq0
+ 	sqi0
+竖	sqoeeeC	sq0
+ 	sqo0
+上	sreeeeA2	sr0
+叔	sraoooC	sr0
+ 	sra0
+些	sreeeeC	sr0
+ 	sre0
+锁	srioiaB1	sr0
+锶	sriaoaC	sr0
+ 	sri0
+铈	sroeiaC	sr0
+ 	sro0
+铄	sruaooC	sr0
+ 	sru0
+钑	sruaooD	sr0
+铯	sruaaiE	sr0
+锼	sruiaoD	sr0
+铩	sruoeiD	sr0
+钐	sruuuuD	sr0
+守	sseiooB1	ss0
+宋	sseiooC	ss0
+ 	sse0
+室	sseaeiD	ss0
+愫	sseeaaD	ss0
+塞	sseieeD	ss0
+慑	sseiaoE	ss0
+恃	sseieiE	ss0
+悚	sseiooE	ss0
+慎	sseiuoE	ss0
+赛	ssiauoC	ss0
+ 	ssi0
+审	ssiaiiD	ss0
+实	ssooeuC	ss0
+ 	sso0
+邃	ssoaooD	ss0
+窣	ssoeeiD	ss0
+宿	ssuieuC	ss0
+ 	ssu0
+忪	ssuoaoD	ss0
+水	stooooB1	st0
+涩	stauieC	st0
+ 	sta0
+涮	staeiiD	st0
+汜	staeaaE	st0
+渗	staoeuD	st0
+溞	staoiaE	st0
+涘	staoueE	st0
+娑	staueeD	st0
+汤	stauuuE	st0
+师	steiiiC	st0
+ 	ste0
+洒	steieeD	st0
+滠	steiaoE	st0
+溹	steiaaF	st0
+澍	steieiE	st0
+潸	steiiaE	st0
+沭	steiooE	st0
+涑	steiooF	st0
+洓	steiooF2	st0
+漱	steiuaE	st0
+潵	steiueF	st0
+淞	steiuoF	st0
+澌	steiuuF	st0
+泷	steuooD	st0
+省	stiaeeC	st0
+ 	sti0
+帅	stiaiiD	st0
+泗	stiaeeE	st0
+湜	stiaeiF	st0
+湿	stiaiiE	st0
+渑	stiaiaF	st0
+汕	stiaiiF	st0
+濉	stiauiE	st0
+涉	stieiuD	st0
+淑	stieaoE	st0
+沙	stiuuuD	st0
+浉	stiueiE	st0
+深	stoaeiC	st0
+ 	sto0
+沈	stoaaaD	st0
+裟	stoeooD	st0
+渖	stooiaD	st0
+溯	stouuaD	st0
+少	stuuuuC	st0
+ 	stu0
+鲨	stuaiaD	st0
+㴔	stuaoaE	st0
+潲	stueioD	st0
+挲	stueiiE	st0
+溲	stuiaoD	st0
+手	suiiiiB1	su0
+势	suauuuC	su0
+ 	sua0
+扫	suaeeeD	su0
+抒	suaoiiD	su0
+㧐	suaoaoE	su0
+搡	suaoeiE	su0
+掺	suaoeuF	su0
+搔	suaoiaE	su0
+摄	sueiaoC	su0
+ 	sue0
+拭	sueaeiD	su0
+撒	sueiueD	su0
+揲	sueieiE	su0
+霜	sueiiaE	su0
+撕	sueiuuE	su0
+损	suiaiaC	su0
+ 	sui0
+摅	suieoaD	su0
+捎	suioiaD	su0
+摔	suoeaaC	su0
+ 	suo0
+逝	suoaooD	su0
+搧	suoaaoE	su0
+誓	suoeeeD	su0
+霎	suoeauE	su0
+擅	suoeiaE	su0
+掸	suouiaD	su0
+掞	suououE	su0
+擞	suouueE	su0
+搠	suouuaF	su0
+拾	suuoiaC	su0
+ 	suu0
+鹴	suuaeeD	su0
+搜	suuiaoD	su0
+授	suuoaoD	su0
+拴	suuoeeE	su0
+折	suuuiiD	su0
+苏	swauooB1	sw0
+蔬	swaioeC	sw0
+ 	swa0
+萨	swaioeD	sw0
+荪	swaiiuE	sw0
+苕	swauiaD	sw0
+蒜	sweeeeC	sw0
+ 	swe0
+蓍	sweiiaD	sw0
+菘	sweiuoE	sw0
+蔌	sweiuaF	sw0
+葚	sweiuoF	sw0
+尚	swiaiaC	sw0
+ 	swi0
+赏	swiauoD	sw0
+薯	swiaeiE	sw0
+莳	swiaeiF	sw0
+菽	swieaoD	sw0
+苫	swieiaE	sw0
+莎	swooiuC	sw0
+ 	swo0
+裳	swoeooD	sw0
+莘	swoeeiE	sw0
+蓑	swoeiaE	sw0
+薮	swouueD	sw0
+蒴	swouuaE	sw0
+芍	swuaooC	sw0
+ 	swu0
+芟	swuaaoD	sw0
+蒐	swuiaoD	sw0
+荽	swuoauD	sw0
+双	sxaoooC	sx0
+ 	sxa0
+圣	sxeieeC	sx0
+ 	sxe0
+桑	sxeiooD	sx0
+叁	sxeueeD	sx0
+颡	sxeuiaE	sx0
+厶	sxooooC	sx0
+ 	sxo0
+毵	sxueaaD	sx0
+参	sxuuuuC	sx0
+ 	sxu0
+十	syiiiiB1	sy0
+世	syaaaaC	sy0
+ 	sya0
+索	syaaiuD	sy0
+肆	syaeiiD	sy0
+酸	syaouoD	sy0
+丧	syauooD	sy0
+酾	syeiaoC	sy0
+ 	sye0
+事	syiiiiC	sy0
+ 	syi0
+啬	syiaiaD	sy0
+贳	syiauoE	sy0
+鞘	syioiaD	sy0
+速	syoaooC	sy0
+ 	syo0
+束	syooooD	sy0
+粟	syouooD	sy0
+散	syueooC	sy0
+ 	syu0
+靸	syuaooD	sy0
+䴓	syuaeeE	sy0
+酥	syueooD	sy0
+甦	syueeeE	sy0
+甚	syuoaaD	sy0
+斯	syuuiiD	sy0
+随	szeuoaB1	sz0
+祟	szeeiuC	sz0
+ 	sze0
+陕	szeoooD	sz0
+隋	szeuiaD	sz0
+孙	sziuooC	sz0
+ 	szi0
+疏	szoeuiC	sz0
+ 	szo0
+隧	szouoaD	sz0
+收	szueooC	sz0
+ 	szu0
+陞	szueeiD	sz0
+陎	szueooE	sz0
+他	thaiaaA1	th0
+她	tnaiaaA2	tn0
+闼	taeuoaB1	ta0
+阗	taeiuoC	ta0
+ 	tae0
+阘	taiaaoC	ta0
+ 	tai0
+退	tboaooB1	tb0
+桶	tbaoiaC	tb0
+ 	tba0
+棣	tbaeooD	tb0
+椭	tbaieuD	tb0
+弢	tbaiaoE	tb0
+屠	tbeiiaC	tb0
+ 	tbe0
+枟	tbeeaoD	tb0
+屉	tbeiaaD	tb0
+桯	tbiaeeD	tb0
+臀	tbiaeeC	tb0
+ 	tbi0
+榻	tbiaaoE	tb0
+桐	tbiaeiE	tb0
+樘	tbioeiD	tb0
+弹	tbouiaC	tb0
+ 	tbo0
+檀	tboeiaD	tb0
+橦	tboeiaE	tb0
+柁	tboouaD	tb0
+梯	tbouaeD	tb0
+桃	tbuoauC	tb0
+ 	tbu0
+梃	tbueaoD	tb0
+栝	tbueiaE	tb0
+梌	tbuoeeD	tb0
+柝	tbuuooD	tb0
+腿	tcaeoaB1	tc0
+胎	tcaoiaC	tc0
+ 	tca0
+骀	tcaoiaD	tc0
+驮	tceuooC	tc0
+ 	tce0
+豚	tceuooD	tc0
+彖	tceuooE	tc0
+肽	tceuooF	tc0
+膛	tcioeiC	tc0
+ 	tci0
+腆	tciauoD	tc0
+缇	tciaeiE	tc0
+脱	tcouiaC	tc0
+ 	tco0
+统	tcoeuaD	tc0
+驼	tcoouaD	tc0
+腾	tcouaaD	tc0
+绨	tcouaeE	tc0
+縢	tcouaaF	tc0
+滕	tcouioE	tc0
+螣	tcouiaF	tc0
+䲢	tcouuaE	tc0
+绦	tcuaeiC	tc0
+ 	tcu0
+绹	tcuaueD	tc0
+朓	tcuoauD	tc0
+腯	tcuueiD	tc0
+谈	tdououB1	td0
+褪	tdaeoaC	td0
+ 	tda0
+讨	tdeiooC	td0
+ 	tde0
+谭	tdeiiaD	td0
+袒	tdiaeeC	td0
+ 	tdi0
+裼	tdiauaD	td0
+褟	tdiaaoE	td0
+禔	tdiaeiE	td0
+调	tduaeiC	td0
+ 	tdu0
+讬	tdueaaD	td0
+祧	tduoauD	td0
+同	teeiaeB1	te0
+团	teeiuuC	te0
+ 	tee0
+囤	teeaaaD	te0
+田	teeeeeD	te0
+町	teeiiiD	te0
+炭	teeuouD	te0
+贴	teieiaC	te0
+ 	tei0
+峒	teiaeiD	te0
+帖	teieiaD	te0
+螳	teioeiD	te0
+瞳	teoeiaC	te0
+ 	teo0
+疃	teoeiaD	te0
+螗	teoeaeE	te0
+蜕	teouiaD	te0
+图	teuaooC	te0
+ 	teu0
+骰	teuaaoD	te0
+蜩	teuaeiE	te0
+盷	teuaoeE	te0
+峂	teuaooF	te0
+蜓	teueaoD	te0
+畋	teueooE	te0
+䗴	teueueE	te0
+眺	teuoauD	te0
+痛	tfaoiaB1	tf0
+唐	tfaeiaC	tf0
+ 	tfa0
+庹	tfaeooD	tf0
+鄌	tfaiiiD	tf0
+瘫	tfaouiD	tf0
+𦒍	tfaoaoE	tf0
+亭	tfeiiiC	tf0
+ 	tfe0
+童	tfiaeeC	tf0
+ 	tfi0
+痰	tfououC	tf0
+ 	tfo0
+疼	tfuaooC	tf0
+ 	tfu0
+庭	tfueaoD	tf0
+剃	tgiiiiB1	tg0
+郯	tgaiiiC	tg0
+ 	tga0
+煺	tgaeoaD	tg0
+烃	tgaoeiD	tg0
+熥	tgaooaE	tg0
+羰	tgiaeuC	tg0
+ 	tgi0
+烔	tgiaeiD	tg0
+煓	tgiaeuE	tg0
+糖	tgoeaeC	tg0
+ 	tgo0
+誊	tgoeeeD	tg0
+焞	tgoeaiE	tg0
+鹈	tguaeeC	tg0
+ 	tgu0
+烶	tgueaoD	tg0
+体	theieeB1	th0
+仝	theieeC	th0
+ 	the0
+躺	thioiaC	th0
+ 	thi0
+贪	thiauoD	th0
+佃	thiaeeE	th0
+侗	thiaeiF	th0
+氽	thiaooE	th0
+倘	thioiaD	th0
+傥	thiouaE	th0
+停	thoeeiC	th0
+ 	tho0
+途	thoaooD	th0
+僮	thoeiaD	th0
+侂	thoeueE	th0
+佗	thoouaD	th0
+倓	thououD	th0
+偷	thuoiaC	th0
+ 	thu0
+佟	thuaooD	th0
+倜	thuaeiE	th0
+侹	thueaoD	th0
+魋	thuiooD	th0
+魄	thuiaoE	th0
+佻	thuoauD	th0
+题	tieuiaB1	ti0
+屯	tiaaaaC	ti0
+ 	tia0
+昙	tieeaoC	ti0
+ 	tie0
+剔	tiiiiiC	ti0
+ 	tii0
+晪	tiiauoD	ti0
+忒	tioaooC	ti0
+ 	tio0
+遢	tioaooD	ti0
+慝	tioaooE	ti0
+暾	tioeueD	ti0
+曈	tioeiaE	ti0
+听	tjuuiiB1	tj0
+叹	tjaoooC	tj0
+ 	tja0
+嗵	tjaooaD	tj0
+跆	tjaoiaE	tj0
+妥	tjaueeD	tj0
+叨	tjauuuE	tj0
+吐	tjeieeC	tj0
+ 	tje0
+嚏	tjeiiaD	tj0
+鼗	tjeieiE	tj0
+嗒	tjeiuoE	tj0
+呔	tjeuooD	tj0
+踢	tjiauaC	tj0
+ 	tji0
+踏	tjiaiaD	tj0
+蹋	tjiaaoE	tj0
+鼍	tjiaaaF	tj0
+哃	tjiaeiE	tj0
+嘡	tjioeiD	tj0
+蹚	tjioeiE	tj0
+啼	tjoeiaC	tj0
+ 	tjo0
+逃	tjoaooD	tj0
+蹄	tjoeiaD	tj0
+跎	tjoouaD	tj0
+啴	tjouiaD	tj0
+跳	tjuoauC	tj0
+ 	tju0
+啕	tjuaueD	tj0
+啁	tjuaeiE	tj0
+趿	tjuaooE	tj0
+唾	tjueeeD	tj0
+饕	tjuooaD	tj0
+跅	tjuuooD	tj0
+条	tkeiooB1	tk0
+鲐	tkaoiaC	tk0
+ 	tka0
+饧	tkauuuD	tk0
+獭	tkeiuaC	tk0
+ 	tke0
+饨	tkeaaaD	tk0
+鲀	tkeaaaE	tk0
+兔	tkiaooC	tk0
+ 	tki0
+鲖	tkiaeiD	tk0
+鳎	tkiaaoE	tk0
+鳀	tkiaeiE	tk0
+猯	tkiaeuF	tk0
+鸵	tkoouaC	tk0
+ 	tko0
+逖	tkoaooD	tk0
+彤	tkuuuuC	tk0
+ 	tku0
+鲦	tkuaeiD	tk0
+饦	tkueaaD	tk0
+特	tleieiB1	tl0
+廷	tlaoooC	tl0
+ 	tla0
+乇	tlaaaaD	tl0
+笤	tlauiaD	tl0
+甜	tleieeC	tl0
+ 	tle0
+舔	tleeioD	tl0
+箨	tleiaoD	tl0
+颓	tleuiaD	tl0
+颋	tleuiaE	tl0
+筒	tliaeiC	tl0
+ 	tli0
+透	tloaooC	tl0
+ 	tlo0
+穜	tloeiaD	tl0
+毯	tlououD	tl0
+秃	tluaaaC	tl0
+ 	tlu0
+馟	tluoaiD	tl0
+稌	tluoeeE	tl0
+徒	tmeiieC	tm0
+ 	tme0
+艇	tmueaoC	tm0
+ 	tmu0
+䴘	tmuaeeD	tm0
+土	tneeeeB1	tn0
+趯	tnaiuiC	tn0
+ 	tna0
+嬥	tnaouiD	tn0
+㛚	tnaoiaE	tn0
+填	tneiuoC	tn0
+ 	tne0
+坉	tneaaaD	tn0
+坛	tneeaoD	tn0
+塔	tneiuoD	tn0
+圢	tneiiiE	tn0
+坦	tniaeeC	tn0
+ 	tni0
+塌	tniaaoD	tn0
+媞	tniaeiE	tn0
+垌	tniaeiF	tn0
+帑	tniaiiE	tn0
+趟	tnioiaD	tn0
+塘	tnoeaeC	tn0
+ 	tno0
+迢	tnoaooD	tn0
+婷	tnoeeiD	tn0
+坨	tnoouaD	tn0
+坍	tnuaeeC	tn0
+ 	tnu0
+堍	tnuaooD	tn0
+天	toooooB1	to0
+瑱	toeiuoC	to0
+ 	toe0
+㻬	toeoeeD	to0
+替	toiaeeC	to0
+ 	toi0
+吞	toiaeeD	to0
+瑅	toiaeiE	to0
+泰	toioooD	to0
+耥	toioiaE	to0
+忝	toioooE	to0
+瑭	tooeaeC	to0
+ 	too0
+璮	tooeiaD	to0
+焘	toooooD	to0
+韬	tououiC	to0
+ 	tou0
+珽	toueaoD	to0
+兲	touoooD	to0
+太	tpooooB1	tp0
+厅	tpeiiiC	tp0
+ 	tpe0
+套	tpeiaoD	tp0
+碳	tpiaeuC	tp0
+ 	tpi0
+态	tpoaooC	tp0
+ 	tpo0
+砣	tpoouaD	tp0
+殄	tpuouuC	tp0
+ 	tpu0
+砼	tpuoeiD	tp0
+餮	tpuooaE	tp0
+铁	trueooB1	tr0
+龆	trauiaC	tr0
+ 	tra0
+凸	treeeeC	tr0
+ 	tre0
+铽	treaoaD	tr0
+钍	treieeD	tr0
+镡	treiiaE	tr0
+钛	treuooD	tr0
+铜	triaeiC	tr0
+ 	tri0
+钽	triaeeD	tr0
+钿	triaeeE	tr0
+镗	trioeiD	tr0
+铛	trioaeE	tr0
+镋	triouaE	tr0
+忐	troaooC	tr0
+ 	tro0
+铊	troouaD	tr0
+铴	trooauE	tr0
+锑	trouaeD	tr0
+锬	trououE	tr0
+铤	trueaoC	tr0
+ 	tru0
+铦	trueiaD	tr0
+铫	truoauD	tr0
+头	tseuooB1	ts0
+突	tseuooC	ts0
+ 	tse0
+忳	tseaaaD	ts0
+恸	tseeauD	ts0
+惕	tsiauaC	ts0
+ 	tsi0
+惝	tsioiaD	ts0
+悌	tsouaeC	ts0
+ 	tso0
+惔	tsououD	ts0
+它	tsuaaaC	ts0
+ 	tsu0
+恬	tsueiaD	ts0
+窕	tsuoauD	ts0
+慆	tsuouiE	ts0
+汤	ttauuuB1	tt0
+滩	ttaouiC	tt0
+ 	tta0
+添	tteeioC	tt0
+ 	tte0
+沌	tteaaaD	tt0
+涛	tteeeiD	tt0
+潭	tteiiaD	tt0
+汀	tteiiiE	tt0
+汰	tteuooD	tt0
+淌	ttioiaC	tt0
+ 	tti0
+湍	ttiaeuD	tt0
+溻	ttiaaoE	tt0
+漯	ttiaaaF	tt0
+沓	ttiaeeE	tt0
+沺	ttiaeeF	tt0
+淟	ttiauoE	tt0
+烫	ttouooC	tt0
+ 	tto0
+溏	ttoeaeD	tt0
+渟	ttoeeiE	tt0
+潼	ttoeiaE	tt0
+沱	ttoouaD	tt0
+湉	ttooueE	tt0
+涕	ttouaeD	tt0
+涂	ttuoeeC	tt0
+ 	ttu0
+淘	ttuaueD	tt0
+澹	ttuaoeE	tt0
+沲	ttueaiD	tt0
+滔	ttuouiD	tt0
+洮	ttuoauE	tt0
+投	tuuaaoB1	tu0
+抬	tuaoeeC	tu0
+ 	tua0
+摊	tuaouiD	tu0
+捅	tuaoiaE	tu0
+拓	tueuiaC	tu0
+ 	tue0
+抟	tueeooD	tu0
+掭	tueeioE	tu0
+挞	tueuoaD	tu0
+提	tuiaeiC	tu0
+ 	tui0
+揣	tuiaeuD	tu0
+探	tuoaeiC	tu0
+ 	tuo0
+搪	tuoeaeD	tu0
+擿	tuoeoaE	tu0
+挺	tuueaoC	tu0
+ 	tuu0
+掏	tuuaueD	tu0
+拖	tuueaiD	tu0
+托	tuueaaE	tu0
+霆	tuueaoF	tu0
+推	tuuioeD	tu0
+挑	tuuoauD	tu0
+堂	tweieeB1	tw0
+苔	twaoiaC	tw0
+ 	twa0
+䣘	twaiiiD	tw0
+苕	twauiaD	tw0
+棠	tweiooC	tw0
+ 	twe0
+荑	tweaooD	tw0
+薹	tweieaD	tw0
+萚	tweiaoE	tw0
+茼	twiaeiC	tw0
+ 	twi0
+萜	twiaieD	tw0
+葶	twoeeiC	tw0
+ 	two0
+葖	twooeuD	tw0
+菼	twououD	tw0
+藤	twuaouC	tw0
+ 	twu0
+萄	twuaueD	tw0
+菟	twuaooE	tw0
+莛	twueaoD	tw0
+荼	twuoeeD	tw0
+通	txoaooB1	tx0
+邰	txaiiiC	tx0
+ 	txa0
+台	txiaeeC	tx0
+ 	txi0
+榃	txiaeeD	tx0
+炱	txouooC	tx0
+ 	txo0
+邒	tyaiiiC	ty0
+ 	tya0
+橐	tyeueiC	ty0
+ 	tye0
+鞳	tyeiuoD	ty0
+酞	tyeuooD	ty0
+覃	tyiaeiC	ty0
+ 	tyi0
+酮	tyiaeiD	ty0
+醍	tyiaeiE	ty0
+鞜	tyiaiaE	ty0
+黇	tyieiaD	ty0
+忑	tyoaooC	ty0
+ 	tyo0
+醣	tyoeaeD	ty0
+酡	tyoouaD	ty0
+髫	tyuiaeC	ty0
+ 	tyu0
+酴	tyuoeeD	ty0
+陶	tzuaueB1	tz0
+陀	tzoouaC	tz0
+ 	tzo0
+粜	tzouooD	tz0
+而	vpiiiiA1	vp0
+啊	vjaieiA2	vj0
+阏	vaoeuoB1	va0
+屙	vbaieiC	vb0
+ 	vba0
+桉	vbooauC	vb0
+ 	vbo0
+肮	vcoeuaB1	vc0
+腌	vceuiaC	vc0
+ 	vce0
+腭	vciaeeC	vc0
+ 	vci0
+胺	vcooauC	vc0
+ 	vco0
+袄	vdueooB1	vd0
+诶	vdaoueC	vd0
+ 	vda0
+讴	vdeauoC	vd0
+ 	vde0
+谔	vdiaeeC	vd0
+ 	vdi0
+谙	vdoeiaC	vd0
+ 	vdo0
+讹	vduiuaC	vd0
+ 	vdu0
+恩	veoaooB1	ve0
+峎	veaeooC	ve0
+ 	vea0
+岸	veeueeC	ve0
+ 	vee0
+凹	veeeeeD	ve0
+峏	veeuiaD	ve0
+盎	veiaeeC	ve0
+ 	vei0
+崿	veiaeeD	ve0
+黯	veoeiaC	ve0
+ 	veo0
+闇	veoeiaD	ve0
+峨	veueooC	ve0
+ 	veu0
+蛾	veueooD	ve0
+哀	vfiauaB1	vf0
+庵	vfeuiaC	vf0
+ 	vfe0
+廒	vfeeueD	vf0
+癌	vfiaiaC	vf0
+ 	vfi0
+鏖	vfuoeeC	vf0
+ 	vfu0
+广	vfuuuuD	vf0
+奥	vheuooB1	vh0
+翱	vhaoaoC	vh0
+ 	vha0
+傲	vheeueD	vh0
+佴	vheieeD	vh0
+俺	vheuiaC	vh0
+ 	vhe0
+偶	vhiaooC	vh0
+ 	vhi0
+皑	vhiaaeD	vh0
+盦	vhoaeiC	vh0
+ 	vho0
+俄	vhueooC	vh0
+ 	vhu0
+欧	viuauoB1	vi0
+贰	vieeiaC	vi0
+ 	vie0
+瓯	vieaooD	vi0
+轭	vieuaaD	vi0
+暗	vioeiaC	vi0
+ 	vio0
+遏	vioaooD	vi0
+昂	viuaaiC	vi0
+ 	viu0
+殴	viuaaoD	vi0
+鸥	viuaeeE	vi0
+暧	viuoeuD	vi0
+区	viuoooE	vi0
+唉	vjaoueB1	vj0
+喔	vjaeeaC	vj0
+ 	vja0
+鄂	vjaiiiD	vj0
+爱	vjeuaoC	vj0
+ 	vje0
+呕	vjeauoD	vj0
+嗷	vjeeueD	vj0
+呒	vjeeaaE	vj0
+豻	vjeeiiE	vj0
+哎	vjeiuoD	vj0
+咡	vjeieeE	vj0
+唔	vjeiiaE	vj0
+呃	vjeuaaD	vj0
+颚	vjeuiaE	vj0
+唵	vjeuiaF	vj0
+嗄	vjeuuaE	vj0
+嗯	vjiaoaC	vj0
+ 	vji0
+吖	vjouiiC	vj0
+ 	vjo0
+嗌	vjouiaD	vj0
+噢	vjuieuC	vj0
+ 	vju0
+鹗	vjuaeeD	vj0
+哦	vjueooD	vj0
+嗳	vjuoeuD	vj0
+儿	vkaaaaB1	vk0
+饵	vkeieeC	vk0
+ 	vke0
+犴	vkeeiiD	vk0
+鲕	vkeuiiD	vk0
+尔	vkiuooC	vk0
+ 	vki0
+鳄	vkiaeeD	vk0
+迩	vkoaooC	vk0
+ 	vko0
+𩽾	vkooauD	vk0
+饿	vkueooC	vk0
+ 	vku0
+矮	vlueauB1	vl0
+岙	vliaiiC	vl0
+ 	vli0
+氨	vlooauC	vl0
+ 	vlo0
+鹅	vluaeeC	vl0
+ 	vlu0
+婀	vnaieiD	vn0
+坳	vnaaauD	vn0
+埃	vnaoueD	vn0
+埯	vneuiaC	vn0
+ 	vne0
+媪	vniaiaC	vn0
+ 	vni0
+堨	vniauaD	vn0
+垵	vnooauC	vn0
+ 	vno0
+娥	vnueooC	vn0
+ 	vnu0
+嫒	vnuoeuD	vn0
+姶	vnuoiaE	vn0
+二	voeeeeB1	vo0
+骜	voaaeeC	vo0
+ 	voa0
+毐	vnaaeeC	vn0
+ 	vna0
+珥	voeieeC	vo0
+ 	voe0
+璈	voeeueD	vo0
+聱	voeieeD	vo0
+獒	voeuooD	vo0
+耦	voiaooC	vo0
+ 	voi0
+螯	voiaooD	vo0
+嶅	voiaiiE	vo0
+熬	voooooC	vo0
+ 	voo0
+遨	vooaooD	vo0
+敖	voueooC	vo0
+ 	vou0
+鳌	vouaiaD	vo0
+瑷	vouoeuD	vo0
+鏊	vouoeeE	vo0
+叆	vouoeuF	vo0
+碍	vpiaeeB1	vp0
+厄	vpaaaaC	vp0
+ 	vpa0
+砹	vpeiuoC	vp0
+ 	vpe0
+奀	vpeuooD	vp0
+奡	vpiaeuC	vp0
+ 	vpi0
+𥔲	vpiaeeD	vp0
+鹌	vpuaeeC	vp0
+ 	vpu0
+鸸	vpuaeeD	vp0
+厂	vpuuuuD	vp0
+耏	vpuuuuE	vp0
+锕	vraieiC	vr0
+ 	vra0
+铒	vreieeC	vr0
+ 	vre0
+锷	vriaeeC	vr0
+ 	vri0
+铵	vrooauC	vr0
+ 	vro0
+锿	vroeiaD	vr0
+锇	vrueooC	vr0
+ 	vru0
+安	vsaueeB1	vs0
+案	vseiooC	vs0
+ 	vse0
+怄	vseauoD	vs0
+额	vseuiaD	vs0
+愕	vsiaeeC	vs0
+ 	vsi0
+懊	vsuieuC	vs0
+ 	vsu0
+洱	vteieeC	vt0
+ 	vte0
+沤	vteauoD	vt0
+澳	vtuieuC	vt0
+ 	vtu0
+涐	vtueooD	vt0
+按	vuooauB1	vu0
+挨	vuaoueC	vu0
+ 	vua0
+拗	vuaaauD	vu0
+扼	vueuaaC	vu0
+ 	vue0
+捱	vueueiD	vu0
+摁	vuiaoaC	vu0
+ 	vui0
+霭	vuoaiaC	vu0
+ 	vuo0
+揞	vuoeiaD	vu0
+艾	vwuoooB1	vw0
+藕	vweeiaC	vw0
+ 	vwe0
+苊	vweuaaD	vw0
+萼	vwiaeeC	vw0
+ 	vwi0
+蒽	vwiaoaD	vw0
+蔼	vwoaiaC	vw0
+ 	vwo0
+莪	vwueooC	vw0
+ 	vwu0
+欸	vxuaooC	vx0
+ 	vxu0
+恶	vyoaooB1	vy0
+耳	vyeeeeC	vy0
+ 	vye0
+垩	vyeieeD	vy0
+噩	vyiaiaC	vy0
+ 	vyi0
+鞍	vyooauC	vy0
+ 	vyo0
+鞥	vyuoeuC	vy0
+ 	vyu0
+阿	vzeiiaB1	vz0
+𠙶	vzaiiiC	vz0
+ 	vza0
+陑	vzeuiaC	vz0
+ 	vze0
+隘	vzouiaC	vz0
+ 	vzo0
+隩	vzuieuC	vz0
+ 	vzu0
+我	wlooooA1	wl0
+无	woaaaaA2	wo0
+问	waiaeeB1	wa0
+闻	waeieeC	wa0
+ 	wae0
+闱	waeeiiD	wa0
+阌	wauoaoC	wa0
+ 	wau0
+屋	wbeaeiB1	wb0
+尉	wbeiooC	wb0
+ 	wbe0
+枉	wbeeeeD	wb0
+梧	wbeiiaD	wb0
+杌	wbeuaaD	wb0
+螱	wbiaooC	wb0
+ 	wbi0
+榅	wbiaiaD	wb0
+卐	wbeeeeE	wb0
+慰	wboaooC	wb0
+ 	wbo0
+椀	wboouaD	wb0
+尾	wbueaaC	wb0
+ 	wbu0
+桅	wbuaaaD	wb0
+毋	wceeeeC	wc0
+ 	wce0
+纬	wceeiiD	wc0
+肟	wceeaaE	wc0
+腽	wciaiaC	wc0
+ 	wci0
+腕	wcoouaC	wc0
+ 	wco0
+纹	wcoeooD	wc0
+绾	wcooiaD	wc0
+脘	wcooeeE	wc0
+维	wcuioeC	wc0
+ 	wcu0
+纨	wcuaooD	wc0
+误	wdiaeeB1	wd0
+袜	wdeeooC	wd0
+ 	wde0
+诬	wdeiuoD	wd0
+谓	wdiaiaC	wd0
+ 	wdi0
+诿	wdueauC	wd0
+ 	wdu0
+网	weuouoB1	we0
+幄	weaeeaC	we0
+ 	wea0
+围	weeeiiC	we0
+ 	wee0
+畏	weeaooD	we0
+凹	weeeeeD	we0
+囗	weeeeeE	we0
+帏	weeeiiE	we0
+蛙	weeieiD	we0
+峿	weeiiaE	we0
+崴	weeuauD	we0
+屼	weeuaaE	we0
+胃	weiaeeC	we0
+ 	wei0
+蜈	weiaeeD	we0
+蜗	weiaiaE	we0
+豌	weoouaC	we0
+ 	weo0
+遗	weoaooD	we0
+蚊	weoeooD	we0
+蜿	weoouaD	we0
+畹	weoouaE	we0
+罔	weouoeD	we0
+巍	weueuiC	we0
+ 	weu0
+峗	weuaaaD	we0
+帷	weuioeD	we0
+嵬	weuiaoE	we0
+畖	weuuooD	we0
+文	wfooooB1	wf0
+亡	wfaaaaC	wf0
+ 	wfa0
+紊	wfaaiuD	wf0
+弯	wfaeaaD	wf0
+妄	wfaueeD	wf0
+望	wfeeeeC	wf0
+ 	wfe0
+庑	wfeeaaD	wf0
+痦	wfeiiaD	wf0
+瘟	wfiaiaC	wf0
+ 	wfi0
+亹	wfiaeeD	wf0
+忘	wfoaooC	wf0
+ 	wfo0
+痿	wfueauC	wf0
+ 	wfu0
+於	wfuoooD	wf0
+为	wgooooB1	wg0
+炜	wgeeiiC	wg0
+ 	wge0
+焐	wgeiiaD	wg0
+煨	wgiaeaC	wg0
+ 	wgi0
+煟	wgiaiaD	wg0
+烷	wgooeeC	wg0
+ 	wgo0
+炆	wgoeooD	wg0
+位	whoeeeB1	wh0
+偓	whaeeoC	wh0
+ 	wha0
+伟	wheeiiC	wh0
+ 	whe0
+佤	wheaooD	wh0
+璺	wheeooD	wh0
+伍	wheieeD	wh0
+鼯	wheiiaE	wh0
+偎	whiaeaC	wh0
+ 	whi0
+魍	whiaouD	wh0
+伪	whouooC	wh0
+ 	who0
+隹	whoeeeD	wh0
+皖	whooeeD	wh0
+侮	whueaaC	wh0
+ 	whu0
+倭	whueauD	wh0
+仵	whueiiE	wh0
+万	wiuuuuB1	wi0
+暐	wiaiiaC	wi0
+ 	wia0
+邷	wiaiiiD	wi0
+旺	wieeeeC	wi0
+ 	wie0
+韪	wieeiiD	wi0
+晤	wieiiaD	wi0
+卧	wiioooC	wi0
+ 	wii0
+辒	wiiaiaD	wi0
+辋	wiiaouE	wi0
+瓦	wiooooC	wi0
+ 	wio0
+晚	wiuaiaC	wi0
+ 	wiu0
+旿	wiueiiD	wi0
+味	wjeeooB1	wj0
+翁	wjaoaoC	wj0
+ 	wja0
+喔	wjaeeaD	wj0
+哇	wjeieiC	wj0
+ 	wje0
+瓮	wjeaooD	wj0
+吴	wjeeooD	wj0
+唔	wjeiiaD	wj0
+喂	wjiaeaC	wj0
+ 	wji0
+吻	wjuauuC	wj0
+ 	wju0
+呜	wjuaeeD	wj0
+鹟	wjuaeeE	wj0
+踒	wjueauD	wj0
+唯	wjuioeD	wj0
+嗡	wjuoaoD	wj0
+外	wkioooB1	wk0
+务	wkauuuC	wk0
+ 	wka0
+危	wkaaaaD	wk0
+鳚	wkaeeiD	wk0
+邬	wkaiiiD	wk0
+乌	wkeeeeC	wk0
+ 	wke0
+鲔	wkeuiaD	wk0
+猥	wkiaeaC	wk0
+ 	wki0
+猬	wkiaiaD	wk0
+鳂	wkiaeaE	wk0
+鳁	wkiaiaE	wk0
+刎	wkiiiiD	wk0
+丸	wkooooC	wk0
+ 	wko0
+勿	wkuuuuC	wk0
+ 	wku0
+物	wluauuB1	wl0
+委	wlaueeC	wl0
+ 	wla0
+牾	wleiiaC	wl0
+ 	wle0
+午	wliiiiC	wl0
+ 	wli0
+逶	wloaooC	wl0
+ 	wlo0
+迕	wloaooD	wl0
+舞	wluaeaC	wl0
+ 	wlu0
+稳	wluaoaD	wl0
+魏	wluiaoD	wl0
+艉	wmaeueC	wm0
+ 	wma0
+微	wmiaueC	wm0
+ 	wmi0
+往	wmoeeeC	wm0
+ 	wmo0
+娃	wneieiB1	wn0
+娓	wnaeueC	wn0
+ 	wna0
+妩	wneeaaC	wn0
+ 	wne0
+圩	wneeiiD	wn0
+圬	wneeaaE	wn0
+妧	wneeuoE	wn0
+娲	wniaiaC	wn0
+ 	wni0
+婉	wnoouaC	wn0
+ 	wno0
+塆	wnoeaeD	wn0
+婠	wnooiaD	wn0
+妫	wnouooD	wn0
+坞	wnuaeeC	wn0
+ 	wnu0
+玩	woeeuaB1	wo0
+王	woeeeeC	wo0
+ 	woe0
+玮	woeeiiD	wo0
+珷	woeeieE	wo0
+珸	woeiiaD	wo0
+顽	woeuiaD	wo0
+武	woieeeC	wo0
+ 	woi0
+韫	woiaiaD	wo0
+韦	woiiiiD	wo0
+未	woooooC	wo0
+ 	woo0
+违	wooaooD	wo0
+玟	wooeooD	wo0
+琬	wooouaD	wo0
+鹉	wouaeeC	wo0
+ 	wou0
+琟	wouiooD	wo0
+威	wpaueeB1	wp0
+兀	wpaaaaC	wp0
+ 	wpa0
+歪	wpeieeC	wp0
+ 	wpe0
+尪	wpeeeeD	wp0
+硙	wpiaaeC	wp0
+ 	wpi0
+碨	wpiaeaD	wp0
+碗	wpoouaC	wp0
+ 	wpo0
+戊	wpooooD	wp0
+硪	wpueooC	wp0
+ 	wpu0
+硊	wpuaaaD	wp0
+龌	wraeeaC	wr0
+ 	wra0
+铻	wreiiaC	wr0
+ 	wre0
+钨	wruaeeC	wr0
+ 	wru0
+完	wseeuaB1	ws0
+寤	wsaieiC	ws0
+ 	wsa0
+悟	wseiiaC	ws0
+ 	wse0
+怃	wseeaaD	ws0
+窝	wsiaiaC	ws0
+ 	wsi0
+惘	wsiaouD	ws0
+剜	wsiiiiD	ws0
+惋	wsoouaC	ws0
+ 	wso0
+惟	wsuioeC	ws0
+ 	wsu0
+宛	wsuaaaD	ws0
+忤	wsueiiD	ws0
+窊	wsuuooD	ws0
+温	wtiaeiB1	wt0
+渥	wtaeeaC	wt0
+ 	wta0
+潍	wtaauiD	wt0
+污	wteeaaC	wt0
+ 	wte0
+汪	wteeeeD	wt0
+𣲘	wteeaaE	wt0
+𣲗	wteeiiE	wt0
+洼	wteieiD	wt0
+浯	wteiiaE	wt0
+洧	wteuiaD	wt0
+洿	wteueeE	wt0
+渭	wtiaiaC	wt0
+ 	wti0
+涡	wtiaiaD	wt0
+涠	wtiaeeE	wt0
+溦	wtiaueE	wt0
+湾	wtoeaeC	wt0
+ 	wto0
+汶	wtoeooD	wt0
+涴	wtoouaD	wt0
+沩	wtouooD	wt0
+沃	wtueooC	wt0
+ 	wtu0
+洈	wtuaaaD	wt0
+鋈	wtuoeeD	wt0
+滃	wtuoaoE	wt0
+握	wuaeeaB1	wu0
+霨	wuaeeiC	wu0
+ 	wua0
+捂	wueiiaC	wu0
+ 	wue0
+挝	wueioaD	wu0
+揾	wuiaiaC	wu0
+ 	wui0
+挖	wuooaaC	wu0
+ 	wuo0
+雯	wuoeooD	wu0
+㧑	wuouooD	wu0
+雾	wuuaauC	wu0
+ 	wuu0
+挽	wuuaiaD	wu0
+薇	wwuuiaB1	ww0
+蔚	wwaeeiC	ww0
+ 	wwa0
+苇	wweeiiC	ww0
+ 	wwe0
+芜	wweeaaD	ww0
+葳	wweuauD	ww0
+莴	wwiaiaC	ww0
+ 	wwi0
+蔓	wwiaiaD	ww0
+菀	wwoouaC	ww0
+ 	wwo0
+蕹	wwoeaaD	ww0
+芠	wwoeooE	ww0
+莞	wwooeeD	ww0
+萎	wwueauC	ww0
+ 	wwu0
+芄	wwuaooD	ww0
+芴	wwuauuE	ww0
+蓊	wwuoaoD	ww0
+骛	wxaaeeC	wx0
+ 	wxa0
+婺	wxaueeD	wx0
+鹜	wxuaeeC	wx0
+ 	wxu0
+五	wyeeeeB1	wy0
+郚	wyaiiiC	wy0
+ 	wya0
+靰	wyeuaaC	wy0
+ 	wye0
+吾	wyiaeeC	wy0
+ 	wyi0
+軎	wyiaeeD	wy0
+恶	wyoaooC	wy0
+ 	wyo0
+巫	wyuouoC	wy0
+ 	wyu0
+鹀	wyuaeeD	wy0
+斡	wyuoooD	wy0
+卫	wzeeeeB1	wz0
+阢	wzeuaaC	wz0
+ 	wze0
+卍	wziiiiD	wz0
+隈	wziaeaC	wz0
+ 	wzi0
+隗	wzuiaoC	wz0
+ 	wzu0
+下	xyooooA1	xy0
+先	xluaaaB1	xl0
+闲	xaeiooB1	xa0
+阋	xauiuaC	xa0
+ 	xau0
+鹇	xauaeeD	xa0
+想	xboaooB1	xb0
+栩	xbaoaoC	xb0
+ 	xba0
+樨	xbaeioD	xb0
+榍	xbaeioE	xb0
+寻	xbeiooC	xb0
+ 	xbe0
+朽	xbeaaaD	xb0
+械	xbeaeuE	xb0
+楔	xbeeeuD	xb0
+彐	xbeeeeE	xb0
+栖	xbeieeD	xb0
+巽	xbeiuoE	xb0
+相	xbiaeeC	xb0
+ 	xbi0
+杏	xbiaeeD	xb0
+枵	xbiaeaE	xb0
+柙	xbiaiiE	xb0
+屃	xbiauoE	xb0
+屑	xbioiaD	xb0
+犀	xbioueE	xb0
+校	xboeuoC	xb0
+ 	xbo0
+迅	xboaooD	xb0
+遐	xboaooE	xb0
+弦	xboeaaD	xb0
+楦	xbooeiD	xb0
+析	xbuuiiC	xb0
+ 	xbu0
+橡	xbuaooD	xb0
+栒	xbuaiaE	xb0
+皙	xbuieeD	xb0
+榭	xbuieiE	xb0
+檄	xbuiueE	xb0
+屣	xbuuieD	xb0
+线	xceeooB1	xc0
+胁	xcauooC	xc0
+ 	xca0
+续	xceiaoC	xc0
+ 	xce0
+骁	xceaeuD	xc0
+膝	xceiuoD	xc0
+绁	xceiaaE	xc0
+缬	xceieuE	xc0
+绪	xceiiaE	xc0
+缃	xceiiaF	xc0
+腊	xceiiaF2	xc0
+细	xciaeeC	xc0
+ 	xci0
+腥	xciaueD	xc0
+绡	xcioiaD	xc0
+巡	xcoaooC	xc0
+ 	xco0
+骧	xcoeiaD	xc0
+骍	xcoeeiE	xc0
+胸	xcuauoC	xc0
+ 	xcu0
+绚	xcuaiaD	xc0
+朐	xcuaiaE	xc0
+绣	xcueauD	xc0
+纤	xcueiiE	xc0
+腺	xcuiiaD	xc0
+驯	xcuiiiE	xc0
+缐	xcuiiaF	xc0
+飨	xcuooaD	xc0
+肸	xcuoeiE	xc0
+绤	xcuoiaE	xc0
+乡	xcuuuuD	xc0
+心	xdooooB1	xd0
+讯	xdaeiiC	xd0
+ 	xda0
+禒	xdaaeuD	xd0
+谞	xdaiiaD	xd0
+诩	xdaoaoD	xd0
+写	xdeaeeC	xd0
+ 	xde0
+谐	xdeauiD	xd0
+祆	xdeeooD	xd0
+禊	xdeeeuE	xd0
+禧	xdeiiaD	xd0
+袖	xdiaeeC	xd0
+ 	xdi0
+诇	xdiaiaD	xd0
+禤	xdiaaoE	xd0
+裼	xdiauaE	xd0
+谑	xdieeaD	xd0
+祥	xdoueeC	xd0
+ 	xdo0
+详	xdoueeD	xd0
+谢	xduieiC	xd0
+ 	xdu0
+询	xduaiaD	xd0
+许	xdueiiD	xd0
+诜	xdueuaE	xd0
+训	xduiiiD	xd0
+讻	xduoaiD	xd0
+谖	xduoeeE	xd0
+䜣	xduuiiD	xd0
+县	xeaoooB1	xe0
+勖	xeauuuC	xe0
+ 	xea0
+酅	xeaiiiD	xe0
+嶍	xeaoiaD	xe0
+翈	xeaoaoE	xe0
+翾	xeaoaoF	xe0
+峡	xeeoooC	xe0
+ 	xee0
+盱	xeeeiiD	xe0
+虾	xeeiooD	xe0
+蟏	xeeiaeE	xe0
+黠	xeeiiaE	xe0
+蜥	xeeiuuE	xe0
+蝎	xeiauaC	xe0
+ 	xei0
+岫	xeiaeeD	xe0
+岘	xeiauaE	xe0
+蚬	xeiauaF	xe0
+巇	xeieeaD	xe0
+蛸	xeioiaD	xe0
+瞎	xeooeeC	xe0
+ 	xeo0
+悬	xeoaooD	xe0
+眩	xeoeaaD	xe0
+蟋	xeuooaC	xe0
+ 	xeu0
+峋	xeuaiaD	xe0
+见	xeuaaaE	xe0
+蟓	xeuaiaE	xe0
+盷	xeuaoeE	xe0
+螅	xeuioaD	xe0
+䗛	xeuiuaE	xe0
+崤	xeuoeuD	xe0
+睎	xeuoeuE	xe0
+崄	xeuoooE	xe0
+新	xfuuiiB1	xf0
+序	xfaoiiC	xf0
+ 	xfa0
+玄	xfaaooD	xf0
+瘕	xfaeaeD	xf0
+享	xfaieeD	xf0
+燮	xfaoooD	xf0
+辛	xfeiiiC	xf0
+ 	xfe0
+亵	xfeiuaD	xf0
+席	xfiaiiC	xf0
+ 	xfi0
+畜	xfiaeeD	xf0
+襄	xfiaeeE	xf0
+𠅤	xfiaoaE	xf0
+庠	xfoueeC	xf0
+ 	xfo0
+痃	xfoeaaD	xf0
+痫	xfoieiD	xf0
+效	xfueooC	xf0
+ 	xfu0
+歆	xfuauoD	xf0
+廨	xfuaauE	xf0
+癣	xfuaouE	xf0
+旋	xfueaiD	xf0
+冼	xfueuaE	xf0
+庥	xfuieiD	xf0
+羞	xgaieeB1	xg0
+翔	xgaoaoC	xg0
+ 	xga0
+糈	xgaiiaD	xg0
+券	xgauuuD	xg0
+粞	xgeieeC	xg0
+ 	xge0
+烜	xgeiaeD	xg0
+籼	xgiaiiC	xg0
+ 	xgi0
+煋	xgiaueD	xg0
+羡	xgoeuaC	xg0
+ 	xgo0
+炫	xgoeaaD	xg0
+煊	xgooeiD	xg0
+爔	xgouueD	xg0
+熄	xguioaC	xg0
+ 	xgu0
+鲞	xguaiaD	xg0
+欻	xguauoE	xg0
+羲	xgueeaD	xg0
+烯	xguoeuD	xg0
+熻	xguoaoE	xg0
+炘	xguuiiD	xg0
+向	xhiaeeB1	xh0
+叙	xhaoooC	xh0
+ 	xha0
+翕	xhaoaoD	xh0
+血	xheeeeC	xh0
+ 	xhe0
+偕	xheauiD	xh0
+魆	xheaooE	xh0
+偰	xheeeuD	xh0
+休	xheiooD	xh0
+㙦	xheieeE	xh0
+僖	xheiiaE	xh0
+鸺	xheiuaE	xh0
+侠	xheoooD	xh0
+臭	xheuooD	xh0
+仙	xhiaiiC	xh0
+ 	xhi0
+儇	xhiaeiD	xh0
+魈	xhioiaD	xh0
+信	xhoeeeC	xh0
+ 	xho0
+息	xhoaooD	xh0
+伈	xhoaooE	xh0
+伭	xhoeaaD	xh0
+斜	xhooeiD	xh0
+衅	xhouiiD	xh0
+像	xhuaiaC	xh0
+ 	xhu0
+修	xhuauuD	xh0
+翛	xhuaaoE	xh0
+脩	xhuaiaE	xh0
+舄	xhuaooE	xh0
+歙	xhuauoE	xh0
+皛	xhuiuiD	xh0
+囟	xhuoooD	xh0
+鼷	xhuoaaE	xh0
+傒	xhuoaaF	xh0
+俙	xhuoeuE	xh0
+星	xiueeeB1	xi0
+邪	xiaiiiC	xi0
+ 	xia0
+㬎	xiaaooD	xi0
+暇	xiaeaeD	xi0
+晓	xieaeuC	xi0
+ 	xie0
+轩	xieeiiD	xi0
+旴	xieeiiE	xi0
+晰	xieiuuD	xi0
+晅	xieiaeE	xi0
+暿	xieiiaE	xi0
+显	xiiieeC	xi0
+ 	xii0
+匣	xiiaiiD	xi0
+冔	xiiaeeE	xi0
+辖	xiooeeC	xi0
+ 	xio0
+暹	xioaooD	xi0
+暶	xioeueD	xi0
+昡	xioeaaE	xi0
+煦	xiooooD	xi0
+暄	xiooeiE	xi0
+暅	xiooeiF	xi0
+熙	xiooooE	xi0
+曦	xiouueD	xi0
+歇	xiuauoC	xi0
+ 	xiu0
+昫	xiuaiaD	xi0
+曛	xiueooD	xi0
+晞	xiuoeuD	xi0
+昕	xiuuiiD	xi0
+兄	xjuaaaB1	xj0
+凶	xjaiiiC	xj0
+ 	xja0
+奚	xjaaeuD	xj0
+啸	xjaeooD	xj0
+噀	xjaeeiE	xj0
+郗	xjaiiiD	xj0
+郄	xjaiiiE	xj0
+郤	xjaiiiF	xj0
+勋	xjauuuD	xj0
+希	xjeuiaC	xj0
+ 	xje0
+兮	xjeaaaD	xj0
+哓	xjeaeuE	xj0
+吁	xjeeiiD	xj0
+吓	xjeiooD	xj0
+哮	xjeiaiE	xj0
+咺	xjeiaeF	xj0
+咁	xjeieeE	xj0
+嘻	xjeiiaE	xj0
+咭	xjeiiaF	xj0
+叶	xjeiiiF	xj0
+嚣	xjeuiaD	xj0
+嘘	xjieiiC	xj0
+ 	xji0
+呷	xjiaiiD	xj0
+吅	xjiaeeE	xj0
+噱	xjieeuD	xj0
+悉	xjoaooC	xj0
+ 	xjo0
+躞	xjoeaoD	xj0
+喧	xjooeiD	xj0
+响	xjuiiaC	xj0
+ 	xju0
+吸	xjuaooD	xj0
+鸮	xjuaeeE	xj0
+欷	xjuauoE	xj0
+跣	xjueuaD	xj0
+跹	xjueoaE	xj0
+嗅	xjuieuD	xj0
+咻	xjuieiE	xj0
+貅	xjuieiF	xj0
+蹊	xjuoaaD	xj0
+唏	xjuoeuE	xj0
+谿	xjuoiaE	xj0
+系	xkiuooB1	xk0
+郇	xkaiiiC	xk0
+ 	xka0
+鲟	xkaeeiD	xk0
+邜	xkaiiiD	xk0
+觿	xkaiuiE	xk0
+鳛	xkaouiD	xk0
+饧	xkauuuD	xk0
+解	xkauueE	xk0
+狭	xkeoooC	xk0
+ 	xke0
+玺	xkeeooD	xk0
+枭	xkeiooD	xk0
+鲑	xkeieiE	xk0
+𤞤	xkeiuuE	xk0
+鳕	xkeoaeD	xk0
+象	xkiaooC	xk0
+ 	xki0
+蟹	xkiaooD	xk0
+旬	xkiaeeE	xk0
+旭	xkiaeeF	xk0
+狎	xkiaiiE	xk0
+猩	xkiaueE	xk0
+夐	xkiauaF	xk0
+虓	xkieuaD	xk0
+猇	xkieuaE	xk0
+鲜	xkoueeC	xk0
+ 	xko0
+邂	xkoaooD	xk0
+饻	xkoeooD	xk0
+夕	xkooooD	xk0
+馐	xkouaiD	xk0
+匈	xkuoaiC	xk0
+ 	xku0
+馅	xkuauiD	xk0
+獬	xkuaauE	xk0
+狝	xkuaiuE	xk0
+鱻	xkuauaE	xk0
+獯	xkueooD	xk0
+饩	xkueaaE	xk0
+饷	xkuiiaD	xk0
+猃	xkuoooD	xk0
+选	xloaooC	xl0
+ 	xlo0
+秀	xlauuuC	xl0
+ 	xla0
+箫	xlaeooD	xl0
+卸	xlaiiiD	xl0
+箱	xleiiaC	xl0
+ 	xle0
+牺	xleieeD	xl0
+香	xliaeeC	xl0
+ 	xli0
+氙	xliaiiD	xl0
+罅	xlieuoD	xl0
+熏	xlooooD	xl0
+笑	xlueooC	xl0
+ 	xlu0
+筅	xlueuaD	xl0
+筱	xluiueD	xl0
+稀	xluoeuD	xl0
+行	xmeeiiB1	xm0
+邤	xmaiiiC	xm0
+ 	xma0
+媭	xmaueeD	xm0
+须	xmeuiaC	xm0
+ 	xme0
+舾	xmeieeD	xm0
+徙	xmieieC	xm0
+ 	xmi0
+舷	xmoeaaC	xm0
+ 	xmo0
+衒	xmoeeeD	xm0
+欣	xmuauoC	xm0
+ 	xmu0
+徇	xmuaiaD	xm0
+衔	xmueeeD	xm0
+徐	xmuoeeD	xm0
+循	xmuueiD	xm0
+喜	xniaeeB1	xn0
+婿	xnaiiaC	xn0
+ 	xna0
+絮	xnaaiuD	xn0
+嬉	xneiiaC	xn0
+ 	xne0
+圩	xneeiiD	xn0
+婞	xneiouD	xn0
+囍	xneiiaE	xn0
+颉	xneuiaD	xn0
+墟	xnieiiC	xn0
+ 	xni0
+勰	xniaoaD	xn0
+嬛	xniaeiE	xn0
+埙	xniaiaE	xn0
+幸	xnoueeC	xn0
+ 	xno0
+憙	xnoaooD	xn0
+垿	xnoeaoD	xn0
+姣	xnoeuoE	xn0
+娴	xnoieiD	xn0
+熹	xnooooD	xn0
+嫌	xnouooD	xn0
+姓	xnueeeC	xn0
+ 	xnu0
+馨	xnueiaD	xn0
+媳	xnuioaD	xn0
+孅	xnuoieD	xn0
+现	xoiauaB1	xo0
+邢	xoaiiiC	xo0
+ 	xoa0
+絜	xoaaiuD	xo0
+瑕	xoaeaeD	xo0
+珝	xoaoaoD	xo0
+型	xoeieeC	xo0
+ 	xoe0
+砉	xoeuiaD	xo0
+顼	xoeuiaE	xo0
+珛	xoeuiaF	xo0
+契	xoeuooE	xo0
+刑	xoiiiiC	xo0
+ 	xoi0
+瑆	xoiaueD	xo0
+琄	xoiaiaE	xo0
+璇	xooeueC	xo0
+ 	xoo0
+瓖	xooeiaD	xo0
+玹	xooeaaE	xo0
+瑄	xoooeiD	xo0
+𤫉	xoouaoD	xo0
+形	xouuuuC	xo0
+ 	xou0
+珣	xouaiaD	xo0
+琇	xoueuaD	xo0
+珦	xouiiaD	xo0
+夏	xpuaooB1	xp0
+厢	xpeiiaC	xp0
+ 	xpe0
+戌	xpeeeeD	xp0
+硎	xpeeiiE	xp0
+硒	xpeieeD	xp0
+硖	xpeoooD	xp0
+厦	xpeuuaD	xp0
+咸	xpiaeeC	xp0
+ 	xpi0
+硝	xpioiaD	xp0
+袭	xpoeooC	xp0
+ 	xpo0
+碹	xpooeiD	xp0
+燹	xpouooD	xp0
+雄	xpuioeC	xp0
+ 	xpu0
+殉	xpuaiaD	xp0
+矽	xpuaooE	xp0
+豨	xpuoeuD	xp0
+贤	xqiauoC	xq0
+ 	xqi0
+些	xreeeeB1	xr0
+钘	xreeiiC	xr0
+ 	xre0
+铏	xreeiiD	xr0
+镡	xreiiaD	xr0
+虚	xriieeC	xr0
+ 	xri0
+锡	xriauaD	xr0
+销	xrioiaD	xr0
+锌	xroeeiC	xr0
+ 	xro0
+镶	xroeiaD	xr0
+铉	xroeaaE	xr0
+镟	xroeueE	xr0
+锈	xrueauC	xr0
+ 	xru0
+钑	xruaooD	xr0
+铣	xrueuaD	xr0
+铦	xrueiaE	xr0
+鑫	xruouoD	xr0
+锨	xruuuaD	xr0
+学	xsaieeB1	xs0
+宣	xseiaeC	xs0
+ 	xse0
+惜	xseiiaD	xs0
+恓	xseiaaE	xs0
+悻	xseiouE	xs0
+宵	xsioiaC	xs0
+ 	xsi0
+惺	xsiaueD	xs0
+峃	xsiaiiE	xs0
+泶	xsiaooE	xs0
+窨	xsoeiaC	xs0
+ 	xso0
+恔	xsoeuoD	xs0
+愃	xsooeiD	xs0
+性	xsueeeC	xs0
+ 	xsu0
+懈	xsuaauD	xs0
+恂	xsuaiaE	xs0
+穸	xsuaooE	xs0
+忺	xsuauoE	xs0
+宪	xsueuaD	xs0
+忾	xsueaaE	xs0
+敩	xsueooE	xs0
+宿	xsuieuD	xs0
+恤	xsuieeE	xs0
+兴	xsuoooD	xs0
+穴	xsuoooE	xs0
+窸	xsuooaF	xs0
+忻	xsuuiiD	xs0
+小	xtooooA2	xt0
+汛	xtaeiiC	xt0
+ 	xta0
+浔	xtaeeiD	xt0
+湑	xtaiiaD	xt0
+浚	xtaouoD	xt0
+泄	xteiaaC	xt0
+ 	xte0
+湘	xteiiaD	xt0
+潇	xteiaeE	xt0
+涍	xteiaiF	xt0
+渫	xteieiE	xt0
+淅	xteiuuE	xt0
+消	xtioiaC	xt0
+ 	xti0
+省	xtiaeeD	xt0
+瀣	xtieieD	xt0
+泻	xtoaeaC	xt0
+ 	xto0
+浒	xtoaueD	xt0
+漩	xtoeueD	xt0
+泫	xtoeaaE	xt0
+洨	xtoeuoE	xt0
+渲	xtooeiD	xt0
+洗	xtueuaB1	xt0
+汐	xtuaooD	xt0
+澥	xtuaauE	xt0
+洵	xtuaiaE	xt0
+涎	xtuiaoD	xt0
+溴	xtuieuE	xt0
+洫	xtuieeF	xt0
+潟	xtuiuaE	xt0
+滫	xtuiuaF	xt0
+溪	xtuoaaC	xt0
+ 	xtu0
+汹	xtuoaiD	xt0
+溆	xtuoaoE	xt0
+淆	xtuoeuE	xt0
+浠	xtuoeuF	xt0
+需	xueuiiB1	xu0
+雪	xuaeeeC	xu0
+ 	xua0
+霞	xuaeaeD	xu0
+挦	xuaeeiE	xu0
+掺	xuaoeuD	xu0
+挟	xueoooC	xu0
+ 	xue0
+揳	xueeeuD	xu0
+撷	xueieuD	xu0
+霰	xueiueE	xu0
+霄	xuioiaC	xu0
+ 	xui0
+踅	xuiaieD	xu0
+揎	xuooeiC	xu0
+ 	xuo0
+携	xuuiauC	xu0
+ 	xuu0
+擤	xuuiiaD	xu0
+掀	xuuuuaD	xu0
+削	xwiiiiB1	xw0
+萧	xwaeooC	xw0
+ 	xwa0
+芗	xwaauuD	xw0
+芎	xwaeaaD	xw0
+荨	xwaeeiE	xw0
+菥	xweiuuC	xw0
+ 	xwe0
+蕈	xweiiaD	xw0
+茜	xweieeE	xw0
+葙	xweiiaE	xw0
+薤	xweuieD	xw0
+肖	xwiaeeC	xw0
+ 	xwi0
+荥	xwiaooD	xw0
+葸	xwiaoaE	xw0
+苋	xwiauaE	xw0
+蓄	xwoeiaC	xw0
+ 	xwo0
+芯	xwoaooD	xw0
+逍	xwoaooE	xw0
+薪	xwoeuuD	xw0
+莘	xwoeeiE	xw0
+萱	xwooeiD	xw0
+蓿	xwoouiE	xw0
+茓	xwoouoF	xw0
+薛	xwuioeC	xw0
+ 	xwu0
+藓	xwuaouD	xw0
+薢	xwuaauE	xw0
+荀	xwuaiaE	xw0
+薰	xwueooD	xw0
+莶	xwuoooD	xw0
+荇	xwuueeD	xw0
+蓰	xwuuieE	xw0
+习	xxeeeeB1	xx0
+㕛	xxaoooC	xx0
+ 	xxa0
+戏	xxeaooC	xx0
+ 	xxe0
+枲	xxeiuoD	xx0
+矞	xxiauoC	xx0
+ 	xxi0
+熊	xxooooC	xx0
+ 	xxo0
+西	xyeeeeB1	xy0
+协	xyauooC	xy0
+ 	xya0
+巷	xyaeaaD	xy0
+孝	xyaieeD	xy0
+醑	xyaiiaE	xy0
+项	xyeuiaC	xy0
+ 	xye0
+鞋	xyeieiD	xy0
+献	xyeuooD	xy0
+醒	xyiaueC	xy0
+ 	xyi0
+昔	xyiaeeD	xy0
+觋	xyiauaE	xy0
+醯	xyoeiaC	xy0
+ 	xyo0
+靴	xyuiuaC	xy0
+ 	xyu0
+醺	xyueooD	xy0
+酰	xyueuaE	xy0
+髹	xyuieiD	xy0
+酗	xyuoaiD	xy0
+限	xzaeooB1	xz0
+陉	xzaoeiC	xz0
+ 	xza0
+隙	xziuiaC	xz0
+ 	xzi0
+胥	xziaeeD	xz0
+隰	xziaaaE	xz0
+逊	xzoaooC	xz0
+ 	xzo0
+陷	xzuauiC	xz0
+ 	xzu0
+降	xzuaeaD	xz0
+险	xzuoooD	xz0
+一	yeeeeeA1	ye0
+有	ypiaeeA2	yp0
+阅	yaouiaB1	ya0
+乙	yaaaaaC	ya0
+ 	yaa0
+阈	yaeaiaC	ya0
+ 	yae0
+闫	yaeeeeD	ya0
+阉	yaeuiaD	ya0
+阏	yaoeuoC	ya0
+ 	yao0
+訚	yaoeiaD	ya0
+阎	yauauiC	ya0
+ 	yau0
+已	ybaaaaB1	yb0
+杨	ybauuuC	yb0
+ 	yba0
+橼	ybaaaaD	yb0
+楹	ybauiaD	yb0
+异	ybeuiiC	yb0
+ 	ybe0
+杙	ybeaooD	yb0
+棫	ybeaiaE	yb0
+枟	ybeeaoD	yb0
+椰	ybeiaiD	yb0
+鬻	ybeiaeE	yb0
+桠	ybeieeE	yb0
+樾	ybeieaF	yb0
+槱	ybeiooE	yb0
+尉	ybeiooF	yb0
+橒	ybeoeeD	yb0
+椅	ybeueiD	yb0
+引	ybiiiiC	yb0
+ 	ybi0
+樱	ybiaauD	yb0
+杳	ybiaeeE	yb0
+柚	ybiaeeF	yb0
+聿	ybiiiiD	yb0
+肀	ybiiiiE	yb0
+样	yboueeC	yb0
+ 	ybo0
+栐	yboaooD	yb0
+椸	yboeueD	yb0
+熨	ybouooD	yb0
+棪	ybououE	yb0
+尹	ybuuuuC	yb0
+ 	ybu0
+檐	ybuaoeD	yb0
+栎	ybuaooE	yb0
+尾	ybueaaD	yb0
+榆	ybuoiaD	yb0
+渰	ybuoeuE	yb0
+枍	ybuoeaF	yb0
+月	yceeeeB1	yc0
+缘	ycaaeuC	yc0
+ 	yca0
+驿	ycaoeeD	yc0
+绎	ycaoeeE	yc0
+驭	ycaoooE	yc0
+幼	ycauuuD	yc0
+腰	yceiauC	yc0
+ 	yce0
+胰	yceaooD	yc0
+纭	yceeaoD	yc0
+纡	yceeiiE	yc0
+腌	yceuiaD	yc0
+胭	yciaeuC	yc0
+ 	yci0
+缨	yciaauD	yc0
+邕	yciaaiE	yc0
+骃	yciaeuE	yc0
+缊	yciaiaE	yc0
+刖	yciiiiD	yc0
+彝	ycoueuC	yc0
+ 	yco0
+臆	ycoeoaD	yc0
+臃	ycoeaaE	yc0
+腋	ycoeuiE	yc0
+幺	ycooooD	yc0
+缢	ycouiaD	yc0
+媵	ycouauE	yc0
+约	ycuaooC	yc0
+ 	ycu0
+腴	ycuiooD	yc0
+验	ycuoooD	yc0
+语	ydeiiaB1	yd0
+译	ydaoeeC	yd0
+ 	yda0
+郓	ydaiiiD	yd0
+诒	ydaoiaD	yd0
+讶	ydeauuC	yd0
+ 	yde0
+祎	ydeeiiD	yd0
+谳	ydeieuD	yd0
+禋	ydeieiE	yd0
+祐	ydeuiaD	yd0
+谒	ydiauaC	yd0
+ 	ydi0
+永	ydooooC	yd0
+ 	ydo0
+谚	ydoeuuD	yd0
+扆	ydoeooE	yd0
+谊	ydooiaD	yd0
+议	ydouooD	yd0
+说	ydouiaE	yd0
+扊	ydououE	yd0
+谣	yduoueC	yd0
+ 	ydu0
+冤	yduaooD	yd0
+诣	yduaiaE	yd0
+扅	yduauaE	yd0
+诱	ydueauD	yd0
+谀	ydueooE	yd0
+裕	yduoiaD	yd0
+谕	yduoiaE	yd0
+褕	yduoiaF	yd0
+因	yeeuooB1	ye0
+眼	yeaeooC	ye0
+ 	yea0
+幽	yeaaaaD	ye0
+黝	yeaaauE	ye0
+蚴	yeaaauF	ye0
+蚓	yeaeiiD	ye0
+邮	yeaiiiD	ye0
+觃	yeaieeE	ye0
+野	yeaoiiD	ye0
+峄	yeaoeeE	ye0
+蛹	yeaoiaE	ye0
+贻	yeaoiaF	ye0
+眙	yeaoiaF2	ye0
+婴	yeaueeD	ye0
+由	yeeeeeC	ye0
+ 	yee0
+蚜	yeeauuD	ye0
+屿	yeeaeeE	ye0
+峣	yeeaeuF	ye0
+蜮	yeeaiaE	ye0
+蝘	yeeaiaF	ye0
+岈	yeeauuE	ye0
+园	yeeeuaD	ye0
+曰	yieeeeD	yi0
+圄	yeeiiaD	ye0
+崾	yeeiauE	ye0
+蟫	yeeiiaE	ye0
+圉	yeeiouE	ye0
+岩	yeeuiaD	ye0
+崖	yeeueiE	ye0
+睚	yeeueiF	ye0
+囿	yeeuiaE	ye0
+崦	yeeuiaF	ye0
+罨	yeeuiaF2	ye0
+顗	yeeuiaF3	ye0
+颙	yeeuiaF4	ye0
+螈	yeeuuiE	ye0
+圆	yeiaiaC	ye0
+ 	yei0
+蝇	yeiaiaD	ye0
+圜	yeiaeiE	ye0
+蚰	yeiaeeF	ye0
+蜎	yeiaiaE	ye0
+嵎	yeiaooE	ye0
+髃	yeiaooF	ye0
+蜴	yeiauaE	ye0
+遇	yeoaooC	ye0
+ 	yeo0
+遗	yeoaooD	ye0
+愚	yeoaooE	ye0
+蝣	yeoeueD	ye0
+央	yeooooD	ye0
+禺	yeooooE	ye0
+蛇	yeoouaE	ye0
+蚁	yeouooD	ye0
+蝤	yeoueiE	ye0
+蛘	yeouiiE	ye0
+螠	yeouiaF	ye0
+鸭	yeuaeeC	ye0
+ 	yeu0
+鸯	yeuaeeD	ye0
+嶷	yeuaaoE	ye0
+鹦	yeuaeeE	ye0
+鹝	yeuaeeF	ye0
+黟	yeuauaE	ye0
+屹	yeueaaD	ye0
+罂	yeueiiE	ye0
+蜒	yeuiaoD	ye0
+峪	yeuoiaD	ye0
+崟	yeuoeeE	ye0
+嵛	yeuoiaE	ye0
+蝓	yeuoiaF	ye0
+曳	yeuuuuD	ye0
+应	yfooeeB1	yf0
+庸	yfaeiiC	yf0
+ 	yfa0
+雍	yfaauiD	yf0
+瘾	yfaiuaD	yf0
+鄘	yfaiiiE	yf0
+冶	yfaoiaD	yf0
+翊	yfaoaoE	yf0
+疡	yfauuuD	yf0
+言	yfeeiaC	yf0
+ 	yfe0
+痍	yfeaooD	yf0
+疟	yfeaeeE	yf0
+壅	yfeieeD	yf0
+痖	yfeieeE	yf0
+瘗	yfeoeiD	yf0
+颜	yfeuiaD	yf0
+弈	yfeuiiE	yf0
+奕	yfeuooE	yf0
+疣	yfeuooF	yf0
+音	yfiaeeC	yf0
+ 	yfi0
+育	yfiaeeD	yf0
+瘿	yfiaauE	yf0
+裛	yfiaaiF	yf0
+膺	yfiaeeE	yf0
+廙	yfiaeiF	yf0
+赢	yfiauaE	yf0
+嬴	yfiauaF	yf0
+裔	yfiauoF	yf0
+赟	yfiauoF2	yf0
+衣	yfooooC	yf0
+ 	yfo0
+意	yfoaooD	yf0
+瘀	yfoeuoD	yf0
+癔	yfoeoaE	yf0
+亦	yfooooD	yf0
+痒	yfoueeD	yf0
+韵	yfuaoeC	yf0
+ 	yfu0
+毅	yfuaaoD	yf0
+疫	yfuaaoE	yf0
+麀	yfuaaaF	yf0
+鹰	yfuaeeE	yf0
+痈	yfuaiiE	yf0
+旖	yfueeuD	yf0
+夜	yfuiuaD	yf0
+瘐	yfuiooE	yf0
+庾	yfuiooF	yf0
+於	yfuoooD	yf0
+饔	yfuooaE	yf0
+兖	yfuouaE	yf0
+彦	yfuuuuD	yf0
+义	ygooooB1	yg0
+熠	ygaouiC	yg0
+ 	yga0
+燏	ygaoiaD	yg0
+炀	ygauuuD	yg0
+羊	ygeeiiC	yg0
+ 	yge0
+猷	ygeuooD	yg0
+羱	ygeuuiE	yg0
+烟	ygiaeuC	yg0
+ 	ygi0
+益	ygiaeeD	yg0
+煴	ygiaiaE	yg0
+煜	ygiaoeE	yg0
+丫	ygiiiiD	yg0
+剡	ygiiiiE	yg0
+炎	ygouooC	yg0
+ 	ygo0
+恙	ygoaooD	yg0
+羕	ygoaooE	yg0
+焱	ygououD	yg0
+烊	ygoueeE	yg0
+燚	ygououE	yg0
+养	yguiiiC	yg0
+ 	ygu0
+焰	yguauiD	yg0
+鹢	yguaeeE	yg0
+㶲	yguaiiE	yg0
+羑	yguaooE	yg0
+烨	yguieiD	yg0
+烻	yguiaoE	yg0
+燠	yguieuE	yg0
+爚	yguoiaD	yg0
+亿	yhaaaaB1	yh0
+延	yhaoooC	yh0
+ 	yha0
+伊	yhaeuuD	yh0
+鄅	yhaiiiD	yh0
+俑	yhaoiaD	yh0
+佁	yhaoiaE	yh0
+余	yheeooC	yh0
+ 	yhe0
+粤	yheaaaD	yh0
+侥	yheaeuE	yh0
+偃	yheaiaE	yh0
+伢	yheauuE	yh0
+伛	yheauoF	yh0
+俨	yheiuuD	yh0
+倻	yheiaiE	yh0
+射	yheiooE	yh0
+优	yheuooD	yh0
+倚	yheueiE	yh0
+佑	yheuiaE	yh0
+侑	yheuiaF	yh0
+弇	yheuiiF	yh0
+舁	yheuiiF2	yh0
+岳	yhiaiiC	yh0
+ 	yhi0
+俞	yhiaiiD	yh0
+鼬	yhiaeeE	yh0
+俣	yhiaeeF	yh0
+龠	yhiaiaE	yh0
+鼹	yhiaooE	yh0
+觎	yhiauaE	yh0
+劓	yhiiiiD	yh0
+愈	yhoaooC	yh0
+ 	yho0
+邀	yhoaooD	yh0
+牖	yhoaeiE	yh0
+逾	yhoaooE	yh0
+悠	yhoaooF	yh0
+悆	yhoaooF2	yh0
+食	yhoaooF3	yh0
+依	yhoeooD	yh0
+㑊	yhoeooE	yh0
+禹	yhooooD	yh0
+臾	yhooooE	yh0
+仪	yhouooD	yh0
+佯	yhoueeE	yh0
+仰	yhuaaiC	yh0
+ 	yhu0
+佣	yhuaiiD	yh0
+攸	yhueooD	yh0
+仡	yhueaaE	yh0
+佚	yhueooE	yh0
+舆	yhuoooD	yh0
+佾	yhuoiaE	yh0
+与	yieeeeB1	yi0
+郾	yiaiiiD	yi0
+繄	yiaaiuD	yi0
+轧	yiaaaaE	yi0
+匜	yiaiaaE	yi0
+邪	yiaiiiE	yi0
+曜	yiaouiD	yi0
+轺	yiauiaD	yi0
+旸	yiauuuE	yi0
+尧	yieuaaC	yi0
+ 	yie0
+辕	yieiiaD	yi0
+颐	yieuiaD	yi0
+映	yiiaooC	yi0
+ 	yii0
+彧	yiiaeeD	yi0
+晕	yioaeaC	yi0
+ 	yio0
+迓	yioaooD	yi0
+昱	yioeeeD	yi0
+夷	yiooooD	yi0
+晏	yiooauE	yi0
+弋	yiooooE	yi0
+牙	yiuuuuC	yi0
+ 	yiu0
+易	yiuauuD	yi0
+鸦	yiuaeeE	yi0
+鸢	yiuaeeF	yi0
+昀	yiuaoeE	yi0
+欤	yiuauoE	yi0
+医	yiueooD	yi0
+轶	yiueooE	yi0
+雅	yiuioeD	yi0
+晔	yiuieiE	yi0
+影	yiuuuuD	yi0
+呀	yjeauuB1	yj0
+哟	yjaauaD	yj0
+吆	yjaaooE	yj0
+呦	yjaaauE	yj0
+吲	yjaeiiD	yj0
+爷	yjaiiiC	yj0
+ 	yja0
+吔	yjaiaaD	yj0
+邑	yjaiaaE	yj0
+郢	yjaiiiE	yj0
+郧	yjaiiiF	yj0
+踊	yjaoiaD	yj0
+叶	yjeiiiC	yj0
+ 	yje0
+咦	yjeaooD	yj0
+嚚	yjeaiaE	yj0
+吁	yjeeiiD	yj0
+爰	yjeeaoE	yj0
+哑	yjeieeD	yj0
+呓	yjeiaaE	yj0
+噎	yjeieiE	yj0
+肴	yjeuiaD	yj0
+员	yjiauoC	yj0
+ 	yji0
+咽	yjiaeuD	yj0
+嘤	yjiaauE	yj0
+釉	yjiaeeE	yj0
+喁	yjiaooE	yj0
+咉	yjiaooF	yj0
+哕	yjiauaE	yj0
+喝	yjiauaF	yj0
+刈	yjiiiiD	yj0
+咬	yjoeuoC	yj0
+ 	yjo0
+遥	yjoaooD	yj0
+咏	yjoaooE	yj0
+唷	yjoeiaD	yj0
+唁	yjoeeeE	yj0
+喑	yjoeiaE	yj0
+噫	yjoeoaE	yj0
+乂	yjooooD	yj0
+吖	yjouiiD	yj0
+嗌	yjouiaE	yj0
+欲	yjuauoC	yj0
+ 	yju0
+鹞	yjuaeeD	yj0
+鹆	yjuaeeE	yj0
+繇	yjuaiuE	yj0
+跃	yjueooD	yj0
+舀	yjuieeD	yj0
+咿	yjuiaeE	yj0
+吟	yjuooaD	yj0
+喻	yjuoiaE	yj0
+爻	yjuoooE	yj0
+用	ykiiiiB1	yk0
+印	ykaiiiC	yk0
+ 	yka0
+肄	ykaeiiD	yk0
+卬	ykaiiiD	yk0
+疑	ykaoaiD	yk0
+饴	ykaoiaE	yk0
+鲬	ykaoiaF	yk0
+狁	ykaouaE	yk0
+飏	ykauuuD	yk0
+犹	ykeuooC	yk0
+ 	yke0
+猰	ykeeeuD	yk0
+猿	ykeiiaD	yk0
+馌	ykeiiaE	yk0
+颖	ykeuiaD	yk0
+猗	ykeueiE	yk0
+颍	ykeuiaE	yk0
+鱿	ykeuooE	yk0
+鱼	ykiaeeC	yk0
+ 	yki0
+眢	ykiaeeD	yk0
+鲉	ykiaeeE	yk0
+迎	ykoaooC	yk0
+ 	yko0
+怨	ykoaooD	yk0
+狱	ykoaeuE	yk0
+逸	ykoaooE	yk0
+匀	ykoeeeD	yk0
+鳙	ykoeaeE	yk0
+狺	ykoeeeE	yk0
+乐	ykooooD	yk0
+夤	ykooeiE	yk0
+饮	ykuauoC	yk0
+ 	yku0
+鸳	ykuaeeD	yk0
+䲟	ykuaaiE	yk0
+饫	ykueooD	yk0
+馀	ykuoeeD	yk0
+狳	ykuoeeE	yk0
+㺄	ykuoiaE	yk0
+鳐	ykuoueE	yk0
+猺	ykuoueF	yk0
+移	yluauaB1	yl0
+筠	yleiuaC	yl0
+ 	yle0
+竽	yleeiiD	yl0
+氩	yleieeD	yl0
+秧	yliaooC	yl0
+ 	yli0
+氤	yliaeuD	yl0
+氲	yliaiaE	yl0
+筼	yliaiaF	yl0
+馧	yliaiaF2	yl0
+夭	ylooooC	yl0
+ 	ylo0
+迤	yloaooD	yl0
+毓	yloeuiD	yl0
+箢	yloouaD	yl0
+氧	yloueeD	yl0
+筵	yluiaoC	yl0
+ 	ylu0
+簃	ylueuaD	yl0
+籥	yluoiaD	yl0
+御	ymueaiB1	ym0
+衙	ymeieeC	ym0
+ 	yme0
+衍	ymooeeC	ym0
+ 	ymo0
+徉	ymoueeD	ym0
+舣	ymouooE	ym0
+殷	ymuaaoC	ym0
+ 	ymu0
+役	ymuaaoD	ym0
+徭	ymuoueD	ym0
+艅	ymuoeeE	ym0
+越	yneaooB1	yn0
+孕	ynaieeC	yn0
+ 	yna0
+垠	ynaeooD	yn0
+圯	ynaeaaE	yn0
+妤	ynaoiiD	yn0
+埇	ynaoiaE	yn0
+域	yneaiaC	yn0
+ 	yne0
+姨	yneaooD	yn0
+堰	yneaiaE	yn0
+嫕	yneaoaE	yn0
+妪	yneauoE	yn0
+妍	yneeiiD	yn0
+妘	yneeaoE	yn0
+娅	yneieeD	yn0
+壹	yneiaeE	yn0
+垣	yneiaeF	yn0
+㙘	yneiauF	yn0
+嫣	yneieaE	yn0
+墕	yneieaF	yn0
+垭	yneieeF	yn0
+垚	yneieiF	yn0
+堙	yneieiF2	yn0
+嬿	yneiieE	yn0
+媖	yneiiaF	yn0
+塬	yneuuiD	yn0
+堐	yneueiE	yn0
+嫄	yneuuiE	yn0
+盐	yniaeeC	yn0
+ 	yni0
+盈	yniaeeD	yn0
+娱	yniaeeE	yn0
+姻	yniaeuF	yn0
+袁	yniauaE	yn0
+埸	yniauaF	yn0
+懿	ynoeoaC	yn0
+ 	yno0
+墉	ynoeaeD	yn0
+堉	ynoeiaE	yn0
+垸	ynooeeD	yn0
+垟	ynoueeD	yn0
+妖	ynueooC	yn0
+ 	ynu0
+埶	ynuaooD	yn0
+圫	ynueaaD	yn0
+埏	ynuiaoD	yn0
+姚	ynuoauD	yn0
+媛	ynuoeeE	yn0
+鋆	ynuoeeF	yn0
+媱	ynuoueE	yn0
+圻	ynuuiiD	yn0
+远	yooaooB1	yo0
+云	yoaoooC	yo0
+ 	yoa0
+珢	yoaeooD	yo0
+邘	yoaiiiD	yo0
+邧	yoaiiiE	yo0
+瑛	yoeiiaC	yo0
+ 	yoe0
+琊	yoeaaiD	yo0
+玙	yoeaeeE	yo0
+玡	yoeauuE	yo0
+耘	yoeeaoD	yo0
+耰	yoeuuaD	yo0
+于	yoiiiiC	yo0
+ 	yoi0
+盂	yoiaeeD	yo0
+璎	yoiaauE	yo0
+韫	yoiaiaE	yo0
+鼋	yoiaiaF	yo0
+运	yooaooC	yo0
+ 	yoo0
+迂	yooaooD	yo0
+玉	yoooooD	yo0
+琰	yoououD	yo0
+元	youaaaC	yo0
+ 	you0
+艳	youaaiD	yo0
+玥	youaeeE	yo0
+瑀	youiooD	yo0
+瑶	yououeD	yo0
+珧	youoauE	yo0
+瑗	youoeeE	yo0
+瑜	youoiaE	yo0
+右	ypiaeeB1	yp0
+友	ypaoooC	yp0
+ 	ypa0
+尢	ypaaaaD	yp0
+郁	ypaiiiD	yp0
+翳	yiaoaoC	yi0
+ 	yia0
+压	ypeiooC	yp0
+ 	ype0
+砑	ypeauuD	yp0
+研	ypeeiiD	yp0
+䶮	ypeeooE	yp0
+硬	ypeiooD	yp0
+殪	ypeieiE	yp0
+厌	ypeuooD	yp0
+靥	ypeueeE	yp0
+页	ypiauoC	yp0
+ 	ypi0
+奄	ypiaaaD	yp0
+殒	ypiaiaE	yp0
+厣	ypiaiiF	yp0
+殃	ypiaooE	yp0
+黡	ypiaooF	yp0
+砚	ypiauaE	yp0
+碣	ypiauaF	yp0
+赝	ypiauoF	yp0
+愿	ypoaooC	yp0
+ 	ypo0
+尤	ypooooD	yp0
+原	ypuiiuC	yp0
+ 	ypu0
+欹	ypuauoD	yp0
+雁	ypuiuiD	yp0
+魇	ypuiaoE	yp0
+餍	ypuooaD	yp0
+邺	yqaiiiC	yq0
+ 	yqa0
+业	yqeeeeC	yq0
+ 	yqe0
+银	yraeooB1	yr0
+龈	yraeooC	yr0
+ 	yra0
+钇	yraaaaD	yr0
+钖	yrauuuD	yr0
+钰	yreeooC	yr0
+ 	yre0
+钺	yreaooD	yr0
+铘	yreaaiE	yr0
+龉	yreiiaD	yr0
+铔	yreieeE	yr0
+锳	yreiiaE	yr0
+甗	yreiooE	yr0
+铕	yreuiaD	yr0
+虞	yriaeeC	yr0
+ 	yri0
+铀	yriaeeD	yr0
+卣	yriaaeE	yr0
+铟	yriaeuE	yr0
+虤	yrieuaD	yr0
+镒	yrouiaC	yr0
+ 	yro0
+镱	yroeoaD	yr0
+镛	yroeaeE	yr0
+铱	yroeooE	yr0
+钥	yruaeeC	yr0
+ 	yru0
+铫	yruoauD	yr0
+龂	yruuiiD	yr0
+宜	ysiaeeB1	ys0
+忆	ysaaaaC	ys0
+ 	ysa0
+窈	ysaaauD	ys0
+怡	ysaoiaD	ys0
+怿	ysaoeeE	ys0
+宇	yseeiiC	ys0
+ 	yse0
+戭	yseaooD	ys0
+宧	yseaiaE	ys0
+寅	yseiuoD	ys0
+忧	yseuooD	ys0
+恹	yseueuE	ys0
+宥	yseuiaE	ys0
+宴	ysiaauC	ys0
+ 	ysi0
+寓	ysiaooD	ys0
+悒	ysiaaiE	ys0
+窅	ysiaeeE	ys0
+愠	ysiaiaE	ys0
+怏	ysiaooE	ys0
+悦	ysouiaC	ys0
+ 	yso0
+恽	ysoaeaD	ys0
+誉	ysoeeeD	ys0
+慵	ysoeaeE	ys0
+愔	ysoeiaE	ys0
+窨	ysoeiaF	ys0
+愉	ysuoiaC	ys0
+ 	ysu0
+宛	ysuaaaD	ys0
+窑	ysueiiD	ys0
+窬	ysuoiaD	ys0
+窳	ysuuuuD	ys0
+游	ytoeueB1	yt0
+涌	ytaoiaC	yt0
+ 	yta0
+潏	ytaoiaD	yt0
+滪	ytaoeuE	yt0
+沇	ytaouoE	yt0
+源	yteuuiC	yt0
+ 	yte0
+沅	yteeuaD	yt0
+沄	yteeaoE	yt0
+滟	yteeuaE	yt0
+滢	yteieeD	yt0
+潆	yteiaaE	yt0
+湮	yteieiE	yt0
+漹	yteieaF	yt0
+溁	yteieiF	yt0
+澐	yteoeeD	yt0
+涯	yteueiD	yt0
+淹	yteuiaE	yt0
+㳚	yteuooE	yt0
+油	ytiaeeC	yt0
+ 	yti0
+泱	ytiaooD	yt0
+浥	ytiaaiE	yt0
+洇	ytiaeuE	yt0
+汩	ytiaeeF	yt0
+潩	ytiaeiF	yt0
+涢	ytiaiaE	yt0
+泳	ytoaooC	yt0
+ 	yto0
+液	ytoeuiD	yt0
+澭	ytoeaaE	yt0
+瀛	ytoeiaE	yt0
+淯	ytoeiaF	yt0
+淤	ytoeuoE	yt0
+滧	ytoeueF	yt0
+演	ytooeiD	yt0
+洋	ytoueeD	yt0
+溢	ytouiaE	yt0
+漾	ytouoaE	yt0
+沿	ytuaiaC	yt0
+ 	ytu0
+渔	ytuaiaD	yt0
+漪	ytuaeuE	yt0
+㴔	ytuaoaE	yt0
+洢	ytuiaeD	yt0
+浟	ytuiueE	yt0
+淫	ytuoueD	yt0
+湲	ytuoeuE	yt0
+浴	ytuoiaE	yt0
+渝	ytuoiaF	yt0
+瀹	ytuoiaF2	yt0
+渊	ytuoueE	yt0
+沂	ytuuiiD	yt0
+溵	ytuuuaE	yt0
+摇	yuuoueB1	yu0
+扬	yuauuuC	yu0
+ 	yua0
+胤	yuaaaaD	yu0
+掾	yuaaeuE	yu0
+掩	yueuiaC	yu0
+ 	yue0
+揠	yueaiaD	yu0
+雩	yueeaaD	yu0
+揶	yueiaiD	yu0
+揲	yueieiE	yu0
+押	yuiaiiC	yu0
+ 	yui0
+揖	yuiaeiD	yu0
+挹	yuiaaiE	yu0
+撄	yuiaauF	yu0
+拽	yuiauuE	yu0
+掖	yuoeuiC	yu0
+ 	yuo0
+慭	yuoaooD	yu0
+霪	yuoouoD	yu0
+拥	yuuaiiC	yu0
+ 	yuu0
+抑	yuuaaiD	yu0
+援	yuuoeeD	yu0
+揄	yuuoiaE	yu0
+药	ywaauaB1	yw0
+艺	ywaaaaC	yw0
+ 	ywa0
+蕴	ywaaiaD	yw0
+萦	ywaaiuE	yw0
+荫	ywaiuaD	yw0
+耀	ywaouiD	yw0
+蓣	ywaoeuE	yw0
+苡	ywaouoE	yw0
+莹	yweeooC	yw0
+ 	ywe0
+芽	yweauuD	yw0
+荑	yweaooE	yw0
+芋	yweeiiD	yw0
+芸	yweeaoE	yw0
+芫	yweeuaE	yw0
+茔	yweieeD	yw0
+薳	yweioaE	yw0
+英	ywiaooC	yw0
+ 	ywi0
+营	ywiaiaD	yw0
+茵	ywiaeuE	yw0
+萤	ywiaooE	yw0
+荥	ywiaooF	yw0
+荧	ywouooC	yw0
+ 	ywo0
+薏	ywoeoaD	yw0
+菸	ywoeuoE	yw0
+菀	ywoouaD	yw0
+蕰	ywooiaE	yw0
+苑	ywuaaaC	yw0
+ 	ywu0
+莺	ywuaeeD	yw0
+茚	ywuaaiE	yw0
+莸	ywuaeuE	yw0
+莠	ywueauD	yw0
+䓨	ywueiiE	yw0
+萸	ywuiooD	yw0
+薁	ywuieuE	yw0
+莜	ywuiueE	yw0
+艾	ywuoooD	yw0
+蓥	ywuoeeE	yw0
+又	yxooooB1	yx0
+勇	yxauuuC	yx0
+ 	yxa0
+羽	yxaoeeD	yx0
+预	yxeuiaC	yx0
+ 	yxe0
+羿	yxeuiiD	yx0
+予	yxiiiiC	yx0
+ 	yxi0
+翼	yxiaeiD	yx0
+甬	yxiaiiE	yx0
+矞	yxiauoE	yx0
+恿	yxoaooC	yx0
+ 	yxo0
+遹	yxoaooD	yx0
+翌	yxoeeeD	yx0
+以	yxuoooC	yx0
+ 	yxu0
+允	yxuaaaD	yx0
+鹬	yxuaeeE	yx0
+豫	yxuaiaE	yx0
+矣	yxueooD	yx0
+要	yyaueeB1	yy0
+耶	yyaiiiC	yy0
+ 	yya0
+靿	yyaauaD	yy0
+鄢	yyaiiiD	yy0
+酏	yyaiaaE	yy0
+鄞	yyaiiiE	yy0
+亚	yyeeeeC	yy0
+ 	yye0
+焉	yyeaooD	yy0
+酉	yyeeeeD	yy0
+酝	yyeeaoE	yy0
+酽	yyeiuuD	yy0
+燕	yyiaooC	yy0
+ 	yyi0
+鞅	yyiaooD	yy0
+雨	yyooooC	yy0
+ 	yyo0
+严	yyuuuuC	yy0
+ 	yyu0
+勚	yyuaaaD	yy0
+歅	yyuauoE	yy0
+敔	yyueooD	yy0
+也	yzaaaaB1	yz0
+阳	yziaeeC	yz0
+ 	yzi0
+隅	yziaooD	yz0
+陨	yziaiaE	yz0
+院	yzooeeC	yz0
+ 	yzo0
+阴	yzuaeeC	yz0
+ 	yzu0
+隐	yzuaoaD	yz0
+隃	yzuoiaD	yz0
+在	zpeieeA1	zp0
+这	zfoaooA2	zf0
+闸	zaiaiiB1	za0
+张	zbueooB1	zb0
+札	zbaaaaC	zb0
+ 	zba0
+杼	zbaoiiD	zb0
+展	zbeiooC	zb0
+ 	zbe0
+桎	zbeaeiD	zb0
+栈	zbeeooD	zb0
+楱	zbeeeeE	zb0
+榛	zbeeueE	zb0
+枝	zbeiaoD	zb0
+栉	zbeiaiE	zb0
+植	zbeiiaE	zb0
+楂	zbeiiaF	zb0
+榰	zbeiiaF2	zb0
+梽	zbeioaE	zb0
+椹	zbeiuoE	zb0
+杖	zbeuooD	zb0
+柘	zbeuiaE	zb0
+椓	zbeuooE	zb0
+昼	zbiaeeC	zb0
+ 	zbi0
+帚	zbiaiiD	zb0
+查	zbiaeeE	zb0
+咫	zbiauoE	zb0
+枳	zbiauoF	zb0
+柷	zbiauoF2	zb0
+桢	zbieiaD	zb0
+棹	zbieiaE	zb0
+柱	zboeeeC	zb0
+ 	zbo0
+枕	zboaaaD	zb0
+槠	zboaeiE	zb0
+桩	zboeeiD	zb0
+梓	zboeeiE	zb0
+樟	zboeeiF	zb0
+榨	zbooueD	zb0
+棕	zbooeeE	zb0
+术	zbooooE	zb0
+粥	zbouaeD	zb0
+樽	zboueiE	zb0
+棁	zbouiaE	zb0
+株	zbueooC	zb0
+ 	zbu0
+柊	zbuaooD	zb0
+栅	zbuaeeE	zb0
+柞	zbueeeD	zb0
+栴	zbueuaE	zb0
+椎	zbuioeD	zb0
+属	zbuiooE	zb0
+槜	zbuiuaE	zb0
+枞	zbuouoD	zb0
+栀	zbuuaaD	zb0
+组	zciaeeB1	zc0
+缀	zcaoaoC	zc0
+ 	zca0
+缁	zcaaiaD	zc0
+纼	zcaeiiD	zc0
+骤	zceiuiC	zc0
+ 	zce0
+肫	zceaaaD	zc0
+䏝	zceeooD	zc0
+肢	zceiaoD	zc0
+肘	zceiooE	zc0
+纣	zceiooF	zc0
+缜	zceiuoE	zc0
+织	zciauoC	zc0
+ 	zci0
+肿	zciaiiD	zc0
+驵	zciaeeE	zc0
+甾	zciaeeF	zc0
+驻	zcoeeeC	zc0
+ 	zco0
+脏	zcoeeiD	zc0
+综	zcooeeD	zc0
+绽	zcooeiE	zc0
+膣	zcooeaF	zc0
+纻	zcooeeF	zc0
+腙	zcooeeF2	zc0
+朕	zcoueeD	zc0
+缯	zcouiaE	zc0
+纸	zcuaaaC	zc0
+ 	zcu0
+终	zcuaooD	zc0
+绉	zcuaaeE	zc0
+驺	zcuaaeF	zc0
+脂	zcuaiaE	zc0
+胝	zcuaooE	zc0
+胀	zcueooD	zc0
+彘	zceaueE	zc0
+胙	zcueeeE	zc0
+缵	zcueiaE	zc0
+臜	zcueiaF	zc0
+骓	zcuioeD	zc0
+缒	zcuioaE	zc0
+缴	zcuiueE	zc0
+纵	zcuouoD	zc0
+胗	zcuouuE	zc0
+之	zdooooB1	zd0
+诏	zdauiaC	zd0
+ 	zda0
+肇	zdaeiiD	zd0
+褶	zdaouiD	zd0
+证	zdeieeC	zd0
+ 	zde0
+谮	zdeaiaD	zd0
+诪	zdeeeiD	zd0
+诸	zdeiiaD	zd0
+诹	zdeiaoE	zd0
+褚	zdeiiaE	zd0
+禛	zdeiuoE	zd0
+冢	zdeuooD	zd0
+诼	zdeuooE	zd0
+祖	zdiaeeC	zd0
+ 	zdi0
+祝	zdiauaD	zd0
+诅	zdiaeeE	zd0
+禔	zdiaeiF	zd0
+识	zdiauoE	zd0
+祉	zdieeeD	zd0
+祯	zdieiaE	zd0
+袩	zdieiaF	zd0
+谆	zdoeaiC	zd0
+ 	zdo0
+谪	zdoeiaD	zd0
+谘	zdoeiaE	zd0
+禚	zdouooD	zd0
+诈	zdueeeC	zd0
+ 	zdu0
+诌	zduaaeD	zd0
+诤	zduaaeE	zd0
+祇	zduaaaF	zd0
+鸩	zduaeeE	zd0
+祗	zduaooE	zd0
+谵	zduaoeF	zd0
+诛	zdueooD	zd0
+祚	zdueeeE	zd0
+诊	zduouuD	zd0
+袗	zduouuE	zd0
+中	zeiiiiB1	ze0
+助	zeauuuC	ze0
+ 	zea0
+瞩	zeaeuiD	ze0
+虸	zeaieeD	ze0
+郦	zeaiiiE	ze0
+置	zeeiiaC	ze0
+ 	zee0
+贼	zeeaeuD	ze0
+蛭	zeeaeiE	ze0
+崭	zeeauuE	ze0
+帻	zeeeiaD	ze0
+峙	zeeieiD	ze0
+畤	zeeieiE	ze0
+赈	zeeueeD	ze0
+颛	zeeuiaE	ze0
+则	zeiiiiC	ze0
+ 	zei0
+盅	zeiaeeD	ze0
+胄	zeiaeeE	ze0
+崽	zeiaoaE	ze0
+帜	zeiauoE	ze0
+蠋	zeiauaF	ze0
+罪	zeieieD	ze0
+罩	zeieeiE	ze0
+帧	zeieiaE	ze0
+眦	zeieuaE	ze0
+赚	zeouooC	ze0
+ 	zeo0
+忠	zeoaooD	ze0
+幢	zeoeiaD	ze0
+赃	zeoeeiE	ze0
+蛀	zeoeeeF	ze0
+嶂	zeoeeiF	ze0
+幛	zeoeeiF2	ze0
+蟑	zeoeeiF3	ze0
+崒	zeoeuoE	ze0
+贮	zeooeeD	ze0
+赠	zeouiaD	ze0
+嵫	zeouaaE	ze0
+嶟	zeoueiE	ze0
+罾	zeouiaE	ze0
+帐	zeueooC	ze0
+ 	zeu0
+睁	zeuaaeD	ze0
+峥	zeuaaeE	ze0
+赒	zeuaeiE	ze0
+瞻	zeuaoeE	ze0
+嶦	zeuaoeF	ze0
+账	zeueooD	ze0
+蚱	zeueeeE	ze0
+岞	zeueeeF	ze0
+蜘	zeueiaE	ze0
+蛛	zeueooE	ze0
+帙	zeueooF	ze0
+眨	zeuoooD	ze0
+蚣	zeuoaoE	ze0
+畛	zeuouuE	ze0
+鬷	zeuouoF	ze0
+主	zfeeeeB1	zf0
+姿	zfaueeD	zf0
+鄣	zfaiiiD	zf0
+妆	zfaueeC	zf0
+ 	zfa0
+章	zfeiiiC	zf0
+ 	zfe0
+痓	zfeaeiD	zf0
+痔	zfeeeiD	zf0
+症	zfeieeD	zf0
+壮	zfeieeE	zf0
+庄	zfeieeF	zf0
+庤	zfeieiF	zf0
+痣	zfeioaE	zf0
+状	zfeuooD	zf0
+斋	zfeuiiE	zf0
+颤	zfeuiaF	zf0
+瘃	zfeuooE	zf0
+站	zfieiaC	zf0
+ 	zfi0
+资	zfiauoD	zf0
+咨	zfiaeeE	zf0
+䗪	zfiaooE	zf0
+衷	zfiauaE	zf0
+装	zfoeooC	zf0
+ 	zfo0
+遮	zfoaooD	zf0
+恣	zfoaooE	zf0
+戆	zfoaooF	zf0
+瘴	zfoeeiD	zf0
+麈	zfoeeeE	zf0
+疰	zfoeeeF	zf0
+粢	zfouooD	zf0
+座	zfuoeiC	zf0
+ 	zfu0
+鹧	zfuaeeD	zf0
+瘵	zfuaeeE	zf0
+鹯	zfuaeeF	zf0
+族	zfueueD	zf0
+痄	zfueeeE	zf0
+旃	zfueuaE	zf0
+旐	zfueuoF	zf0
+准	zfuioeD	zf0
+卒	zfuoeiD	zf0
+疹	zfuouuE	zf0
+疭	zfuouoF	zf0
+彰	zfuuuuD	zf0
+着	zgiaeeB1	zg0
+郑	zgaiiiC	zg0
+ 	zga0
+兹	zgaaaaD	zg0
+籽	zgaieeD	zg0
+孳	zgaieeE	zg0
+鄫	zgaiiiE	zg0
+䎖	zgaoaoD	zg0
+尊	zgeiooC	zg0
+ 	zge0
+甑	zgeaooD	zg0
+糟	zgeiiaD	zg0
+灶	zgeieeE	zg0
+曾	zgiaeeC	zg0
+ 	zgi0
+燥	zgiaeiD	zg0
+烛	zgiaooE	zg0
+炽	zgiauoE	zg0
+粘	zgieiaD	zg0
+焯	zgieiaE	zg0
+州	zgiiiiD	zg0
+总	zgoaooC	zg0
+ 	zgo0
+遵	zgoaooD	zg0
+炷	zgoeeeD	zg0
+粽	zgooeeD	zg0
+炸	zgueeeC	zg0
+ 	zgu0
+灼	zguaooD	zg0
+鲝	zguaiaE	zg0
+糌	zguaiaF	zg0
+做	zheiueB1	zh0
+仔	zhaieeC	zh0
+ 	zha0
+僎	zhaeeiD	zh0
+坐	zheieeC	zh0
+ 	zhe0
+侄	zheaeiD	zh0
+皂	zheaaaE	zh0
+自	zheeeeD	zh0
+债	zheeiaE	zh0
+传	zheeooE	zh0
+值	zheiiaD	zh0
+齄	zheiiaE	zh0
+偡	zheiuoE	zh0
+仗	zheuooD	zh0
+佐	zheueiE	zh0
+仲	zhiaiiC	zh0
+ 	zhi0
+俎	zhiaeeD	zh0
+伷	zhiaeeE	zh0
+侧	zhiaiiE	zh0
+侦	zhieiaD	zh0
+倬	zhieiaE	zh0
+齇	zhieiaF	zh0
+住	zhoeeeC	zh0
+ 	zho0
+追	zhoaooD	zh0
+僮	zhoeiaD	zh0
+隹	zhoeeeE	zh0
+伫	zhooeeD	zh0
+倧	zhooeeE	zh0
+僔	zhoueiD	zh0
+作	zhueeeC	zh0
+ 	zhu0
+仉	zhuaaaD	zh0
+㑇	zhuaaeE	zh0
+偬	zhuaoaE	zh0
+侏	zhueooD	zh0
+众	zhuouoD	zh0
+最	zieiaoB1	zi0
+轧	ziaaaaC	zi0
+ 	zia0
+辎	ziaaiaD	zi0
+辗	ziaeeiD	zi0
+郅	ziaiiiD	zi0
+昭	ziauiaD	zi0
+早	zieiiiC	zi0
+ 	zie0
+轾	zieaeiD	zi0
+晊	zieaeiE	zi0
+转	zieeooD	zi0
+臻	zieeueE	zi0
+至	zieieeD	zi0
+辄	zieiaaE	zi0
+昃	zieuuoD	zi0
+暂	ziiaeeC	zi0
+ 	zii0
+轴	ziiaeeD	zi0
+匝	ziiaiiE	zi0
+轵	ziiauoE	zi0
+晫	ziieiaD	zi0
+照	ziooooC	zi0
+ 	zio0
+辙	zioeueD	zi0
+暲	zioeiaE	zi0
+蹢	zjoeiaF	zj0
+曌	ziooeiD	zi0
+致	ziueooC	zi0
+ 	ziu0
+昨	ziueeeD	zi0
+轸	ziuouuD	zi0
+錾	ziuoeeE	zi0
+昣	ziuouuE	zi0
+斩	ziuuiiD	zi0
+辀	ziuuooE	zi0
+只	zjuoooB1	zj0
+兆	zjauooC	zj0
+ 	zja0
+嘱	zjaeuiD	zj0
+吱	zjeiaoC	zj0
+ 	zje0
+咂	zjeaiaD	zj0
+啭	zjeaeeE	zj0
+啧	zjeeiaD	zj0
+喳	zjeiiaD	zj0
+跱	zjeieiE	zj0
+喋	zjeieiF	zj0
+啫	zjeiiaE	zj0
+哳	zjeiuuE	zj0
+嘲	zjeiuaF	zj0
+啄	zjeuooD	zj0
+跖	zjeuiaE	zj0
+嘴	zjieuaC	zj0
+ 	zji0
+噪	zjiaeiD	zj0
+躁	zjiaeiE	zj0
+咀	zjiaeeF	zj0
+嘬	zjiaeiF	zj0
+躅	zjiauaE	zj0
+跩	zjiauuF	zj0
+足	zjieooD	zj0
+趾	zjieeeE	zj0
+呲	zjieuaE	zj0
+踪	zjooeeC	zj0
+ 	zjo0
+跓	zjoeeeD	zj0
+蹴	zjoeeuE	zj0
+嘀	zjoeiaE	zj0
+哜	zjoeuiE	zj0
+咤	zjooueD	zj0
+踯	zjouaiD	zj0
+嗞	zjouaaE	zj0
+噂	zjoueiE	zj0
+蹲	zjoueiF	zj0
+咱	zjuieeC	zj0
+ 	zju0
+咒	zjuaaaD	zj0
+啁	zjuaeiE	zj0
+繇	zjuaiuE	zj0
+咋	zjueeeD	zj0
+吒	zjueaaE	zj0
+踵	zjueeeE	zj0
+躜	zjueiaE	zj0
+唣	zjuieaD	zj0
+唑	zjuoeiD	zj0
+豸	zjuuuuD	zj0
+踬	zjuueiE	zj0
+周	zkeiiaB1	zk0
+争	zkaeiiC	zk0
+ 	zka0
+鲻	zkaaiaD	zk0
+氏	zkaaaaE	zk0
+馔	zkaeeiD	zk0
+邹	zkaiiiD	zk0
+皱	zkauaoD	zk0
+杂	zkeiooC	zk0
+ 	zke0
+祭	zkeeiuD	zk0
+猪	zkeiiaD	zk0
+鲰	zkeiaoE	zk0
+猹	zkeiiaE	zk0
+橥	zkeiooE	zk0
+旨	zkiaeeC	zk0
+ 	zki0
+昝	zkiaeeD	zk0
+螽	zkiaiaE	zk0
+鲗	zkiaiiF	zk0
+飐	zkieiaD	zk0
+詹	zkoeeeC	zk0
+ 	zko0
+獐	zkoeeiD	zk0
+鳣	zkoeiaE	zk0
+炙	zkouooD	zk0
+鳟	zkoueiE	zk0
+觯	zkouiaE	zk0
+狰	zkuaaeC	zk0
+ 	zku0
+鲊	zkueeeD	zk0
+种	zliaiiB1	zl0
+篆	zlaaeuC	zl0
+ 	zla0
+纂	zlaaiuD	zl0
+邾	zlaiiiD	zl0
+重	zleeeeC	zl0
+ 	zle0
+簪	zleaiaD	zl0
+乍	zleeeeD	zl0
+竺	zleeeeE	zl0
+箦	zleeiaE	zl0
+筑	zleiuaD	zl0
+箸	zleiiaE	zl0
+稙	zleiiaF	zl0
+稹	zleiuoE	zl0
+籀	zleiuaF	zl0
+箴	zleuiaD	zl0
+知	zliaeeC	zl0
+ 	zli0
+租	zliaeeD	zl0
+智	zliaeeE	zl0
+赞	zliauoE	zl0
+毡	zlieiaD	zl0
+制	zliiiiD	zl0
+劄	zliiiiE	zl0
+长	zlooooC	zl0
+ 	zlo0
+造	zloaooD	zl0
+怎	zloaooE	zl0
+迮	zloaooF	zl0
+朱	zlooooD	zl0
+矰	zlouiaD	zl0
+竹	zlueiiC	zl0
+ 	zlu0
+筝	zluaaeD	zl0
+秭	zluauuE	zl0
+笫	zluauuF	zl0
+秩	zlueooD	zl0
+笮	zlueeeE	zl0
+簉	zlueoaE	zl0
+稚	zluioeD	zl0
+雉	zluioeE	zl0
+笊	zluuooD	zl0
+质	zmeiiaB1	zm0
+卮	zmaaaaC	zm0
+ 	zma0
+征	zmeieeC	zm0
+ 	zme0
+衠	zmeieeD	zm0
+徵	zmiaueC	zm0
+ 	zmi0
+舳	zmiaeeD	zm0
+舯	zmiaiiE	zm0
+爪	zmooooC	zm0
+ 	zmo0
+舟	zmooooD	zm0
+舴	zmueeeC	zm0
+ 	zmu0
+鸼	zmuaeeD	zm0
+走	znieooB1	zn0
+喆	zneiiaC	zn0
+ 	zne0
+赭	zneiiaD	zn0
+埴	zneiiaE	zn0
+召	zniaeeC	zn0
+ 	zni0
+螫	zniaooD	zn0
+妯	zniaeeE	zn0
+址	znieeeD	zn0
+志	znoaooC	zn0
+ 	zno0
+嫜	znoeeiD	zn0
+趑	znoeuaE	zn0
+增	znouiaD	zn0
+赵	znuoooC	zn0
+ 	znu0
+姊	znuauuD	zn0
+婤	znuaeiE	zn0
+趱	znueiaD	zn0
+圳	znuiiiD	zn0
+专	zoooooB1	zo0
+耔	zoaieeC	zo0
+ 	zoa0
+瑑	zoaaeuD	zo0
+奏	zoeeooC	zo0
+ 	zoe0
+瑧	zoeeueD	zo0
+琢	zoeuooD	zo0
+责	zoiauoC	zo0
+ 	zoi0
+盏	zoiaeeD	zo0
+璪	zoiaeiE	zo0
+珇	zoiaeeF	zo0
+赘	zoiauoE	zo0
+璋	zooeeiC	zo0
+ 	zoo0
+珠	zoueooC	zo0
+ 	zou0
+瓒	zoueiaD	zo0
+珍	zououuD	zo0
+左	zpeieeB1	zp0
+砸	zpeaiaC	zp0
+ 	zpe0
+臧	zpeaiaD	zp0
+砖	zpeeooD	zp0
+碡	zpeeaaE	zp0
+殖	zpeiiaD	zp0
+䃎	zpeuuaD	zp0
+砧	zpieiaC	zp0
+ 	zpi0
+𥖨	zpiaeiD	zp0
+丈	zpooooC	zp0
+ 	zpo0
+逐	zpoaooD	zp0
+詟	zpoeiaD	zp0
+砫	zpoeeeE	zp0
+仄	zpuoooC	zp0
+ 	zpu0
+磔	zpuaeiD	zp0
+砟	zpueeeD	zp0
+斫	zpuuiiD	zp0
+凿	zqouaiC	zq0
+ 	zqo0
+黹	zqouooD	zq0
+针	zreiiiB1	zr0
+紫	zraaiuC	zr0
+ 	zra0
+锱	zraaiaD	zr0
+镇	zreiuoC	zr0
+ 	zre0
+战	zreaooD	zr0
+铚	zreaeiE	zr0
+止	zreeeeD	zr0
+铸	zreeeiE	zr0
+桌	zreiooD	zr0
+钲	zreieeE	zr0
+䦃	zreieiF	zr0
+卓	zreiiiE	zr0
+锗	zreiiaF	zr0
+砦	zreuiaD	zr0
+占	zriaeeC	zr0
+ 	zri0
+钟	zriaiiD	zr0
+锃	zriaeeE	zr0
+铡	zriaiiE	zr0
+贞	zriauoE	zr0
+镯	zriauaF	zr0
+赀	zriauoF	zr0
+钻	zrieiaD	zr0
+龇	zrieuaE	zr0
+钊	zriiiiD	zr0
+镞	zroeueC	zr0
+ 	zro0
+訾	zroeeeD	zr0
+镃	zrouaaD	zr0
+𨱔	zroueiE	zr0
+铮	zruaaeC	zr0
+ 	zru0
+觜	zruauaD	zr0
+锺	zrueeeD	zr0
+铢	zrueooE	zr0
+锥	zruioeD	zr0
+锧	zruueiD	zr0
+字	zsaieeB1	zs0
+宗	zseeiuC	zs0
+ 	zse0
+窒	zseaeiD	zs0
+窀	zseaaaE	zs0
+寁	zseaooE	zs0
+寨	zseiooD	zs0
+忮	zseiaoE	zs0
+怔	zseieeE	zs0
+宙	zsiaeeC	zs0
+ 	zsi0
+惴	zsiaeuD	zs0
+灾	zsouooC	zs0
+ 	zso0
+宰	zsoeeiD	zs0
+憧	zsoeiaE	zs0
+憎	zsouiaD	zs0
+宅	zsueaaC	zs0
+ 	zsu0
+窄	zsueeeD	zs0
+怍	zsueeeE	zs0
+慥	zsueoaE	zs0
+忪	zsuoaoD	zs0
+注	ztoeeeB1	zt0
+治	ztaoiaC	zt0
+ 	zta0
+淄	ztaaiaD	zt0
+涨	ztaeueD	zt0
+滍	ztaiooD	zt0
+泽	ztaoeeD	zt0
+濯	ztaouiE	zt0
+沼	ztauiaD	zt0
+汁	zteiiiC	zt0
+ 	zte0
+渍	zteeiaD	zt0
+溱	zteeueE	zt0
+渣	zteiiiD	zt0
+澍	zteieiE	zt0
+滞	zteiiaE	zt0
+渚	zteiiaF	zt0
+湛	zteiuoE	zt0
+浙	zteiuuF	zt0
+涿	zteuooD	zt0
+澡	ztiaeiC	zt0
+ 	zti0
+浊	ztiaooD	zt0
+浞	ztiaieE	zt0
+沾	ztieiaD	zt0
+沚	ztieeeE	zt0
+淖	ztieiaE	zt0
+浈	ztieiaF	zt0
+洲	ztouiiC	zt0
+ 	zto0
+漳	ztoeeiD	zt0
+滓	ztoooeD	zt0
+滋	ztouaaD	zt0
+溠	ztoueiE	zt0
+洙	ztueooC	zt0
+ 	ztu0
+潴	ztuaeiD	zt0
+汋	ztuaooE	zt0
+泜	ztuaooF	zt0
+指	zuuaiaB1	zu0
+招	zuauiaC	zu0
+ 	zua0
+扎	zuaaaaD	zu0
+絷	zuaaiuE	zu0
+拶	zuaauaE	zu0
+撰	zuaeeiD	zu0
+搌	zuaeeiE	zu0
+拙	zuaiiiD	zu0
+拯	zuaieeE	zu0
+择	zuaoeeD	zu0
+摺	zuaouiE	zu0
+擢	zuaouiF	zu0
+找	zueaooC	zu0
+ 	zue0
+揍	zueeeeD	zu0
+揸	zueiiaD	zu0
+挝	zueioaE	zu0
+揕	zueiuoE	zu0
+震	zueueeD	zu0
+振	zueueeE	zu0
+捉	zuiaieC	zu0
+ 	zui0
+哲	zuiaeeD	zu0
+晢	zuiaeeE	zu0
+撮	zuiaeiF	zu0
+揣	zuiaeuF	zu0
+蛰	zuiaooE	zu0
+蜇	zuiaooF	zu0
+拽	zuiauuE	zu0
+贽	zuiauoF	zu0
+撞	zuoeiaC	zu0
+ 	zuo0
+摘	zuoeiaD	zu0
+拄	zuoeeeE	zu0
+霅	zuoeiaE	zu0
+摭	zuoeooE	zu0
+捽	zuoeuoE	zu0
+挓	zuooueD	zu0
+掷	zuouaiD	zu0
+撙	zuoueiE	zu0
+抓	zuuuooC	zu0
+ 	zuu0
+挣	zuuaaeD	zu0
+扺	zuuaaaE	zu0
+鸷	zuuaeeE	zu0
+执	zuuaooE	zu0
+攒	zuueiaD	zu0
+攥	zuueaaE	zu0
+拃	zuueeeE	zu0
+挚	zuueiiE	zu0
+折	zuuuiiD	zu0
+著	zweiiaB1	zw0
+蒸	zwaiooC	zw0
+ 	zwa0
+菑	zwaaiaD	zw0
+荮	zwaaeiE	zw0
+茁	zwaiiiD	zw0
+藏	zweueiC	zw0
+ 	zwe0
+蓁	zweeueD	zw0
+蘸	zweiuiD	zw0
+葬	zweueuD	zw0
+葴	zweuiaE	zw0
+芷	zwieeeC	zw0
+ 	zwi0
+蕞	zwiaeiD	zw0
+𦭜	zwiauoE	zw0
+茈	zwieuaD	zw0
+䓬	zwieeiE	zw0
+芝	zwoaooC	zw0
+ 	zwo0
+蔗	zwoeooD	zw0
+藻	zwooiaD	zw0
+苎	zwooeeE	zw0
+苧	zwooeiF	zw0
+菹	zwooiaE	zw0
+掌	zwueiiC	zw0
+ 	zwu0
+茋	zwuaooD	zw0
+茱	zwueooD	zw0
+茽	zwuiiaD	zw0
+叕	zxaoaoC	zx0
+ 	zxa0
+蚤	zxiaooC	zx0
+ 	zxi0
+翟	zxuioeC	zx0
+ 	zxu0
+再	zyeeeeB1	zy0
+支	zyaoooC	zy0
+ 	zya0
+鄹	zyaiiiD	zy0
+𨙸	zyaiiiE	zy0
+鄑	zyaiiiF	zy0
+翥	zyaoaoD	zy0
+正	zyeeeeC	zy0
+ 	zye0
+载	zyeaeeD	zy0
+甄	zyeaooE	zy0
+赜	zieeiaE	zi0
+整	zyeieeD	zy0
+栽	zyeiooE	zy0
+酎	zyeiooF	zy0
+鬒	zyeiuoE	zy0
+者	zyiaeeC	zy0
+ 	zyi0
+直	zyiaeeD	zy0
+疐	zyiaaiE	zy0
+鼒	zyiaaeF	zy0
+哉	zyiaeeE	zy0
+职	zyiauoE	zy0
+髭	zyieuaD	zy0
+煮	zyooooC	zy0
+ 	zyo0
+遭	zyoaooD	zy0
+醉	zyoeuoD	zy0
+枣	zyooooD	zy0
+斟	zyooeiE	zy0
+鬃	zyooeeF	zy0
+真	zyuoooC	zy0
+ 	zyu0
+酌	zyuaooE	zy0
+朝	zyuaeeD	zy0
+酯	zyuaiaE	zy0
+政	zyueooD	zy0
+酢	zyueeeE	zy0
+髽	zyuoeiD	zy0
+子	zzeeeeB1	zz0
+骘	zzaaeeC	zz0
+ 	zza0
+孖	zzaieeD	zz0
+阵	zzeaiiC	zz0
+ 	zze0
+坠	zzeieeD	zz0
+陬	zzeiaoE	zz0
+奘	zzeuooD	zz0
+阻	zziaeeC	zz0
+ 	zzi0
+陟	zzieiuD	zz0
+障	zzoeeiC	zz0
+ 	zzo0
+烝	zzooooD	zz0
+牂	zzoueeD	zz0
+孜	zzueooC	zz0
+ 	zzu0
+阼	zzueeeD	zz0

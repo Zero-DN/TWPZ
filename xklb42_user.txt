@@ -1,0 +1,13 @@
+# Rime table
+#@/db_name	xklb42_user.txt
+#@/db_type	tabledb
+#@/rime_version	1.5.3
+#@/tick	8
+反查	fmcb	2
+广泛的	gfd	2
+换尿布	hnb	2
+为什么	wsm	2
+勿忘我	www	2
+选重	xlcl	2
+逍遥	xwyj	2
+原来如此	ylrc	2

@@ -1,0 +1,335 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: xklb42
+  name: 星空两笔42顶
+  version: "6"
+  author:
+    - 发明人 大牛
+  dependencies:
+    - xklb42_ci
+menu:
+  page_size: 6
+  alternative_select_keys: "123789"
+  alternative_select_labels: [1,2,3,7,8,9,1,4,5,6,0]
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    reset: 0
+  - name: simplification
+    reset: 0
+  - name: extended_charset
+    reset: 0
+  - name: ascii_punct
+    reset: 0
+
+  - options: [_key_a]
+    states: [造词]
+  - options: [_key_e]
+    states: [反查]
+  - options: [_key_`]
+    states: [万能]
+  - options: [_key_u]
+    states: [二分]
+
+  - name: _hide_candidate
+    reset: 0
+  - name: _hide_comment
+    reset: 0
+  - name: _hide_key_hint
+    reset: 0
+
+  - name: emoji_cn   #Emoji开关
+    reset: 0              # 1为默认开启
+    states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
+
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+#    - lua_processor@cixuan
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@xklb42_zc
+#    - affix_segmentor@xmfc
+    - affix_segmentor@pinyin_simp
+    - abc_segmentor
+    - affix_segmentor@xklb42_ci
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+    - "lua_translator@date_translator"
+    - "lua_translator@shijian"
+    - "lua_translator@shijian2"
+    - "lua_translator@shuzi"
+    - "lua_translator@jisuanqi"
+    - reverse_lookup_translator
+    - table_translator@xklb42_dict
+    - table_translator@quanpinerfen
+    - table_translator@xklb42_zc
+    - table_translator@xklb42
+    - table_translator@xklb42_user
+    - table_translator@xklb42_ci
+    - history_translator@history
+    - script_translator@pinyin_simp
+#    - table_translator@xmfc
+  filters:
+    - simplifier
+    - simplifier@simplification
+    - simplifier@emoji_cn   #Emoji滤镜
+    - reverse_lookup_filter@quanpinerfen_lookup
+    - reverse_lookup_filter@pinyin_simp_lookup
+#    - reverse_lookup_filter@xmfc_lookup
+    - "lua_filter@qinghouxuan"
+    - uniquifier
+
+
+speller:
+  alphabet: "@/;abcdefghijklmnopqrstuvwxyz1"
+  initials: "@;abcdefghijklmnopqrstuvwxyz"
+#  finals: '/'
+  delimiter: " '"
+  auto_select: true #顶字上屏
+  auto_select_unique_candidate: true
+  auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
+  algebra:
+    - xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/
+
+    - derive/.....A|....B|...C|..D|.E|F//
+
+    - derive|2$|;|
+    - derive/[0-9;]$//
+
+    - xform/F//
+    - xform/E//
+    - xform/D//
+    - xform/C//
+    - xform/B//
+    - xform/A//
+
+
+    - xlit|１２３４５６７８９０|1234567890|
+    - xlit|ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ|ABCDEFGHIJKLMNOPQRSTUVWXYZ|
+    - derive|^;|/|  #引导造词时可以用/替代;引导符号
+
+
+translator:
+  __include: /TS1
+  dictionary: xklb42
+  initial_quality: 100
+  enable_charset_filter: false
+  enable_completion: false #逐码提示
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: true
+  encode_commit_history: true
+
+simplification:
+  opencc_config: s2t.json
+  option_name: simplification
+#  show_in_comment: true #开启编码滤镜
+  tips: all #简繁对照
+
+
+history:
+   input: ;
+   size: 4 #重复前几次上屏
+   initial_quality: 100
+
+
+#滤镜配置
+emoji_cn:
+  opencc_config: emoji.json   #配置文件
+  option_name: emoji_cn    #与状态栏开关的名称一致
+  tips: all    #开启注释
+
+#提示配置
+TS1:
+  comment_format:
+    - xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/
+    - xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/
+    - xform/([ABCDEF][0-9]?)$//
+    - xform/([UVWXYZ][0-9]?)$//
+    - xform|1||
+    - xform|~||
+TS2:
+  comment_format:
+    - xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/
+    - xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/
+    - xform|1|_|
+    - xform/^/〔/
+    - xform/$/〕/
+    - xform/ / /
+TS3:
+  comment_format:
+    - xform/([A-Z][0-9]?)+([A-Z][0-9]?)$/$2/
+    - xform/.....U|.(.)...V|...W|..X|.Y|Z|.....A|....B|...C|..D|.E|F/$1/
+    - xform/([ABCDEF][0-9]?)$//
+    - xform/([UVWXYZ][0-9]?)$//
+    - xform|~||
+#反查配置
+#↓音码反查方案
+pinyin_simp_lookup:
+  __include: /TS2
+  tags: [pinyin_simp]
+  dictionary: xklb42 #反查其码
+  overwrite_comment: true
+pinyin_simp:
+  tag: pinyin_simp
+  dictionary: pinyin_simp
+  enable_sentence: true
+  enable_completion: true
+  enable_user_dict: false
+  prefix: "e"
+  tips: "〔全拼〕"
+
+
+#↓形码反查方案
+xmfc_lookup:
+  __include: /TS2
+  tags: [xmfc]
+  dictionary: xklb42 #反查其码
+  overwrite_comment: true
+xmfc:
+  tag: xmfc
+  dictionary: xmfc
+  enable_sentence: true
+  enable_completion: true
+  enable_user_dict: false
+  prefix: "#"
+  tips: "〔提示〕"
+
+xklb42_ci:
+  dictionary: xklb42_ci
+  user_dict: xklb42_user
+# ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
+  db_class: tabledb
+#  db_class: userdb
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: true
+  encode_commit_history: false
+  initial_quality: -9999 #用户词和系统词重码居后
+  comment_format:
+    - xform|~||
+
+xklb42_dict:
+  dictionary: ""
+  user_dict: xklb42_dict
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: -9999 #用户词和系统词重码居后
+  comment_format:
+    - xform|~||
+
+#二分反查方案
+quanpinerfen_lookup:
+  __include: /TS2
+  tags: [quanpinerfen]
+  dictionary: xklb #反查其码
+  overwrite_comment: true
+quanpinerfen:
+  tag: quanpinerfen
+  dictionary: ""
+  user_dict: quanpinerfen
+  db_class: userdb
+  enable_sentence: false
+  enable_completion: true
+  comment_format:
+    - xform|~||
+
+reverse_lookup:
+  __include: /TS2
+  dictionary: xklb_fc
+
+xklb42_zc:
+  __include: /TS1
+  tag: xklb42_zc
+  dictionary: xklb42_ci
+  user_dict: xklb42_user
+# ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
+  db_class: tabledb
+#  db_class: userdb
+  enable_charset_filter: false
+  enable_completion: true
+  enable_encoder: true
+  enable_sentence: true
+  enable_user_dict: true
+  encode_commit_history: false
+  preedit_format:
+    - xform|1|_|
+  prefix: "a"
+  tips: "〔造词〕"
+
+xklb42:
+  __include: /TS1
+  tag: xklb42
+  dictionary: xklb42
+  user_dict: xklb42_user
+# ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
+  db_class: tabledb
+#  db_class: userdb
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: true
+  enable_user_dict: false
+  encode_commit_history: false
+#  initial_quality: -999999 #填100则自造词高于系统词|填99则自造词低于系统词
+
+xklb42_user:
+  __include: /TS3
+  tag: xklb42_ci
+  dictionary: ""
+  user_dict: xklb42_user
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false #逐码提示
+  initial_quality: -999 #填100则自造词高于系统词|填99则自造词低于系统词
+
+punctuator:
+  import_preset: default
+  half_shape:
+    '''' : [ '‘', '’' , '\', '﹨' ]
+    ';' : ""
+
+key_binder:
+  import_preset: default
+  bindings:
+    - {accept: "Shift+space", send: space, when: composing}   #小狼毫输入法中进行引导造词时的上屏组合键（Shift+space），同文输入法则需要点击候选词上屏
+    - {accept: "space", send: 1, when: composing}   #引导造词中空格等于首选，空格就丧失了上屏的功能（在引导造词中）
+    - {accept: ";", send: ";", when: composing} #分号次选
+
+
+recognizer:
+  import_preset: default
+  patterns:
+    xklb42_ci: "^[qwrtypsdfghjklzxcvbnm][a-z][qwrtypsdfghjklzxcvbnm][a-z]$"
+    xklb42: "(?(DEFINE)(?'s'[qwrtypsdfghjklzxcvbnm]))(?(DEFINE)(?'x'[a-z]))(?(DEFINE)(?'b'[aeiou]))^((?P>s)(?P>x)(?P>b){1,4}|^(?P>s)(?P>x)|^(?P>s)|(?P>s)(?P>x)(?P>s)((?P>x))?)$"
+    reverse_lookup: "[a-z`]*`+[a-z`]*"
+    xklb42_zc: "^a[a-z][a-z0-9)(,./:;?!']*'?$"
+    pinyin_simp: "^e[a-z']*'?$"
+#    xmfc: "^#[a-z']*'?$"
+    xklb42_dict: "^oo[a-z]*?$"
+    quanpinerfen: "^u[a-z]+?$"
+    jsq: "^=[^a-z@]*?$"
+    ybdb: "^;$"
+    aeiou: "^[oi]([a-z]+)[a-z]?$"
+

@@ -1,0 +1,212 @@
+versionName=1.0.20210111
+versionCode=1
+AUTO_TEST_ONEPLUS=false
+BOARD=kona
+BOOTLOADER=unknown
+BRAND=OnePlus
+CPU_ABI=armeabi-v7a
+CPU_ABI2=armeabi
+DEBUG_ONEPLUS=false
+DEVICE=OnePlus8Pro
+DISPLAY=IN2020_15_200907
+FINGERPRINT=OnePlus/OnePlus8Pro_CH/OnePlus8Pro:10/QKQ1.191222.002/2009071815:user/release-keys
+HARDWARE=qcom
+HOST=rd-build-72
+ID=QKQ1.191222.002
+IS_CONTAINER=false
+IS_DEBUGGABLE=false
+IS_EMULATOR=false
+IS_ENG=false
+IS_TREBLE_ENABLED=true
+IS_USER=true
+IS_USERDEBUG=false
+MANUFACTURER=OnePlus
+MODEL=IN2020
+PERMISSIONS_REVIEW_REQUIRED=true
+PRODUCT=OnePlus8Pro_CH
+RADIO=unknown
+REGION=CN
+SERIAL=unknown
+SOFT_VERSION=H.23
+SUPPORTED_32_BIT_ABIS=[armeabi-v7a, armeabi]
+SUPPORTED_64_BIT_ABIS=[arm64-v8a]
+SUPPORTED_ABIS=[arm64-v8a, armeabi-v7a, armeabi]
+TAG=Build
+TAGS=release-keys
+TIME=1599474481000
+TYPE=user
+UNKNOWN=unknown
+USER=jenkins
+ACTIVE_CODENAMES=[]
+ALL_CODENAMES=[REL]
+BASE_OS=
+CODENAME=REL
+FIRST_SDK_INT=29
+INCREMENTAL=2009071815
+IS_CTA_BUILD=true
+MIN_SUPPORTED_TARGET_SDK_INT=23
+PREVIEW_SDK_FINGERPRINT=REL
+PREVIEW_SDK_INT=0
+RELEASE=10
+RESOURCES_SDK_INT=29
+SDK=29
+SDK_INT=29
+SECURITY_PATCH=2020-08-01
+java.lang.RuntimeException: Unable to create service com.osfans.trime.Trime: android.view.InflateException: Binary XML file line #30 in com.osfans.trime.accessibility:layout/composition_container: Binary XML file line #30 in com.osfans.trime.accessibility:layout/composition_container: Error inflating class com.osfans.trime.Composition
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4093)
+	at android.app.ActivityThread.access$1800(ActivityThread.java:231)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1990)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7707)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:516)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+Caused by: android.view.InflateException: Binary XML file line #30 in com.osfans.trime.accessibility:layout/composition_container: Binary XML file line #30 in com.osfans.trime.accessibility:layout/composition_container: Error inflating class com.osfans.trime.Composition
+Caused by: android.view.InflateException: Binary XML file line #30 in com.osfans.trime.accessibility:layout/composition_container: Error inflating class com.osfans.trime.Composition
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:854)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1006)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:961)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1123)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1084)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1126)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1084)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:682)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:534)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:481)
+	at com.osfans.trime.Trime.d0(Unknown Source:8)
+	at com.osfans.trime.Trime.b0(Unknown Source:0)
+	at com.osfans.trime.Trime.onCreate(Unknown Source:387)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4081)
+	at android.app.ActivityThread.access$1800(ActivityThread.java:231)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1990)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7707)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:516)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.Integer.intValue()' on a null object reference
+	at com.osfans.trime.Composition.reset(Unknown Source:129)
+	at com.osfans.trime.Composition.<init>(Unknown Source:32)
+	... 24 more
+android.view.InflateException: Binary XML file line #30 in com.osfans.trime.accessibility:layout/composition_container: Binary XML file line #30 in com.osfans.trime.accessibility:layout/composition_container: Error inflating class com.osfans.trime.Composition
+Caused by: android.view.InflateException: Binary XML file line #30 in com.osfans.trime.accessibility:layout/composition_container: Error inflating class com.osfans.trime.Composition
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:854)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1006)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:961)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1123)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1084)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1126)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1084)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:682)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:534)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:481)
+	at com.osfans.trime.Trime.d0(Unknown Source:8)
+	at com.osfans.trime.Trime.b0(Unknown Source:0)
+	at com.osfans.trime.Trime.onCreate(Unknown Source:387)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4081)
+	at android.app.ActivityThread.access$1800(ActivityThread.java:231)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1990)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7707)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:516)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.Integer.intValue()' on a null object reference
+	at com.osfans.trime.Composition.reset(Unknown Source:129)
+	at com.osfans.trime.Composition.<init>(Unknown Source:32)
+	... 24 more
+android.view.InflateException: Binary XML file line #30 in com.osfans.trime.accessibility:layout/composition_container: Error inflating class com.osfans.trime.Composition
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:854)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1006)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:961)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1123)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1084)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1126)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1084)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:682)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:534)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:481)
+	at com.osfans.trime.Trime.d0(Unknown Source:8)
+	at com.osfans.trime.Trime.b0(Unknown Source:0)
+	at com.osfans.trime.Trime.onCreate(Unknown Source:387)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4081)
+	at android.app.ActivityThread.access$1800(ActivityThread.java:231)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1990)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7707)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:516)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.Integer.intValue()' on a null object reference
+	at com.osfans.trime.Composition.reset(Unknown Source:129)
+	at com.osfans.trime.Composition.<init>(Unknown Source:32)
+	... 24 more
+java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:854)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1006)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:961)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1123)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1084)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1126)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1084)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:682)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:534)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:481)
+	at com.osfans.trime.Trime.d0(Unknown Source:8)
+	at com.osfans.trime.Trime.b0(Unknown Source:0)
+	at com.osfans.trime.Trime.onCreate(Unknown Source:387)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4081)
+	at android.app.ActivityThread.access$1800(ActivityThread.java:231)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1990)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7707)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:516)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.Integer.intValue()' on a null object reference
+	at com.osfans.trime.Composition.reset(Unknown Source:129)
+	at com.osfans.trime.Composition.<init>(Unknown Source:32)
+	... 24 more
+java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.Integer.intValue()' on a null object reference
+	at com.osfans.trime.Composition.reset(Unknown Source:129)
+	at com.osfans.trime.Composition.<init>(Unknown Source:32)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:854)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1006)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:961)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1123)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1084)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1126)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1084)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:682)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:534)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:481)
+	at com.osfans.trime.Trime.d0(Unknown Source:8)
+	at com.osfans.trime.Trime.b0(Unknown Source:0)
+	at com.osfans.trime.Trime.onCreate(Unknown Source:387)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4081)
+	at android.app.ActivityThread.access$1800(ActivityThread.java:231)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1990)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7707)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:516)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)

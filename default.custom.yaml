@@ -1,0 +1,11 @@
+customization:
+  distribution_code_name: ""
+  distribution_version: ""
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Jan 19 12:47:10 2021"
+  rime_version: 1.5.3
+patch:
+  schema_list:
+    - {schema: xhyx}
+    - {schema: xklb42}
+    - {schema: xklb42_ci}
